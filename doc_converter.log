@@ -1,0 +1,25 @@
+2025-09-17 11:02:29,861 - INFO - Converting confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:02:29,863 - INFO - Detected MHTML content in confluenceExports\Advanced_Video_Translation.doc (extension: .doc)
+2025-09-17 11:02:29,863 - INFO - Detected file type: mhtml
+2025-09-17 11:02:29,865 - INFO - Extracted 70874 characters of HTML content from MHTML
+2025-09-17 11:02:29,889 - INFO - Successfully converted confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:12:54,355 - INFO - Converting confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:12:54,361 - INFO - Detected MHTML content in confluenceExports\Advanced_Video_Translation.doc (extension: .doc)
+2025-09-17 11:12:54,362 - INFO - Detected file type: mhtml
+2025-09-17 11:12:54,369 - INFO - Extracted 70874 characters of HTML content from MHTML
+2025-09-17 11:12:54,394 - INFO - Successfully converted confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:14:44,611 - INFO - Converting confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:14:44,619 - INFO - Detected MHTML content in confluenceExports\Advanced_Video_Translation.doc (extension: .doc)
+2025-09-17 11:14:44,620 - INFO - Detected file type: mhtml
+2025-09-17 11:14:44,628 - INFO - Extracted 68754 characters of HTML content from MHTML
+2025-09-17 11:14:44,648 - INFO - Successfully converted confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:16:35,580 - INFO - Converting confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:16:35,585 - INFO - Detected MHTML content in confluenceExports\Advanced_Video_Translation.doc (extension: .doc)
+2025-09-17 11:16:35,586 - INFO - Detected file type: mhtml
+2025-09-17 11:16:35,592 - INFO - Extracted 68754 characters of HTML content from MHTML
+2025-09-17 11:16:35,611 - INFO - Successfully converted confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:17:29,869 - INFO - Converting confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:17:29,876 - INFO - Detected MHTML content in confluenceExports\Advanced_Video_Translation.doc (extension: .doc)
+2025-09-17 11:17:29,877 - INFO - Detected file type: mhtml
+2025-09-17 11:17:29,885 - INFO - Extracted and decoded 69415 characters of HTML content from MHTML
+2025-09-17 11:17:29,910 - INFO - Successfully converted confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
