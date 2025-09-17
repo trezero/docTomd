@@ -1,0 +1,2215 @@
+Date: Wed, 17 Sep 2025 15:24:16 +0000 (UTC)
+Message-ID: <918525344.13.1758122656506@0cb95089ba2d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_1340775188.1758122656505"
+
+------=_Part_12_1340775188.1758122656505
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI+ Architecture</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI+ Architecture</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1758122656279 {padding: 0px;}
+div.rbtoc1758122656279 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758122656279 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1758122656279">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-CoreArchitecture">Core Architecture</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-DistributedProcessing">Distributed Processi=
+ng</a></li>
+<li><a href=3D"#AI+Architecture-QueueInterface">Queue Interface</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-LocalQueue">Local Queue</a></li>
+<li><a href=3D"#AI+Architecture-RabbitMQ">RabbitMQ</a></li>
+<li><a href=3D"#AI+Architecture-AWSSQS">AWS SQS</a></li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-WorkerInterface">Worker Interface</a></li>
+<li><a href=3D"#AI+Architecture-Docker">Docker</a></li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-GPU-AwareDistributedModelManagementSystem">=
+GPU-Aware Distributed Model Management System</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-DetailedComponentDescriptions">Detailed Com=
+ponent Descriptions</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-DistributedModelManager">Distributed Model =
+Manager</a></li>
+<li><a href=3D"#AI+Architecture-ModelFactory">Model Factory</a></li>
+<li><a href=3D"#AI+Architecture-ModelRequestManager">Model Request Manager<=
+/a></li>
+<li><a href=3D"#AI+Architecture-ConfigurationSystem">Configuration System</=
+a></li>
+<li><a href=3D"#AI+Architecture-Database">Database</a></li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-Docker.1">Docker</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-docker-compose.yml">docker-compose.yml</a><=
+/li>
+<li><a href=3D"#AI+Architecture-Dockerfile">Dockerfile</a></li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-FutureEnhancements">Future Enhancements</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-OptimizationStrategies">Optimization Strate=
+gies</a></li>
+<li><a href=3D"#AI+Architecture-MonitoringandLogging">Monitoring and Loggin=
+g</a></li>
+<li><a href=3D"#AI+Architecture-OtherConsiderations">Other Considerations</=
+a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-MultipleGPUs">Multiple GPUs</a></li>
+<li><a href=3D"#AI+Architecture-RedisCluster">Redis Cluster</a></li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-FutureEnhancements.1">Future Enhancements</=
+a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-Kubernetes">Kubernetes</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-Isto">Isto</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-IstioArchitecture">Istio Architecture</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI+Architecture-Istiodataplane">Istio data plane</a></li>
+<li><a href=3D"#AI+Architecture-Istiocontrolplane">Istio control plane</a><=
+/li>
+</ul></li>
+<li><a href=3D"#AI+Architecture-IstioMicroserviceIntegration">Istio Microse=
+rvice Integration</a></li>
+<li><a href=3D"#AI+Architecture-MutualTLS">Mutual TLS</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div><span class=3D"confluence-embedded-file-wrapper image-center-wrapper =
+confluence-embedded-manual-size"><img class=3D"confluence-embedded-image im=
+age-center" alt=3D"aiplus.drawio.png" width=3D"468" loading=3D"lazy" src=3D=
+"4e2fc473007c8d3b1a1e36a69f4a8887ed61e55743514ea95c02cc609f981441" data-ima=
+ge-src=3D"https://perifery.atlassian.net/wiki/download/attachments/36629381=
+15/aiplus.drawio.png?version=3D1&amp;modificationDate=3D1720536811726&amp;c=
+acheVersion=3D1&amp;api=3Dv2" data-height=3D"395" data-width=3D"781" data-u=
+nresolved-comment-count=3D"0" data-linked-resource-id=3D"3681648645" data-l=
+inked-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-=
+linked-resource-default-alias=3D"aiplus.drawio.png" data-base-url=3D"https:=
+//perifery.atlassian.net/wiki" data-linked-resource-content-type=3D"image/p=
+ng" data-linked-resource-container-id=3D"3662938115" data-linked-resource-c=
+ontainer-version=3D"22" data-media-id=3D"843695eb-6484-453e-a9d8-9596f52ada=
+6b" data-media-type=3D"file" height=3D"236"></span>
+<p></p>
+<h1 id=3D"AI+Architecture-CoreArchitecture">Core Architecture</h1>
+<p><br>
+The AI+ utilities are undergoing a major refactoring to reflect the modern =
+needs of enterprise software. Currently we have a few bespoke utilities tha=
+t require a fair amount of technical intervention to deploy. We need to get=
+ to a place where we can deploy these as containers for runtime efficiency =
+and easy integration.</p>
+<ol start=3D"1">
+<li>
+<p>HTTP API:<br>
+The system will expose its functionality through a RESTful HTTP API. These =
+APIs will provide endpoints for business and admin functions. This API desi=
+gn ensures that the system can be easily integrated into various workflows =
+and applications.</p></li>
+<li>
+<p>Extensibility and Configurability:<br>
+The architecture is designed with extensibility in mind. New models can be =
+easily integrated by adding them to the shared object storage. The system u=
+ses a configuration singleton that can be dynamically updated, allowing for=
+ runtime changes to system behavior. This includes the ability to modify pr=
+ompts used in vision tasks, enabling the system to adapt to new use cases w=
+ithout code changes.</p></li>
+<li>
+<p>Error Handling and Logging:<br>
+Robust error handling and logging are integrated throughout the system. A c=
+ustom logger is implemented to capture detailed information about the syste=
+m's operation, including performance metrics, error traces, and analysis re=
+sults. This logging system is designed to suppress certain warnings while s=
+till providing comprehensive debugging information when needed.</p></li>
+</ol>
+<p>This architecture provides a solid foundation for a powerful, flexible, =
+and efficient video and image analysis system. It balances performance opti=
+mization with modularity and extensibility, allowing for easy maintenance a=
+nd future enhancements. The combination of parallel processing, efficient m=
+edia handling, and a well-designed API makes it suitable for a wide range o=
+f applications, from small-scale analysis tasks to large-scale video proces=
+sing pipelines.</p>
+<h2 id=3D"AI+Architecture-DistributedProcessing">Distributed Processing</h2=
+>
+<p>The AI+ Core Architecture will consist of an implementation where we can=
+ queue and execute tasks in a distributed manner. In AI workloads, tasks li=
+ke model training, data preprocessing, and inference can vary in duration a=
+nd resource requirements. A distributed queue ensures that tasks are balanc=
+ed across multiple workers, preventing any single container from becoming a=
+ bottleneck. This setup also allows the system to dynamically scale by addi=
+ng or removing workers based on demand, leading to better resource utilizat=
+ion and reduced processing time. Furthermore, a distributed approach enhanc=
+es fault tolerance, as tasks can be reassigned to other workers if a contai=
+ner fails, ensuring reliability and continuity in AI processing pipelines.<=
+/p>
+<p>In the future, we will need to support multiple servers running multiple=
+ GPUs. In this environment:</p>
+<ul>
+<li>
+<p>The Queue Interface becomes crucial for distributing work across multipl=
+e containers. It allows tasks to be added from one container and processed =
+by another.</p></li>
+<li>
+<p>The Worker Interface is important for managing the execution of tasks wi=
+thin each container, potentially utilizing multiple GPUs.</p></li>
+</ul>
+<p>The combination of both interfaces provides several benefits:</p>
+<ol start=3D"1">
+<li>
+<p>Scalability: We can easily scale out by adding more workers or container=
+s that connect to the same queue.</p></li>
+<li>
+<p>Flexibility: We can have different types of workers (CPU, GPU) processin=
+g tasks from the same queue.</p></li>
+<li>
+<p>Load Balancing: Tasks can be distributed evenly across available resourc=
+es.</p></li>
+<li>
+<p>Fault Tolerance: If a worker fails, the task remains in the queue and ca=
+n be picked up by another worker.</p></li>
+<li>
+<p>Decoupling: The system producing tasks (e.g., image upload service) can =
+be separate from the system processing tasks.</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">...   =20
+    async def start_processing(self):
+        self.progress =3D 20 # &lt;-- Not quite sure why this variable is i=
+mplemented this way.
+        self.worker.start()
+
+        # Set up signal handlers for graceful shutdown
+        for sig in (signal.SIGINT, signal.SIGTERM):
+            signal.signal(sig, self._signal_handler)
+
+        try:
+            while not self.shutdown_event.is_set():
+                try:
+                    item =3D self.queue.get(timeout=3D1)  # Non-blocking wi=
+th a timeout
+                    if item:
+                        task =3D asyncio.create_task(self._process_work_ite=
+m(item))
+                        self.processing_tasks.add(task)
+                        task.add_done_callback(self.processing_tasks.discar=
+d)
+                except Exception as e:
+                    if not self.shutdown_event.is_set():
+                        logger.error(f"Error getting item from queue: {e}")
+                await asyncio.sleep(0.1)  # Small delay to prevent tight lo=
+op
+        finally:
+            await self._shutdown()
+
+    def _signal_handler(self, signum, frame):
+        logger.info(f"Received signal {signum}. Initiating shutdown...")
+        self.shutdown_event.set()
+
+    async def _shutdown(self):
+        logger.info("Shutting down...")
+        self.worker.stop()
+       =20
+        # Wait for all processing tasks to complete
+        if self.processing_tasks:
+            await asyncio.wait(self.processing_tasks)
+       =20
+        self.worker.join()
+        self.queue.close()
+        logger.info("Shutdown complete.")</pre>
+</div>
+</div>
+<h2 id=3D"AI+Architecture-QueueInterface">Queue Interface</h2>
+<p>The AI+ system's support for multiple queue types is a key feature that =
+enhances its flexibility and scalability. By implementing a pluggable queue=
+ interface, the system can adapt to different deployment scenarios and proc=
+essing requirements.</p>
+<h3 id=3D"AI+Architecture-LocalQueue">Local Queue</h3>
+<p>The local queue option, using Python's built-in queue module, is suitabl=
+e for single-machine deployments or testing environments. It provides a sim=
+ple, in-memory queue that doesn't require any additional infrastructure. Wh=
+ile it doesn't support distributed processing, it's perfect for smaller-sca=
+le applications or development purposes.</p>
+<h3 id=3D"AI+Architecture-RabbitMQ">RabbitMQ</h3>
+<p>RabbitMQ support adds the capability for distributed processing across m=
+ultiple machines. As a robust message broker, RabbitMQ allows the system to=
+ decouple the task producers (e.g., image uploaders) from the consumers (fa=
+cial recognition workers). This separation enables horizontal scaling of th=
+e processing nodes and provides features like message persistence and advan=
+ced routing capabilities. RabbitMQ is an excellent choice for deployments t=
+hat require high throughput and the ability to scale processing across a cl=
+uster of machines.</p>
+<h3 id=3D"AI+Architecture-AWSSQS">AWS SQS</h3>
+<p>The inclusion of Amazon SQS (Simple Queue Service) as a queue option cat=
+ers to cloud-native deployments, particularly those running on AWS infrastr=
+ucture. SQS offers a fully managed queuing service, removing the need for s=
+elf-managed queue infrastructure. It provides seamless scalability and inte=
+grates well with other AWS services. This option is ideal for deployments t=
+hat prioritize minimal operational overhead and want to leverage cloud-nati=
+ve services.</p>
+<p>By supporting these diverse queue types, the AI+ system can be adapted t=
+o a wide range of deployment scenarios. Whether it's a small-scale local de=
+ployment, an on-premises distributed system, or a cloud-based scalable solu=
+tion, the appropriate queue can be selected without changing the core recog=
+nition logic. This flexibility not only accommodates different architectura=
+l needs but also allows for easy migration between different deployment mod=
+els as the system's requirements evolve.</p>
+<h2 id=3D"AI+Architecture-WorkerInterface">Worker Interface</h2>
+<p>The worker interface in this facial recognition system is designed to pr=
+ovide a flexible and scalable approach to processing AI+ tasks. It abstract=
+s the underlying execution model, allowing for seamless switching between l=
+ocal multi-threading and distributed processing without changing the core r=
+ecognition logic. This abstraction is crucial for adapting the system to va=
+rious deployment scenarios, from single-machine setups to large-scale distr=
+ibuted environments.</p>
+<p>We have two primary implementations of a worker interface: LocalThreadPo=
+olWorker and DistributedWorker. The LocalThreadPoolWorker is designed for s=
+ingle-machine deployments, utilizing Python's threading module to create a =
+pool of worker threads. Each thread in this pool continuously pulls tasks f=
+rom the queue and processes them until the stop signal is received. This im=
+plementation is ideal for maximizing CPU utilization on a single machine, e=
+specially for I/O-bound tasks like facial recognition.</p>
+<p>On the other hand, the DistributedWorker is tailored for scalable, multi=
+-machine deployments. It leverages Celery, a distributed task queue system,=
+ to distribute work across multiple processes or machines. This implementat=
+ion creates a Celery task for each work item and enqueues these tasks to be=
+ processed by Celery workers running on various machines. The DistributedWo=
+rker maintains a local enqueue loop that pulls items from the facial recogn=
+ition system's queue and pushes them to Celery's distributed queue.</p>
+<p>Both worker implementations handle task processing in a similar manner, =
+calling a provided work function for each task. This work function, typical=
+ly the _process_work_item method of the FacialRecognition class, encapsulat=
+es the core logic of facial detection, embedding generation, and similarity=
+ matching. By using a consistent interface for task processing, the system =
+maintains a clear separation between the worker's execution model and the a=
+ctual recognition logic.</p>
+<p>The worker interface also includes error handling and dead-letter queue =
+(DLQ) functionality. If a task fails during processing, the worker can move=
+ it to a DLQ for later inspection and potential reprocessing. This feature =
+enhances the system's robustness, ensuring that problematic tasks don't hal=
+t the entire recognition process and can be addressed separately.</p>
+<h2 id=3D"AI+Architecture-Docker">Docker</h2>
+<ul>
+<li>
+<p>Nvidia GPU with CUDA. Note that nothing about this architecture preclude=
+s supporting other GPUs in the future, but our current needs require Nvidia=
+</p></li>
+<li>
+<p>Ubuntu 22.04</p></li>
+<li>
+<p>Docker</p></li>
+<li>
+<p>(Optional) Kubernetes</p></li>
+</ul>
+<p>We will deploy the various utilities we use as individual microservices,=
+ which we can deploy in containers and in a container-management environmen=
+t to enhance their usability, accessibility, and maintainability. We will e=
+xpose the uService with a RESTful API., where other Perifery and 3rd party =
+utilities can easily call the model from different platforms and programmin=
+g languages. This reduces the complexity for developers who need to integra=
+te the service, as they interact with a higher-level interface rather than =
+diving into the intricacies of the service=E2=80=99s implementation. We can=
+ also version the model API in various ways. We can either version the URL =
+itself or use a service mesh for versioning, A/B testing, canary deployment=
+s, etc.</p>
+<p>Typically, we will architect these models in the following way.</p>
+<p>The API will be HTTP 1.1 (or HTTP/2, if we enable TLS). Note that we cou=
+ld use gRPC as a backend for greater throughput, but the number of requests=
+ to the model should be low enough that we don=E2=80=99t need that sort of =
+optimization. The models themselves will be shared across the server via a =
+loaded volume (on <span class=3D"inline-comment-marker" data-ref=3D"0d74a9f=
+2-3481-46c4-82b0-f33f3c54b037">nVME</span>).</p>
+<p>Since the services will be deployed on Nvidia GPUs with CUDA support, we=
+ will be using CUDA-enabled images and passing the GPU runtime to the docke=
+r-compose file.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Use N=
+VIDIA CUDA 12.4 runtime as the base image
+FROM nvidia/cuda:12.4.0-runtime-ubuntu22.04
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install system dependencies and Python
+RUN apt-get update &amp;&amp; apt-get install -y \
+    python3-pip \
+    python3-dev \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    git \
+    &amp;&amp; rm -rf /var/lib/apt/lists/*
+
+# Set Python3 as the default Python
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+COPY requirements/requirements.http.txt \
+    requirements/requirements.gpu.txt \
+    requirements/requirements.groundingdino.txt \
+    requirements/requirements.yolo.txt \
+    requirements/requirements.flash_attn.txt \
+    requirements/_requirements.txt \
+    ./
+
+# Install any needed packages specified
+RUN pip3 install \
+    -r _requirements.txt \
+    -r requirements.http.txt \
+    -r requirements.gpu.txt \
+    -r requirements.groundingdino.txt \
+    -r requirements.yolo.txt \
+    --upgrade \
+    &amp;&amp; rm -rf ~/.cache/pip
+
+
+# Install setup.py requirements for flash_attn
+RUN python3 -m pip install packaging=3D=3D24.1  &amp;&amp; rm -rf ~/.cache/=
+pip
+
+# Install flash_attn, since it needs to be managed via its own build proces=
+s, apparently.
+RUN python3 -m pip install -r requirements.flash_attn.txt --no-build-isolat=
+ion &amp;&amp; rm -rf ~/.cache/pip
+
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Define environment variable
+ENV PROJECT=3Daiplus
+
+# Run the API when the container launches
+CMD ["python", "-m", "aiplus.rest.api"]
+</pre>
+</div>
+</div>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">version=
+: '3.8'
+
+services:
+  object-detection:
+    build: .
+    ports:
+      - "${PORT:-9001}:${PORT:-9001}"
+    volumes:
+      - ${VIDEO_DIR:-./videos}:/app/videos:ro
+      - ${OUTPUT_DIR:-./outputs}:/app/outputs
+      - /opt/aiplus/models:/opt/aiplus/models
+    environment:
+      - DEBUG=3D1
+      - VIDEO_DIR=3D/home/aiplus/testdata
+      - OUTPUT_DIR=3D/home/aiplus/tests # USED FOR DEBUG ONLY!
+      - PORT=3D${PORT:-9001}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]</pre>
+</div>
+</div>
+<p></p>
+<p>If these microservices are deployed in Kubernetes, the models and weight=
+s can be deployed in a Persistent Volume and Persistent Volume Claim, for s=
+haring across multiple nodes.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion: v1
+kind: PersistentVolume
+metadata:
+  name: ai-model-storage
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteMany
+  nfs:
+    path: /dev/nvme0n1p2/models
+    server: aiplus.datacore.com</pre>
+</div>
+</div>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ai-model-storage-claim
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 1000Gi</pre>
+</div>
+</div>
+<h1 id=3D"AI+Architecture-GPU-AwareDistributedModelManagementSystem">GPU-Aw=
+are Distributed Model Management System</h1>
+<p>Multiple containers can make use of various models to perform business t=
+asks. However, the GPU itself is a finite resource, and AI models can take =
+up a significant memory footprint. This GPU-Aware Distributed Model Managem=
+ent System is designed to efficiently manage AI models across multiple Dock=
+er containers, optimizing GPU resource utilization. This system enables coo=
+rdinated loading, unloading, and sharing of models while maintaining awaren=
+ess of GPU memory constraints.</p>
+<p>The system consists of the following components:</p>
+<ul>
+<li>
+<p>Multiple Docker containers running AI models</p></li>
+<li>
+<p>A Redis container for shared state management</p></li>
+<li>
+<p>Shared storage volume for model persistence</p></li>
+</ul>
+<p>The high-level flow is as follows:</p>
+<ol start=3D"1">
+<li>
+<p>AI containers use DistributedModelManager to load, access, and release m=
+odels.</p></li>
+<li>
+<p>A shared Redis cache maintains metadata about loaded models and facilita=
+tes distributed locking.</p></li>
+<li>
+<p>Shared storage holds serialized model files accessible to all containers=
+.</p></li>
+<li>
+<p>GPU usage is monitored across containers to inform loading/unloading dec=
+isions.</p></li>
+</ol>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>IMPORTANT NOTE: If our system incorporates the Roboflow and/or Nvidia Tr=
+iton inference servers, we will also need to build hooks into them to bette=
+r monitor the GPU utilization so we can make better decisions.</p>
+</div>
+</div>
+<h2 id=3D"AI+Architecture-DetailedComponentDescriptions">Detailed Component=
+ Descriptions</h2>
+<h3 id=3D"AI+Architecture-DistributedModelManager">Distributed Model Manage=
+r</h3>
+<p>The Distributed Model Manager is the core component responsible for the =
+actual handling of model files and their metadata. It interfaces with Redis=
+ for distributed state management and a shared file system for model storag=
+e. Its key functions include:</p>
+<ul>
+<li>
+<p>Loading models into GPU memory and persisting them to shared storage</p>=
+</li>
+<li>
+<p>Unloading models when they're no longer needed or when GPU memory is con=
+strained</p></li>
+<li>
+<p>Tracking model metadata, including reference counts and last used timest=
+amps</p></li>
+<li>
+<p>Providing thread-safe operations through distributed locking mechanisms<=
+/p></li>
+<li>
+<p>Monitoring GPU memory usage to inform loading/unloading decisions</p></l=
+i>
+</ul>
+<p>The DistributedModelManager ensures efficient use of GPU resources acros=
+s multiple containers, preventing redundant model loading and managing memo=
+ry constraints. It provides a consistent interface for other components to =
+interact with the underlying model storage and GPU resources.</p>
+<p>For NVIDIA GPUs, we will implement <code>_check_gpu_memory_usage()</code=
+> using the NVIDIA Management Library (NVML):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import py=
+nvml
+
+def _check_gpu_memory_usage(self):
+    pynvml.nvmlInit()
+    handle =3D pynvml.nvmlDeviceGetHandleByIndex(0)
+    info =3D pynvml.nvmlDeviceGetMemoryInfo(handle)
+    pynvml.nvmlShutdown()
+    return info.used / info.total</pre>
+</div>
+</div>
+<p>TODO: Add implementation for other GPUs</p>
+<p>The base thresholds are as follows:</p>
+<ul>
+<li>
+<p>Set a GPU memory usage threshold (e.g., 80%)</p></li>
+<li>
+<p>Trigger unloading operations when threshold is exceeded</p></li>
+</ul>
+<p>When unloading a model, we will use the following heuristics:</p>
+<ol start=3D"1">
+<li>
+<p>Identify models with zero reference count</p></li>
+<li>
+<p>Among zero-reference models, unload the least recently used</p></li>
+<li>
+<p>If no zero-reference models, wait for releases or raise an exception</p>=
+</li>
+</ol>
+<p>The sample API flow is best illustrated by this:</p>
+<ul>
+<li>
+<p><code>load_model(model_name, model_class, *args, **kwargs)</code></p>
+<ul>
+<li>
+<p>Loads a model or retrieves an already loaded model</p></li>
+<li>
+<p>Increments reference count</p></li>
+<li>
+<p>Updates last used timestamp</p></li>
+</ul></li>
+<li>
+<p><code>get_model(model_name, model_class)</code></p>
+<ul>
+<li>
+<p>Retrieves an already loaded model</p></li>
+<li>
+<p>Increments reference count</p></li>
+<li>
+<p>Updates last used timestamp</p></li>
+</ul></li>
+<li>
+<p><code>release_model(model_name)</code></p>
+<ul>
+<li>
+<p>Decrements reference count</p></li>
+<li>
+<p>Triggers potential unloading if reference count reaches zero</p></li>
+</ul></li>
+<li>
+<p><code>unload_model(model_name)</code></p>
+<ul>
+<li>
+<p>Removes model from shared storage and Redis metadata</p></li>
+<li>
+<p>Only executed if reference count is zero</p></li>
+</ul></li>
+<li>
+<p><code>_load_model_from_disk(model_name, model_class, *args, **kwargs)</c=
+ode></p>
+<ul>
+<li>
+<p>Deserializes model from shared storage</p></li>
+</ul></li>
+<li>
+<p><code>_check_gpu_memory_usage()</code></p>
+<ul>
+<li>
+<p>Monitors GPU memory utilization</p></li>
+</ul></li>
+<li>
+<p><code>_unload_least_recently_used()</code></p>
+<ul>
+<li>
+<p>Identifies and unloads the least recently used model with zero reference=
+s</p></li>
+</ul></li>
+<li>
+<p><code>_consider_unloading(model_name)</code></p>
+<ul>
+<li>
+<p>Decides whether to unload a model based on current system state</p></li>
+</ul></li>
+<li>
+<p><code>get_model_usage()</code></p>
+<ul>
+<li>
+<p>Retrieves current usage statistics for all models</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"AI+Architecture-ModelFactory">Model Factory</h3>
+<p>The Model Factory is responsible for dynamically determining which model=
+s are required for each incoming request. It abstracts the model selection =
+logic away from the application routes, allowing for flexible and configura=
+ble model requirements. The Model Factory:</p>
+<ul>
+<li>
+<p>Loads and parses a configuration file specifying default model requireme=
+nts for different routes</p></li>
+<li>
+<p>Retrieves model specifications from environment variables</p></li>
+<li>
+<p>Handles customer-specific model requirements</p></li>
+<li>
+<p>Processes request-specific model parameters</p></li>
+</ul>
+<p>By centralizing the model selection logic, the Model Factory allows for =
+easy updates to model requirements without changing application code. It su=
+pports a variety of use cases, from static route-based model selection to d=
+ynamic, customer-specific model loading, all configurable through external =
+means.</p>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import os
+import json
+from flask import request
+
+class ModelFactory:
+    def __init__(self, config_path=3D'config/model_config.json'):
+        self.config =3D self._load_config(config_path)
+        self.env_models =3D self._load_env_models()
+
+    def _load_config(self, config_path):
+        with open(config_path, 'r') as f:
+            return json.load(f)
+
+    def _load_env_models(self):
+        return {k[6:]: v for k, v in os.environ.items() if k.startswith('MO=
+DEL_')}
+
+    def get_required_models(self, route):
+        models =3D set()
+       =20
+        # Add models from configuration
+        if route in self.config:
+            models.update(self.config[route].get('models', []))
+
+        # Add models from environment variables
+        models.update(self.env_models.values())
+
+        # Add customer-specific models from HTTP headers, for instance.
+        customer_id =3D request.headers.get('X-Customer-ID')
+        if customer_id and customer_id in self.config.get('customers', {}):
+            models.update(self.config['customers'][customer_id].get('models=
+', []))
+
+        # Add models from request parameters
+        if 'models' in request.json:
+            models.update(request.json['models'])
+
+        return list(models)</pre>
+</div>
+</div>
+<h3 id=3D"AI+Architecture-ModelRequestManager">Model Request Manager</h3>
+<p>The Model Request Manager acts as a bridge between the web application r=
+outes and the model management system. It wraps each route to ensure that a=
+ll required models are loaded before the route logic is executed. Its prima=
+ry functions include:</p>
+<ul>
+<li>
+<p>Interfacing with the ModelSelector to determine required models for each=
+ request</p></li>
+<li>
+<p>Checking if required models are loaded and initiating loading if necessa=
+ry</p></li>
+<li>
+<p>Updating reference counts for models when they're used</p></li>
+<li>
+<p>Handling errors and returning appropriate HTTP responses (e.g., 429 for =
+unavailable models)</p></li>
+<li>
+<p>Releasing models (decrementing reference counts) after request completio=
+n</p></li>
+</ul>
+<p>This manager abstracts the complexities of model management away from th=
+e application logic, allowing developers to focus on implementing the core =
+functionality of each route without worrying about model availability or re=
+source management.</p>
+<p>The base operation is:</p>
+<ol start=3D"1">
+<li>
+<p>Check if required models are loaded</p></li>
+<li>
+<p>Update reference counts</p></li>
+<li>
+<p>Handle errors and return appropriate HTTP responses</p></li>
+<li>
+<p>Release models after the workflow completes</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">from func=
+tools import wraps
+from flask import request, jsonify
+from distributed_model_manager import DistributedModelManager
+
+class ModelRequestManager:
+    def __init__(self, model_manager: DistributedModelManager):
+        self.model_manager =3D model_manager
+
+    def require_models(self):
+        def decorator(f):
+            @wraps(f)
+            def wrapped(*args, **kwargs):
+                route =3D request.endpoint
+                try:
+                    # Dynamically determine required models
+                    required_models =3D self.model_selector.get_required_mo=
+dels(route)
+
+                    # Check and load required models
+                    unavailable_models =3D self._ensure_models_loaded(requi=
+red_models)
+                    if unavailable_models:
+                        return self._models_unavailable_response(unavailabl=
+e_models)
+
+                    # Update reference counts
+                    self._increment_ref_counts(required_models)
+
+                    # Execute the wrapped function
+                    result =3D f(*args, **kwargs)
+
+                    return result
+                except Exception as e:
+                    return self._error_response(str(e))
+                finally:
+                    # Release models
+                    if 'required_models' in locals():
+                        self._release_models(required_models)
+
+            return wrapped
+        return decorator
+
+
+    def _ensure_models_loaded(self, model_names):
+        unavailable_models =3D []
+        for model_name in model_names:
+            if not self.model_manager.is_model_loaded(model_name):
+                try:
+                    self.model_manager.load_model(model_name, self._get_mod=
+el_class(model_name))
+                except Exception:
+                    unavailable_models.append(model_name)
+        return unavailable_models
+
+    def _increment_ref_counts(self, model_names):
+        for model_name in model_names:
+            self.model_manager.increment_ref_count(model_name)
+
+    def _release_models(self, model_names):
+        for model_name in model_names:
+            self.model_manager.release_model(model_name)
+
+    def _models_unavailable_response(self, unavailable_models):
+        response =3D {
+            "error": "Required models unavailable",
+            "unavailable_models": unavailable_models,
+            "message": "The server is currently unable to handle the reques=
+t due to a temporary overloading or maintenance of the server."
+        }
+        return jsonify(response), 429
+
+    def _error_response(self, error_message):
+        response =3D {
+            "error": "Internal server error",
+            "message": error_message
+        }
+        return jsonify(response), 500
+
+    def _get_model_class(self, model_name):
+        # TODO: Implement logic to map model_name to its corresponding clas=
+s
+        # This could be a simple dictionary lookup or a more complex factor=
+y pattern
+        pass</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"AI+Architecture-ConfigurationSystem">Configuration System</h3>
+<p>The Configuration System provides a flexible way to specify model requir=
+ements for different scenarios. It consists of:</p>
+<ul>
+<li>
+<p>A JSON configuration file that specifies default models for different ro=
+utes and customer-specific models</p></li>
+<li>
+<p>Environment variables for globally required models</p></li>
+<li>
+<p>Request parameters for dynamic, request-specific model requirements</p><=
+/li>
+</ul>
+<p>This multi-layered approach to configuration allows for both static, pre=
+-defined model requirements and dynamic, runtime model selection. It suppor=
+ts a wide range of use cases, from simple, static model assignments to comp=
+lex, customer-specific model configurations that can be updated without cod=
+e changes.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "/predict": {
+        "models": ["base_model", "feature_extractor"]
+    },
+    "/batch_process": {
+        "models": ["batch_model"]
+    },
+    "customers": {
+        "customer1": {
+            "models": ["customer1_specific_model"]
+        },
+        "customer2": {
+            "models": ["customer2_specific_model"]
+        }
+    }
+}</pre>
+</div>
+</div>
+<h3 id=3D"AI+Architecture-Database">Database</h3>
+<p>Shared state is crucial in our distributed model management system to en=
+sure consistency and coordination across multiple containers or nodes. It a=
+llows all instances of the DistributedModelManager to have a unified view o=
+f which models are loaded, their reference counts, and their last used time=
+stamps. This shared state prevents redundant loading of models, enables eff=
+icient resource utilization, and facilitates coordinated decision-making fo=
+r model unloading. Redis is our initial choice for managing this shared sta=
+te due to its speed, simplicity, and built-in support for distributed locks=
+. It offers low-latency data access, which is vital for quick decision-maki=
+ng in model management, and its (rather rudimentary) pub/sub mechanism can =
+be leveraged for pseudo-real-time updates across the system.</p>
+<p>However, as the system scales or requirements evolve, alternatives to Re=
+dis might be considered. For instance, Etcd might be preferred in Kubernete=
+s environments for its tight integration with the ecosystem and support for=
+ distributed consensus. Additionally, in cloud-native environments, managed=
+ services like AWS ElastiCache could be considered for their scalability an=
+d reduced operational overhead. The choice among these alternatives would d=
+epend on factors such as scale of deployment, specific consistency requirem=
+ents, integration with existing infrastructure, and the need for advanced q=
+uerying capabilities on the shared state.</p>
+<p>Regardless of the shared state chosen, the key-value pairs storing model=
+ metadata:</p>
+<ul>
+<li>
+<p>Key: <code>model_info_{model_name}</code></p></li>
+<li>
+<p>Value: JSON object containing:</p>
+<ul>
+<li>
+<p><code>path</code>: Path to model file in shared storage</p></li>
+<li>
+<p><code>last_used</code>: Timestamp of last usage</p></li>
+<li>
+<p><code>ref_count</code>: Current reference count</p></li>
+</ul></li>
+</ul>
+<p>We will use Redis-based locks for all operations that modify shared stat=
+e. For multi-step operations, these operations will be within a Redis trans=
+action to ensure atomicity.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">from redi=
+s_lock import Lock
+
+with Lock(self.redis, f"model_lock_{model_name}"):
+    # Perform thread-safe operations</pre>
+</div>
+</div>
+<p></p>
+<h2 id=3D"AI+Architecture-Docker.1">Docker</h2>
+<h4 id=3D"AI+Architecture-docker-compose.yml">docker-compose.yml</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">version=
+: '3'
+
+services:
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  model_service_1:
+    build: .
+    volumes:
+      - ./shared_models:/shared/models
+    environment:
+      - REDIS_HOST=3Dredis
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  model_service_2:
+    # Similar configuration to model_service_1
+
+volumes:
+  shared_models:</pre>
+</div>
+</div>
+<h4 id=3D"AI+Architecture-Dockerfile">Dockerfile</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">FROM py=
+torch/pytorch:latest
+
+RUN pip install redis redis-lock pynvml
+
+COPY . /app
+WORKDIR /app
+
+CMD ["python", "your_model_script.py"]</pre>
+</div>
+</div>
+<h2 id=3D"AI+Architecture-FutureEnhancements">Future Enhancements</h2>
+<h3 id=3D"AI+Architecture-OptimizationStrategies">Optimization Strategies</=
+h3>
+<p>Here, we will discuss various optimizations we can consider for managing=
+ models in finite GPU space. We will implement a preloading mechanism for f=
+requently used models:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">def prelo=
+ad_models(self, model_names):
+    for name in model_names:
+        self.load_model(name, get_model_class(name))
+        # Set a minimum reference count to keep in memory
+        self._set_min_ref_count(name, 1)</pre>
+</div>
+</div>
+<p>We can implement an adaptive unloading algorith. We can enhance a <code>=
+_consider_unloading</code> function to consider factors like:</p>
+<ul>
+<li>
+<p>Model size</p></li>
+<li>
+<p>Loading time</p></li>
+<li>
+<p>Usage frequency</p></li>
+<li>
+<p>Time since last use</p></li>
+</ul>
+<p>To tie these all together, we will implement a background task to period=
+ically check for and potentially unload zero-reference models:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import as=
+yncio
+
+async def periodic_cleanup(self, interval=3D300):  # 5 minutes
+    while True:
+        self._cleanup_unused_models()
+        await asyncio.sleep(interval)
+
+def _cleanup_unused_models(self):
+    for model_name in self.get_model_usage():
+        if self.get_model_usage()[model_name]['ref_count'] =3D=3D 0:
+            self._consider_unloading(model_name)</pre>
+</div>
+</div>
+<p>Some other points</p>
+<ol start=3D"1">
+<li>
+<p>Validation: Add validation to ensure that requested models (especially f=
+rom user input) are allowed and exist.</p></li>
+<li>
+<p>Prioritization: Implement a priority system for model loading when GPU m=
+emory is constrained.</p></li>
+<li>
+<p>Logging and Monitoring: Add detailed logging to track which models are b=
+eing used for each request and by which customers.</p></li>
+<li>
+<p>Model Versioning: Extend the system to handle different versions of mode=
+ls for different customers or use cases.</p></li>
+<li>
+<p>Error Handling: Implement more granular error handling for cases where s=
+pecific models fail to load.</p></li>
+</ol>
+<p>This updated design provides a highly flexible and abstracted way to man=
+age model dependencies for your workflow entry points. It allows for easy c=
+onfiguration changes and customer-specific customizations without modifying=
+ the core application logic.</p>
+<h3 id=3D"AI+Architecture-MonitoringandLogging">Monitoring and Logging</h3>
+<p>TODO: Implement comprehensive logging for all major operations:</p>
+<ul>
+<li>
+<p>Model loading/unloading</p></li>
+<li>
+<p>Reference count changes</p></li>
+<li>
+<p>GPU memory usage fluctuations</p></li>
+</ul>
+<p>TODO: Collect and store metrics for analysis:</p>
+<ul>
+<li>
+<p>Model load times</p></li>
+<li>
+<p>Frequency of model usage</p></li>
+<li>
+<p>GPU memory utilization over time</p></li>
+</ul>
+<p>TODO: Set up alerts for critical situations:</p>
+<ul>
+<li>
+<p>GPU memory nearing capacity</p></li>
+<li>
+<p>Frequent model thrashing (repeated loading/unloading)</p></li>
+<li>
+<p>High contention on specific models</p></li>
+</ul>
+<h3 id=3D"AI+Architecture-OtherConsiderations">Other Considerations</h3>
+<h4 id=3D"AI+Architecture-MultipleGPUs">Multiple GPUs</h4>
+<p>Extend the system to manage multiple GPUs:</p>
+<ul>
+<li>
+<p>Track per-GPU memory usage</p></li>
+<li>
+<p>Implement load balancing across GPUs</p></li>
+</ul>
+<h4 id=3D"AI+Architecture-RedisCluster">Redis Cluster</h4>
+<p>For high-scale deployments, consider using Redis Cluster for improved pe=
+rformance and reliability.</p>
+<h3 id=3D"AI+Architecture-FutureEnhancements.1">Future Enhancements</h3>
+<ul>
+<li>
+<p>Dynamic GPU allocation based on model requirements and current load</p><=
+/li>
+<li>
+<p>Integration with container orchestration systems (e.g., Kubernetes) for =
+automated scaling</p></li>
+<li>
+<p>Implementation of model versioning and rollback capabilities</p></li>
+<li>
+<p>Support for distributed training across multiple containers</p></li>
+<li>
+<p>Timeout Handling: we can consider adding a timeout for model loading to =
+prevent long waits.</p></li>
+<li>
+<p>Queueing: For more advanced scenarios, we could implement a request queu=
+e when models are unavailable instead of immediately returning a 429 error.=
+</p></li>
+</ul>
+<p></p>
+<p></p>
+<p></p>
+<h1 id=3D"AI+Architecture-Kubernetes">Kubernetes</h1>
+<p>TBD</p>
+<h2 id=3D"AI+Architecture-Isto">Isto</h2>
+<p><a class=3D"external-link" href=3D"https://istio.io/" rel=3D"nofollow">I=
+stio</a>&nbsp;is an open source service mesh designed to make it easier to =
+connect, manage and secure traffic between, and obtain telemetry about micr=
+oservices running in containers. Istio is a collaboration between IBM, Goog=
+le and Lyft.&nbsp;</p>
+<p>=E2=80=9C<a class=3D"external-link" href=3D"https://glasnostic.com/blog/=
+what-is-a-service-mesh-istio-linkerd-envoy-consul/" rel=3D"nofollow">What i=
+s a Service Mesh?</a>=E2=80=9D</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"2c=
+3c358d-c50a-45e1-a93a-d3bb1e6d70e2" class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd">
+<p><em>A service mesh is not a =E2=80=9Cmesh of services.=E2=80=9D It is a =
+mesh of Layer 7 proxies that microservices can use to completely abstract t=
+he network away. Service meshes are designed to solve the many challenges d=
+evelopers face when talking to remote endpoints.</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Despite the advantages of abstracting the network away, service meshes a=
+re not as widely used as one would expect.&nbsp; There are competing standa=
+rds out there =E2=80=93 for instance Linkerd and Consul have their own conc=
+ept of a service mesh, and they don't integrate well together.&nbsp; While =
+the performance of service meshes vary with the implementation, there is a =
+significant amount of new complexity that they bring.&nbsp;&nbsp;They are r=
+ather new on the scene, and the general space is still evolving.</p>
+<p>Service meshes require an investment in a platform that can be difficult=
+ to justify when applications are still evolving.&nbsp; The impact on appli=
+cation performance when compared to direct calls across the network can be =
+substantial.&nbsp; &nbsp;For an orchestration application like AI+, this ma=
+y not be too much of a penalty, since the amount of computational processin=
+g is minimal compared to network I/O.&nbsp; The tooling to diagnose and rem=
+ediate connectivity and other issues simply don't exist, but again, we are =
+using a small subset of Istio's functionality.&nbsp; We don't necessarily w=
+ant developers to become experts in Istio to be able to troubleshoot issues=
+.</p>
+<p>&nbsp;</p>
+<h3 id=3D"AI+Architecture-IstioArchitecture">Istio Architecture</h3>
+<p></p>
+<p></p>
+<p></p>
+<p>Istio service mesh consists of a data plane and a control plane.</p>
+<h4 id=3D"AI+Architecture-Istiodataplane">Istio data plane</h4>
+<p>The Istio data plane is typically composed of&nbsp;<a class=3D"external-=
+link" href=3D"https://envoyproxy.github.io/envoy/" rel=3D"nofollow">Envoy p=
+roxies</a>&nbsp;that are deployed as sidecars within each container on the =
+Kubernetes pod. These proxies take on the task of establishing connections =
+to other services and managing the communication between them.</p>
+<h4 id=3D"AI+Architecture-Istiocontrolplane">Istio control plane</h4>
+<p>The&nbsp;<a class=3D"external-link" href=3D"https://istio.io/docs/concep=
+ts/traffic-management/#pilot-and-envoy" rel=3D"nofollow">Pilot</a>&nbsp;com=
+ponent is responsible for configuring the data plane. Apart from defining b=
+asic proxy behaviors, it also allows a user to specify routing rules betwee=
+n proxies as well as failure recovery features.</p>
+<p>The&nbsp;<a class=3D"external-link" href=3D"https://istio.io/docs/concep=
+ts/policies-and-telemetry/" rel=3D"nofollow">Mixer</a>&nbsp;component of Is=
+tio collects traffic metrics and can respond to various queries from the da=
+ta plane such as authorization, access control or quota checks. Depending o=
+n which adapters are enabled, it can also interface with logging and monito=
+ring systems.</p>
+<p><a class=3D"external-link" href=3D"https://istio.io/docs/concepts/securi=
+ty/" rel=3D"nofollow">Citadel</a>&nbsp;is the component that allows develop=
+ers to build zero-trust environments based on service identity rather than =
+network controls. It is responsible for assigning certificates to each serv=
+ice and can also accept external certificate authority keys when needed.</p=
+>
+<p></p>
+<p></p>
+<h3 id=3D"AI+Architecture-IstioMicroserviceIntegration">Istio Microservice =
+Integration</h3>
+<p>&nbsp;</p>
+<p>TBD: The prototype will use the following Istio concepts.&nbsp; There is=
+ a singular <a class=3D"external-link" href=3D"https://istio.io/docs/refere=
+nce/config/networking/gateway/" rel=3D"nofollow">Gateway</a> object that ro=
+utes all requests from the Istio Ingress Gateway to all component <a class=
+=3D"external-link" href=3D"https://istio.io/docs/reference/config/networkin=
+g/virtual-service/" rel=3D"nofollow">Virtual Services</a>.&nbsp;&nbsp;</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion: networking.istio.io/v1alpha3
+
+kind: Gateway
+metadata:
+&nbsp; name: uservice-gateway
+&nbsp; namespace: tenant1
+spec:
+&nbsp; selector:
+&nbsp;&nbsp;&nbsp; istio: ingressgateway # use Istio default gateway implem=
+entation
+&nbsp; servers:
+port:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; number: 80
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name: http
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; protocol: HTTP
+&nbsp;&nbsp;&nbsp; hosts:
+"aiplus.datacore.com"</pre>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>The Virtual Service will route various URIs to their component parts.</p=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion: networking.istio.io/v1alpha3
+kind: VirtualService
+
+metadata:
+&nbsp; name: ObjectDetection
+&nbsp; namespace: tenant1
+
+spec:
+&nbsp; hosts:
+    "aiplus.datacore.com"
+&nbsp; gateways:
+     uservice-gateway</pre>
+</div>
+</div>
+<p></p>
+<p>Other VirtualService concepts we can use:</p>
+<ul>
+<li>
+<p><a class=3D"external-link" href=3D"https://istio.io/docs/reference/confi=
+g/networking/virtual-service/#HTTPRouteDestination" rel=3D"nofollow">Weight=
+-based routing</a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"https://istio.io/docs/reference/confi=
+g/networking/virtual-service/#HTTPRetry" rel=3D"nofollow">HTTP retry polici=
+es</a></p></li>
+</ul>
+<p>Finally, there are <a class=3D"external-link" href=3D"https://istio.io/d=
+ocs/reference/config/networking/destination-rule/" rel=3D"nofollow">Destina=
+tion Rules</a> that control load balancing and circuit breaking options to =
+the various microservices.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: accountservice-rule
+spec:
+  host: accountservice.AI+.svc.cluster.local
+  trafficPolicy:
+    loadBalancer:
+      simple: LEAST_CONN
+    connectionPool:
+      tcp:
+        maxConnections: 100
+        connectTimeout: 30ms
+        tcpKeepalive:
+          time: 7200s
+          interval: 75s</pre>
+</div>
+</div>
+<p>&nbsp;</p>
+<h3 id=3D"AI+Architecture-MutualTLS">Mutual TLS</h3>
+<p>Since Istio 1.4, all communications between the side cars and pods are d=
+one over Mutual TLS.</p>
+<p>Istio tunnels service-to-service communication through the client- and s=
+erver-side PEPs, which are implemented as&nbsp;<a class=3D"external-link" h=
+ref=3D"https://envoyproxy.github.io/envoy/" rel=3D"nofollow">Envoy proxies<=
+/a>. When a workload sends a request to another workload using mutual TLS a=
+uthentication, the request is handled as follows:</p>
+<ol start=3D"1">
+<li>
+<p>Istio re-routes the outbound traffic from a client to the client=E2=80=
+=99s local sidecar Envoy.</p></li>
+<li>
+<p>The client side Envoy starts a mutual TLS handshake with the server side=
+ Envoy. During the handshake, the client side Envoy also does a&nbsp;<a cla=
+ss=3D"external-link" href=3D"https://istio.io/latest/docs/concepts/security=
+/#secure-naming" rel=3D"nofollow">secure naming</a>&nbsp;check to verify th=
+at the service account presented in the server certificate is authorized to=
+ run the target service.</p></li>
+<li>
+<p>The client side Envoy and the server side Envoy establish a mutual TLS c=
+onnection, and Istio forwards the traffic from the client side Envoy to the=
+ server side Envoy.</p></li>
+<li>
+<p>After authorization, the server side Envoy forwards the traffic to the s=
+erver service through local TCP connections.</p></li>
+</ol>
+<p>However, this has the consequence of forcing everything to communicate o=
+ver TLS, including any infrastructure services. This is sub-optimal, especi=
+ally when distributed databases are deployed across multiple machines and g=
+eographic regions.</p>
+<p>&nbsp;</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_1340775188.1758122656505
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/4e2fc473007c8d3b1a1e36a69f4a8887ed61e55743514ea95c02cc609f981441
+
+iVBORw0KGgoAAAANSUhEUgAAAe4AAAD6CAYAAABnJ6RvAACXtElEQVR4Ae3AA6AkWZbG8f937o3I
+zKdyS2Oubdu2bdu2bdu2bWmMnpZKr54yMyLu+Xa3anqmhztr1a9+2qd9mh/2sIeRmbyoIoJ7z13g
+Z+865GC2yWJ1wFtdN+eGa6+hZXLVVVddddVVV/3Higie+tSnUh/2sIfxPu/zPozjyAtSa0USD/T4
+Jz+ZX/7hX2O9cZr5eo83esOX4+Ve9mUYx5HnViJomVx11VVXXXXVVf82XdfxXd/1XdTMZBxHxnHk
++bHNX//9P3DvfWeJCABKKTz11mewXA/06/tQFVNrTOPIOI48UERwxx13cP2112IJ21x11VVXXXXV
+Vf96mUnlhYgIjg4O+IZf+31+4/yK9bU3c+3ZO6mbOwybx1hyiQtnbuSms7cinpck3Ca+7Lf+mpc8
+ueB93vA1SAW2ueqqq6666qqr/tUIXoASQVcKRSJXK9alp+xfJDNpBN3F+4jlAbNL55hUqCWopdCV
+giQAai08+clP4U90mi/ZPcGv/Pnfspj1zPuOUgqSuOqqq6666qqrXmRUno9aCr/1V3/L7XffyzLN
+My5cIh/ysmzddzve2Obw5kew9fd/SNs5TWczbZ/g1//sr/jLe3fZDPMmr/TyzGY9QixXK1KF6cbH
+8BN3/Dm3/N3fc2k98bDrzrB17Bh913HVVVddddVVV71IqDwffS385J/8DT9063n6rS2uHZJbLtxN
+lsK4d572uD9hOaw4tj5E803yYI/v+Icncu7JF3h4O+KVH/Vwrr/uWtLm9KmT7PQX2HXy6weFX/rD
++7jUxKvt/SUf//IP4Q1e+zUZp4mrrrrqqquuuupfROUBJNGVgAhmpeATpylF5GKT1vW02QIfXkJO
+ptpBa0xbx8ijA2pX6Wcz+mlkVoN5CaY2Edm4cdrjr48O2D/1ILw6YnN1kZfaPMmrvOxLMbXGVVdd
+ddVVV131IqECSKKrlXMXLvC9v/o7HDZ46p33cE3OKSFqnRHrNVqvYBzJOkdFUCrl0kXq6pBp8zjb
+rbGMnm/8xd9h7Bc8nU3uLFs8ffthTGdv5R0Pn8JDTmzzUjcd501e8XXo5wtsc9VVV1111VVXvUio
+IXG0XHLu/AUYVnz7ucptD39lHvxKr0Sdb+IorCSwAYhhCRLZzzkEMMS4pl68C07fzKVS+f6WYIOT
+5eEe943JG4z38M3v+Hpk7bn3wi6LzS2maeKqq6666n8qSdRauep/N9tM08T/EdRLB4f8+C/8Cn/2
+N3/LSz38ISz21pz8699gds+TmDaOc3DLi+OoWGJ+4S7q+duJccXRjY9i3DqJS8fWM/6W7uztTDc+
+imn7JG3rBBB0Z2/j5G2PY7bY5vVf+kH84eOezO/+6V8wjiMf8K7vyINvvonM5Kqrrrrqf6qu67jq
+f7fMZJom/o+g9l3lzV7vtXmz130tLl04zw/9/J/zd+stLj76NSECOcGJDZy4Hp28AdvIBgyZnLvl
+JfCDXgo5AWBq5PKQ7E4wPegVePedA97pDV6LOpvxUi/2WCTITFprSOKqq6666qr/PENb8ttP/0r2
+Vk9BKvxHSY+cXDya13jQx9DXOVf9l6DOZzPOnDrJMAxcc/I4b/6w2/ndJ6xY1w0078Bgm1IKrzTc
+w/XXX89P3DcR4rkIMvEw4jZA3QQGXkdn+Zy3ej1uuulGxqnxQJnJVVddddVV/7nGtuav7vpp7j74
+c0L8h5kSHnz8lXjlmz+UnjlX/Zeg2qa1RmaynuA9XuUl+M5/+BWecMmUaYPS9+xszEnD1s4xzg4J
+NgIQYMBJrkcYRtwaRIFp4G2OrfjyN3wdbrn5JtbDyFVXXXXVVf/1hJAEgAQCikDi3yUEXQmEuOq/
+DJUHyExOnTzJZ7/YMX78SXfziJsfwVYvXvmxN3Nk8dF/didPPb+mBNCMW8OtwTjhliCBRVw6yzuf
+Sb7yrV6HU2euYRhHrrrqqquu+q81tjXnj27n/PI2HnPm9XnIyZdgagMHwznOHjyFC6unABCCEFf9
+70DluUyt8VZv/EZsXvv33DEkN19zikWBHRrvc/MGX3TvLofrCUJgAwICbGbrfV5lK/mo138or/mY
+h7G5s8Mwjlx11VVXXfVfYzUdcselv+Tv7v15nnbxl9hdPp2uHOPDX/lPOLm4EYCWjf3hLPfs/y1/
+e8/P8MRzP83e+m4ijLjqfzgqz8U2SLzhy74Ej3/yU/izZ9zG41cDs2tv4KEbcz78MSf4nXsO+eO7
+9xFm42iXm1ny8jed4q0efA1v/AovwcbGJmNLWmtcddVVV131n29oK/7u3p/jj2//Jp564bcJBddt
+vRQvce07cWLxIP7k9m9n8iW2uodw487L8OATL8ejz7whjz7zhpw/+iT+6PZv4U/v+GaOxgvU4Kr/
+uag8l5BQBFNrPPZRj+RhD7qFcwdHnNs74OLFC7zccJ6XPRUsT8/oauXFH/JYzmwtOL4xZ7axyXqc
+WI0TV1111VVX/edLJ48/+2v85tO+gFsv/h6b/Rle7ZaP5OVufHeu334ss7LB4bDL1/7R63PH3l/Q
+FVh0HcfnD+cVbvgAXuaGd+TUxi28+aO+gJe69h34hSd9Kk+9+MuEjLjqfyAqDxAR3HPffdx79jwv
+9WKPYZwmStdx/cnj3HDyODzkZgAESFxmGyP+/klP5iE338R81nPVVVddddV/vouru/m1J38Of3HX
+9zLlkpe87p15/Yd9OjfuvBgANuyt7+OuvX/gZa5/O17i2jdgfzjPbbu/x7nDx/MzT/xY/uLu7+IN
+H/75vOR1b8HNx1+a937ZH+PXnvL5/N4zvhRIJK76n4Uqia7rEFC7jic97VZ+4w/+iJd/qZegtUZE
+gIQzmVrDNhFBjYKBCLF3cMD3/thP8d7v+Ha85GMexTCOZCZdrSAB4Eym1gAopVAiaK3RMrnqqquu
+uupf54nnfpuffcJHc9f+37CoW7zxI76G13zIh1MUrKcjHn/2V/jLu36QJ5//RebdNh/xSn/OyY2b
+AFhPRzz+7K/zO7d+Ic/Y/RN+4G/enrv3Pp3Xe9gnMa+bvPmjv5Bj8xv5pSd/Ai1XhLjqfw4qwK/8
+9u/xd094AkJsbW4AUGrlbx//BP7wz/+S+85d4LVf5RV5lZd/WWotXNzd4+d+/Te579x5brr+Ot7w
+tV4dADC/8Bu/xY3XXctLP/Yx/OYf/jFPfNrT2T845E1f97V45EMfQlcrT3zq0/iDP/9LXuyRj+Dl
+X/LFmVrjqquuuuqqf5md/OFt384vP/mTWE67bNQN3uox38wr3vRuADz94p/xK0/5DJ5y/leZ1S0e
+c+ZtuH7rJXnqxT8ieQVObzyYWd3gpa9/Sx5x6rX4xSd9Gn9+5zfyG0//bJbTLm/+qC+iKzNe88Ef
+jij80pM/huY14qr/ISjX3Pygz37ibXfysFtuYbUe+Mlf+lWuO3OaB918A1/97d/DztY21197hl/8
+zd9hbBMnjx/na77ju7n37Hke84iHM44jD7rpBv7kr/6GJz716TzuSU/h9V/j1fiV3/k9fuCnfo6X
+frHHsrmx4Ft/4Ed4zCMexu7ePp/71d/AmZMneYlHP5ITx3awzVVXXXXV/zSS6LqO/0n+/r5f5kf/
+/n2YfEARvMHDv5RXf9AHAvDHt383P/Z3781dB3/HI06+Ae/6Uj/Caz74Q7h++8X58b//QH7nGV/K
+9uwmbtx5CQD6MueW46/ME879Ovvru7j90p9xw84rct3WIwG4ZvMxPO3C73FxeSshnkcajs9v5mWv
+f3e6MuN/KttM08T/dqUU/uZv/oZ6+7ldPud934dXetmXwU5uvuE6/uZxT+BXfuv3eLmXeDE+5D3f
+DSRe+sUey3f80I+yMZ+zf3jEl3zqJ7C5WKAQu3v77B8ccmF3l8/6uI/kzKmT/Myv/Drv/Y5vy5u8
+7mvz/T/x01x3zRmuPXOGH/jJn+HFHvUIPur93oupNVprXHXVVVdd9aI5s/EwdmZnuLS+nWaY100A
+hrbiz+78QQ7Hc+z01/B2L/7NXLP5UO5XonA0nudnHv/hnJg/iIefejUOh4v8/BM+iXNHfw3Ao06/
+OQ8/9WoA2PB7t34tt136PUpw1f8chCU2FxtgIwkwW5sbLNdrju/sgMCZHNvaJCR29/Y5c/IEG4s5
+U2tkJhjS5tj2NqePHWe9Hlgs5lx35jRf/53fy1/93T/waR/5IZw4foxzFy/y6q/w8qRNa42rrrrq
+qqtedNdtP5KXvPbdSUMI/vTO72FoS/oy5yWufQskWE73cc/+3/NARhTBcrrIbzz9C7nj0t/zfX/9
+bvzFXd/Oemo85MQb8A4v/s1sdiewza8/9Yv5jad9NnajGVqCzVX//Sgv/bIv99l3n7/IdWdO8Q9P
+fDLf9xM/w2u98ivyqIc9hO//yZ/lxLEdVus13/kjP8HLvsSL8dqv8kr8/G/8FmfPX2B7c5Nbb7+T
+rc0N/ugv/oqj5ZK/e+KTeOWXfWmmNvGFX/ct3HfuPG/xhq/DNadPsTGf8zt/9Kc8+JabePBNN5Jp
+UAEFKEABClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACFKAA
+BShAAQpQgAIUoAAFKADz30YFFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACFKAABShA
+AQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACFKAAzFX/XgIVUIACFKAABShAAQpQgAIUoAAFKEAB
+ClCAAhSgAAUoQAEKUIACFKAABShAAQpQgAIUoAAFKEABClCAAhSgAAUoQAEKUIACMP8dJNF1Hf/T
+nNl6FI+77xdZTuc5WN/OsfkjuPnYS3N685E8+dxvcnF5F5dWt/Pi174tfZkztjV/ftf3czDcSQ3Y
+W97GX93zg9x7+LcIePSZt+SdX+LbOb64nqEt+cUnfSa//fTPxTRs8bI3vD8PP/XGnD16AuvpiBCX
+peH4/GZe9vp3pysz/qeyzTRN/G9XSuFv/uZvqK//qq/AqRsfxNd85/fS1co7vPmb8OZv8DpgOHfh
+Ij/1S7/Kehx58Uc9krd6w9dnc2PBB737O/NtP/Aj/N6f/jlnTp7gYz/wfTlxfIf3fsO35Y//6q95
+4lOfxtu92RuzHkb+7K//lj/8879ia3OT686cYWtzk77rMOC2oq3uA8z/bkZ1kzI7A5j/cm5MR3eB
+J/63U3SU+bWg4Kp/K+Fc01b3gZP/3YzKBmV+hque7eTiJl7voZ/KTz7u/Wke+d1bv4RHnXpdTm7c
+zBs/4gv5/r99R2679Af80pM/m7d97FeBxAM1r1kPa/oy4xVv+jDe6BGfyUZ3jIvLO/mZx388jzv7
+o6RNXzZ4jQd/Gm/w0E+glo6Xuu5t+Z2nfyWPO/ujmImr/lug7/zO7/T7vPd7s7u3R4lg1ve0TABq
+BKthoGUy73sA0qaWwjCOjNNELZVSgtYatRQk0TIpEUQEq/WaiCAiAGitERFEt8nBk76N9VO/i377
+4diN/7WcrI7u4szr/zJg/ispeoaLf83uH7wvi5Mvgz3xv5VUOLrw15x8rR+h234Yzomr/vVUNzh8
++g+zfNxXMjv2aOzG/2ar/ady+vV/BUUPmP9KklgsFvyPZPiRv/8w/uSObyQEL3Xdu/OuL/ldlKj8
+8e3fy888/sNZt31e4cYP4JVu+kB+8nEfyl37f4YEXSx46InX5DUe/Ik85szrAvB39/wCv/ikT+De
+w8cj4MTiFt78UV/NS1//Njy3v7jrJ/npx703R9M+Dz7+Krzfy/4yG/0O/1NlJqvViv/tuq7je7/3
+e6mZydQas74HYGqN+42tUWulAmlzv6k1SimUUrANQK0V29hGEmmTrdF1Hba5X60V2wBkrjn+kHdl
+68Y3gbbmfy0Fd/31Z2FPSIX/atnWbF776px+sU+E6Yj/tcqC+/7u83Fbc9W/j3PNsQe9HTsPekdo
+S/7Xio67/vrTcY4oeq56AMGbPerz2F09hSed+1X+7p4f4JdmD+ZNHv3ZvPLN78lmf4pfefKn8Cd3
+fBvP2P0d3vgRX8x62qNEx3XbL871W48lVLjj0t/yO7d+NY+778dYTQd0UXn0mbflTR7xBVy3/XCe
+28XlHTz1wq8zeYm46r8BFcA2tnl+bPP82OaBbPP82OaBbPMccg1tCW3N/1oKIPnvI8gJpiNoS/5X
+yxEQV/0HyAHaEbQV/2t5AidIXPW8tvqTvOOLfxc/9LfvxlMu/Da//YwvZPSKN33kZ/MS174ZDz7+
+Svzl3T/MnZf+jGs2H8t1249kzDWXlnfxF3f9OE8899M84ewvcTjuUQTXb78kr/XgT+alr387utLz
+QKvxgD+/6wf5vWd8FecPn0AtXPXfg8pVV1111VX/a51Y3MC7v/SP8NOP/1j+9p4f5A9u+3LuOfgr
+Xv9hn8NDT7wSr/XgD+dwuMT3/tU7cn75NwgxtEMOxgPGZnZmx3jYiVfjZW94b17y+rdhuz/F/Wxz
+cXkH/3Dvz/Fnd30H9xz8DbhRC1f996Fy1VVXXXXV/2o7s2t4l5f4Dh507FX47Vu/mCec+w2esftH
+POr06/GYM+/Imc1HkA6W0wHzei3H5w/hEacewY07L84tx1+Dm4+9NH2Zc7/VdMDTLvwxf3/2p3jK
+uV/h/PKphCAEElf996Jy1VVXXXXV/3pdmfFaD/kwHnvNm/GHt38LTzj7U/zNPT/P39zzc5zeuJ4P
+ePnf49TGTYAoqkjB/ca24u79J3PPwV/xtAt/wFPO/ya7qycwtIkS0AVX/c9B5aqrrrrqqv8zzmw+
+mLd69Bfx2g/6KO7Y+wtu3f0T9tZnORzOMqsdUxs4Gi+xu7qLc4e3cs/B33B++bdcWt3D7upuzEQR
+hKArXPU/D5Wrrrrqqqv+zzm2uI5jizfjxa59M46GS3zzn70R9xz8CSEuS4MBm8tCUIOr/uej8j9d
+KRAB48hlsx4M1AIS2GBDJpQCEtiQCWnoKtiQCesBbJ6l70CC9QAA8xmUAAPTBMMIfQetQUv+V4uA
+WmEYwEDfgQS18Bxag1JAXJGGqUFXucyG9QCZPEsp0HWwWgOGvoOugoHWYBihFi4bJ676H6IUKAHD
+CACzHgzUAhLYANAalAICDKQhG3Qd2JAJ6wFsnqXrIALWay6bz6AEGJgmGEboO2gJrXHVfy5jpmyM
+CSGer2Zo5l9lSpjSGHPVfxkq/5PVwt/87RO4656zvMkbvAYIfuhHfo5aCn/0F3+HbQA2FnMecssN
+/N3jn0JEkDYPu+VGHvbgm/iV3/4jQuLFHv0w3umt3pCdnW3IhK7yC7/021y4uMt7vONb4Nb42q//
+bp72jDvpu8prverL8eZv8Jr89M/8Gi/xmIfzsIc/CKbG/0qlcM/d9/Lbf/SXvP2bvx51Y8Gv/urv
+sn9wxJ//zeNYrQckAPESj3k4f/f4pwAm05w4ts1rvPLL8ou//vu01rj2mlO869u8MbfccgO0hFr5
+279/Ir/xO3/Mh73PO9JvbfDjP/nL/O4f/yVdrTz2UQ/lvd7hzfijP/5LIoJXe5WXhalx1X+zWnj8
+45/CU55+O2/xxq8NJfixH/9FJPFHf/F3ZCYAs77nkQ+9hb95/JMpITLNzTdcy4s96mH80m/+ARI8
+8qEP4l3e5o04ceI4ZEJX+Y3f+kNuve1O3u9d3xoi+KZv/QGe8KRb6brKq77CS/G2b/a6/Pwv/CYP
+e/BNPOYxD4epcdV/nlp6Xuq6t+Uh65dBKvxHSU+cXDycGj1X/Zeh8j9ZKTz+yU/nrx/3ZN7kLV8f
+JH7mV3+Xd3ubN+YD3u2t+eyv+FZe/FEP463e+LVYzOc87ME38Zlf+s185Pu/My/3Eo/hm7/vJ7j5
++mt5qzd+Lb7pe36Cb/7en+ATP+b9YRhhanz1t/0g+weHvPHrvhonj23zW3/w57z3O70Ft9x4HZ/z
+Fd/K6RPH+Y0/+DN2djZ52KMeClPjf6UI7jt3kZ//9d/nbd7yDaibG/z+X/wdJ7Y2eZ93fkt+6Kd/
+hSc//TY+9oPeje3NDV7ysQ/ny77he3mJxzycd3qrN+T3//RvOH/xEp/2Ue/LL/3mH/JZX/4tfNfX
+fA5IUIIf+PFf4Ed+9td4lVd8aV75NV+J3/7DP+fhD76ZN37dV+VLv/F7mPU95y/uIolXe/VXgKlx
+1X+zUnjKrbfzG3/w57zFW78RdJWf/80/4M1f99X4gHd7a77kG76H6645xTu/9RuxMZ/ziIfdwmd9
+6Tfz3u/8Frz6K7403/fjv8jxnW3e/e3ehO/84Z/lq771B/ncT/tIGEdI8/Xf+SM8/fa7eIPXflVu
+ufl6fvP3/5y3f7PX5TGPeAif/RXfwqkTx/idP/5LbHjMiz8KpsZV/3lmZYM3esSncNX/CVT+JzP0
+XeUJT34aP/QDP42Au+6+jxtvuIbHvPLLct21Z3jMIx/KS77sS8I0ccMN13LLjdfxMi/9Yjz00Q+n
+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
+gb7vechDHoIkXuEVXoEf+IEf4C3f8i3JTO68805+4id+gvvuuw+An/7pn+apT30qEUFEMJ/P6fue
+f0nXdfzxH/8xH/ERH8G5c+fouo7WGlddddX/WpS3fMu3/OyXeqmXIjO56qqrnpdtAGzTWsM2ALax
+DYBtrr32Wh796EfTdR0AL/3SL80rvMIr0HUd8/mcEydOsLW1xXXXXccv/dIv8XVf93Vcd9113HLL
+LfzyL/8yv//7v88111zDzs4OXdfxqEc9ioc+9KHY5olPfCJ/+Id/yCu+4ity22238WM/9mO01rjx
+xhuptdJ1HbaxTUQAUGullMKdd97Ja77ma/IKr/AKjOPIVVdd9b9TKYW/+Zu/oZZS6LoOSVx11VX/
+Prbpug6A+XwOQGYym814tVd7NWzTWuPt3u7teJu3eRuOjo6QxE033cRyuWQ2m7Fer/nVX/1VVqsV
+7/u+78vR0RG2eZmXeRk2NjZorbFer7n77ruZzWb8xE/8BM94xjN4ozd6Ix772MdycHDAfD7nT/7k
+T7h06RJv9mZvhm1aa/R9z1VXXfW/U62VUgr1vvvu43d+53dorXHVVVf914oIMpO+73nQgx7EE5/4
+RMZx5BGPeASZyV/8xV8wTRN/8Rd/wXXXXcfW1ha/+qu/yh//8R/zDu/wDvze7/0ed955J7/1W7/F
+mTNneMYznsHP/dzPUWvlj//4j/mgD/ogfud3fofWGlddddX/bqUU7rvvPvTO7/zOr3ThwgWuuuqq
+/zlqrQBM0wTAjTfeyHK55MKFC9x4440APPnJT2ZjY4PHPe5xvueee+Yv/uIvvr1YLC7+yZ/8yTtm
+5kd2XXfp9V7v9d7C9mBbXHXVVf/rnTx5EnHVVVf9X9MDd3HFDcDAVVdd9X8Flauuuuqqq6666n8L
+KlddddVVV1111f8WVK666qqrrrrqqv8tqFx11VVXXXXVVf9bULnqqquuuuqqq/63oHLVVVddddVV
+V/1vQeWqq6666qqrrvrfgspVV1111VVXXfW/BZWrrrrqqquuuup/CypXXXXVVVddddX/FlSuuuqq
+q6666qr/LahcddVVV1111VX/W1C56qqrrrrqqqv+t6By1VVXXXXVVVf9b0Hlqquuuuqqq67634LK
+VVddddVVV131vwWVq6666qqrrrrqfwsqV1111VVXXXXV/xZUrrrqqquuuuqq/y2oXHXVVVddddVV
+/1tQueqqq6666qqr/regctVVV1111VVX/W9B5aqrrrrqqquu+t+CylVXXXXVVVdd9b8Flauuuuqq
+q6666n8LKlddddVVV1111f8WVK666qqrrrrqqv8tqFx11VVXXXXVVf9bULnqqquuuuqqq/63oHLV
+VVc9h7f8xJ+5oQ3LY82R/C8Tpfro0r39737PxxaA13yvr3zkxrFrh2yT+F8o26Trrz0+fs9nvOlT
+ueqqqwCoXHXVVc/ybp/7C6/2Mo+6+Udvuu7UDa1N/G9kmzd/1ZsBuO7BL/53kvjfqtbK4596zx3A
+g4DkqquuonLVVVdd9s6f/fOv+vKPfdCPvOGrPOaGzXlg879WebkHAdAm/leb9XDPfRe56qqrnoXK
+VVddxbt89s+9+iu9+EN++A1e5dE3zjsYxsb/ZuPE/wmKQjq56qqrnoXKVVf9P/e2n/Izr/aKL/aQ
+H3nDV3vMDX0xLc1VV1111f9QVK666v+xd/nsn3v1V3zxh/7wG7zKo27oi8k0V1111VX/g1G56qr/
+p97xM37h1V7hsbf82Bu/2mOv60qSaa666qqr/oejctVV/w+922f8zKu94ks/5Idf75UeeV0XSaa5
+6qqrrvpfgMpVV/0/866f/nOPePmXfOiPvsGrPPqGWTUtzVVXXXXV/xIEV131/0z0i+se9bAbblj0
+oqW56qqrrvpfhMpVV/0/M40rsjWuuuqqq/4XIrjqqqteIElEBP8RJBER/HtJ4gWRhCSuuuqq/7MI
+rrrqqheotcbhwQGZyb9WKYWuK1wmMY0jhwf7/PsJEM+PDba56qqr/s8iuOqqq56vvi/84e/+Op/7
+qR+JMKUWaleICEoJuq4gCUnUWiglqF0hIogoPOXJT+Av/uSPiAj6LviJH/5uvumrv4j5olBKoXYF
+Kai1UGvhflGCri/UWrifJLquECG+4gs/jd/81Z+j6wulBF1fiAhKKfzUj34v3/+d30BmEhF0XaHW
+giSuuuqq/xMIrrrqquchiWkyP/eTP0w/n7O/v8+lixe59alPZbk8YPfieZ72lCeT2ZimibvvvINL
+u7vc+tSncniwT2bj+7/zG/iSz/1EDvb32Ns/5Kd//Ae49vobuO+e85w/d5bbb72VzIk777iNu++8
+gwhRSuFgb4/H//3fcdszbiUCJOGcuPVpT+Pee+7iF376R/j7v/kL+hmcO3uWJz7ucRwe7NP38Cd/
+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
+PC/xggkwmKuuuupfRuWqq/6fmYCCAQMgjAED4n5GCK/X6Nf/EARI3E8GC7BBAgAMGBksgwGZZzFX
+CGRjCQAB2FwhwMjCMiDAAIAAA8IYWRhzhRCAwRhZGCPACAwCjJGFMSAQz2KMLIwRwoDMZcbIwhgk
+jAEBgA0S2CDABonnYIMENkhcddVV/2ZUrrrq/5lKhQAssBHifuKZBBhCYBskrjAgkAnAAgPifsIy
+gbCMEcIIYRkDgbCMuEKABQYCMM8WgMVlAlIgwALxbALMs4krBAgwVwgQYEA8F4G4QjybAQEBNCAA
+i8sMSCAgBQIQILBBXGGBBBgQ2CCuMCIENK666qp/GZWrrvp/JjPPR+aPAnsGEVyRXBGAwSkILrMT
+Jc9iXjjzbOYKc4W5wjybucKAeTYD5jmZKwyYZzNXCDBgwIAAc4UAc4UBAeYKAQbMs5lnS64wz8u8
+EAEkEFxhnpORU43Zbeaqq676lyCuuuqqq6666qr/LahcddVVV1111VX/W1C56qqrrrrqqqv+t6By
+1VVXXXXVVVf9b0Hlqquuuuqqq67634LKVVddddVVV131vwWVq6666qqrrrrqfwsqV1111VVXXXXV
+/xZUrrrqqquuuuqq/y2oXHXVVVddddVV/1tQueqqq6666qqr/regctVVV1111VVX/W9B5aqrrrrq
+qquu+t+CylVXXXXVVVdd9b8Flauuuuqqq6666n8LKlddddVVV1111f8WVK666qqrrrrqqv8t+Efq
+G9EfH3FIXwAAAABJRU5ErkJggg==
+------=_Part_12_1340775188.1758122656505--

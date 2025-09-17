@@ -1,0 +1,395 @@
+Date: Wed, 17 Sep 2025 15:33:16 +0000 (UTC)
+Message-ID: <265945599.29.1758123196242@4bdbc70beb76>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_28_2131790293.1758123196241"
+
+------=_Part_28_2131790293.1758123196241
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI+ 2.0 Release Notes</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI+ 2.0 Release Notes</h1>
+    <div class=3D"Section1">
+        <p><strong>Release Date:</strong> June 2024</p>
+<p><strong>Bundle Name:</strong> AI+ 2.0 OnPrem Suite</p>
+<hr>
+<h4 id=3D"AI+2.0ReleaseNotes-Purpose">Purpose</h4>
+<p>This release introduces AI+ 2.0, a comprehensive suite of onPrem AI feat=
+ures designed for seamless integration with SWARM, OM, and iconik. AI+ 2.0 =
+offers advanced capabilities in media management, including transcription, =
+summarization, translation, facial recognition, and object recognition. Thi=
+s bundle aims to enhance operational efficiency and media content managemen=
+t with robust, localized AI solutions.</p>
+<h4 id=3D"AI+2.0ReleaseNotes-What=E2=80=99sNewinAI+2.0?">What=E2=80=99s New=
+ in AI+ 2.0?</h4>
+<ul>
+<li>
+<p><strong>Advanced Transcription::</strong> Automatically transcribe and g=
+enerate robust metadata values in multiple languages for any number of meta=
+data fields across all of an organization=E2=80=99s media content. (Now abl=
+e to be run 100% on prem with no $/sec required for OpenAI anymore.)</p></l=
+i>
+<li>
+<p><strong>AutoTranslation:</strong> Translate the spoken audio of selected=
+ media content into multiple languages. AutoTranslation supports over 20 la=
+nguages, enabling broader content accessibility.</p></li>
+<li>
+<p><strong>Facial Recognition:</strong> Identify and tag individuals within=
+ your media library based on a simple training process which can occur dire=
+ctly within iconik or through our APIs.</p></li>
+<li>
+<p><strong>Robust Object Detection:</strong> <strong>:</strong> Go beyond O=
+bject Detection to Object Recognition where we combine the power of standar=
+d Object Detection models with Vision based models to find specific objects=
+ within media files. Instead of just being able to find a car, find the For=
+d F-150 for example. All with no traditional object detection training requ=
+ired. =E2=80=8C</p></li>
+</ul>
+<hr>
+<h4 id=3D"AI+2.0ReleaseNotes-BundleContents">Bundle Contents</h4>
+<ul>
+<li>
+<p><strong>AI+ Transcribe and Summarize Module:</strong> NLP models and pro=
+cessing scripts for transcription and summarization.</p></li>
+<li>
+<p><strong>AI+ AutoTranslation Module:</strong> Language translation models=
+ and integration scripts.</p></li>
+<li>
+<p><strong>AI+ Facial Recognition Module:</strong> Pre-trained facial recog=
+nition models and tagging scripts.</p></li>
+<li>
+<p><strong>AI+ Object Recognition Module:</strong> Object detection models =
+and classification scripts.</p></li>
+<li>
+<p><strong>Notification API:</strong> The Notification API is a Python-base=
+d application designed to send real-time alerts and notifications to users =
+about relevant events and updates within the media management system.</p></=
+li>
+</ul>
+<hr>
+<h4 id=3D"AI+2.0ReleaseNotes-SystemRequirements">System Requirements</h4>
+<p>To fully leverage the capabilities of AI+ 2.0, the following system spec=
+ifications are required:</p>
+<p><strong>Minimum Server Specifications</strong></p>
+<h3 id=3D"AI+2.0ReleaseNotes-CPU">CPU</h3>
+<ul>
+<li>
+<p>Processor: Intel Xeon or AMD EPYC series</p></li>
+<li>
+<p>Cores: Minimum 16 cores (32 threads)</p></li>
+<li>
+<p>Clock Speed: Base clock speed of 2.6 GHz or higher</p></li>
+</ul>
+<h3 id=3D"AI+2.0ReleaseNotes-Memory(RAM)">Memory (RAM)</h3>
+<ul>
+<li>
+<p>Minimum: 128 GB</p></li>
+<li>
+<p>Recommended: 256 GB or higher for better performance and handling large =
+datasets</p></li>
+</ul>
+<h3 id=3D"AI+2.0ReleaseNotes-GPU">GPU</h3>
+<ul>
+<li>
+<p>Model: NVIDIA Tesla, A100, V100, or RTX 6000 series or newer</p></li>
+<li>
+<p>CUDA Cores: Minimum 5,000 CUDA cores</p></li>
+<li>
+<p>VRAM: Minimum 24 GB VRAM; Recommended 48 GB VRAM for optimal performance=
+</p></li>
+<li>
+<p>Generation: The oldest supported generation should be the NVIDIA Volta a=
+rchitecture (e.g., V100) or newer</p></li>
+</ul>
+<h3 id=3D"AI+2.0ReleaseNotes-Storage">Storage</h3>
+<ul>
+<li>
+<p>Type: NVMe SSD</p></li>
+<li>
+<p>Capacity: Minimum 2 TB (consider more storage based on dataset size)</p>=
+</li>
+<li>
+<p>Additional Storage: High-speed network-attached storage (NAS) or SAN for=
+ large datasets</p></li>
+</ul>
+<h3 id=3D"AI+2.0ReleaseNotes-Networking">Networking</h3>
+<ul>
+<li>
+<p>Network Interface: 10GbE network interface card (NIC) or faster</p></li>
+<li>
+<p>Additional: Consider multiple NICs for redundancy and better throughput<=
+/p></li>
+</ul>
+<h3 id=3D"AI+2.0ReleaseNotes-PowerSupply">Power Supply</h3>
+<ul>
+<li>
+<p>Redundant Power Supplies: Recommended for high availability and reliabil=
+ity</p></li>
+</ul>
+<p><strong>Recommended Software Environment</strong></p>
+<h3 id=3D"AI+2.0ReleaseNotes-OperatingSystem">Operating System</h3>
+<ul>
+<li>
+<p>Ubuntu 20.04 LTS or newer</p></li>
+</ul>
+<h3 id=3D"AI+2.0ReleaseNotes-CUDAToolkit">CUDA Toolkit</h3>
+<ul>
+<li>
+<p>Version 11.0 or newer</p></li>
+</ul>
+<hr>
+<h4 id=3D"AI+2.0ReleaseNotes-InstallationandConfiguration">Installation and=
+ Configuration</h4>
+<ol start=3D"1">
+<li>
+<p>Ensure that the NVIDIA drivers are up to date to avoid compatibility iss=
+ues.</p></li>
+<li>
+<p>See specific deployment documentation in Miro for each workflow</p>
+<ol start=3D"1">
+<li>
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://miro.com/app/board/uXjVKHM4ekg=3D/?moveToWidget=3D3458764590801194638&am=
+p;cot=3D14" rel=3D"nofollow">https://miro.com/app/board/uXjVKHM4ekg=3D/?mov=
+eToWidget=3D3458764590801194638&amp;cot=3D14</a></p></li>
+<li>
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://miro.com/app/board/uXjVKJtVPd0=3D/?moveToWidget=3D3458764590801431892&am=
+p;cot=3D14" rel=3D"nofollow">https://miro.com/app/board/uXjVKJtVPd0=3D/?mov=
+eToWidget=3D3458764590801431892&amp;cot=3D14</a></p></li>
+<li>
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://miro.com/app/board/uXjVKZI6WDo=3D/?moveToWidget=3D3458764590800405570&am=
+p;cot=3D14" rel=3D"nofollow">https://miro.com/app/board/uXjVKZI6WDo=3D/?mov=
+eToWidget=3D3458764590800405570&amp;cot=3D14</a></p></li>
+<li>
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://miro.com/app/board/uXjVKfQ0Ksg=3D/?moveToWidget=3D3458764590802626271&am=
+p;cot=3D14" rel=3D"nofollow">https://miro.com/app/board/uXjVKfQ0Ksg=3D/?mov=
+eToWidget=3D3458764590802626271&amp;cot=3D14</a></p></li>
+</ol></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_28_2131790293.1758123196241--
