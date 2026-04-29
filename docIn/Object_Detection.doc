@@ -1,0 +1,729 @@
+Date: Wed, 17 Sep 2025 15:25:27 +0000 (UTC)
+Message-ID: <944556252.15.1758122727046@0cb95089ba2d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_1143266490.1758122727046"
+
+------=_Part_14_1143266490.1758122727046
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Object Detection</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Object Detection</h1>
+    <div class=3D"Section1">
+        <p>Object Detection is designed as a modular, extensible platform f=
+or video and image analysis. At its heart is the VisionAnalyzer class, whic=
+h orchestrates the process of loading media, detecting objects, and perform=
+ing high-level vision tasks. This class is designed to work with various ob=
+ject detection and vision models, allowing for flexibility and future expan=
+sion.</p>
+<ol start=3D"1">
+<li>
+<p>Optimized Media Processing:<br>
+To improve efficiency, the system is designed to process media in a single =
+pass where possible. For videos, this means seeking through the file once, =
+performing both object detection and vision tasks on each relevant frame. T=
+his approach significantly reduces I/O operations and processing time.</p><=
+/li>
+<li>
+<p>Parallel Processing:<br>
+The architecture incorporates parallel processing capabilities to take adva=
+ntage of multi-core systems. Frame extraction and analysis can be distribut=
+ed across multiple threads or processes, dramatically improving performance=
+ for large videos. This is particularly useful for time-consuming tasks lik=
+e object detection and complex vision analysis.</p></li>
+<li>
+<p>Efficient Frame Handling:<br>
+To optimize performance, the system uses frame buffers as parameters throug=
+hout the processing pipeline. This approach avoids unnecessary disk I/O and=
+ repeated image decoding, as frames are kept in memory and passed between d=
+ifferent stages of analysis. This is particularly beneficial when multiple =
+analysis steps are performed on the same frame.</p></li>
+<li>
+<p>Metadata Management:<br>
+The system generates and manages metadata throughout the processing pipelin=
+e. This includes frame information, object detection results, and vision an=
+alysis outputs. The metadata is structured to allow for efficient querying =
+and analysis, and is saved in a JSON format for easy integration with other=
+ systems.</p></li>
+</ol>
+<p></p>
+<p>The Object Detection class is designed with flexibility and configurabil=
+ity at its core. Upon initialization, it accepts various parameters that de=
+fine its behavior, including the types of models to use for object detectio=
+n, vision analysis, and language processing. These parameters can be passed=
+ directly or retrieved from a global configuration. This design allows for =
+easy customization of the detection process without modifying the class its=
+elf. The class also sets up essential attributes such as frame processing p=
+arameters and progress tracking mechanisms, ensuring that it's ready to han=
+dle a wide range of detection scenarios right from instantiation.</p>
+<p>One of the key strengths of the Object Detection class is its ability to=
+ process both images and videos seamlessly. The class incorporates logic to=
+ determine the type of input media and routes it to the appropriate process=
+ing pipeline. For images, it performs a straightforward processing routine.=
+ For videos, it implements a more complex frame extraction and selection pr=
+ocess. This dual capability makes the class versatile enough to be used in =
+various applications, from analyzing single photographs to processing lengt=
+hy video sequences, all within the same consistent interface.</p>
+<p></p>
+<h1 id=3D"ObjectDetection-LegacyFrameProcessing">Legacy Frame Processing</h=
+1>
+<h4 id=3D"ObjectDetection-ModelIntegration">Model Integration</h4>
+<p>The class is architected to integrate seamlessly with additional vision =
+and language models, enabling more comprehensive analysis of visual data. T=
+his multi-modal design facilitates tasks such as scene understanding or fin=
+e-grained object classification, complementing the primary object detection=
+ capabilities. Vision models are employed to expand the range of detection =
+and classification tasks beyond basic object recognition, while language mo=
+dels can be used to generate descriptions of detected scenes or answer ques=
+tions related to visual content.</p>
+<p>However, the current integration primarily focuses on processing individ=
+ual frames, meaning each detection task operates independently without cons=
+idering the relationships between frames. While this approach allows for fl=
+exibility in swapping detection models (e.g., YOLOv8, GroundingDINO, Robofl=
+ow), it does not inherently support temporal continuity or object tracking =
+across time. The system=E2=80=99s reliance on frame-by-frame processing lim=
+its its ability to maintain object identities or track movements in dynamic=
+ video content, which is essential for applications requiring object detect=
+ion over time. Thus, the current model integration is suitable for single-f=
+rame analysis but lacks the temporal cohesion needed for more advanced, dyn=
+amic video analysis.</p>
+<p>In summary, while the architecture allows for a wide range of model inte=
+grations, the focus on frame-based processing limits its ability to leverag=
+e the temporal context inherent in video data. Future integrations should c=
+onsider spatiotemporal models (e.g., Florence 2 and Pixtral) to address the=
+se limitations.</p>
+<h4 id=3D"ObjectDetection-ObjectDetectionExecution">Object Detection Execut=
+ion</h4>
+<p>At the core of the class is its object detection execution capability, w=
+hich is responsible for managing the detection process across multiple fram=
+es. This component leverages the specified object detection model and a Tas=
+kManager to handle the execution of detection tasks across frames or images=
+. The current design allows for flexible integration of different detection=
+ models, but it is built on a frame-centric processing paradigm, treating e=
+ach frame as an independent entity.</p>
+<p>While the TaskManager efficiently distributes tasks and can parallelize =
+the execution for better resource utilization, the lack of temporal awarene=
+ss in the detection process is a key limitation. The system processes each =
+frame independently, and there is no built-in mechanism for tracking object=
+s across consecutive frames or maintaining consistency in object identity. =
+This limits the class=E2=80=99s utility in dynamic video environments where=
+ objects may move in and out of frames or change appearance over time.</p>
+<p>The object detection execution is model-agnostic, which allows for easy =
+swapping or upgrading of models. However, in dynamic video scenarios, this =
+component would benefit from the integration of tracking algorithms or spat=
+iotemporal models to capture object behavior over time. This would enable m=
+ore accurate detection in scenes where objects move, interact, or change st=
+ate across frames.</p>
+<h4 id=3D"ObjectDetection-FrameProcessing">Frame Processing</h4>
+<p>The frame processing component of the class is responsible for selecting=
+ frames for object detection in video inputs. The current implementation us=
+es a combination of frame sampling and content-based selection techniques t=
+o balance computational efficiency with thoroughness. Specifically, frames =
+can be selected based on fixed intervals, or the system can analyze frame d=
+ifferences to focus on frames where significant visual changes occur. This =
+approach ensures that the system can reduce redundant processing in static =
+video segments, concentrating computational resources on the most relevant =
+frames.</p>
+<p>However, this frame processing technique is optimized for individual fra=
+me selection and does not account for temporal relationships between frames=
+. The reliance on frame differences and sampling means the system is not aw=
+are of how objects persist, move, or change across consecutive frames. This=
+ makes the class less effective in scenarios where object continuity over t=
+ime is essential, such as in dynamic scenes, action recognition, or video s=
+ummarization tasks.</p>
+<p>Moreover, the absence of object tracking across frames further limits it=
+s use in more complex video analysis tasks, such as tracking an object=E2=
+=80=99s trajectory or understanding interactions between objects over time.=
+ While the current design is efficient for applications like security foota=
+ge review or monitoring static scenes, it lacks the temporal depth required=
+ for analyzing fast-moving objects or dynamic video content. Integrating ob=
+ject tracking algorithms or spatiotemporal models (such as those provided b=
+y Florence 2 and Pixtral) would significantly enhance the system's ability =
+to handle such use cases.</p>
+<h3 id=3D"ObjectDetection-TemporalTracking">Temporal Tracking</h3>
+<p>To address these limitations, we propose integrating spatiotemporal mode=
+ls (such as Florence 2 and Pixtral) and object tracking algorithms to allow=
+ for continuous object detection and tracking across time. This will ensure=
+ that the system can maintain object identities across frames and improve a=
+ccuracy in dynamic video environments.</p>
+<h4 id=3D"ObjectDetection-Overview">Overview</h4>
+<p>In our current object detection framework, we perform object detection o=
+n individual frames in a video. This method relies on frame sampling or cal=
+culating differences between consecutive frames to optimize processing. How=
+ever, this approach lacks the ability to maintain object identity and track=
+ objects over time. The primary limitation is that each frame is processed =
+independently, without consideration of temporal continuity, which is criti=
+cal for accurately detecting and tracking objects in dynamic video scenes.<=
+/p>
+<hr>
+<h4 id=3D"ObjectDetection-LimitationsoftheCurrentSystem">Limitations of the=
+ Current System</h4>
+<ol start=3D"1">
+<li>
+<p><strong>Frame-by-Frame Processing</strong>:<br>
+Our current system processes individual frames independently, either by sam=
+pling frames at a specific rate or based on frame difference calculations. =
+While this reduces redundancy in frame selection, it causes each frame to b=
+e treated as a standalone image, with no relationship to previous or subseq=
+uent frames. This frame-based method works well for static scenes but fails=
+ to capture object behavior over time.</p></li>
+<li>
+<p><strong>No Object Tracking</strong>:<br>
+The system does not track objects across frames. Even though we detect obje=
+cts in individual frames, there is no mechanism to maintain object identity=
+ across frames. This means that the same object detected in one frame may n=
+ot be recognized as the same object in a subsequent frame, leading to redun=
+dant or inconsistent results, especially in dynamic or fast-moving scenes.<=
+/p></li>
+<li>
+<p><strong>Loss of Temporal Context</strong>:<br>
+By processing each frame independently, the system loses important temporal=
+ context. In dynamic video scenarios, the relationship between objects in o=
+ne frame and their position or state in subsequent frames is critical for u=
+nderstanding object behavior, motion, and interaction with other objects. T=
+his is particularly important in use cases like action recognition, sports =
+analysis, and surveillance, where we need to track how objects change over =
+time.</p></li>
+<li>
+<p><strong>Suboptimal for Dynamic Video Content</strong>:<br>
+In videos with significant object motion or interaction (e.g., autonomous d=
+riving, sports, or security footage), the current system=E2=80=99s frame-by=
+-frame approach struggles to maintain consistent detection. As objects move=
+ across frames, their appearance may change, or they may become partially o=
+ccluded, causing inconsistent detection results. Without temporal tracking,=
+ the system cannot accurately capture these objects=E2=80=99 trajectories o=
+r behaviors.</p></li>
+</ol>
+<hr>
+<h4 id=3D"ObjectDetection-Objectives">Objectives</h4>
+<ol start=3D"1">
+<li>
+<p><strong>Object Detection Over Time</strong>:<br>
+We aim to implement object detection over time, enabling the system to proc=
+ess sequences of frames and account for the movement and persistence of obj=
+ects across a video. By analyzing multiple frames as a cohesive sequence, w=
+e can ensure that objects are detected and tracked throughout the video, ma=
+intaining temporal consistency.</p></li>
+<li>
+<p><strong>Object Tracking Across Frames</strong>:<br>
+We will integrate an object tracking algorithm, ensuring that objects detec=
+ted in one frame are associated with the same objects in subsequent frames.=
+ This will allow us to track the movement and state of objects over time, p=
+reserving their identity throughout the video. The result will be consisten=
+t object tracking even in dynamic or fast-changing environments.</p></li>
+<li>
+<p><strong>Spatiotemporal Processing Using Florence 2 and Pixtral</strong>:=
+<br>
+Rather than processing individual frames, we will explore spatiotemporal mo=
+dels like Florence 2 and Pixtral. These models are capable of understanding=
+ both spatial and temporal dimensions, allowing for object detection over a=
+n entire sequence of frames. By integrating these models, we can leverage t=
+heir ability to capture object behavior and movement across time, leading t=
+o more accurate and consistent results.</p></li>
+<li>
+<p><strong>Improved Accuracy in Dynamic Scenes</strong>:<br>
+By maintaining object continuity across frames, we will improve detection a=
+ccuracy in dynamic scenes, such as those involving fast-moving objects or m=
+ultiple interacting entities. This will be critical in use cases like surve=
+illance, sports analysis, and autonomous vehicle navigation, where objects =
+are in motion and must be tracked consistently.</p></li>
+</ol>
+<hr>
+<h4 id=3D"ObjectDetection-DesignApproach">Design Approach</h4>
+<ol start=3D"1">
+<li>
+<p><strong>Spatiotemporal Model Integration (Florence 2 and Pixtral)</stron=
+g>:<br>
+We will integrate Florence 2 and Pixtral, which are designed to process vid=
+eo sequences by understanding both the spatial and temporal aspects of the =
+content. These models can process sequences of frames simultaneously, captu=
+ring how objects evolve and move over time. By leveraging their ability to =
+analyze entire video segments, we can ensure that object detection is both =
+accurate and temporally consistent.</p>
+<ul>
+<li>
+<p><strong>Florence 2</strong>: This vision-language model is capable of mu=
+ltimodal processing and can handle video sequences for object detection and=
+ tracking. Florence 2 will be adapted to process multiple frames together, =
+ensuring that objects are consistently detected and tracked across time.</p=
+></li>
+<li>
+<p><strong>Pixtral</strong>: Pixtral specializes in high-performance video =
+analysis, making it ideal for detecting and tracking objects over time. By =
+integrating Pixtral=E2=80=99s capabilities, we will be able to maintain obj=
+ect identity and track objects across frames in a dynamic video environment=
+.</p></li>
+</ul></li>
+<li>
+<p><strong>Object Tracking Integration</strong>:<br>
+In addition to spatiotemporal models, we will integrate an object tracking =
+algorithm that allows us to maintain object identities across frames. This =
+will involve associating detected objects in each frame with their previous=
+ detections, ensuring that the system tracks their movement and behavior ov=
+er time.</p>
+<ul>
+<li>
+<p>We will explore tracking methods like <strong>DeepSORT</strong>, which b=
+uilds on detected bounding boxes from the spatiotemporal models and tracks =
+object identities across frames. This will enable robust tracking in scenar=
+ios with multiple moving objects, even when objects become occluded or chan=
+ge appearance.</p></li>
+</ul></li>
+<li>
+<p><strong>Handling Temporal Data</strong>:<br>
+Instead of treating frames as isolated images, we will process them as sequ=
+ences, leveraging models like Florence 2 and Pixtral that are designed to o=
+perate on time-ordered data. By feeding multiple frames to the model at onc=
+e, we can capture both the spatial features within each frame and the tempo=
+ral dependencies between them. This will allow the model to understand how =
+objects move, change, and interact over time.</p></li>
+<li>
+<p><strong>Post-Processing and Evaluation</strong>:<br>
+After detection and tracking, we will implement post-processing to evaluate=
+ the results over time. This includes refining the detection bounding boxes=
+ across frames to ensure consistency, handling occlusion cases where object=
+s are temporarily hidden, and smoothing object trajectories to eliminate su=
+dden jumps or false detections. Metrics such as tracking accuracy, object i=
+dentity preservation, and temporal consistency will be used to evaluate and=
+ optimize the system.</p></li>
+</ol>
+<ol start=3D"1">
+<li>
+<p><strong>Integrate Spatiotemporal Models</strong>:</p>
+<ul>
+<li>
+<p>Load and configure Florence 2 and Pixtral to process sequences of video =
+frames.</p></li>
+<li>
+<p>Ensure that the models are capable of handling both spatial and temporal=
+ dimensions, extracting features that account for object movement over time=
+.</p></li>
+<li>
+<p>Implement mechanisms to batch video frames for processing, feeding them =
+to the models as sequences rather than isolated images.</p></li>
+</ul></li>
+<li>
+<p><strong>Implement Object Tracking</strong>:</p>
+<ul>
+<li>
+<p>Integrate an object tracking algorithm (e.g., DeepSORT) into the framewo=
+rk, allowing the system to maintain object identities across frames.</p></l=
+i>
+<li>
+<p>Ensure that detected objects are associated with previous detections, an=
+d implement tracking logic to handle objects moving in and out of the frame=
+ or becoming occluded.</p></li>
+</ul></li>
+<li>
+<p><strong>Handle Dynamic Video Scenarios</strong>:</p>
+<ul>
+<li>
+<p>Optimize the system to handle videos with dynamic scenes, where objects =
+may move quickly, interact with each other, or become occluded.</p></li>
+<li>
+<p>Test and refine the system=E2=80=99s ability to track objects in these s=
+cenarios, ensuring that the system can handle both static and dynamic scene=
+s effectively.</p></li>
+</ul></li>
+<li>
+<p><strong>Evaluation and Testing</strong>:</p>
+<ul>
+<li>
+<p>Define evaluation metrics such as tracking consistency, object identity =
+preservation, and detection accuracy across time.</p></li>
+<li>
+<p>Test the system using a variety of video datasets, including those with =
+dynamic and fast-moving objects.</p></li>
+<li>
+<p>Refine the system based on testing results, focusing on improving tempor=
+al tracking accuracy and minimizing false positives or identity switches.</=
+p></li>
+</ul></li>
+</ol>
+<h2 id=3D"ObjectDetection-ModularExtensions">Modular Extensions</h2>
+<p>To facilitate a modular Object Detection implementation, we=E2=80=99ll d=
+ecompose the work into the following components:</p>
+<ul>
+<li>
+<p>Object Model: We will support a wide variety of object models out of the=
+ box. For basic COCO types, we can do zero-shot image recognition, with exi=
+sting implementations with the following models:</p>
+<ul>
+<li>
+<p>YOLOv8</p></li>
+<li>
+<p>Grounding Dino</p></li>
+</ul></li>
+<li>
+<p>Pre-Trained Object Model: Currently, we support fine-tuned models hosted=
+ by Roboflow, accessible over HTTP. Future iterations may support other fin=
+e-tuned models hosted locally or remotely.</p></li>
+<li>
+<p>Image Pre-Processing: These are a series of steps that can be applied to=
+ the image processing function, such as zoom, crop, image combination, etc.=
+</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Apply p=
+re-processing steps
+        if pre_processing_steps:
+            for step_name in pre_processing_steps:
+                if step_name in self.pre_processing_steps:
+                    cv_image =3D self.pre_processing_steps[step_name](cv_im=
+age)</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Vision Model: The vision model implementation. Currently we support the =
+following models:</p>
+<ul>
+<li>
+<p>Qwen-VL</p></li>
+<li>
+<p>Phi3</p></li>
+<li>
+<p>GLM-4V</p></li>
+<li>
+<p>CogVLM</p></li>
+<li>
+<p>Florence2 (coming soon!)</p></li>
+</ul></li>
+<li>
+<p>Vision Post-Processing: These are a series of steps that can be applied =
+after the vision model returns. This may include such tasks as LLM processi=
+ng and custom code for LLM output. It is invoked in a similar manner</p></l=
+i>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Apply p=
+ost-processing steps
+result =3D {"response": response}
+if post_processing_steps:
+   for step_name in post_processing_steps:
+      if step_name in self.post_processing_steps:
+         result =3D self.post_processing_steps[step_name](result)  </pre>
+</div>
+</div>
+<h1 id=3D"ObjectDetection-Configuration">Configuration</h1>
+<p><code>object_model_type</code>: Specifies the object detection model to =
+use. Possible values:</p>
+<ul>
+<li>
+<p>"yolov8": YOLOv8 model, a state-of-the-art, fast, and accurate object de=
+tection model.</p></li>
+<li>
+<p>"groundingdino": GroundingDINO model, which performs object detection wi=
+th natural language queries.</p></li>
+<li>
+<p>"roboflow": Roboflow model, which allows integration with custom-trained=
+ models on the Roboflow platform.</p></li>
+</ul>
+<p>Default: "groundingdino"</p>
+<p><code>vision_model_type</code>: Specifies the vision model for additiona=
+l image analysis. Possible values:</p>
+<ul>
+<li>
+<p>"qwen_vl": Qwen-VL model, a vision-language model for various visual und=
+erstanding tasks.</p></li>
+<li>
+<p>"phi3": Phi-3 model, designed for visual reasoning and analysis tasks.</=
+p></li>
+<li>
+<p>"glm4v": GLM-4V model, a vision-language model for understanding and des=
+cribing images.</p></li>
+<li>
+<p>"cogvlm": CogVLM model, a cognitive vision-language model for advanced v=
+isual understanding.</p></li>
+</ul>
+<p>Default: "glm4v"</p>
+<p><code>llm_model_type</code>: Specifies the language model for text-based=
+ tasks. The format is "provider::model". Currently supported provider:</p>
+<ul>
+<li>
+<p>"ollama": Ollama-based language models. The model name follows the "::" =
+separator.</p></li>
+<li>
+<p>Examples: "ollama::llama2", "ollama::mistral", etc.</p></li>
+</ul>
+<p>Default: "llama3"</p>
+<p><code>frame_difference</code>: Threshold for determining significant cha=
+nges between video frames.<br>
+Default: 50<br>
+Used when <code>use_frame_difference</code> is True. Frames with a differen=
+ce percentage above this threshold are processed.</p>
+<p><code>use_frame_difference</code>: Flag to enable/disable frame differen=
+ce-based sampling.<br>
+Default: False<br>
+When True, the system uses content-based sampling instead of regular interv=
+al sampling.</p>
+<p><code>frame_sampling_per_minute</code>: Controls the rate of frame sampl=
+ing in videos.<br>
+Default: 30<br>
+Determines how many frames per minute of video are processed when not using=
+ frame difference.</p>
+<p><code>text_threshold</code>: Confidence threshold for text detection.<br=
+>
+Default: 0.5<br>
+Used by some models to filter text detections based on confidence.</p>
+<p><code>box_threshold</code>: Confidence threshold for bounding box detect=
+ions.<br>
+Default: 0.5<br>
+Used to filter object detections based on the model's confidence score.</p>
+<p><code>roboflow_confidence</code>: Confidence threshold for Roboflow mode=
+ls.<br>
+Default: 50<br>
+Similar to <code>box_threshold</code>, but specific to Roboflow models.</p>
+<p><code>roboflow_overlap</code>: Overlap threshold for Roboflow models.<br=
+>
+Default: 25<br>
+Used to determine how much overlap is allowed between detected objects.</p>
+<p><code>disable_preproc_auto_orient</code>: Flag to disable automatic imag=
+e orientation correction.<br>
+Default: False<br>
+When False, the system attempts to correct the orientation of images based =
+on EXIF data.</p>
+<p><code>match_config</code>: A mapping of object class IDs to human-readab=
+le labels.<br>
+This dictionary maps numeric class IDs to string labels (e.g., "0": "person=
+", "1": "bicycle", etc.).<br>
+Used to convert model outputs into human-readable object names.</p>
+<p><code>llm_model_request_timout</code>: Timeout for language model reques=
+ts in seconds.<br>
+Default: 120<br>
+Sets a limit on how long the system will wait for a response from the langu=
+age model.</p>
+<p>These configuration parameters provide fine-grained control over the obj=
+ect detection process, allowing users to adjust the system's behavior witho=
+ut modifying the code. The combination of flexible frame processing options=
+ and model-specific parameters makes this system adaptable to a wide range =
+of object detection scenarios.</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_14_1143266490.1758122727046--

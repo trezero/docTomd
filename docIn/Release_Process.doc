@@ -1,0 +1,532 @@
+Date: Wed, 17 Sep 2025 15:33:33 +0000 (UTC)
+Message-ID: <1461821053.195.1758123213493@c33963b31afc>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_194_1630663283.1758123213493"
+
+------=_Part_194_1630663283.1758123213493
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Release Process</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Release Process</h1>
+    <div class=3D"Section1">
+        <p>AI+ RELEASE PROCESS =E2=80=94 RCs, PROMOTION, AND PATCHES</p>
+<p>(Updated for single =E2=80=9Crelease/X.Y.Z=E2=80=9D branch per version +=
+ optional base_ref)</p>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</p>
+<ol start=3D"1">
+<li>
+<p>OVERVIEW &amp; CONVENTIONS</p></li>
+</ol>
+<hr>
+<ul>
+<li>
+<p>One branch per version line:&nbsp; &nbsp; &nbsp; release/X.Y.Z</p></li>
+</ul>
+<p>(Example: release/1.2.0, release/1.2.1, etc.)</p>
+<p></p>
+<ul>
+<li>
+<p>RCs and final builds are tags:&nbsp; &nbsp; vX.Y.Z-rc1, vX.Y.Z-rc2, =E2=
+=80=A6, vX.Y.Z</p></li>
+</ul>
+<p>(Example: v1.2.0-rc1, v1.2.0-rc2, v1.2.0)</p>
+<p></p>
+<ul>
+<li>
+<p>Normalization: RCs DO NOT create separate branches.</p></li>
+</ul>
+<p>All RCs for 1.2.0 live on the same branch: release/1.2.0</p>
+<p></p>
+<ul>
+<li>
+<p>base_ref (optional):</p></li>
+</ul>
+<p></p>
+<ul>
+<li>
+<p>A tag/branch/commit to start from (e.g., v1.1.1 or release/1.2.0).</p></=
+li>
+<li>
+<p>If omitted, new lines default to main/master.</p></li>
+<li>
+<p>For patch lines, ALWAYS start from the last final tag (e.g., v1.2.0).</p=
+></li>
+</ul>
+<p></p>
+<p></p>
+<ul>
+<li>
+<p>Final tags are immutable. If a problem is found after promotion, bump th=
+e</p></li>
+</ul>
+<p>PATCH version and start a new RC (e.g., 1.2.1-rc1 from v1.2.0).</p>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-2)PREREQUISITES"><strong>2) PREREQUISITES</strong>=
+</h2>
+<ul>
+<li>
+<p>GitHub CLI installed and authenticated (gh auth login).</p></li>
+</ul>
+<ul>
+<li>
+<p>Org-level workflows live in the .github repo; build_releases.sh calls:</=
+p></li>
+</ul>
+<p>gh workflow run create_release.yml =E2=80=93repo workflow-intelligence-n=
+exus/.github</p>
+<p>=E2=80=93ref cicd-integration</p>
+<p>(Change =E2=80=93ref if the workflow is on another branch.)</p>
+<ul>
+<li>
+<p>Required token/permissions are already wired as RELEASE_WORKFLOW_GITHUB_=
+TOKEN.</p></li>
+</ul>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.1"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-3)BUILDANEWMINORRELEASECANDIDATE(e.g.,1.2.0-rc1)">=
+<strong>3) BUILD A NEW MINOR RELEASE CANDIDATE (e.g., 1.2.0-rc1)</strong></=
+h2>
+<p>Default (cut from main/master):</p>
+<p>./scripts/build_releases.sh 1.2.0-rc1</p>
+<p></p>
+<p>Freeze at a specific point (tag/branch/commit):</p>
+<p>./scripts/build_releases.sh 1.2.0-rc1 &lt;base_ref&gt;</p>
+<p></p>
+<p>Result:</p>
+<ul>
+<li>
+<p>Creates/updates release/1.2.0</p></li>
+</ul>
+<ul>
+<li>
+<p>Creates tag v1.2.0-rc1</p></li>
+</ul>
+<p></p>
+<p>During stabilization:</p>
+<ul>
+<li>
+<p>Land fixes on release/1.2.0 (via PRs or cherry-picks).</p></li>
+</ul>
+<ul>
+<li>
+<p>Re-spin RC as needed:</p></li>
+</ul>
+<p>./scripts/build_releases.sh 1.2.0-rc2</p>
+<p>(Do not pass base_ref for re-spins; the workflow will reuse release/1.2.=
+0.)</p>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.2"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-4)PROMOTEARELEASECANDIDATETOFINAL"><strong>4) PROM=
+OTE A RELEASE CANDIDATE TO FINAL</strong></h2>
+<p>When the chosen RC (e.g., rc2) is approved:</p>
+<p>./scripts/promote_release.sh 1.2.0-rc2</p>
+<p></p>
+<p>Result:</p>
+<ul>
+<li>
+<p>Creates final tag v1.2.0 (immutable)</p></li>
+</ul>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.3"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-5)PATCHAPROMOTEDRELEASE(e.g.,produce1.2.1-rc1fromv=
+1.2.0)"><strong>5) PATCH A PROMOTED RELEASE (e.g., produce 1.2.1-rc1 from v=
+1.2.0)</strong></h2>
+<p></p>
+<p>Start from the last final tag (NOT from main):</p>
+<p>./scripts/build_releases.sh 1.2.1-rc1 v1.2.0</p>
+<p></p>
+<p>Result:</p>
+<ul>
+<li>
+<p>Creates/updates release/1.2.1</p></li>
+</ul>
+<ul>
+<li>
+<p>Creates tag v1.2.1-rc1</p></li>
+</ul>
+<p></p>
+<p>Bring in only the required fixes (example cherry-pick flow):</p>
+<p>git fetch =E2=80=93all =E2=80=93tags</p>
+<p>git checkout release/1.2.1</p>
+<p>git cherry-pick -x&nbsp; [=E2=80=A6]</p>
+<p>git push</p>
+<p></p>
+<p>If you added commits after v1.2.1-rc1 already exists, either:</p>
+<ul>
+<li>
+<p>Move the RC tag (allowed for RCs you control):</p></li>
+</ul>
+<p>git tag -d v1.2.1-rc1 &amp;&amp; git push origin :refs/tags/v1.2.1-rc1</=
+p>
+<p>git tag -a v1.2.1-rc1 -m =E2=80=9CUpdate RC after hotfixes=E2=80=9D</p>
+<p>git push origin v1.2.1-rc1</p>
+<p>OR</p>
+<ul>
+<li>
+<p>Create the next RC:</p></li>
+</ul>
+<p>git tag -a v1.2.1-rc2 -m =E2=80=9CSecond RC=E2=80=9D</p>
+<p>git push origin v1.2.1-rc2</p>
+<p></p>
+<p>Promote when ready:</p>
+<p>./scripts/promote_release.sh 1.2.1-rcX</p>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.4"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-6)QUICKDECISIONMATRIX"><strong>6) QUICK DECISION M=
+ATRIX</strong></h2>
+<p></p>
+<ul>
+<li>
+<p>Start new minor line (e.g., 1.3.0-rc1):</p></li>
+</ul>
+<p>./scripts/build_releases.sh 1.3.0-rc1</p>
+<p>(No base_ref =E2=86=92 cut from main/master, or pass a freeze ref.)</p>
+<p></p>
+<ul>
+<li>
+<p>Re-spin RC on same minor (e.g., 1.3.0-rc2):</p></li>
+</ul>
+<p>./scripts/build_releases.sh 1.3.0-rc2</p>
+<p>(Reuses release/1.3.0.)</p>
+<p></p>
+<ul>
+<li>
+<p>Promote RC to final:</p></li>
+</ul>
+<p>./scripts/promote_release.sh 1.3.0-rcN</p>
+<p></p>
+<ul>
+<li>
+<p>Patch a promoted minor (e.g., 1.3.1-rc1):</p></li>
+</ul>
+<p>./scripts/build_releases.sh 1.3.1-rc1 v1.3.0</p>
+<p>(ALWAYS base from the last final tag.)</p>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.5"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-7)BESTPRACTICES&amp;NOTES"><strong>7) BEST PRACTIC=
+ES &amp; NOTES</strong></h2>
+<p></p>
+<ul>
+<li>
+<p>Don=E2=80=99t merge main wholesale into a patch line; cherry-pick only w=
+hat you need.</p></li>
+</ul>
+<ul>
+<li>
+<p>Projects that embed a version (package.json, pyproject.toml, etc.) must =
+be</p></li>
+</ul>
+<p>bumped on the release/X.Y.Z branch before publishing artifacts.</p>
+<ul>
+<li>
+<p>Old RC-suffixed branches from before this policy (e.g., release/1.1.1-rc=
+1)</p></li>
+</ul>
+<p>can be cleaned up once unused:</p>
+<p>git push origin :release/1.1.1-rc1</p>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.6"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-8)FAQ"><strong>8) FAQ</strong></h2>
+<p>Q: What exactly is base_ref?</p>
+<p>A: Any tag/branch/commit in the TARGET repo used as the starting point f=
+or the</p>
+<p>release branch. Examples: v1.1.1, release/1.2.0, a specific SHA. If omit=
+ted,</p>
+<p>new minor lines are cut from main/master.</p>
+<p></p>
+<p>Q: For RC re-spins, do I need base_ref?</p>
+<p>A: No. The workflow will switch to the existing release/X.Y.Z branch if =
+it</p>
+<p>exists and use that head. (It briefly checks out main/master first, then=
+</p>
+<p>checks out and fast-forwards release/X.Y.Z.)</p>
+<p></p>
+<p>Q: Can I promote more than once?</p>
+<p>A: No. Final tags (e.g., v1.2.0) are immutable. If an issue is found aft=
+er</p>
+<p>promotion, bump PATCH and start a new RC (e.g., 1.2.1-rc1 from v1.2.0).<=
+/p>
+<p></p>
+<p>Q: Is it okay to move RC tags?</p>
+<p>A: Yes, if your team controls the consumers. Delete and recreate the RC =
+tag at</p>
+<p>the desired commit. Do NOT move final tags.</p>
+<p></p>
+<p>Q: Which branch of the .github repo runs the workflow?</p>
+<p>A: build_releases.sh uses =E2=80=93ref cicd-integration by default. Chan=
+ge it if your</p>
+<p>workflow is on another branch.</p>
+<p></p>
+<p>Q: How do I verify what I=E2=80=99m building from?</p>
+<p>A:</p>
+<p>git tag -l v1.2.0</p>
+<p>git show =E2=80=93no-patch =E2=80=93decorate v1.2.0</p>
+<p>git branch -r =E2=80=93contains v1.2.0</p>
+<p>git log =E2=80=93oneline v1.2.0..origin/main &nbsp; # what changed on ma=
+in since final</p>
+<p></p>
+<p>Q: What if I need to freeze 1.2.0 earlier than current main?</p>
+<p>A: Pass a base_ref (tag/branch/commit) when creating 1.2.0-rc1:</p>
+<p>./scripts/build_releases.sh 1.2.0-rc1 &lt;base_ref&gt;</p>
+<h2 id=3D"ReleaseProcess-=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D.7"><strong>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D</strong></h2>
+<h2 id=3D"ReleaseProcess-9)NOTE"><strong>9) NOTE </strong></h2>
+<p></p>
+<p></p>
+<p>A final (e.g., 1.2.0) can only be promoted once. If issues are found aft=
+er</p>
+<p>promotion, bump the patch and start a new RC from the last final tag:</p=
+>
+<p>./scripts/build_releases.sh 1.2.1-rc1 v1.2.0</p>
+    </div>
+</body>
+</html>
+------=_Part_194_1630663283.1758123213493--

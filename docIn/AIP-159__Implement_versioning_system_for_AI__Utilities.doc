@@ -1,0 +1,415 @@
+Date: Wed, 17 Sep 2025 15:26:31 +0000 (UTC)
+Message-ID: <2068459050.245.1758122791682@6e9eb9291c45>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_244_1249558822.1758122791682"
+
+------=_Part_244_1249558822.1758122791682
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AIP-159: Implement versioning system for AI+ Utilities</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AIP-159: Implement versioning system for AI+ Utilities</h1>
+    <div class=3D"Section1">
+        <p>It=E2=80=99s high-time we implement a versioning system to keep =
+ourselves straight.</p>
+<p>To implement a versioning system for Python projects on GitHub with auto=
+-incremented versioning, TeamCity builds, and AWS ECR deployment, here=E2=
+=80=99s a detailed step-by-step guide:</p>
+<h1 id=3D"AIP-159:ImplementversioningsystemforAI+Utilities-VersioningStrate=
+gy">Versioning Strategy</h1>
+<p>For AI+ projects, we will use the basic semantic versioning practices <s=
+trong>(MAJOR.MINOR.PATCH)</strong> with an additional <strong>build number<=
+/strong>. We will track :</p>
+<ul>
+<li>
+<p><strong>MAJOR</strong> for new releases a scoped release</p></li>
+<li>
+<p><strong>MINOR</strong> for new features within</p></li>
+<li>
+<p><strong>PATCH</strong> for bug fixes within a release.</p></li>
+<li>
+<p><strong>BUILD</strong> for each TeamCity build</p></li>
+</ul>
+<p></p>
+<p>MAJOR, MINOR, and PATCH releases will be manually committed with a PR. I=
+t will be the job of the committer and pull request viewer to ensure the ve=
+rsioning info is updated as part of the review process. BUILD numbers will =
+be managed by the TeamCity CI/CD pipeline.</p>
+<h1 id=3D"AIP-159:ImplementversioningsystemforAI+Utilities-AI+Utilities">AI=
++ Utilities</h1>
+<p>Each project will have a setup.py: We will include a __version__ variabl=
+e that reads from a version file.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">from setu=
+ptools import setup
+
+# Read version from a version file
+with open("VERSION") as version_file:
+    version =3D version_file.read().strip()
+
+setup(
+    name=3D"your_project",
+    version=3Dversion,
+    # other parameters
+)</pre>
+</div>
+</div>
+<p></p>
+<p>The version file itself is very basic.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: plain; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Vers=
+ioning follows the format: MAJOR.MINOR.PATCH-BUILD
+# Only one line should be present in this file, e.g., 1.0.0-0
+1.0.0-0</pre>
+</div>
+</div>
+<h1 id=3D"AIP-159:ImplementversioningsystemforAI+Utilities-TeamCity">TeamCi=
+ty</h1>
+<p>As part of the build process, we will use a Python script to update the =
+version and build number in a <code>VERSION</code> file. Here=E2=80=99s an =
+example script:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import re
+
+# File name where the current version is stored
+VERSION_FILE =3D "VERSION"
+
+def increment_version(version_file=3DVERSION_FILE):
+    """
+    Reads the current version from the VERSION file, increments the build n=
+umber,
+    and writes the new version back to the VERSION file.
+
+    Version format: MAJOR.MINOR.PATCH-BUILD
+    - MAJOR, MINOR, and PATCH should be updated manually for significant re=
+leases.
+    - BUILD is auto-incremented on every build.
+    """
+    # Open and read the current version
+    with open(version_file, "r") as file:
+        version =3D file.read().strip()
+   =20
+    # Use regular expressions to parse version components
+    # Assumes format: MAJOR.MINOR.PATCH-BUILD
+    major, minor, patch, build =3D map(int, re.match(r"(\d+)\.(\d+)\.(\d+)-=
+(\d+)", version).groups())
+   =20
+    # Increment the build number for the next version
+    build +=3D 1
+    new_version =3D f"{major}.{minor}.{patch}-{build}"
+
+    # Write the new version back to the VERSION file
+    with open(version_file, "w") as file:
+        file.write(new_version)
+   =20
+    # Display the updated version
+    print(f"Updated version to {new_version}")
+
+# Entry point for the script, which increments the version
+if __name__ =3D=3D "__main__":
+    increment_version()</pre>
+</div>
+</div>
+<p>We will run this script in TeamCity=E2=80=99s build steps to update the =
+version before every build.</p>
+<p>In the TeamCity build configuration:</p>
+<ol start=3D"1">
+<li>
+<p>Run the version update script as a step.</p></li>
+<li>
+<p>Commit and tag the updated version.</p></li>
+</ol>
+<h4 id=3D"AIP-159:ImplementversioningsystemforAI+Utilities-TeamCityBuildSte=
+ps:">TeamCity Build Steps:</h4>
+<ol start=3D"1">
+<li>
+<p><strong>Increment Version Step</strong>: Run the versioning script above=
+.</p></li>
+<li>
+<p><strong>Git Commit Step</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">git con=
+fig user.email "teamcity@datacore.com"
+git config user.name "TeamCity"
+git commit -am "Auto-incremented version to $(cat VERSION)"</pre>
+</div>
+</div></li>
+<li>
+<p><strong>Git Tag Step</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">VERSION=
+=3D$(cat VERSION)
+git tag -a "v$VERSION" -m "Build $VERSION"
+git push origin --tags</pre>
+</div>
+</div></li>
+</ol>
+<h3 id=3D"AIP-159:ImplementversioningsystemforAI+Utilities-IntegrateDockerB=
+uildandPushtoAWSECR">Integrate Docker Build and Push to AWS ECR</h3>
+<p>In TeamCity, add steps to:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Build Docker Image</strong>: Use the version as a tag.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">VERSION=
+=3D$(cat VERSION)
+docker build -t aiplus/notification-api:$VERSION .</pre>
+</div>
+</div></li>
+<li>
+<p><strong>Push to ECR</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Log i=
+n to ECR
+aws ecr get-login-password --region us-east-1 | docker login --username AWS=
+ --password-stdin &lt;accountId&gt;.dkr.ecr.us-east-1.amazonaws.com
+docker tag aiplus/notification-api:$VERSION &lt;accountId&gt;.dkr.ecr.your-=
+region.amazonaws.com/aiplus/notification-api:$VERSION
+docker push &lt;accountId&gt;.dkr.ecr.your-region.amazonaws.com/aiplus/noti=
+fication-api:$VERSION</pre>
+</div>
+</div></li>
+</ol>
+<h3 id=3D"AIP-159:ImplementversioningsystemforAI+Utilities-AWSECR">AWS ECR<=
+/h3>
+<p>To keep storage manageable, we should implement a lifecycle policy in AW=
+S ECR to delete old images.</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_244_1249558822.1758122791682--

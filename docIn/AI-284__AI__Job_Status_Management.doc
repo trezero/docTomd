@@ -1,0 +1,610 @@
+Date: Wed, 17 Sep 2025 15:27:34 +0000 (UTC)
+Message-ID: <1350994390.93.1758122854265@cab8eb5b2b09>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_92_1460828961.1758122854264"
+
+------=_Part_92_1460828961.1758122854264
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-284: AI+ Job Status Management</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-284: AI+ Job Status Management</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1758122854193 {padding: 0px;}
+div.rbtoc1758122854193 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758122854193 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1758122854193">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-284:AI+JobStatusManagement-Introduction">Introduction</a=
+></li>
+<li><a href=3D"#AI-284:AI+JobStatusManagement-Design">Design</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-284:AI+JobStatusManagement-Components">Components</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-284:AI+JobStatusManagement-AI+Utility">AI+ Utility</a></=
+li>
+<li><a href=3D"#AI-284:AI+JobStatusManagement-RabbitMQ">RabbitMQ</a></li>
+<li><a href=3D"#AI-284:AI+JobStatusManagement-Redis">Redis</a></li>
+<li><a href=3D"#AI-284:AI+JobStatusManagement-NotificationAPI">Notification=
+ API</a></li>
+</ul></li>
+<li><a href=3D"#AI-284:AI+JobStatusManagement-Workflow">Workflow</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-284:AI+JobStatusManagement-AI+Common">AI+ Common</a></li=
+>
+</ul></li>
+</ul></li>
+<li><a href=3D"#AI-284:AI+JobStatusManagement-Integrations">Integrations</a=
+></li>
+</ul>
+</div>
+<h1 id=3D"AI-284:AI+JobStatusManagement-Introduction">Introduction</h1>
+<p>The current architecture for managing AI job status relies heavily on di=
+rect HTTP callbacks from the AI+ utility to the Notification API utility. T=
+his approach has proven to be unreliable, particularly in scenarios where t=
+he API gateway experiences downtime or restarts. When the Notification API =
+is unavailable, the AI utility's status updates fail, leading to job failur=
+es and an inconsistent system state. This dependency creates a fragile syst=
+em where a single point of failure can disrupt critical AI inference jobs.<=
+/p>
+<p>To address these limitations, this document proposes a redesigned archit=
+ecture that leverages RabbitMQ for asynchronous message queuing and Redis f=
+or persistent job state management. This new design aims to decouple the AI=
+ utility from the Notification API, ensuring reliable status updates, impro=
+ving overall system resilience, and enabling scalability and statelessness =
+of the Notification API.</p>
+<p>The primary issue stems from the direct dependency on HTTP callbacks for=
+ status updates. If the Notification API is unavailable, the AI utility can=
+not communicate its status, leading to job failures. This creates a single =
+point of failure that negatively impacts system reliability. Additionally, =
+the current in-memory job state management within the AI+ utility is volati=
+le, lacking persistence and scalability. This limits the system's ability t=
+o handle high volumes of jobs and recover from failures gracefully.</p>
+<h1 id=3D"AI-284:AI+JobStatusManagement-Design">Design</h1>
+<p>We want something with these general tenents:</p>
+<ul>
+<li>
+<p><strong>Improved Reliability:</strong> Eliminates single points of failu=
+re.</p></li>
+<li>
+<p><strong>Enhanced Scalability:</strong> Leverages RabbitMQ and Redis for =
+high throughput.</p></li>
+<li>
+<p><strong>Simplified Architecture:</strong> Removes the need for complex H=
+TTP callback logic.</p></li>
+<li>
+<p><strong>Centralized Job State Management:</strong> Provides a single sou=
+rce of truth for job status.</p></li>
+<li>
+<p><strong>Increased Flexibility:</strong> Allows for easy integration of d=
+ownstream consumers and other DataCore components (Swarm Object Storage, Pi=
+xit)</p></li>
+</ul>
+<p>Given the above, the proposed solution centers around the integration of=
+ RabbitMQ and Redis to create a robust and scalable job status management s=
+ystem.</p>
+<h2 id=3D"AI-284:AI+JobStatusManagement-Components"><strong>Components</str=
+ong></h2>
+<h3 id=3D"AI-284:AI+JobStatusManagement-AI+Utility"><strong>AI+ Utility </s=
+trong></h3>
+<p>This component initiates AI inference jobs, writes job state to Redis, a=
+nd publishes status updates to RabbitMQ. It is responsible for:</p>
+<ul>
+<li>
+<p>Receiving job requests and initiating the AI inference process.</p></li>
+<li>
+<p>Generating a unique <code>job_id</code> for each job.</p></li>
+<li>
+<p>Writing the initial job state to Redis, including information like <code=
+>job_id</code>, <code>media_file</code>, <code>status</code>, and <code>tim=
+estamp</code>.</p></li>
+<li>
+<p>Publishing status update messages to RabbitMQ whenever the job status ch=
+anges. These messages include the <code>job_id</code>, the new <code>status=
+</code>, and any other relevant information.</p></li>
+<li>
+<p>Updating the job status in Redis as the job progresses (e.g., "processin=
+g," "completed," "failed").</p></li>
+<li>
+<p>Ensuring atomicity of updates to Redis and publishing messages to Rabbit=
+MQ to maintain data consistency.</p></li>
+</ul>
+<h3 id=3D"AI-284:AI+JobStatusManagement-RabbitMQ"><strong>RabbitMQ</strong>=
+</h3>
+<p>This message queue acts as a reliable intermediary for status updates. I=
+t is responsible for:</p>
+<ul>
+<li>
+<p>Receiving status update messages from the AI Utility.</p></li>
+<li>
+<p>Routing messages to the correct queue based on routing keys or exchange =
+configurations.</p></li>
+<li>
+<p>Providing persistence and delivery guarantees to ensure that messages ar=
+e not lost.</p></li>
+<li>
+<p>Enabling asynchronous communication between the AI Utility and the API G=
+ateway.</p></li>
+</ul>
+<h3 id=3D"AI-284:AI+JobStatusManagement-Redis"><strong>Redis </strong></h3>
+<p>This in-memory data store provides persistent storage for job state. It =
+is responsible for:</p>
+<ul>
+<li>
+<p>Storing job details such as <code>job_id</code>, <code>media_file</code>=
+, <code>status</code>, <code>timestamp</code>, and other relevant informati=
+on.</p>
+<ul>
+<li>
+<p>Providing fast read and write access to job state data.</p></li>
+<li>
+<p>Offering data persistence through mechanisms like RDB or AOF files.</p><=
+/li>
+<li>
+<p>Enabling efficient management of job state data using data structures li=
+ke hashes and sets.</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"AI-284:AI+JobStatusManagement-NotificationAPI"><strong>Notificati=
+on API </strong></h3>
+<p>This component consumes status updates from RabbitMQ and sends notificat=
+ions to upstream consumers. It is responsible for:</p>
+<ul>
+<li>
+<p>Subscribing to the appropriate RabbitMQ queue to receive status update m=
+essages.</p>
+<ul>
+<li>
+<p>Reading the current job state from Redis using the <code>job_id</code> i=
+ncluded in the message.</p></li>
+<li>
+<p>Determining the appropriate downstream consumers to notify based on the =
+job status and other relevant information.</p></li>
+<li>
+<p>Sending notifications to downstream consumers (e.g., via webhooks)</p></=
+li>
+<li>
+<p>Acknowledging processed messages in RabbitMQ to prevent redelivery.</p><=
+/li>
+</ul></li>
+</ul>
+<h2 id=3D"AI-284:AI+JobStatusManagement-Workflow">Workflow</h2>
+<ol start=3D"1">
+<li>
+<p>The AI+ Utility receives a job request and initiates the inference proce=
+ss.</p></li>
+<li>
+<p>The AI+ Utility generates a unique <code>job_id</code> and writes the in=
+itial job state to Redis, including information like <code>job_id</code>, <=
+code>media_file</code>, <code>status</code>, and <code>timestamp</code>.</p=
+></li>
+<li>
+<p>The AI+ Utility publishes a status update message to a designated Rabbit=
+MQ exchange. This message includes the <code>job_id</code>, <code>status</c=
+ode>, and any other relevant information.</p></li>
+<li>
+<p>RabbitMQ routes the message to a dedicated queue.</p></li>
+<li>
+<p>The Notification API, acting as a consumer, retrieves messages from the =
+RabbitMQ queue.</p></li>
+<li>
+<p>Upon receiving a status update, the API Gateway reads the current job st=
+ate from Redis using the <code>job_id</code>.</p></li>
+<li>
+<p>Based on the job status and any other relevant information, the Notifica=
+tion API sends notifications to downstream consumers (e.g., via webhooks)</=
+p></li>
+<li>
+<p>The Notification API acknowledges the message in RabbitMQ.</p></li>
+<li>
+<p>Downstream consumers receive notifications and perform actions based on =
+the job status, such as sending notifications, updating databases, or trigg=
+ering other processes.</p></li>
+</ol>
+<p></p>
+<p>Redis hashes provide an efficient way to store job details, allowing for=
+ quick retrieval and updates. Unique <code>job_id</code> generation is cruc=
+ial. UUID's generated by the incoming API call are preferred. Redis TTLs ar=
+e used to manage data retention, ensuring that job data is automatically re=
+moved after a specified period. Redis sets or sorted sets can be used to ma=
+nage collections of jobs, such as active jobs or completed jobs.</p>
+<p>The proposed architecture completely eliminates the need for direct HTTP=
+ callbacks. All status updates and job completion events are managed within=
+ the RabbitMQ and Redis ecosystem. This decoupling significantly improves s=
+ystem reliability and eliminates the risk of job failures due to Notificati=
+on API unavailability.</p>
+<p>By removing the reliance on HTTP callbacks and utilizing RabbitMQ and Re=
+dis, the Notification API can be scaled horizontally. Multiple instances of=
+ the Notification API can be deployed to handle increased request loads. Th=
+e Notification API does not need to maintain any local job state, as all jo=
+b information is stored in Redis. This allows for easy scaling and failover=
+. Furthermore, requests can be load-balanced across multiple Notification A=
+PI instances.</p>
+<p></p>
+<ul>
+<li>
+<p>The architecture allows for multiple downstream consumers to listen to t=
+he job completion queue.</p></li>
+<li>
+<p><strong>Synchronization Considerations:</strong></p>
+<ul>
+<li>
+<p><strong>Idempotency:</strong> Ensure that downstream consumers can handl=
+e duplicate messages without causing unintended side effects.</p></li>
+<li>
+<p><strong>Distributed Locking:</strong> If necessary, implement distribute=
+d locking mechanisms (e.g., using Redis) to coordinate actions between mult=
+iple consumers.</p></li>
+<li>
+<p><strong>Message Ordering:</strong> If message order is critical, ensure =
+that RabbitMQ delivers messages in the required order.</p></li>
+</ul></li>
+</ul>
+<p><strong>3.7. Downstream Consumer Design:</strong></p>
+<ul>
+<li>
+<p>Downstream consumers receive notifications from the API Gateway and perf=
+orm actions based on the job status.</p></li>
+<li>
+<p>They can perform various actions, such as sending notifications, updatin=
+g databases, or triggering other processes.</p></li>
+<li>
+<p>These consumers are designed to be independent and scalable, allowing fo=
+r flexible handling of job completion events.</p></li>
+</ul>
+<p></p>
+<h3 id=3D"AI-284:AI+JobStatusManagement-AI+Common"><strong>AI+ Common</stro=
+ng></h3>
+<p>Because the job handling and queue management is integral to the AI+ eco=
+system, it should be in a common library so that all utilities can implemen=
+t it seamlessly.</p>
+<p>Example utility implementation:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import re=
+dis
+import pika
+import uuid
+
+# Redis connection
+redis_client =3D redis.Redis(host=3D'localhost', port=3D6379, db=3D0)
+
+# RabbitMQ connection parameters
+credentials =3D pika.PlainCredentials('guest', 'guest')
+connection =3D pika.BlockingConnection(pika.ConnectionParameters('localhost=
+', credentials=3Dcredentials))
+channel =3D connection.channel()
+
+# Declare the job status queue
+channel.queue_declare(queue=3D'job_status_queue')
+
+def process_job(media_file):
+    job_id =3D str(uuid.uuid4())
+
+    # Write initial job state to Redis
+    redis_client.hset(f"job:{job_id}", mapping=3D{
+        "status": "started",
+        "media_file": media_file,
+        "timestamp": datetime.datetime.now().isoformat()
+    })
+
+    # Publish initial status message to RabbitMQ
+    channel.basic_publish(exchange=3D'', routing_key=3D'job_status_queue', =
+body=3Djob_id)
+
+    # ... (Process the AI inference job) ...
+
+    # Update job status in Redis and publish to RabbitMQ as the job progres=
+ses
+    # ...
+
+    # Example: Job completed
+    redis_client.hset(f"job:{job_id}", "status", "completed")
+    channel.basic_publish(exchange=3D'', routing_key=3D'job_status_queue', =
+body=3Djob_id)
+
+# Example usage
+process_job("/path/to/media.mp4")
+</pre>
+</div>
+</div>
+<p></p>
+<p>The Notification API can implement something like the following:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import pi=
+ka
+import redis
+
+# RabbitMQ connection parameters
+credentials =3D pika.PlainCredentials('guest', 'guest')
+connection =3D pika.BlockingConnection(pika.ConnectionParameters('localhost=
+', credentials=3Dcredentials))
+channel =3D connection.channel()
+
+# Declare the job status queue
+channel.queue_declare(queue=3D'job_status_queue')
+
+# Redis connection
+redis_client =3D redis.Redis(host=3D'localhost', port=3D6379, db=3D0)
+
+def callback(ch, method, properties, body):
+    job_id =3D body.decode()
+
+    # Read job status from Redis
+    job_status =3D redis_client.hget(f"job:{job_id}", "status")
+
+    # Send notifications based on job status
+    # ...
+
+    # Acknowledge the message
+    ch.basic_ack(delivery_tag=3Dmethod.delivery_tag)
+
+# Consume messages from the queue
+channel.basic_consume(queue=3D'job_status_queue', on_message_callback=3Dcal=
+lback)
+
+print(' [*] Waiting for messages. To exit press CTRL+C')
+channel.start_consuming()
+</pre>
+</div>
+</div>
+<p></p>
+<h1 id=3D"AI-284:AI+JobStatusManagement-Integrations">Integrations</h1>
+<p>The inherent flexibility and decoupling provided by the RabbitMQ archite=
+cture allows for seamless integration of additional system components, such=
+ as our upcoming SOS and Ngenea integrations. By leveraging RabbitMQ as a c=
+entral messaging backbone, we can establish efficient and reliable communic=
+ation pathways between various services, fostering interoperability and ext=
+ensibility within our ecosystem.</p>
+<p>For instance, with the SOS integration, the file events generated from o=
+ur Object Storage pipeline can be published to a dedicated exchange in Rabb=
+itMQ. The NotificationAPI, already configured as a consumer, can subscribe =
+to this exchange and receive these file events. Upon receiving an event tha=
+t triggers an AI job, the NotificationAPI can parse the event data, extract=
+ relevant information like the file path, and subsequently make an HTTP req=
+uest to the appropriate AI utility to initiate the job. This approach maint=
+ains the decoupling between components, as the SOS pipeline remains unaware=
+ of the AI utilities, and the NotificationAPI acts as an intermediary, faci=
+litating communication through well-defined messages.</p>
+<p>Similarly, the Ngenea integration can follow a similar pattern. File eve=
+nts from the NVMe storage, once published to RabbitMQ, can be consumed by t=
+he NotificationAPI, which would then trigger the relevant AI utility based =
+on the event data. This consistent approach to integrating new components u=
+sing RabbitMQ as the messaging backbone promotes a modular and scalable arc=
+hitecture. Furthermore, by utilizing RabbitMQ's features like topic-based r=
+outing, we can create fine-grained subscriptions, allowing consumers to sel=
+ectively receive only the events they are interested in. This enhances effi=
+ciency and reduces unnecessary message processing. This extensible architec=
+ture enables us to seamlessly incorporate future components and services, f=
+ostering a cohesive and interconnected ecosystem driven by the robust capab=
+ilities of RabbitMQ.</p>
+    </div>
+</body>
+</html>
+------=_Part_92_1460828961.1758122854264--

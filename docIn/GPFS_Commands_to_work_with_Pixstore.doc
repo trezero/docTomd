@@ -1,0 +1,353 @@
+Date: Wed, 17 Sep 2025 15:31:51 +0000 (UTC)
+Message-ID: <474193033.41.1758123111470@beee481623a0>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_40_1978078401.1758123111470"
+
+------=_Part_40_1978078401.1758123111470
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>GPFS Commands to work with Pixstore</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>GPFS Commands to work with Pixstore</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"GPFSCommandstoworkwithPixstore-EverydayCommands">Everyday=
+ Commands</h1>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-CheckGPFSState">Check GPFS State</=
+h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/usr/lp=
+p/mmfs/bin/mmgetstate -a
+</pre>
+</div>
+</div>
+<p>Shows the state of all nodes in the GPFS cluster.</p>
+<hr>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-StartGPFS">Start GPFS</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/usr/lp=
+p/mmfs/bin/mmstartup -a
+</pre>
+</div>
+</div>
+<p>Starts GPFS on all nodes.</p>
+<hr>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-MountFilesystem">Mount Filesystem<=
+/h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/usr/lp=
+p/mmfs/bin/mmmount mmfs1 -a
+</pre>
+</div>
+</div>
+<p>Mounts the <code>mmfs1</code> filesystem across all nodes.</p>
+<p>Check mount:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/usr/lp=
+p/mmfs/bin/mmlsmount mmfs1
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-VerifyMountedFilesystem">Verify Mo=
+unted Filesystem</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">df -h |=
+ grep mmfs
+</pre>
+</div>
+</div>
+<p>Shows mounted GPFS filesystems and usage.</p>
+<hr>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-Node-SpecificOperations">Node-Spec=
+ific Operations</h2>
+<h3 id=3D"GPFSCommandstoworkwithPixstore-CheckGPFSstateforasinglenode">Chec=
+k GPFS state for a single node</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/usr/lp=
+p/mmfs/bin/mmgetstate -N &lt;node-name&gt;
+</pre>
+</div>
+</div>
+<h3 id=3D"GPFSCommandstoworkwithPixstore-Mountmmfs1onasinglenode">Mount <co=
+de>mmfs1</code> on a single node</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/usr/lp=
+p/mmfs/bin/mmmount mmfs1 -N &lt;node-name&gt;
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-SSH&amp;KnownHostsManagement">SSH =
+&amp; Known Hosts Management</h2>
+<h3 id=3D"GPFSCommandstoworkwithPixstore-ClearandRefreshSSHKeys">Clear and =
+Refresh SSH Keys</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">for h i=
+n per-ai alt-mn-001.pixstor alt-sn-001.pixstor alt-gw-001.pixstor alt-ng-00=
+1.pixstor alt-nvme-001.pixstor \
+         127.0.1.1 10.100.0.1 10.100.0.2 10.100.0.3 10.100.0.4 10.100.0.5 ;=
+ do
+  ssh-keygen -R "$h" &gt;/dev/null 2&gt;&amp;1 || true
+done
+
+ssh-keyscan -H per-ai alt-mn-001.pixstor alt-sn-001.pixstor alt-gw-001.pixs=
+tor alt-ng-001.pixstor alt-nvme-001.pixstor \
+             10.100.0.1 10.100.0.2 10.100.0.3 10.100.0.4 10.100.0.5 &gt;&gt=
+; ~/.ssh/known_hosts
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"GPFSCommandstoworkwithPixstore-QuickFilesystemAccess">Quick Files=
+ystem Access</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ls -lah=
+ /mmfs1
+ls -lah /mmfs1/data
+ls -lah /mmfs1/data/space01
+</pre>
+</div>
+</div>
+<p>Use these to validate access and contents of the Pixit filesystem.</p>
+    </div>
+</body>
+</html>
+------=_Part_40_1978078401.1758123111470--

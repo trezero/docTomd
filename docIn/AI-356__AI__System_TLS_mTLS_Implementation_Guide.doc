@@ -1,0 +1,807 @@
+Date: Wed, 17 Sep 2025 15:27:56 +0000 (UTC)
+Message-ID: <66407367.31.1758122876488@d5dd273e9852>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_770308579.1758122876487"
+
+------=_Part_30_770308579.1758122876487
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-356: AI+ System TLS/mTLS Implementation Guide</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-356: AI+ System TLS/mTLS Implementation Guide</h1>
+    <div class=3D"Section1">
+        <p></p>
+<p>This guide documents our approach to implementing Transport Layer Securi=
+ty (TLS) and mutual TLS (mTLS) across the AI+ system. We'll be securing com=
+munications between all components in our architecture, including the Notif=
+icationAPI gateway, microservices (Metagen, VisageAI, ObjectRecognition, et=
+c.), vector databases (Chroma, Milvus), and Hashicorp tools (Consul, Vault)=
+. Per corporate requirements, we're using Let's Encrypt certificates for al=
+l TLS implementations.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-ArchitectureStrategy"=
+>Architecture Strategy</h2>
+<p>Our TLS implementation follows a phased approach:</p>
+<p>Phase 1: Let's Encrypt with Shared Certificates</p>
+<ul>
+<li>
+<p>Single certificate with Subject Alternative Names (SANs) for all service=
+s</p></li>
+<li>
+<p>Filesystem-based certificate storage</p></li>
+<li>
+<p>Automated renewal via certbot</p></li>
+<li>
+<p>Simple certificate distribution through file system</p></li>
+</ul>
+<p>Phase 2: Vault-based PKI Implementation</p>
+<ul>
+<li>
+<p>Vault as certificate authority</p></li>
+<li>
+<p>Dynamic certificate generation</p></li>
+<li>
+<p>Service-specific certificates with shorter lifetimes</p></li>
+<li>
+<p>Automated rotation handled by Vault</p></li>
+</ul>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-DomainStructure">Doma=
+in Structure</h2>
+<p>For our internal systems, we're using a subdomain structure under <a cla=
+ss=3D"external-link" href=3D"http://aiplus.perifery.com" rel=3D"nofollow">a=
+iplus.perifery.com</a>:</p>
+<ul>
+<li>
+<p>Each internal system gets its own CN: [system-name].aiplus.perifery.com<=
+/p></li>
+<li>
+<p>All services within a system are included as SANs</p></li>
+<li>
+<p>DNS managed through Route53</p></li>
+</ul>
+<p>Example for our lambda2 system:</p>
+<ul>
+<li>
+<p>CN: <a class=3D"external-link" href=3D"http://lambda2.aiplus.perifery.co=
+m" rel=3D"nofollow">lambda2.aiplus.perifery.com</a></p></li>
+<li>
+<p>SANs:</p>
+<ul>
+<li>
+<p><a class=3D"external-link" href=3D"http://notificationapi.lambda2.aiplus=
+.perifery.com" rel=3D"nofollow">notificationapi.lambda2.aiplus.perifery.com=
+</a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"http://metagen.lambda2.aiplus.perifer=
+y.com" rel=3D"nofollow">metagen.lambda2.aiplus.perifery.com</a></p></li>
+<li>
+<p><a class=3D"external-link" href=3D"http://visageai.lambda2.aiplus.perife=
+ry.com" rel=3D"nofollow">visageai.lambda2.aiplus.perifery.com</a></p></li>
+<li>
+<p>etc.</p></li>
+</ul></li>
+</ul>
+<p>For customer systems, the domain structure is yet to be finalized. Howev=
+er, we're strongly considering using our own domain structure in the form o=
+f [customer-name].aiplus.perifery.com. This approach offers several advanta=
+ges. First, it gives us complete control over DNS management and certificat=
+e issuance/renewal, eliminating dependencies on customer DNS teams that cou=
+ld delay updates. Second, using our domain simplifies our certificate manag=
+ement infrastructure, allowing consistent processes across all deployments.=
+ Finally, this standardization makes scaling our operations more straightfo=
+rward, as we don't need to develop customer-specific certificate handling p=
+rocesses.</p>
+<p>Since we own the Perifery domain and have full control through Route53, =
+we can easily automate Let's Encrypt certificate issuance and renewal using=
+ the certbot DNS plugin for Route53. This provides a fully automated certif=
+icate management solution without needing HTTP validation, which is particu=
+larly useful for services that aren't publicly accessible.</p>
+<p>While using customer domains might seem more "native" to their environme=
+nts, the operational complexity it introduces often outweighs the benefits.=
+ Our experience shows that certificate management is a significant operatio=
+nal burden that's best kept under our control. Additionally, since our serv=
+ices are typically accessed through customer applications rather than direc=
+tly by end users, the domain names are largely transparent to users.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-Air-GappedEnvironment=
+s">Air-Gapped Environments</h2>
+<p>For deployment in air-gapped environments (such as government agencies),=
+ special consideration will be needed during Phase 2 of our implementation.=
+ When configuring Vault as a certificate authority, these environments pres=
+ent unique challenges as they have no internet connectivity, making Let's E=
+ncrypt certificate issuance impossible through standard methods.</p>
+<p>For Phase 2 in air-gapped environments, we will need to adapt our Vault =
+PKI implementation:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Customer-provided root/intermediate CA</strong>: Instead of usin=
+g Let's Encrypt certificates as our intermediate CA in Vault, we would impo=
+rt the customer's existing internal CA certificates. Vault would then issue=
+ service certificates chained to their trusted root.</p></li>
+<li>
+<p><strong>Offline CA initialization</strong>: We would initialize Vault's =
+PKI engine using an offline process, generating and signing the intermediat=
+e CA before deployment, then importing it into the air-gapped Vault instanc=
+e.</p></li>
+<li>
+<p><strong>HSM integration with Vault</strong>: For high-security environme=
+nts, Vault can be configured to use Hardware Security Modules for cryptogra=
+phic operations, keeping private keys in tamper-resistant hardware.</p></li=
+>
+</ol>
+<p>This specialized approach is not in scope for Phase 1 of our implementat=
+ion, which focuses on standard environments with internet connectivity. The=
+ air-gapped implementation details will be developed specifically for Phase=
+ 2 as needed for particular customer requirements.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-CertificateAcquisitio=
+nandManagement">Certificate Acquisition and Management</h2>
+<p>For our Phase 1 implementation, we obtain a single Let's Encrypt certifi=
+cate containing all service domains as Subject Alternative Names:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ce=
+rtbot certonly --standalone \
+  --email admin@perifery.com \
+  --agree-tos \
+  -d lambda2.aiplus.perifery.com \
+  -d notificationapi.lambda2.aiplus.perifery.com \
+  -d metagen.lambda2.aiplus.perifery.com \
+  # ... additional service domains
+</pre>
+</div>
+</div>
+<p>This approach simplifies certificate management while still providing pr=
+oper TLS security for each service.</p>
+<p>We automate certificate renewal using a simple cron job that:</p>
+<ol start=3D"1">
+<li>
+<p>Attempts to renew certificates via certbot</p></li>
+<li>
+<p>Copies renewed certificates to a shared location</p></li>
+<li>
+<p>Distributes certificates to all servers</p></li>
+<li>
+<p>Signals services to reload certificates when necessary</p></li>
+</ol>
+<p>The renewal script runs monthly but only actually renews certificates wh=
+en they're within 30 days of expiration.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-AI+Common">AI+ Common=
+</h2>
+<p>Our Common Library implementation abstracts certificate management and p=
+rovides a consistent interface for enabling TLS/mTLS in all services.</p>
+<p>We will create an abstract provider interface that decouples certificate=
+ acquisition from usage. This separation allows us to swap implementation d=
+etails without changing service code. In Phase 1, we use a simple provider =
+that reads certificates from the filesystem.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Basic c=
+ertificate provider interface
+class CertificateProvider:
+    def get_certificate(self):
+        """Return tuple of (cert_path, key_path, ca_path)"""
+        pass</pre>
+</div>
+</div>
+<p>In Phase 2, we'll use a provider that obtains certificates dynamically f=
+rom Vault. This abstraction is key to our phased approach, allowing service=
+s to transition gradually without code changes.<br><br></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">class Vau=
+ltCertificateProvider(CertificateProvider):
+    def get_certificate(self):
+        # We will authenticate to Vault and request certificate, etc...
+        return (cert_path, key_path, ca_path)</pre>
+</div>
+</div>
+<p>The TLS configuration handles certificate validation, SSL context creati=
+on with secure defaults, TLS version management (supporting TLS 1.2/1.3), c=
+ipher suite selection, and mTLS options for client certificate validation. =
+We've implemented sane defaults that work out-of-the-box but can be customi=
+zed when needed. The default TLS configurations are:</p>
+<ul>
+<li>
+<p>Minimum TLS version: 1.2</p></li>
+<li>
+<p>Preferred cipher suites: [List the suites] (Add the list of cipher suite=
+s here)</p></li>
+<li>
+<p>Certificate validation: Enabled, using the system's trust store.</p></li=
+>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">def run=
+_with_https(app, host=3D"0.0.0.0", port=3D8443):
+    cert_provider =3D FileCertificateProvider()  # Or VaultCertificateProvi=
+der
+    cert_path, key_path, ca_path =3D cert_provider.get_certificate()
+   =20
+    uvicorn.run(
+        app,=20
+        host=3Dhost,=20
+        port=3Dport,
+        ssl_certfile=3Dcert_path,
+        ssl_keyfile=3Dkey_path
+    )</pre>
+</div>
+</div>
+<p>The library provides simple integration with FastAPI applications throug=
+h middleware for security headers (HSTS), Uvicorn configuration for HTTPS, =
+and graceful fallback if certificates aren't available. The library handles=
+ certificate loading/validation failures as follows:</p>
+<ul>
+<li>
+<p>If certificates are unavailable at startup: The service will log an erro=
+r and may terminate, depending on a configuration setting. The default beha=
+vior is to terminate.</p></li>
+<li>
+<p>If a certificate becomes invalid during runtime: The service will log an=
+ error and attempt to reload. If reloading fails, the service will terminat=
+e.</p></li>
+</ul>
+<p>Our implementation specifically addresses mutual TLS requirements:</p>
+<ul>
+<li>
+<p>Server Certificate Validation: All services validate certificates presen=
+ted by servers they connect to</p></li>
+<li>
+<p>Client Certificate Validation: Services can optionally require and valid=
+ate client certificates. This is configured using the require_client_cert f=
+lag in the TLS configuration. When set to True, the server will request and=
+ validate client certificates.</p></li>
+<li>
+<p>Certificate Issuance Control: We control who can obtain valid certificat=
+es</p></li>
+</ul>
+<p>This creates a zero-trust security model where both the client and serve=
+r validate each other's identity.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-DockerIntegration">Do=
+cker Integration</h2>
+<p>In containerized environments, certificates need to be accessible inside=
+ the containers while maintaining security. Here's our approach for each ph=
+ase:</p>
+<p>Phase 1: Filesystem-based Certificates</p>
+<p>In Phase 1, we map the host certificate directory into containers as a r=
+ead-only volume:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Conce=
+ptual Docker Compose example
+services:
+  microservice:
+    volumes:
+      - /etc/aiplus/certs/shared:/app/certs:ro
+    environment:
+      - SSL_CERT_FILE=3D/app/certs/fullchain.pem
+      - SSL_KEY_FILE=3D/app/certs/privkey.pem
+</pre>
+</div>
+</div>
+<p>The /etc/aiplus/certs/shared directory on the host contains the shared c=
+ertificates. This directory is mapped to /app/certs inside each container. =
+The :ro flag ensures certificates are read-only within containers. Environm=
+ent variables tell the application where to find the certificates. Certific=
+ate renewal only requires updating files on the host. The distribution of t=
+hese updated certificates to the hosts is handled by secure copy, or even T=
+erraform. Access to the certificate directory on the host is restricted to =
+the root user and the cert-manager group, with read-only permissions for th=
+e group.</p>
+<p>In Phase 2, containers will obtain certificates directly from Vault:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Conce=
+ptual Docker Compose example for Phase 2
+services:
+  microservice:
+    environment:
+      - VAULT_ADDR=3Dhttps://vault.lambda2.aiplus.perifery.com:8200
+      - VAULT_ROLE=3Dmicroservice
+      # Service will use these to authenticate to Vault
+      - VAULT_TOKEN_PATH=3D/run/secrets/vault-token
+    secrets:
+      - vault-token
+</pre>
+</div>
+</div>
+<p>In this approach, no certificate volumes are needed. Services authentica=
+te to Vault and request certificates on startup. Certificates are stored in=
+ memory or in ephemeral storage. Certificate renewal happens automatically =
+through Vault. Each service receives a unique certificate appropriate for i=
+ts identity.</p>
+<p>The VAULT_TOKEN_PATH environment variable points to a file containing a =
+Vault token. This token is provisioned as a Kubernetes secret (or Docker se=
+cret, if not in Kubernetes) and mounted into the container. The token has a=
+ limited lifetime and is rotated automatically using Vault Agent with auto-=
+auth, leveraging a more secure authentication method such as AppRole.</p>
+<p>Local Installation</p>
+<p>I'll create a detailed wiki section on managing certificates for local T=
+LS/mTLS development.</p>
+<h1 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-LocalTLS/mTLSDevelopm=
+ent">Local TLS/mTLS Development</h1>
+<p>This section is strictly for configuring locally-run microservices to ac=
+cess Let's Encrypt certificates on a development environment. These steps e=
+nsure TLS/mTLS functions properly during local development while using the =
+same production certificates.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>Note that this section applies ONLY to <strong>development</strong>. We =
+should not be changing groups or ownership in production!</p>
+</div>
+</div>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-CertificateAccessConf=
+iguration">Certificate Access Configuration</h2>
+<p>The easiest way to get access to the certs is to change the group owners=
+hip. On the Lambda machines, there is a group called =E2=80=9Caiplus=E2=80=
+=9D we use for managing access to shared resources.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Creat=
+e a dedicated group for certificate access (if it doesn't exist)
+sudo groupadd aiplus</pre>
+</div>
+</div>
+<p>We will need to configure Directory and File Permissions</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Set p=
+roper group permissions on certificate directories
+sudo chmod 755 /etc/letsencrypt
+sudo chmod 755 /etc/letsencrypt/live
+sudo chmod 750 /etc/letsencrypt/archive
+
+# Set group ownership
+sudo chgrp aiplus /etc/letsencrypt/live
+sudo chgrp -R aiplus /etc/letsencrypt/archive/lambda2.aiplus.perifery.com
+
+# Make certificate files readable by the group
+sudo chmod -R g+rx /etc/letsencrypt/archive/lambda2.aiplus.perifery.com
+
+# Ensure private keys have restricted permissions
+sudo chmod 640 /etc/letsencrypt/archive/lambda2.aiplus.perifery.com/privkey=
+1.pem
+
+# Set execute bit on necessary directories to make symlinks traversable
+sudo chmod g+x /etc/letsencrypt/archive
+sudo chmod g+x /etc/letsencrypt/archive/lambda2.aiplus.perifery.com
+</pre>
+</div>
+</div>
+<p>Make sure the username is added to the group that owns the certificate.<=
+/p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Add y=
+our user to the certificate access group
+sudo usermod -a -G aiplus &lt;username&gt;
+</pre>
+</div>
+</div>
+<p>In Consul, we will need to update each service's configuration to use th=
+e Let's Encrypt certificates:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">tls:
+  enabled: true
+  provider_type: file
+  certificate:
+    file:
+      cert_dir: /etc/letsencrypt/live/lambda2.aiplus.perifery.com
+      cert_file: fullchain.pem
+      key_file: privkey.pem
+</pre>
+</div>
+</div>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-HostnameConfiguration=
+">Hostname Configuration</h2>
+<p>If the CN and SANs do not map to an IP address, accessing the FastAPI pa=
+ge on the machine will produce security warnings. To address these certific=
+ate name validation issues, the easiest thing to do is map the IP address t=
+o the host.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Add e=
+ntries to /etc/hosts
+sudo nano /etc/hosts
+
+# Add lines like:
+127.0.0.1 lambda2.aiplus.perifery.com
+127.0.0.1 asr-service.lambda2.aiplus.perifery.com
+127.0.0.1 vlm-service.lambda2.aiplus.perifery.com
+# Add all relevant service hostnames
+</pre>
+</div>
+</div>
+<p>We can also update the service configuration to use the hostnames that m=
+atch the certificate:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Examp=
+le configuration
+config.update({
+    "service": {
+        "host": "asr-service.lambda2.aiplus.perifery.com",
+        "port": 8443
+    }
+})
+</pre>
+</div>
+</div>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-TroubleshootingCertif=
+icateAccess">Troubleshooting Certificate Access</h2>
+<p>Here=E2=80=99s some simple and easy steps we can take if we encounter de=
+bugging issues.</p>
+<ol start=3D"1">
+<li>
+<p><strong>Verify group membership</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">groups =
+&lt;username&gt;
+</pre>
+</div>
+</div>
+<p>Ensure <code>aiplus</code> appears in the list. You may need to log out =
+and back in for group changes to take effect.</p></li>
+<li>
+<p><strong>Check file ownership and permissions</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ls -la =
+/etc/letsencrypt/live/lambda2.aiplus.perifery.com/
+ls -la /etc/letsencrypt/archive/lambda2.aiplus.perifery.com/
+</pre>
+</div>
+</div>
+<p>Verify group ownership and permissions are correct.</p></li>
+<li>
+<p><strong>Test certificate accessibility</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">openssl=
+ x509 -in /etc/letsencrypt/live/lambda2.aiplus.perifery.com/fullchain.pem -=
+text -noout
+</pre>
+</div>
+</div>
+<p>This command should run without permission errors.</p></li>
+</ol>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-CertificateRenewalCon=
+siderations">Certificate Renewal Considerations</h2>
+<p>When Let's Encrypt certificates are renewed:</p>
+<ol start=3D"1">
+<li>
+<p>The symlinks in <code>/etc/letsencrypt/live/</code> will point to new fi=
+les</p></li>
+<li>
+<p>We need to ensure the renewal process maintains the correct permissions<=
+/p></li>
+<li>
+<p>We should add a post-renewal hook to fix permissions:</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Add t=
+o /etc/letsencrypt/renewal-hooks/post/fix-permissions.sh
+#!/bin/bash
+chgrp -R aiplus /etc/letsencrypt/archive/lambda2.aiplus.perifery.com
+chmod -R g+rx /etc/letsencrypt/archive/lambda2.aiplus.perifery.com
+chmod 640 /etc/letsencrypt/archive/lambda2.aiplus.perifery.com/privkey*.pem
+</pre>
+</div>
+</div>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-ConsulandVaultTLSConf=
+iguration">Consul and Vault TLS Configuration</h2>
+<p>Consul requires certificates for both its server-to-server and client-to=
+-server communications. Our approach is to mount certificates into Consul c=
+ontainers, configure TLS settings to require verification for both incoming=
+ and outgoing connections, disable HTTP endpoints (forcing all API communic=
+ations over HTTPS), and enable Consul Connect with TLS for service mesh cap=
+abilities.</p>
+<p>Verify both incoming and outgoing connections, use the shared certificat=
+e for server identification, secure RPC, HTTP and gossip protocols, and set=
+ minimum TLS version to 1.2.</p>
+<p>Consul Connect will use the certificates to establish mTLS connections b=
+etween services. Each service will present its certificate to other service=
+s, and verify the certificates of the services it connects to, based on the=
+ service identity provided by Consul.</p>
+<p>Vault's TLS configuration is similar but includes additional settings fo=
+r its role as a certificate authority. We secure the Vault API and UI with =
+TLS, configure the PKI secrets engine for certificate issuance (Phase 2), s=
+et up certificate roles that map to service types, and implement authentica=
+tion methods for services to obtain certificates.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-VaultPKIImplementatio=
+n">Vault PKI Implementation</h2>
+<p>In Phase 2, we'll leverage Vault's PKI secrets engine to enhance our cer=
+tificate management.</p>
+<p>For initial setup, we configure Vault's PKI secrets engine, set up a cer=
+tificate authority hierarchy, and define certificate roles and policies.</p=
+>
+<p>To use our Let's Encrypt certificate as an intermediate CA in Vault:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># 1. Im=
+port the Let's Encrypt certificate chain and private key into Vault
+vault write pki/config/ca \
+  pem_bundle=3D@/etc/aiplus/certs/shared/fullchain-and-key.pem
+
+# 2. Set up a role for issuing service certificates
+vault write pki/roles/service-role \
+  allowed_domains=3D"lambda2.aiplus.perifery.com,*.lambda2.aiplus.perifery.=
+com" \
+  allow_subdomains=3Dtrue \
+  max_ttl=3D"72h"</pre>
+</div>
+</div>
+<p>The imported Let's Encrypt certificate serves as an intermediate CA that=
+ Vault uses to sign service certificates. This maintains the trust chain ba=
+ck to Let's Encrypt while allowing Vault to dynamically issue certificates.=
+ Since Let's Encrypt certificates expire after 90 days, we'll need to updat=
+e the Vault CA configuration when we renew our Let's Encrypt certificates.<=
+/p>
+<p>For service integration, services authenticate to Vault using appropriat=
+e credentials, request certificates with specific parameters (CN, SANs, TTL=
+), Vault issues short-lived certificates (24-72 hours), and services automa=
+tically renew certificates before expiration.</p>
+<p>The advantages of this approach include dynamic certificate issuance, au=
+tomatic rotation, fine-grained access control, comprehensive audit logging,=
+ and shorter certificate lifetimes for enhanced security.</p>
+<h2 id=3D"AI-356:AI+SystemTLS/mTLSImplementationGuide-KubernetesMigration">=
+Kubernetes Migration</h2>
+<p>When transitioning to Kubernetes, our TLS implementation will evolve:</p=
+>
+<ul>
+<li>
+<p>Certificate Storage: Using Kubernetes Secrets instead of filesystem</p><=
+/li>
+<li>
+<p>Certificate Distribution: Leveraging Kubernetes mechanisms</p></li>
+<li>
+<p>Vault Integration: Using Kubernetes auth methods for Vault integration</=
+p></li>
+</ul>
+<p>This will be detailed further when we begin Kubernetes migration plannin=
+g.</p>
+    </div>
+</body>
+</html>
+------=_Part_30_770308579.1758122876487--

@@ -1,0 +1,515 @@
+Date: Wed, 17 Sep 2025 15:33:27 +0000 (UTC)
+Message-ID: <1202745463.15.1758123207246@5e959939652b>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_979734973.1758123207245"
+
+------=_Part_14_979734973.1758123207245
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI+ Release Matrix</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI+ Release Matrix</h1>
+    <div class=3D"Section1">
+        <p></p>
+<h1 id=3D"AI+ReleaseMatrix-AI+R1">AI+ R1</h1>
+<p>Release Date:<strong> June 2025</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1238" data-layout=3D"center" data-local-id=3D"c8=
+fc85de-8daa-48f6-b4ba-35f1215526d9" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 304.0px;">
+<col style=3D"width: 347.0px;">
+<col style=3D"width: 135.0px;">
+<col style=3D"width: 250.0px;">
+<col style=3D"width: 202.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Feature</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Jira Epic</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Build # (Tag)</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Fix Version</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Notes</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Transcribe Summarize (MetaGen v1)</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-342"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-342" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-342<=
+/a> - <span class=3D"summary">Rebrand Transcribe Summarize to MetaGen v1</s=
+pan> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success jira=
+-macro-single-issue-export-pdf">Done</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R1</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Notification API</p></td>
+<td class=3D"confluenceTd">
+<p><em><strong>(not needed)</strong></em></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R1</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Config GUI v1</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-318"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-318" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-318<=
+/a> - <span class=3D"summary">Config GUI v1</span> <span class=3D"aui-lozen=
+ge aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pd=
+f">Done</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R1</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>AIPlus Common Module</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue resolved" data-jira-key=
+=3D"AI-352"> <a href=3D"https://perifery.atlassian.net/browse/AI-352" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.n=
+et/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedi=
+um">AI-352</a> - <span class=3D"summary">AI+ Common Module </span> <span cl=
+ass=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macro-single=
+-issue-export-pdf">Done</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R1</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TLS/mTLS Implementation for AI+</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue resolved" data-jira-key=
+=3D"AI-356"> <a href=3D"https://perifery.atlassian.net/browse/AI-356" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.n=
+et/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedi=
+um">AI-356</a> - <span class=3D"summary">TLS/mTLS Implementation for AI+</s=
+pan> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success jira=
+-macro-single-issue-export-pdf">Done</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R1</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>AI+ RabbitMQ Integration</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-284"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-284" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-284<=
+/a> - <span class=3D"summary">Queue-Based Asynchronous AI+ Management</span=
+> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-ma=
+cro-single-issue-export-pdf">Done</span> </span></p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R1</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<h1 id=3D"AI+ReleaseMatrix-AI+R2">AI+ R2</h1>
+<p>Release Date:<strong> Oct 2025</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"1232" data-layout=3D"center" data-local-id=3D"61=
+58038f-6700-4c2d-8345-bfea011c5a11" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 299.0px;">
+<col style=3D"width: 345.0px;">
+<col style=3D"width: 135.0px;">
+<col style=3D"width: 249.0px;">
+<col style=3D"width: 201.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>Feature</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Jira Epic</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Build # (Tag)</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Fix Version</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Notes</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>MetaGen v2 - Visual content</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-500"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-500" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-500<=
+/a> - <span class=3D"summary">MetaGen V2</span> <span class=3D"aui-lozenge =
+aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pdf">=
+In Development</span> </span></p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-336"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-336" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-336<=
+/a> - <span class=3D"summary">MetaGen V2 Microservices Architecture</span> =
+<span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-macr=
+o-single-issue-export-pdf">Canceled</span> </span></p>
+<p><span class=3D"confluence-jim-macro jira-issue resolved" data-jira-key=
+=3D"AI-20"> <a href=3D"https://perifery.atlassian.net/browse/AI-20" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.n=
+et/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedi=
+um">AI-20</a> - <span class=3D"summary">Integrate vision models into MetaGe=
+n for more accurate summarization</span> <span class=3D"aui-lozenge aui-loz=
+enge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf">Done</s=
+pan> </span></p>
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-9"> =
+<a href=3D"https://perifery.atlassian.net/browse/AI-9" class=3D"jira-issue-=
+key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api/2/u=
+niversal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-9</a> - =
+<span class=3D"summary">Implement Chain of Density prompting for Transcribe=
+Summarize</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-=
+success jira-macro-single-issue-export-pdf">Canceled</span> </span></p>
+<p><span class=3D"confluence-jim-macro jira-issue resolved" data-jira-key=
+=3D"AI-269"> <a href=3D"https://perifery.atlassian.net/browse/AI-269" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.n=
+et/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedi=
+um">AI-269</a> - <span class=3D"summary">MetaGen: Add optional type to prom=
+pt request.</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozeng=
+e-success jira-macro-single-issue-export-pdf">Done</span> </span></p>
+<p><span class=3D"confluence-jim-macro jira-issue resolved" data-jira-key=
+=3D"AI-250"> <a href=3D"https://perifery.atlassian.net/browse/AI-250" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.n=
+et/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedi=
+um">AI-250</a> - <span class=3D"summary">NotificationAPI: Integrate MetaGen=
+ as a replacement for TranscribeSummarize</span> <span class=3D"aui-lozenge=
+ aui-lozenge-subtle aui-lozenge-success jira-macro-single-issue-export-pdf"=
+>Done</span> </span></p>
+<p><span class=3D"confluence-jim-macro jira-issue resolved" data-jira-key=
+=3D"AI-14"> <a href=3D"https://perifery.atlassian.net/browse/AI-14" class=
+=3D"jira-issue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.n=
+et/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedi=
+um">AI-14</a> - <span class=3D"summary">MetaGen: Add an optional transcript=
+ion field</span> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-=
+success jira-macro-single-issue-export-pdf">Done</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R2</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Face Recognition Training Utility</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-329"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-329" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-329<=
+/a> - <span class=3D"summary">Create a Face Recognition Training Utility wi=
+th a simple user interface to generate vectors based on video content</span=
+> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-current jira-ma=
+cro-single-issue-export-pdf">In Development</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R2</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Config GUI v2</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-447"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-447" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-447<=
+/a> - <span class=3D"summary">Config GUI v2</span> <span class=3D"aui-lozen=
+ge aui-lozenge-subtle aui-lozenge-current jira-macro-single-issue-export-pd=
+f">In Development</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R2</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Display &amp; Search AI+ Transcriptions in Vision</p></td>
+<td class=3D"confluenceTd">
+<p><span class=3D"confluence-jim-macro jira-issue" data-jira-key=3D"AI-284"=
+> <a href=3D"https://perifery.atlassian.net/browse/AI-284" class=3D"jira-is=
+sue-key"><img class=3D"icon" src=3D"https://perifery.atlassian.net/rest/api=
+/2/universal_avatar/view/type/issuetype/avatar/10307?size=3Dmedium">AI-284<=
+/a> - <span class=3D"summary">Queue-Based Asynchronous AI+ Management</span=
+> <span class=3D"aui-lozenge aui-lozenge-subtle aui-lozenge-success jira-ma=
+cro-single-issue-export-pdf">Done</span> </span></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>AI+ R2</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_14_979734973.1758123207245--

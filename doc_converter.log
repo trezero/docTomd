@@ -23,3 +23,255 @@
 2025-09-17 11:17:29,877 - INFO - Detected file type: mhtml
 2025-09-17 11:17:29,885 - INFO - Extracted and decoded 69415 characters of HTML content from MHTML
 2025-09-17 11:17:29,910 - INFO - Successfully converted confluenceExports\Advanced_Video_Translation.doc to confluenceExports\Advanced_Video_Translation.md
+2025-09-17 11:23:46,150 - INFO - Converting docIn\AI__2_0_Release_Notes.doc to mdOut\AI__2_0_Release_Notes.md
+2025-09-17 11:23:46,151 - INFO - Detected MHTML content in docIn\AI__2_0_Release_Notes.doc (extension: .doc)
+2025-09-17 11:23:46,151 - INFO - Detected file type: mhtml
+2025-09-17 11:23:46,152 - INFO - Extracted 10803 characters of HTML content from MHTML
+2025-09-17 11:23:46,159 - INFO - Successfully converted docIn\AI__2_0_Release_Notes.doc to mdOut\AI__2_0_Release_Notes.md
+2025-09-17 11:23:46,159 - INFO - Converting docIn\AI__Architecture.doc to mdOut\AI__Architecture.md
+2025-09-17 11:23:46,162 - INFO - Detected MHTML content in docIn\AI__Architecture.doc (extension: .doc)
+2025-09-17 11:23:46,162 - INFO - Detected file type: mhtml
+2025-09-17 11:23:46,164 - INFO - Extracted 55566 characters of HTML content from MHTML
+2025-09-17 11:23:46,194 - INFO - Successfully converted docIn\AI__Architecture.doc to mdOut\AI__Architecture.md
+2025-09-17 11:23:46,194 - INFO - Batch conversion complete. Converted 2 files.
+2025-09-17 11:24:58,697 - INFO - Converting docIn\Advanced_Video_Translation.doc to mdOut\Advanced_Video_Translation.md
+2025-09-17 11:24:58,698 - INFO - Detected MHTML content in docIn\Advanced_Video_Translation.doc (extension: .doc)
+2025-09-17 11:24:58,698 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,700 - INFO - Extracted 68754 characters of HTML content from MHTML
+2025-09-17 11:24:58,722 - INFO - Successfully converted docIn\Advanced_Video_Translation.doc to mdOut\Advanced_Video_Translation.md
+2025-09-17 11:24:58,723 - INFO - Converting docIn\AI-1036__Metasight,_an_Object_Intelligence_Platform.doc to mdOut\AI-1036__Metasight,_an_Object_Intelligence_Platform.md
+2025-09-17 11:24:58,724 - INFO - Detected MHTML content in docIn\AI-1036__Metasight,_an_Object_Intelligence_Platform.doc (extension: .doc)
+2025-09-17 11:24:58,725 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,726 - INFO - Extracted 35157 characters of HTML content from MHTML
+2025-09-17 11:24:58,755 - INFO - Successfully converted docIn\AI-1036__Metasight,_an_Object_Intelligence_Platform.doc to mdOut\AI-1036__Metasight,_an_Object_Intelligence_Platform.md
+2025-09-17 11:24:58,755 - INFO - Converting docIn\AI-159__Structured_Logging_Framework.doc to mdOut\AI-159__Structured_Logging_Framework.md
+2025-09-17 11:24:58,756 - INFO - Detected MHTML content in docIn\AI-159__Structured_Logging_Framework.doc (extension: .doc)
+2025-09-17 11:24:58,756 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,758 - INFO - Extracted 32193 characters of HTML content from MHTML
+2025-09-17 11:24:58,786 - INFO - Successfully converted docIn\AI-159__Structured_Logging_Framework.doc to mdOut\AI-159__Structured_Logging_Framework.md
+2025-09-17 11:24:58,786 - INFO - Converting docIn\AI-236__Object_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.doc to mdOut\AI-236__Object_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.md
+2025-09-17 11:24:58,788 - INFO - Detected MHTML content in docIn\AI-236__Object_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.doc (extension: .doc)
+2025-09-17 11:24:58,788 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,789 - INFO - Extracted 11224 characters of HTML content from MHTML
+2025-09-17 11:24:58,797 - INFO - Successfully converted docIn\AI-236__Object_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.doc to mdOut\AI-236__Object_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.md
+2025-09-17 11:24:58,797 - INFO - Converting docIn\AI-244__Facial_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.doc to mdOut\AI-244__Facial_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.md
+2025-09-17 11:24:58,798 - INFO - Detected MHTML content in docIn\AI-244__Facial_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.doc (extension: .doc)
+2025-09-17 11:24:58,798 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,799 - INFO - Extracted 11070 characters of HTML content from MHTML
+2025-09-17 11:24:58,806 - INFO - Successfully converted docIn\AI-244__Facial_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.doc to mdOut\AI-244__Facial_Recognition_Frame_Accuracy_Fix_Configuration_and_Usage.md
+2025-09-17 11:24:58,806 - INFO - Converting docIn\AI-263__F1-Score_Optimization.doc to mdOut\AI-263__F1-Score_Optimization.md
+2025-09-17 11:24:58,807 - INFO - Detected MHTML content in docIn\AI-263__F1-Score_Optimization.doc (extension: .doc)
+2025-09-17 11:24:58,809 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,811 - INFO - Extracted 20258 characters of HTML content from MHTML
+2025-09-17 11:24:58,821 - INFO - Successfully converted docIn\AI-263__F1-Score_Optimization.doc to mdOut\AI-263__F1-Score_Optimization.md
+2025-09-17 11:24:58,822 - INFO - Converting docIn\AI-266__Migrating_from_Euclidean_Distance_to_Cosine_Similarity.doc to mdOut\AI-266__Migrating_from_Euclidean_Distance_to_Cosine_Similarity.md
+2025-09-17 11:24:58,823 - INFO - Detected MHTML content in docIn\AI-266__Migrating_from_Euclidean_Distance_to_Cosine_Similarity.doc (extension: .doc)
+2025-09-17 11:24:58,823 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,824 - INFO - Extracted 16774 characters of HTML content from MHTML
+2025-09-17 11:24:58,835 - INFO - Successfully converted docIn\AI-266__Migrating_from_Euclidean_Distance_to_Cosine_Similarity.doc to mdOut\AI-266__Migrating_from_Euclidean_Distance_to_Cosine_Similarity.md
+2025-09-17 11:24:58,835 - INFO - Converting docIn\AI-267__Facial_Recognition__Integrating_Temporal_Tracking_for_Enhanced_Performance.doc to mdOut\AI-267__Facial_Recognition__Integrating_Temporal_Tracking_for_Enhanced_Performance.md
+2025-09-17 11:24:58,836 - INFO - Detected MHTML content in docIn\AI-267__Facial_Recognition__Integrating_Temporal_Tracking_for_Enhanced_Performance.doc (extension: .doc)
+2025-09-17 11:24:58,836 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,838 - INFO - Extracted 16099 characters of HTML content from MHTML
+2025-09-17 11:24:58,846 - INFO - Successfully converted docIn\AI-267__Facial_Recognition__Integrating_Temporal_Tracking_for_Enhanced_Performance.doc to mdOut\AI-267__Facial_Recognition__Integrating_Temporal_Tracking_for_Enhanced_Performance.md
+2025-09-17 11:24:58,846 - INFO - Converting docIn\AI-284__AI__Job_Status_Management.doc to mdOut\AI-284__AI__Job_Status_Management.md
+2025-09-17 11:24:58,847 - INFO - Detected MHTML content in docIn\AI-284__AI__Job_Status_Management.doc (extension: .doc)
+2025-09-17 11:24:58,847 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,848 - INFO - Extracted 20208 characters of HTML content from MHTML
+2025-09-17 11:24:58,864 - INFO - Successfully converted docIn\AI-284__AI__Job_Status_Management.doc to mdOut\AI-284__AI__Job_Status_Management.md
+2025-09-17 11:24:58,865 - INFO - Converting docIn\AI-284__AI__RabbitMQ_Integration.doc to mdOut\AI-284__AI__RabbitMQ_Integration.md
+2025-09-17 11:24:58,866 - INFO - Detected MHTML content in docIn\AI-284__AI__RabbitMQ_Integration.doc (extension: .doc)
+2025-09-17 11:24:58,866 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,869 - INFO - Extracted 57891 characters of HTML content from MHTML
+2025-09-17 11:24:58,918 - INFO - Successfully converted docIn\AI-284__AI__RabbitMQ_Integration.doc to mdOut\AI-284__AI__RabbitMQ_Integration.md
+2025-09-17 11:24:58,919 - INFO - Converting docIn\AI-287__VisageAI.doc to mdOut\AI-287__VisageAI.md
+2025-09-17 11:24:58,920 - INFO - Detected MHTML content in docIn\AI-287__VisageAI.doc (extension: .doc)
+2025-09-17 11:24:58,920 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,920 - INFO - Extracted 25071 characters of HTML content from MHTML
+2025-09-17 11:24:58,933 - INFO - Successfully converted docIn\AI-287__VisageAI.doc to mdOut\AI-287__VisageAI.md
+2025-09-17 11:24:58,933 - INFO - Converting docIn\AI-323__AI__Integration_of_Milvus.doc to mdOut\AI-323__AI__Integration_of_Milvus.md
+2025-09-17 11:24:58,934 - INFO - Detected MHTML content in docIn\AI-323__AI__Integration_of_Milvus.doc (extension: .doc)
+2025-09-17 11:24:58,934 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,936 - INFO - Extracted 49561 characters of HTML content from MHTML
+2025-09-17 11:24:58,960 - INFO - Successfully converted docIn\AI-323__AI__Integration_of_Milvus.doc to mdOut\AI-323__AI__Integration_of_Milvus.md
+2025-09-17 11:24:58,960 - INFO - Converting docIn\AI-338___VLM_Service.doc to mdOut\AI-338___VLM_Service.md
+2025-09-17 11:24:58,960 - INFO - Detected MHTML content in docIn\AI-338___VLM_Service.doc (extension: .doc)
+2025-09-17 11:24:58,960 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,962 - INFO - Extracted 12929 characters of HTML content from MHTML
+2025-09-17 11:24:58,966 - INFO - Successfully converted docIn\AI-338___VLM_Service.doc to mdOut\AI-338___VLM_Service.md
+2025-09-17 11:24:58,967 - INFO - Converting docIn\AI-354_-_AI__Configuration_and_Security.doc to mdOut\AI-354_-_AI__Configuration_and_Security.md
+2025-09-17 11:24:58,968 - INFO - Detected MHTML content in docIn\AI-354_-_AI__Configuration_and_Security.doc (extension: .doc)
+2025-09-17 11:24:58,968 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,969 - INFO - Extracted 23493 characters of HTML content from MHTML
+2025-09-17 11:24:58,985 - INFO - Successfully converted docIn\AI-354_-_AI__Configuration_and_Security.doc to mdOut\AI-354_-_AI__Configuration_and_Security.md
+2025-09-17 11:24:58,985 - INFO - Converting docIn\AI-356__AI__System_TLS_mTLS_Implementation_Guide.doc to mdOut\AI-356__AI__System_TLS_mTLS_Implementation_Guide.md
+2025-09-17 11:24:58,987 - INFO - Detected MHTML content in docIn\AI-356__AI__System_TLS_mTLS_Implementation_Guide.doc (extension: .doc)
+2025-09-17 11:24:58,987 - INFO - Detected file type: mhtml
+2025-09-17 11:24:58,988 - INFO - Extracted 29987 characters of HTML content from MHTML
+2025-09-17 11:24:59,002 - INFO - Successfully converted docIn\AI-356__AI__System_TLS_mTLS_Implementation_Guide.doc to mdOut\AI-356__AI__System_TLS_mTLS_Implementation_Guide.md
+2025-09-17 11:24:59,003 - INFO - Converting docIn\AI-360__Secure_Hashicorp_Consul.doc to mdOut\AI-360__Secure_Hashicorp_Consul.md
+2025-09-17 11:24:59,005 - INFO - Detected MHTML content in docIn\AI-360__Secure_Hashicorp_Consul.doc (extension: .doc)
+2025-09-17 11:24:59,005 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,006 - INFO - Extracted 5576 characters of HTML content from MHTML
+2025-09-17 11:24:59,010 - INFO - Successfully converted docIn\AI-360__Secure_Hashicorp_Consul.doc to mdOut\AI-360__Secure_Hashicorp_Consul.md
+2025-09-17 11:24:59,011 - INFO - Converting docIn\AI-483_-_Integrate_Consul_Watch.doc to mdOut\AI-483_-_Integrate_Consul_Watch.md
+2025-09-17 11:24:59,012 - INFO - Detected MHTML content in docIn\AI-483_-_Integrate_Consul_Watch.doc (extension: .doc)
+2025-09-17 11:24:59,012 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,013 - INFO - Extracted 25379 characters of HTML content from MHTML
+2025-09-17 11:24:59,021 - INFO - Successfully converted docIn\AI-483_-_Integrate_Consul_Watch.doc to mdOut\AI-483_-_Integrate_Consul_Watch.md
+2025-09-17 11:24:59,021 - INFO - Converting docIn\AI-938__NVIDIA_Triton_Server_Intergration.doc to mdOut\AI-938__NVIDIA_Triton_Server_Intergration.md
+2025-09-17 11:24:59,022 - INFO - Detected MHTML content in docIn\AI-938__NVIDIA_Triton_Server_Intergration.doc (extension: .doc)
+2025-09-17 11:24:59,022 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,023 - INFO - Extracted 49073 characters of HTML content from MHTML
+2025-09-17 11:24:59,052 - INFO - Successfully converted docIn\AI-938__NVIDIA_Triton_Server_Intergration.doc to mdOut\AI-938__NVIDIA_Triton_Server_Intergration.md
+2025-09-17 11:24:59,053 - INFO - Converting docIn\AI-997__Milvus_Vector_Database_Index_Types.doc to mdOut\AI-997__Milvus_Vector_Database_Index_Types.md
+2025-09-17 11:24:59,054 - INFO - Detected MHTML content in docIn\AI-997__Milvus_Vector_Database_Index_Types.doc (extension: .doc)
+2025-09-17 11:24:59,054 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,055 - INFO - Extracted 66174 characters of HTML content from MHTML
+2025-09-17 11:24:59,118 - INFO - Successfully converted docIn\AI-997__Milvus_Vector_Database_Index_Types.doc to mdOut\AI-997__Milvus_Vector_Database_Index_Types.md
+2025-09-17 11:24:59,119 - INFO - Converting docIn\AIP-159__Implement_versioning_system_for_AI__Utilities.doc to mdOut\AIP-159__Implement_versioning_system_for_AI__Utilities.md
+2025-09-17 11:24:59,120 - INFO - Detected MHTML content in docIn\AIP-159__Implement_versioning_system_for_AI__Utilities.doc (extension: .doc)
+2025-09-17 11:24:59,120 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,121 - INFO - Extracted 11629 characters of HTML content from MHTML
+2025-09-17 11:24:59,127 - INFO - Successfully converted docIn\AIP-159__Implement_versioning_system_for_AI__Utilities.doc to mdOut\AIP-159__Implement_versioning_system_for_AI__Utilities.md
+2025-09-17 11:24:59,127 - INFO - Converting docIn\AIP-186___Enhanced_Facial_Recognition_with_Vision_Models.doc to mdOut\AIP-186___Enhanced_Facial_Recognition_with_Vision_Models.md
+2025-09-17 11:24:59,128 - INFO - Detected MHTML content in docIn\AIP-186___Enhanced_Facial_Recognition_with_Vision_Models.doc (extension: .doc)
+2025-09-17 11:24:59,129 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,130 - INFO - Extracted 16681 characters of HTML content from MHTML
+2025-09-17 11:24:59,139 - INFO - Successfully converted docIn\AIP-186___Enhanced_Facial_Recognition_with_Vision_Models.doc to mdOut\AIP-186___Enhanced_Facial_Recognition_with_Vision_Models.md
+2025-09-17 11:24:59,140 - INFO - Converting docIn\AIP-72___Metadata_Integration_into_Vision.doc to mdOut\AIP-72___Metadata_Integration_into_Vision.md
+2025-09-17 11:24:59,141 - INFO - Detected MHTML content in docIn\AIP-72___Metadata_Integration_into_Vision.doc (extension: .doc)
+2025-09-17 11:24:59,141 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,143 - INFO - Extracted 19354 characters of HTML content from MHTML
+2025-09-17 11:24:59,152 - INFO - Successfully converted docIn\AIP-72___Metadata_Integration_into_Vision.doc to mdOut\AIP-72___Metadata_Integration_into_Vision.md
+2025-09-17 11:24:59,152 - INFO - Converting docIn\AI__2_0_Release_Notes.doc to mdOut\AI__2_0_Release_Notes.md
+2025-09-17 11:24:59,154 - INFO - Detected MHTML content in docIn\AI__2_0_Release_Notes.doc (extension: .doc)
+2025-09-17 11:24:59,154 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,155 - INFO - Extracted 10803 characters of HTML content from MHTML
+2025-09-17 11:24:59,164 - INFO - Successfully converted docIn\AI__2_0_Release_Notes.doc to mdOut\AI__2_0_Release_Notes.md
+2025-09-17 11:24:59,165 - INFO - Converting docIn\AI__Architecture.doc to mdOut\AI__Architecture.md
+2025-09-17 11:24:59,166 - INFO - Detected MHTML content in docIn\AI__Architecture.doc (extension: .doc)
+2025-09-17 11:24:59,166 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,168 - INFO - Extracted 55566 characters of HTML content from MHTML
+2025-09-17 11:24:59,194 - INFO - Successfully converted docIn\AI__Architecture.doc to mdOut\AI__Architecture.md
+2025-09-17 11:24:59,194 - INFO - Converting docIn\AI__Branching___Release_Strategy.doc to mdOut\AI__Branching___Release_Strategy.md
+2025-09-17 11:24:59,195 - INFO - Detected MHTML content in docIn\AI__Branching___Release_Strategy.doc (extension: .doc)
+2025-09-17 11:24:59,195 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,196 - INFO - Extracted 35773 characters of HTML content from MHTML
+2025-09-17 11:24:59,207 - INFO - Successfully converted docIn\AI__Branching___Release_Strategy.doc to mdOut\AI__Branching___Release_Strategy.md
+2025-09-17 11:24:59,207 - INFO - Converting docIn\AI__Customer_AWS_Keys_Management_for_Installation.doc to mdOut\AI__Customer_AWS_Keys_Management_for_Installation.md
+2025-09-17 11:24:59,208 - INFO - Detected MHTML content in docIn\AI__Customer_AWS_Keys_Management_for_Installation.doc (extension: .doc)
+2025-09-17 11:24:59,208 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,211 - INFO - Extracted 14768 characters of HTML content from MHTML
+2025-09-17 11:24:59,216 - INFO - Successfully converted docIn\AI__Customer_AWS_Keys_Management_for_Installation.doc to mdOut\AI__Customer_AWS_Keys_Management_for_Installation.md
+2025-09-17 11:24:59,216 - INFO - Converting docIn\AI__EFK_Stack.doc to mdOut\AI__EFK_Stack.md
+2025-09-17 11:24:59,217 - INFO - Detected MHTML content in docIn\AI__EFK_Stack.doc (extension: .doc)
+2025-09-17 11:24:59,218 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,219 - INFO - Extracted 29766 characters of HTML content from MHTML
+2025-09-17 11:24:59,235 - INFO - Successfully converted docIn\AI__EFK_Stack.doc to mdOut\AI__EFK_Stack.md
+2025-09-17 11:24:59,235 - INFO - Converting docIn\AI__Installer_Documentation.doc to mdOut\AI__Installer_Documentation.md
+2025-09-17 11:24:59,236 - INFO - Detected MHTML content in docIn\AI__Installer_Documentation.doc (extension: .doc)
+2025-09-17 11:24:59,237 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,237 - INFO - Extracted 11744 characters of HTML content from MHTML
+2025-09-17 11:24:59,247 - INFO - Successfully converted docIn\AI__Installer_Documentation.doc to mdOut\AI__Installer_Documentation.md
+2025-09-17 11:24:59,247 - INFO - Converting docIn\AI__Release_Matrix.doc to mdOut\AI__Release_Matrix.md
+2025-09-17 11:24:59,249 - INFO - Detected MHTML content in docIn\AI__Release_Matrix.doc (extension: .doc)
+2025-09-17 11:24:59,249 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,249 - INFO - Extracted 16152 characters of HTML content from MHTML
+2025-09-17 11:24:59,263 - INFO - Successfully converted docIn\AI__Release_Matrix.doc to mdOut\AI__Release_Matrix.md
+2025-09-17 11:24:59,263 - INFO - Converting docIn\AI__Scheduling_and_Inference_Management.doc to mdOut\AI__Scheduling_and_Inference_Management.md
+2025-09-17 11:24:59,265 - INFO - Detected MHTML content in docIn\AI__Scheduling_and_Inference_Management.doc (extension: .doc)
+2025-09-17 11:24:59,265 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,266 - INFO - Extracted 29525 characters of HTML content from MHTML
+2025-09-17 11:24:59,291 - INFO - Successfully converted docIn\AI__Scheduling_and_Inference_Management.doc to mdOut\AI__Scheduling_and_Inference_Management.md
+2025-09-17 11:24:59,292 - INFO - Converting docIn\AI__Version_2_0_Deployment_Documentation.doc to mdOut\AI__Version_2_0_Deployment_Documentation.md
+2025-09-17 11:24:59,293 - INFO - Detected MHTML content in docIn\AI__Version_2_0_Deployment_Documentation.doc (extension: .doc)
+2025-09-17 11:24:59,294 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,294 - INFO - Extracted 5756 characters of HTML content from MHTML
+2025-09-17 11:24:59,298 - INFO - Successfully converted docIn\AI__Version_2_0_Deployment_Documentation.doc to mdOut\AI__Version_2_0_Deployment_Documentation.md
+2025-09-17 11:24:59,298 - INFO - Converting docIn\Cardiff_AI__Installer_Setup___Configuration_Guide.doc to mdOut\Cardiff_AI__Installer_Setup___Configuration_Guide.md
+2025-09-17 11:24:59,299 - INFO - Detected MHTML content in docIn\Cardiff_AI__Installer_Setup___Configuration_Guide.doc (extension: .doc)
+2025-09-17 11:24:59,299 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,300 - INFO - Extracted 20362 characters of HTML content from MHTML
+2025-09-17 11:24:59,319 - INFO - Successfully converted docIn\Cardiff_AI__Installer_Setup___Configuration_Guide.doc to mdOut\Cardiff_AI__Installer_Setup___Configuration_Guide.md
+2025-09-17 11:24:59,319 - INFO - Converting docIn\Cardiff_Dev01___Dev02_Server_Swap_for_AI_.doc to mdOut\Cardiff_Dev01___Dev02_Server_Swap_for_AI_.md
+2025-09-17 11:24:59,321 - INFO - Detected MHTML content in docIn\Cardiff_Dev01___Dev02_Server_Swap_for_AI_.doc (extension: .doc)
+2025-09-17 11:24:59,321 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,323 - INFO - Extracted 14554 characters of HTML content from MHTML
+2025-09-17 11:24:59,329 - INFO - Successfully converted docIn\Cardiff_Dev01___Dev02_Server_Swap_for_AI_.doc to mdOut\Cardiff_Dev01___Dev02_Server_Swap_for_AI_.md
+2025-09-17 11:24:59,329 - INFO - Converting docIn\Consul_Installation___Configuration.doc to mdOut\Consul_Installation___Configuration.md
+2025-09-17 11:24:59,330 - INFO - Detected MHTML content in docIn\Consul_Installation___Configuration.doc (extension: .doc)
+2025-09-17 11:24:59,330 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,332 - INFO - Extracted 10290 characters of HTML content from MHTML
+2025-09-17 11:24:59,338 - INFO - Successfully converted docIn\Consul_Installation___Configuration.doc to mdOut\Consul_Installation___Configuration.md
+2025-09-17 11:24:59,338 - INFO - Converting docIn\DEBUG_and_LOGS.doc to mdOut\DEBUG_and_LOGS.md
+2025-09-17 11:24:59,340 - INFO - Detected MHTML content in docIn\DEBUG_and_LOGS.doc (extension: .doc)
+2025-09-17 11:24:59,340 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,342 - INFO - Extracted 5790 characters of HTML content from MHTML
+2025-09-17 11:24:59,346 - INFO - Successfully converted docIn\DEBUG_and_LOGS.doc to mdOut\DEBUG_and_LOGS.md
+2025-09-17 11:24:59,347 - INFO - Converting docIn\Facial_Recognition.doc to mdOut\Facial_Recognition.md
+2025-09-17 11:24:59,348 - INFO - Detected MHTML content in docIn\Facial_Recognition.doc (extension: .doc)
+2025-09-17 11:24:59,348 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,350 - INFO - Extracted 12904 characters of HTML content from MHTML
+2025-09-17 11:24:59,354 - INFO - Successfully converted docIn\Facial_Recognition.doc to mdOut\Facial_Recognition.md
+2025-09-17 11:24:59,354 - INFO - Converting docIn\Facial_Recognition_Training.doc to mdOut\Facial_Recognition_Training.md
+2025-09-17 11:24:59,356 - INFO - Detected MHTML content in docIn\Facial_Recognition_Training.doc (extension: .doc)
+2025-09-17 11:24:59,356 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,358 - INFO - Extracted 10150 characters of HTML content from MHTML
+2025-09-17 11:24:59,368 - INFO - Successfully converted docIn\Facial_Recognition_Training.doc to mdOut\Facial_Recognition_Training.md
+2025-09-17 11:24:59,368 - INFO - Converting docIn\Fix_NVIDIA_Driver_issue_causing_inability_to_boot.doc to mdOut\Fix_NVIDIA_Driver_issue_causing_inability_to_boot.md
+2025-09-17 11:24:59,370 - INFO - Detected MHTML content in docIn\Fix_NVIDIA_Driver_issue_causing_inability_to_boot.doc (extension: .doc)
+2025-09-17 11:24:59,370 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,371 - INFO - Extracted 8475 characters of HTML content from MHTML
+2025-09-17 11:24:59,377 - INFO - Successfully converted docIn\Fix_NVIDIA_Driver_issue_causing_inability_to_boot.doc to mdOut\Fix_NVIDIA_Driver_issue_causing_inability_to_boot.md
+2025-09-17 11:24:59,378 - INFO - Converting docIn\Github_Runners_for_AI_.doc to mdOut\Github_Runners_for_AI_.md
+2025-09-17 11:24:59,379 - INFO - Detected MHTML content in docIn\Github_Runners_for_AI_.doc (extension: .doc)
+2025-09-17 11:24:59,379 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,380 - INFO - Extracted 7239 characters of HTML content from MHTML
+2025-09-17 11:24:59,383 - INFO - Successfully converted docIn\Github_Runners_for_AI_.doc to mdOut\Github_Runners_for_AI_.md
+2025-09-17 11:24:59,383 - INFO - Converting docIn\GPFS_Commands_to_work_with_Pixstore.doc to mdOut\GPFS_Commands_to_work_with_Pixstore.md
+2025-09-17 11:24:59,385 - INFO - Detected MHTML content in docIn\GPFS_Commands_to_work_with_Pixstore.doc (extension: .doc)
+2025-09-17 11:24:59,385 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,386 - INFO - Extracted 9273 characters of HTML content from MHTML
+2025-09-17 11:24:59,391 - INFO - Successfully converted docIn\GPFS_Commands_to_work_with_Pixstore.doc to mdOut\GPFS_Commands_to_work_with_Pixstore.md
+2025-09-17 11:24:59,391 - INFO - Converting docIn\Manual_Removal_of_AI__Installer.doc to mdOut\Manual_Removal_of_AI__Installer.md
+2025-09-17 11:24:59,392 - INFO - Detected MHTML content in docIn\Manual_Removal_of_AI__Installer.doc (extension: .doc)
+2025-09-17 11:24:59,393 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,394 - INFO - Extracted 11261 characters of HTML content from MHTML
+2025-09-17 11:24:59,401 - INFO - Successfully converted docIn\Manual_Removal_of_AI__Installer.doc to mdOut\Manual_Removal_of_AI__Installer.md
+2025-09-17 11:24:59,402 - INFO - Converting docIn\Object_Detection.doc to mdOut\Object_Detection.md
+2025-09-17 11:24:59,402 - INFO - Detected MHTML content in docIn\Object_Detection.doc (extension: .doc)
+2025-09-17 11:24:59,403 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,404 - INFO - Extracted 28895 characters of HTML content from MHTML
+2025-09-17 11:24:59,417 - INFO - Successfully converted docIn\Object_Detection.doc to mdOut\Object_Detection.md
+2025-09-17 11:24:59,418 - INFO - Converting docIn\RabbitMQ_IRIS_Integration_Testing.doc to mdOut\RabbitMQ_IRIS_Integration_Testing.md
+2025-09-17 11:24:59,419 - INFO - Detected MHTML content in docIn\RabbitMQ_IRIS_Integration_Testing.doc (extension: .doc)
+2025-09-17 11:24:59,419 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,420 - INFO - Extracted 14195 characters of HTML content from MHTML
+2025-09-17 11:24:59,430 - INFO - Successfully converted docIn\RabbitMQ_IRIS_Integration_Testing.doc to mdOut\RabbitMQ_IRIS_Integration_Testing.md
+2025-09-17 11:24:59,431 - INFO - Converting docIn\Release_Process.doc to mdOut\Release_Process.md
+2025-09-17 11:24:59,432 - INFO - Detected MHTML content in docIn\Release_Process.doc (extension: .doc)
+2025-09-17 11:24:59,432 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,433 - INFO - Extracted 13153 characters of HTML content from MHTML
+2025-09-17 11:24:59,443 - INFO - Successfully converted docIn\Release_Process.doc to mdOut\Release_Process.md
+2025-09-17 11:24:59,444 - INFO - Converting docIn\Security_Validation.doc to mdOut\Security_Validation.md
+2025-09-17 11:24:59,445 - INFO - Detected MHTML content in docIn\Security_Validation.doc (extension: .doc)
+2025-09-17 11:24:59,445 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,446 - INFO - Extracted 23455 characters of HTML content from MHTML
+2025-09-17 11:24:59,464 - INFO - Successfully converted docIn\Security_Validation.doc to mdOut\Security_Validation.md
+2025-09-17 11:24:59,465 - INFO - Converting docIn\Troubleshooting__Pixstore_commands_not_in_path_of_client_system.doc to mdOut\Troubleshooting__Pixstore_commands_not_in_path_of_client_system.md
+2025-09-17 11:24:59,466 - INFO - Detected MHTML content in docIn\Troubleshooting__Pixstore_commands_not_in_path_of_client_system.doc (extension: .doc)
+2025-09-17 11:24:59,466 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,467 - INFO - Extracted 11360 characters of HTML content from MHTML
+2025-09-17 11:24:59,475 - INFO - Successfully converted docIn\Troubleshooting__Pixstore_commands_not_in_path_of_client_system.doc to mdOut\Troubleshooting__Pixstore_commands_not_in_path_of_client_system.md
+2025-09-17 11:24:59,475 - INFO - Converting docIn\Troubleshooting__PixStor_Filesystem_Not_Mounted_on_AI__Ubuntu_Server.doc to mdOut\Troubleshooting__PixStor_Filesystem_Not_Mounted_on_AI__Ubuntu_Server.md
+2025-09-17 11:24:59,476 - INFO - Detected MHTML content in docIn\Troubleshooting__PixStor_Filesystem_Not_Mounted_on_AI__Ubuntu_Server.doc (extension: .doc)
+2025-09-17 11:24:59,476 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,477 - INFO - Extracted 13707 characters of HTML content from MHTML
+2025-09-17 11:24:59,486 - INFO - Successfully converted docIn\Troubleshooting__PixStor_Filesystem_Not_Mounted_on_AI__Ubuntu_Server.doc to mdOut\Troubleshooting__PixStor_Filesystem_Not_Mounted_on_AI__Ubuntu_Server.md
+2025-09-17 11:24:59,486 - INFO - Converting docIn\Vulnerability_Scanning.doc to mdOut\Vulnerability_Scanning.md
+2025-09-17 11:24:59,487 - INFO - Detected MHTML content in docIn\Vulnerability_Scanning.doc (extension: .doc)
+2025-09-17 11:24:59,488 - INFO - Detected file type: mhtml
+2025-09-17 11:24:59,488 - INFO - Extracted 7157 characters of HTML content from MHTML
+2025-09-17 11:24:59,493 - INFO - Successfully converted docIn\Vulnerability_Scanning.doc to mdOut\Vulnerability_Scanning.md
+2025-09-17 11:24:59,493 - INFO - Batch conversion complete. Converted 48 files.

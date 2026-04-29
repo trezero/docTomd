@@ -1,0 +1,792 @@
+Date: Wed, 17 Sep 2025 15:28:53 +0000 (UTC)
+Message-ID: <552960704.65.1758122933855@0fc656e8d730>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_64_1296610102.1758122933854"
+
+------=_Part_64_1296610102.1758122933854
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI+ Scheduling and Inference Management</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI+ Scheduling and Inference Management</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"AI+SchedulingandInferenceManagement-Architecture"><strong=
+>Architecture</strong></h3>
+<p>The proposed design is a decoupled, event-driven system centered around =
+a persistent state store and a dedicated inference server. This model separ=
+ates application logic from resource-intensive model execution, ensuring re=
+liability, scalability, and efficient resource management.</p>
+<h4 id=3D"AI+SchedulingandInferenceManagement-SystemDiagram"><strong>System=
+ Diagram</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">+------=
+-----------+   1. Job Request   +-----------------+
+|   User/Client   | -----------------&gt; | Coordinator API |
++-----------------+                    +-------+---------+
+                                               |
+                                               | 2. Create Job in Redis
+                                               |    &amp; Notify Scheduler
+                                               v
++--------------------------------+     +-------+---------+     +-----------=
+-------------+
+| Redis                          | &lt;--4b| Central         | 4a. | Rabbit=
+MQ               |
+| (Job State).                   | ----&gt;| Scheduler       | &lt;---| (Ev=
+ent Trigger)        |
++--------------------------------+      +-------+---------+     +----------=
+--------------+
+             ^                             |
+             | 8. Update Final State       | 5. Dispatch Task
+             |                             |
+   +---------+-----------------------------+------------------------------+
+   |                                                                      |
+   v                                                                      v
++-----------------------------+                             +--------------=
+----------+
+| Pre/Post-processing Worker  |                             |    CPU-Only W=
+orker     |
+| (e.g., VLM Logic)           |                             | (e.g., Transc=
+ription)  |
++-------------+---------------+                             +--------------=
+----------+
+              |
+              | 6. Inference Request
+              v
++-----------------------------+       7. Manages GPU        +--------------=
+--+
+| NVIDIA Triton Server        | --------------------------&gt; |   GPU Hard=
+ware |
++-----------------------------+                             +--------------=
+--+
+
+</pre>
+</div>
+</div>
+<h4 id=3D"AI+SchedulingandInferenceManagement-ComponentSummary"><strong>Com=
+ponent Summary</strong></h4>
+<ul>
+<li>
+<p><strong>Coordinator API:</strong> The public-facing entry point that val=
+idates requests and creates initial job records in Redis.</p></li>
+<li>
+<p><strong>Redis:</strong> The <strong>Single Source of Truth</strong> for =
+the entire system, storing all job states and resource locks.</p></li>
+<li>
+<p><strong>RabbitMQ:</strong> A lightweight message bus used to send event =
+notifications (e.g., "new job created") to trigger the scheduler.</p></li>
+<li>
+<p><strong>Central Scheduler:</strong> The "brain" of the system. It reads =
+state from Redis and dispatches tasks to appropriate workers based on resou=
+rce availability.</p></li>
+<li>
+<p><strong>Workers (Pre/Post-processing &amp; CPU-Only):</strong> Stateless=
+ containers that execute the business logic of a task. They read job detail=
+s from Redis, perform work (which may include calling Triton), and write re=
+sults back to Redis.</p></li>
+<li>
+<p><strong>NVIDIA Triton Server:</strong> A dedicated, high-performance ser=
+vice that runs the AI models, manages GPU memory, and handles all low-level=
+ inference operations.</p></li>
+</ul>
+<h3 id=3D"AI+SchedulingandInferenceManagement-SchedulerandCoordinatorArchit=
+ecture"><strong>Scheduler and Coordinator Architecture</strong></h3>
+<p>The Central Scheduler is the operational brain of the entire AI workflow=
+. It replaces a simple first-in, first-out queueing model with an intellige=
+nt, state-aware dispatch system. Its primary responsibility is to orchestra=
+te the execution of all jobs by allocating tasks to the appropriate workers=
+ based on job requirements and real-time resource availability.</p>
+<h4 id=3D"AI+SchedulingandInferenceManagement-CoreLogicandOperation"><stron=
+g>Core Logic and Operation</strong></h4>
+<p>The scheduler is fundamentally <strong>state-driven and resource-aware</=
+strong>, not queue-driven. It operates on a continuous loop, making decisio=
+ns by querying Redis, which serves as the single source of truth.</p>
+<ul>
+<li>
+<p><strong>State-Driven Operation:</strong> The scheduler does not pull job=
+s from a RabbitMQ queue. Instead, it directly queries Redis for all jobs wi=
+th a <code>status</code> of <code>pending</code>. This allows it to have a =
+complete view of all available work at all times.</p></li>
+<li>
+<p><strong>GPU-Aware Dispatch:</strong> Before dispatching any GPU-intensiv=
+e job, the scheduler checks for the existence of a distributed lock in Redi=
+s (e.g., a key named <code>gpu:0:lock</code>). It will only dispatch a job =
+with <code>gpu_requirement: "high"</code> if this lock is not present.</p><=
+/li>
+<li>
+<p><strong>Parallel Execution:</strong> The scheduler's logic is designed f=
+or maximum throughput. While the GPU is busy processing a long-running task=
+, the scheduler continues its loop, actively looking for and dispatching jo=
+bs with <code>gpu_requirement: "none"</code> to CPU-only workers.</p></li>
+<li>
+<p><strong>Priority Handling:</strong> Because it queries the entire set of=
+ pending jobs, the scheduler can easily implement prioritization. It can so=
+rt the pending jobs by a <code>priority</code> field before selecting the n=
+ext one to run.</p></li>
+</ul>
+<h4 id=3D"AI+SchedulingandInferenceManagement-WorkflowandTriggers"><strong>=
+Workflow and Triggers</strong></h4>
+<p>The scheduler is triggered to run its decision loop through a hybrid mod=
+el, making it both responsive and resilient.</p>
+<ol start=3D"1">
+<li>
+<p><strong>Event-Driven Trigger (RabbitMQ):</strong> When a new job is crea=
+ted or a worker releases the GPU lock, it can publish a lightweight, conten=
+t-free message to a RabbitMQ queue that the scheduler listens to. This prom=
+pts the scheduler to immediately run its loop, ensuring no time is wasted.<=
+/p></li>
+<li>
+<p><strong>Periodic Trigger (Timer):</strong> As a fallback and for general=
+ resilience, the scheduler also runs its loop on a regular, short interval =
+(e.g., every 1-2 seconds). This ensures that any missed messages do not hal=
+t the system.</p></li>
+</ol>
+<p>The core of the scheduler can be implemented as a standalone service run=
+ning the following logic:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">def sch=
+eduler_loop():
+    while True:
+        # 1. Check GPU Resource State from Redis
+        gpu_is_busy =3D redis_client.exists("gpu:0:lock")
+
+        # 2. Handle GPU-Bound Jobs if the GPU is free
+        if not gpu_is_busy:
+            # Query Redis for the highest priority pending GPU job
+            job_id =3D find_pending_gpu_job_from_redis()
+            if job_id:
+                # Atomically lock GPU and update job status
+                redis_client.set("gpu:0:lock", job_id)
+                update_job_status_in_redis(job_id, "running")
+               =20
+                # Dispatch to the appropriate worker
+                dispatch_job_via_http(job_id)
+
+        # 3. Handle CPU-Bound Jobs (always, in parallel)
+        cpu_job_id =3D find_pending_cpu_job_from_redis()
+        if cpu_job_id:
+            update_job_status_in_redis(cpu_job_id, "running")
+            dispatch_job_via_http(cpu_job_id)
+
+        # Wait for the next cycle or an event trigger
+        wait_for_trigger_or_timeout(2.0)
+</pre>
+</div>
+</div>
+<h4 id=3D"AI+SchedulingandInferenceManagement-SummaryofResponsibilities"><s=
+trong>Summary of Responsibilities</strong></h4>
+<ul>
+<li>
+<p>Continuously monitor the state of pending jobs and resources in Redis.</=
+p></li>
+<li>
+<p>Managing the distributed lock for the GPU resource.</p></li>
+<li>
+<p>Dispatching jobs to appropriate worker services.</p></li>
+<li>
+<p>Updating job statuses in Redis from <code>pending</code> to <code>runnin=
+g</code>.</p></li>
+<li>
+<p>Operating independently of the workers, ensuring the system is resilient=
+ to worker failures.</p></li>
+</ul>
+<h3 id=3D"AI+SchedulingandInferenceManagement-JobLifecycleandStateManagemen=
+t"><strong>Job Lifecycle and State Management</strong></h3>
+<p>Job management is elevated from an implicit, in-app concern to an explic=
+it, centralized process. The entire lifecycle of a job, from creation to co=
+mpletion, is tracked through a state machine within Redis, which acts as th=
+e single source of truth. This approach provides complete visibility, resil=
+ience, and a clear record for every task processed by the system.</p>
+<h4 id=3D"AI+SchedulingandInferenceManagement-TheJobObject:SingleSourceofTr=
+uth"><strong>The Job Object: Single Source of Truth</strong></h4>
+<p>Every task submitted to the system is represented by a single hash objec=
+t in Redis, keyed by a unique <code>job_id</code>. This object contains all=
+ information related to the job and is the authoritative record of its stat=
+e.</p>
+<p>A standard job object includes the following fields:</p>
+<ul>
+<li>
+<p><code>job_id</code>: A unique identifier (e.g., UUID) generated by the C=
+oordinator upon creation.</p></li>
+<li>
+<p><code>status</code>: The current state of the job in its lifecycle (e.g.=
+, <code>pending</code>, <code>running</code>, <code>completed</code>, <code=
+>failed</code>).</p></li>
+<li>
+<p><code>task_type</code>: A string identifying the type of work to be done=
+ (e.g., <code>vlm_processing</code>, <code>audio_transcription</code>).</p>=
+</li>
+<li>
+<p><code>gpu_requirement</code>: Specifies the required hardware resource (=
+<code>high</code> or <code>none</code>). This is critical for the Scheduler=
+.</p></li>
+<li>
+<p><code>priority</code>: A numerical priority (e.g., 1-10) to allow the Sc=
+heduler to prioritize important jobs.</p></li>
+<li>
+<p><code>created_at</code>: The UTC timestamp of the job's creation.</p></l=
+i>
+<li>
+<p><code>updated_at</code>: The UTC timestamp of the last status change.</p=
+></li>
+<li>
+<p><code>input_payload</code>: A JSON string containing the inputs for the =
+job, such as file paths, user prompts, or other parameters.</p></li>
+<li>
+<p><code>result</code>: A JSON string containing the output of a successful=
+ly completed job.</p></li>
+<li>
+<p><code>error_message</code>: A string detailing the reason for failure if=
+ the job's status is <code>failed</code>.</p></li>
+</ul>
+<h4 id=3D"AI+SchedulingandInferenceManagement-JobStateLifecycle"><strong>Jo=
+b State Lifecycle</strong></h4>
+<p>A job progresses through a well-defined state machine. The <code>status<=
+/code> field in the Redis hash is updated at each transition.</p>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">       =
+               +-----------+
+                      | Scheduler |
+                      | Dispatches|
+                      +-----+-----+
+                            |
+                            v
+[ Pending ] ---------&gt; [ Running ]
+                            |
+            +---------------+---------------+
+            |                               |
+      +-----v-----+                  +------v----+
+      | Worker    |                  | Worker    |
+      | Completes |                  | Fails     |
+      +-----------+                  +-----------+
+            |                               |
+            v                               v
+      [ Completed ]                    [ Failed ]
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>pending</code>: The initial state. The job has been created and sa=
+ved to Redis but has not yet been selected for execution by the Scheduler.<=
+/p></li>
+<li>
+<p><code>running</code>: The Scheduler has selected the job for execution a=
+nd has dispatched it to a worker. For GPU jobs, this state is set concurren=
+tly with the acquisition of the GPU lock.</p></li>
+<li>
+<p><code>completed</code>: A terminal state. The worker has successfully fi=
+nished the task, written the output to the <code>result</code> field, and r=
+eleased any acquired resources.</p></li>
+<li>
+<p><code>failed</code>: A terminal state. The worker encountered an unrecov=
+erable error during processing and has written details to the <code>error_m=
+essage</code> field.</p></li>
+</ul>
+<h4 id=3D"AI+SchedulingandInferenceManagement-ComponentResponsibilities"><s=
+trong>Component Responsibilities</strong></h4>
+<ul>
+<li>
+<p><strong>Coordinator:</strong></p>
+<ul>
+<li>
+<p><strong>Creates</strong> the job object in Redis with <code>status: "pen=
+ding"</code>.</p></li>
+<li>
+<p>Populates all initial fields, including <code>job_id</code>, <code>task_=
+type</code>, <code>input_payload</code>, and <code>gpu_requirement</code>.<=
+/p></li>
+</ul></li>
+<li>
+<p><strong>Scheduler:</strong></p>
+<ul>
+<li>
+<p><strong>Reads</strong> jobs with <code>status: "pending"</code>.</p></li=
+>
+<li>
+<p>Upon dispatching a job, <strong>updates</strong> its status to <code>run=
+ning</code>.</p></li>
+</ul></li>
+<li>
+<p><strong>Worker (Pre/Post-processing or CPU-Only):</strong></p>
+<ul>
+<li>
+<p>Receives a <code>job_id</code> from the Scheduler.</p></li>
+<li>
+<p><strong>Reads</strong> the full job object from Redis to get its instruc=
+tions.</p></li>
+<li>
+<p>Performs the core business logic.</p></li>
+<li>
+<p><strong>Writes</strong> the output to the <code>result</code> field or e=
+rror details to the <code>error_message</code> field.</p></li>
+<li>
+<p><strong>Updates</strong> the job's status to its terminal state (<code>c=
+ompleted</code> or <code>failed</code>).</p></li>
+<li>
+<p>For GPU jobs, its final action is to <strong>release the GPU lock</stron=
+g> in Redis.</p></li>
+</ul></li>
+</ul>
+<h4 id=3D"AI+SchedulingandInferenceManagement-DataPersistenceandRetention">=
+<strong>Data Persistence and Retention</strong></h4>
+<p>To ensure durability, Redis is configured with a persistence mechanism (=
+e.g., AOF - Append Only File) to prevent the loss of active jobs during a r=
+estart. To prevent the database from growing indefinitely, a Time-To-Live (=
+TTL) is set on all jobs once they enter a terminal state (<code>completed</=
+code> or <code>failed</code>), ensuring automatic cleanup of old records af=
+ter a configured period (e.g., 24 hours or so).<br><br><br>
+Here is the augmented wiki section, incorporating your latest implementatio=
+n insights, subtle Triton behaviors, and pain points encountered during the=
+ Gemma-3n deployment:</p>
+<p><strong>NVIDIA Triton</strong></p>
+<p>This section details the move from in-app model management to a dedicate=
+d, high-performance inference server. The NVIDIA Triton Inference Server be=
+comes the sole component responsible for direct GPU interaction, loading an=
+d unloading models, and executing inference requests. This standardizes mod=
+el serving and abstracts the hardware complexity away from the rest of the =
+application.</p>
+<p><strong>The Triton Model Repository</strong></p>
+<p>Triton discovers and manages models through a structured filesystem dire=
+ctory known as the Model Repository. This repository is the central locatio=
+n for all models the server can potentially serve. Each model resides in it=
+s own subdirectory, which contains its configuration and versioned files.</=
+p>
+<p>The directory structure is as follows:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">/path/t=
+o/model_repository/
+=E2=94=94=E2=94=80=E2=94=80 gemma_3n/                # The name of the mode=
+l to be used in API calls
+    =E2=94=9C=E2=94=80=E2=94=80 config.pbtxt         # The model's configur=
+ation file
+    =E2=94=94=E2=94=80=E2=94=80 1/                   # A version subdirecto=
+ry for the model files
+        =E2=94=94=E2=94=80=E2=94=80 ...              # Model files (e.g., T=
+ensorRT engine, ONNX file, or Python script)
+</pre>
+</div>
+</div>
+<p>Triton monitors this repository and can load new models, unload unused o=
+nes, or update to new versions dynamically based on its configuration and p=
+olicies.</p>
+<p><strong>Model Configuration (config.pbtxt)</strong></p>
+<p>Each model directory must contain a config.pbtxt file. This file is the =
+explicit declaration of the model's contract and configuration. It defines:=
+</p>
+<ul>
+<li>
+<p>Backend: Specifies which Triton backend should be used to run the model =
+(e.g., tensorrt_llm, python, onnxruntime).</p></li>
+<li>
+<p>Input/Output Tensors: Defines the name, data type, and shape of each inp=
+ut and output tensor. This creates a formal API for the model.</p></li>
+<li>
+<p>Dynamic Batching: Configures how Triton should group incoming requests t=
+o maximize GPU throughput.</p></li>
+<li>
+<p>Instance Groups: Specifies how many copies of the model should be loaded=
+ onto one or more GPUs.</p></li>
+</ul>
+<p><strong>Backend Selection</strong></p>
+<p>Choosing the right backend is critical for performance and flexibility. =
+For a Transformers-based model like gemma-3n, the primary options are:</p>
+<ul>
+<li>
+<p>TensorRT-LLM Backend: Provides the highest performance. Requires convert=
+ing the Hugging Face model to a TensorRT engine. Ideal for static, latency-=
+sensitive production use.</p></li>
+<li>
+<p>Python Backend: Offers the most flexibility. Allows use of native Python=
+ libraries (e.g., transformers) within <code>model.py</code>. Ideal for pro=
+totype models or complex pre/post-processing that can't be easily separated=
+.</p></li>
+</ul>
+<p><strong>Python Backend Subtleties</strong></p>
+<p>While powerful, the Python backend introduces several non-obvious pitfal=
+ls:</p>
+<ul>
+<li>
+<p><code>pb_utils.get_input_tensor_by_name(...).as_numpy()</code> returns r=
+aw NumPy arrays, not PyTorch tensors. If working with structured inputs (e.=
+g., sequences of images), these often must be unpacked, converted to <code>=
+PIL.Image</code>, and repackaged for your pipeline.</p></li>
+<li>
+<p>The processor's <code>apply_chat_template()</code> accepts a Python list=
+ of messages. However, the result is a dictionary, and passing it incorrect=
+ly to <code>model.generate(**inputs)</code> will raise errors like:<br><cod=
+e>TypeError: ... argument after ** must be a mapping, not Tensor</code></p>=
+</li>
+<li>
+<p><code>.to(device)</code> must be applied <strong>per input</strong>, not=
+ on the entire dictionary. You must individually call <code>.to(device, dty=
+pe)</code> on each tensor inside <code>inputs</code>.</p></li>
+<li>
+<p><code>CudaSharedMemoryRegion</code> returned from <code>create_shared_me=
+mory_region</code> cannot be directly passed to <code>register_cuda_shared_=
+memory</code>. You must first call <code>get_raw_handle()</code> to extract=
+ the low-level handle bytes. The naming convention here is misleading.</p><=
+/li>
+</ul>
+<p>Example fix:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">raw_han=
+dle =3D cuda_shared_memory.get_raw_handle(shm_region)
+grpc_client.register_cuda_shared_memory(name, raw_handle, device_id, byte_s=
+ize)
+</pre>
+</div>
+</div>
+<p><strong>Interaction with Pre/Post-processing Workers</strong></p>
+<p>The application worker no longer loads any part of the model onto the GP=
+U. It acts purely as a network client to Triton.</p>
+<p>The worker's responsibilities are strictly defined:</p>
+<ul>
+<li>
+<p>Pre-processing: Executes all high-level logic, such as <code>create_batc=
+h_plan()</code> or <code>check_context_window()</code>. It prepares data (e=
+.g., prompt strings, NumPy image arrays) to match the tensor API defined in=
+ <code>config.pbtxt</code>.</p></li>
+<li>
+<p>API Call: Packages the data into an HTTP or gRPC request and sends it to=
+ the Triton inference endpoint (e.g., <code>POST /v2/models/gemma_3n/infer<=
+/code>).</p></li>
+<li>
+<p>Post-processing: Receives raw output tensors and applies business logic =
+(e.g., <code>_extract_narrative()</code>) to produce structured outputs.</p=
+></li>
+</ul>
+<p><strong>Limitations</strong></p>
+<p>Triton is a highly optimized inference engine. It excels at managing CUD=
+A streams, dynamic batching, and concurrent execution. However:</p>
+<ul>
+<li>
+<p>It has no awareness of, nor does it care about, higher-level business co=
+ncepts like job queues or GPU contention across models.</p></li>
+<li>
+<p>As discussed above, it will not prevent multiple large models from loadi=
+ng simultaneously, even if that causes an out-of-memory (OOM) condition. Ou=
+r architecture resolves this through our resource management pipeline.</p>
+<ul>
+<li>
+<p>Owns the high-level job queue and prioritization logic</p></li>
+<li>
+<p>Enforces which models may be loaded at a given time</p></li>
+<li>
+<p>Prevents GPU contention through controlled model dispatching</p></li>
+</ul></li>
+</ul>
+<p><strong>Troubleshooting Insights</strong></p>
+<ul>
+<li>
+<p>Image batch inputs often require <code>np.ascontiguousarray()</code> and=
+ reshaping to avoid type or shape mismatches.</p></li>
+<li>
+<p>Dynamic batching does not help when using shared memory regions unless <=
+code>max_batch_size</code> is set explicitly and batching is enabled in <co=
+de>config.pbtxt</code>.</p></li>
+<li>
+<p>Avoid unnecessary use of <code>Image.resize((224, 224), 224)</code> whic=
+h causes <code>Unknown resampling filter</code> errors. Always use the <cod=
+e>Image.Resampling.X</code> enum.</p></li>
+<li>
+<p>Torch will emit a <code>TensorFloat32 tensor cores ... not enabled</code=
+> warning. You may resolve this with:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">torch.s=
+et_float32_matmul_precision('high')
+</pre>
+</div>
+</div></li>
+<li>
+<p>The Python backend cannot reuse shared memory regions without proper raw=
+ handle rebinding =E2=80=94 even if it previously registered them. Shared m=
+emory lifecycle must be tightly controlled.</p></li>
+</ul>
+<hr>
+<p>This separation of concerns between Triton and the Central Scheduler all=
+ows each system to play to its strengths, resulting in a stable, GPU-effici=
+ent, and scalable architecture. Triton provides performance and flexibility=
+. The rest of the system ensures intelligent orchestration.</p>
+<h3 id=3D"AI+SchedulingandInferenceManagement-Kubernetes"><strong>Kubernete=
+s</strong></h3>
+<p>In a multi-GPU environment that spans multiple machines, the architectur=
+e must evolve to manage these distributed resources. Kubernetes is the only=
+ practical way to achieve this, as it provides the necessary primitives for=
+ discovery, scheduling, and lifecycle management across machine boundaries.=
+</p>
+<h4 id=3D"AI+SchedulingandInferenceManagement-ArchitectureforDistributedMan=
+agement"><strong>Architecture for Distributed Management</strong></h4>
+<ul>
+<li>
+<p><strong>Granular Resource Tracking (Redis):</strong> The single <code>gp=
+u:lock</code> is replaced by a set of granular locks for each GPU on each n=
+ode (e.g., <code>gpu:node-a:0:lock</code>, <code>gpu:node-b:0:lock</code>).=
+</p></li>
+<li>
+<p><strong>Resource Discovery:</strong> A custom Kubernetes Operator is int=
+roduced. This operator watches the Kubernetes API. When a new GPU-enabled n=
+ode joins the cluster, the operator automatically registers its available G=
+PUs in the Redis inventory, making them visible to the scheduler.</p></li>
+<li>
+<p><strong>Targeted Dispatch (Scheduler):</strong> The scheduler's logic is=
+ enhanced:</p>
+<ol start=3D"1">
+<li>
+<p>It queries Redis for any available GPU lock across the entire cluster.</=
+p></li>
+<li>
+<p>Upon finding and acquiring a specific lock (e.g., <code>gpu:node-b:0:loc=
+k</code>), it must ensure the worker pod runs on that specific node.</p></l=
+i>
+<li>
+<p>It achieves this by creating the worker pod with a <code>nodeAffinity</c=
+ode> or <code>nodeSelector</code> rule in its manifest, targeting the label=
+s of the specific node (<code>node-b</code>).</p></li>
+</ol></li>
+<li>
+<p><strong>Local Triton Interaction:</strong> The worker pod starts on the =
+correct node. It then connects to the local Triton instance on that same no=
+de and performs the explicit <code>load -&gt; infer -&gt; unload</code> lif=
+ecycle. When complete, it releases the specific Redis lock (<code>gpu:node-=
+b:0:lock</code>), making that individual GPU available cluster-wide.</p></l=
+i>
+</ul>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_64_1296610102.1758122933854--

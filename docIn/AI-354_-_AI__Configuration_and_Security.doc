@@ -1,0 +1,800 @@
+Date: Wed, 17 Sep 2025 15:27:51 +0000 (UTC)
+Message-ID: <367752910.19.1758122871776@40a87d9c3bdb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_18_388572251.1758122871776"
+
+------=_Part_18_388572251.1758122871776
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-354 - AI+ Configuration and Security</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-354 - AI+ Configuration and Security</h1>
+    <div class=3D"Section1">
+        <p></p>
+<p>This guide provides a comprehensive overview of setting up HashiCorp Vau=
+lt and Consul for AI+, with a focus on deployment in containerized environm=
+ents. It covers both standalone and clustered deployments, and consideratio=
+ns for future Kubernetes integration. While this guide focuses on container=
+ized deployments, the principles apply to non-containerized environments as=
+ well.</p>
+<blockquote>
+<p><strong>Important</strong>: This guide assumes that TLS is used for all =
+communication between Vault and Consul, even in non-clustered, air-gapped e=
+nvironments. Mutual TLS (mTLS) will be used where applicable.</p>
+</blockquote>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-Vault">Vault</h3>
+<p>Vault is a tool for securely managing secrets. It provides a unified int=
+erface to any secret, tight access control, and record logging. In this set=
+up, we'll use Consul as the storage backend for Vault.</p>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-Consul">Consul</h3>
+<p>Consul is a service mesh solution providing a full-featured control plan=
+e with service discovery, configuration, and orchestration capabilities. In=
+ this guide, Consul is used as a highly available, distributed key-value st=
+ore for Vault.</p>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-CertificateGeneration">Certifi=
+cate Generation</h2>
+<p>For TLS encryption, you'll need to generate:</p>
+<ol start=3D"1">
+<li>
+<p>A Certificate Authority (CA) certificate</p></li>
+<li>
+<p>Server certificates for Vault and Consul</p></li>
+<li>
+<p>Client certificates for mTLS authentication</p></li>
+</ol>
+<p>Here's a brief example using OpenSSL:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Creat=
+e a CA
+openssl genrsa -out ca.key 4096
+openssl req -new -x509 -key ca.key -sha256 -subj "/CN=3Dvault-ca" -out ca.c=
+rt
+
+# Create certificates for Consul
+openssl genrsa -out consul.key 2048
+openssl req -new -key consul.key -out consul.csr -subj "/CN=3Dconsul"
+openssl x509 -req -in consul.csr -CA ca.crt -CAkey ca.key -CAcreateserial -=
+out consul.crt
+
+# Create certificates for Vault
+openssl genrsa -out vault.key 2048
+openssl req -new -key vault.key -out vault.csr -subj "/CN=3Dvault"
+openssl x509 -req -in vault.csr -CA ca.crt -CAkey ca.key -CAcreateserial -o=
+ut vault.crt
+</pre>
+</div>
+</div>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-VaultSetup">Vault Setup</h2>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-Pre-Conditions">Pre-Conditions=
+</h3>
+<ul>
+<li>
+<p>Vault is deployed in a containerized environment using Docker Compose</p=
+></li>
+<li>
+<p>Vault is initialized using Shamir Secret Sharing, with unseal keys distr=
+ibuted manually</p></li>
+<li>
+<p>Environment variables (e.g., <code>VAULT_DEV_ROOT_TOKEN_ID</code>) are s=
+et via <code>.env</code> files or securely passed into containers</p></li>
+<li>
+<p>Persistent storage is mounted from the host filesystem</p></li>
+<li>
+<p>Vault uses Consul as a storage backend</p></li>
+<li>
+<p>TLS is enabled for all communication</p></li>
+</ul>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-ConfigurationOverview">Configu=
+ration Overview</h3>
+<ul>
+<li>
+<p><strong>Storage backend</strong>: Consul</p></li>
+<li>
+<p><strong>Listener</strong>: TCP with TLS enabled</p></li>
+<li>
+<p><strong>Vault UI</strong>: Enabled</p></li>
+<li>
+<p><strong>Initialization</strong>: Manual (<code>vault operator init</code=
+>)</p></li>
+<li>
+<p><strong>Unsealing</strong>: Manual (<code>vault operator unseal</code>),=
+ using Shamir Secret Sharing (e.g., 5 key shares, 3 threshold)</p></li>
+<li>
+<p><strong>Root token handling</strong>: Manual (secure distribution offlin=
+e)</p></li>
+<li>
+<p><strong>Configuration</strong>: Provided via the <code>VAULT_LOCAL_CONFI=
+G</code> environment variable</p></li>
+</ul>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-StandaloneDeployment">Standalo=
+ne Deployment</h2>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-VaultConfiguration(Standalone)=
+">Vault Configuration (Standalone)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">storage=
+ "consul" {
+  address      =3D "https://consul:8500"  # Consul address, include port
+  path         =3D "vault/"               # Path in Consul KV
+  tls_ca_file  =3D "/vault/certs/ca.crt"
+  tls_cert_file =3D "/vault/certs/vault.crt"
+  tls_key_file  =3D "/vault/certs/vault.key"
+}
+
+listener "tcp" {
+  address        =3D "0.0.0.0:8200"
+  tls_cert_file  =3D "/vault/certs/vault.crt"
+  tls_key_file   =3D "/vault/certs/vault.key"
+  client_cert_auth =3D "require"  # Require client certificates
+}
+
+ui =3D true
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>tls_ca_file</strong>: Path to the CA certificate</p></li>
+<li>
+<p><strong>tls_cert_file</strong>: Path to the Vault server certificate</p>=
+</li>
+<li>
+<p><strong>tls_key_file</strong>: Path to the Vault server private key</p><=
+/li>
+<li>
+<p><strong>client_cert_auth</strong>: Set to "require" to enable mTLS</p></=
+li>
+</ul>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-Initialization&amp;UnsealProce=
+ss(Standalone)">Initialization &amp; Unseal Process (Standalone)</h3>
+<ol start=3D"1">
+<li>
+<p>Start Consul</p></li>
+<li>
+<p>Start Vault</p></li>
+<li>
+<p>Execute a shell within the Vault container:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+exec -it vault sh
+</pre>
+</div>
+</div></li>
+<li>
+<p>Initialize Vault:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator init -key-shares=3D5 -key-threshold=3D3
+</pre>
+</div>
+</div></li>
+<li>
+<p>Securely store the output, which includes:</p>
+<ul>
+<li>
+<p>5 unseal keys</p></li>
+<li>
+<p>1 root token</p></li>
+</ul>
+<p><strong>Important</strong>: These keys are non-recoverable. DO NOT LOSE =
+THEM!</p></li>
+<li>
+<p>Unseal Vault with any 3 of the 5 unseal keys:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator unseal -tls -address=3Dhttps://0.0.0.0:8200 &lt;key1&gt;
+vault operator unseal -tls -address=3Dhttps://0.0.0.0:8200 &lt;key2&gt;
+vault operator unseal -tls -address=3Dhttps://0.0.0.0:8200 &lt;key3&gt;
+</pre>
+</div>
+</div></li>
+<li>
+<p>Vault becomes available after unsealing</p></li>
+</ol>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-ClusteredDeployment">Clustered=
+ Deployment</h2>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-VaultConfiguration(Clustered)"=
+>Vault Configuration (Clustered)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">storage=
+ "consul" {
+  address      =3D "https://consul1:8500,https://consul2:8500,https://consu=
+l3:8500"  # Comma-separated list of Consul addresses
+  path         =3D "vault/"
+  tls_ca_file  =3D "/vault/certs/ca.crt"
+  tls_cert_file =3D "/vault/certs/vault.crt"
+  tls_key_file  =3D "/vault/certs/vault.key"
+}
+
+listener "tcp" {
+  address        =3D "0.0.0.0:8200"
+  tls_cert_file  =3D "/vault/certs/vault.crt"
+  tls_key_file   =3D "/vault/certs/vault.key"
+  client_cert_auth =3D "require"
+}
+
+cluster_name =3D "vault-cluster"
+ui =3D true
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>address</strong>: Comma-separated list of Consul servers</p></li=
+>
+<li>
+<p><strong>cluster_name</strong>: The name of the Vault cluster</p></li>
+</ul>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-InitializationandUnsealProcess=
+(Clustered)">Initialization and Unseal Process (Clustered)</h3>
+<ol start=3D"1">
+<li>
+<p>Start Consul cluster (3 or 5 servers)</p></li>
+<li>
+<p>Start Vault instances (at least 3 for HA)</p></li>
+<li>
+<p>Initialize only one Vault instance:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+exec -it vault-node-1 sh
+vault operator init -key-shares=3D5 -key-threshold=3D3
+</pre>
+</div>
+</div></li>
+<li>
+<p>Securely store the unseal keys and root token</p></li>
+<li>
+<p>Unseal the same Vault instance that was initialized:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator unseal -tls -address=3Dhttps://vault-node-1:8200 &lt;key1&gt;
+vault operator unseal -tls -address=3Dhttps://vault-node-1:8200 &lt;key2&gt=
+;
+vault operator unseal -tls -address=3Dhttps://vault-node-1:8200 &lt;key3&gt=
+;
+</pre>
+</div>
+</div></li>
+<li>
+<p>Join the other Vault instances to the cluster after the first node is un=
+sealed:</p>
+<p>On vault-node-2:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator join -address=3Dhttps://vault-node-1:8200 -tls
+</pre>
+</div>
+</div>
+<p>On vault-node-3:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator join -address=3Dhttps://vault-node-1:8200 -tls
+</pre>
+</div>
+</div></li>
+<li>
+<p>Unseal the other Vault instances, one at a time, using keys from the ini=
+tial unseal process:</p>
+<p>On vault-node-2:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator unseal -tls -address=3Dhttps://vault-node-2:8200 &lt;key1&gt;
+vault operator unseal -tls -address=3Dhttps://vault-node-2:8200 &lt;key2&gt=
+;
+vault operator unseal -tls -address=3Dhttps://vault-node-2:8200 &lt;key3&gt=
+;
+</pre>
+</div>
+</div>
+<p>On vault-node-3:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vault o=
+perator unseal -tls -address=3Dhttps://vault-node-3:8200 &lt;key1&gt;
+vault operator unseal -tls -address=3Dhttps://vault-node-3:8200 &lt;key2&gt=
+;
+vault operator unseal -tls -address=3Dhttps://vault-node-3:8200 &lt;key3&gt=
+;
+</pre>
+</div>
+</div></li>
+<li>
+<p>Vault cluster is available after all nodes are unsealed</p></li>
+</ol>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-ConsulSetup">Consul Setup</h2>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-Pre-Conditions.1">Pre-Conditio=
+ns</h3>
+<ul>
+<li>
+<p>Consul is deployed using Docker Compose</p></li>
+<li>
+<p>TLS is enabled for all communication</p></li>
+<li>
+<p>Consul is used to provide distributed configuration and store Vault data=
+</p></li>
+</ul>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-ConfigurationOverview.1">Confi=
+guration Overview</h3>
+<ul>
+<li>
+<p><strong>Mode</strong>: Server (standalone or clustered)</p></li>
+<li>
+<p><strong>DNS</strong>: Disabled</p></li>
+<li>
+<p><strong>Client mode</strong>: Disabled</p></li>
+<li>
+<p><strong>UI</strong>: Enabled</p></li>
+<li>
+<p><strong>Storage</strong>: Local disk</p></li>
+<li>
+<p><strong>TLS</strong>: Enabled</p></li>
+</ul>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-ConsulConfiguration(Standalone=
+)">Consul Configuration (Standalone)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">server =
+=3D true
+bootstrap_expect =3D 1
+ui =3D true
+client_addr =3D "0.0.0.0"
+bind_addr =3D "0.0.0.0"
+datacenter =3D "dc1"
+
+tls {
+  enabled =3D true
+  cert_file =3D "/consul/certs/consul.crt"
+  key_file  =3D "/consul/certs/consul.key"
+  ca_file   =3D "/consul/certs/ca.crt"
+  verify_incoming =3D true
+  verify_outgoing =3D true
+}
+</pre>
+</div>
+</div>
+<h3 id=3D"AI-354-AI+ConfigurationandSecurity-ConsulConfiguration(Clustered)=
+">Consul Configuration (Clustered)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">server =
+=3D true
+bootstrap_expect =3D 3  # or 5
+ui =3D true
+client_addr =3D "0.0.0.0"
+bind_addr =3D "0.0.0.0"
+datacenter =3D "dc1"
+
+tls {
+  enabled =3D true
+  cert_file =3D "/consul/certs/consul.crt"
+  key_file  =3D "/consul/certs/consul.key"
+  ca_file   =3D "/consul/certs/ca.crt"
+  verify_incoming =3D true
+  verify_outgoing =3D true
+}
+
+retry_join =3D ["consul1", "consul2", "consul3"]  # For each server
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>retry_join</strong>: Used to join the other Consul servers. Use =
+the private IPs or container names of the other Consul nodes.</p></li>
+</ul>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-DockerComposeSetup">Docker Com=
+pose Setup</h2>
+<p>A basic <code>docker-compose.yml</code> file orchestrates the Vault and =
+Consul services. All volumes are mapped locally, and networking is confined=
+ to a dedicated Docker network.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">version=
+: '3.8'
+services:
+  consul:
+    image: hashicorp/consul:1.15
+    container_name: consul
+    restart: unless-stopped
+    ports:
+      - "8500:8500"
+      - "8600:8600/udp"
+    command: agent -server -bootstrap-expect=3D1 -ui -client=3D0.0.0.0 -bin=
+d=3D0.0.0.0 -data-dir=3D/consul/data -hcl=3D'tls { enabled =3D true; cert_f=
+ile =3D "/consul/certs/consul.crt"; key_file =3D "/consul/certs/consul.key"=
+; ca_file =3D "/consul/certs/ca.crt"; verify_incoming =3D true; verify_outg=
+oing =3D true }'
+    volumes:
+      - ./consul/data:/consul/data
+      - ./certs:/consul/certs  # Mount certs
+    networks:
+      - vault-consul  # Define a network
+
+  consul2:  # For Consul Cluster
+    image: hashicorp/consul:1.15
+    container_name: consul2
+    restart: unless-stopped
+    ports:
+      - "8502:8500"
+      - "8602:8600/udp"
+    command: agent -server -retry-join=3D"consul:8500" -ui -client=3D0.0.0.=
+0 -bind=3D0.0.0.0 -data-dir=3D/consul/data -hcl=3D'tls { enabled =3D true; =
+cert_file =3D "/consul/certs/consul.crt"; key_file =3D "/consul/certs/consu=
+l.key"; ca_file =3D "/consul/certs/ca.crt"; verify_incoming =3D true; verif=
+y_outgoing =3D true }'
+    volumes:
+      - ./consul/data2:/consul/data
+      - ./certs:/consul/certs
+    networks:
+      - vault-consul
+
+  consul3:  # For Consul Cluster
+    image: hashicorp/consul:1.15
+    container_name: consul3
+    restart: unless-stopped
+    ports:
+      - "8503:8500"
+      - "8603:8600/udp"
+    command: agent -server -retry-join=3D"consul:8500" -retry-join=3D"consu=
+l2:8502" -ui -client=3D0.0.0.0 -bind=3D0.0.0.0 -data-dir=3D/consul/data -hc=
+l=3D'tls { enabled =3D true; cert_file =3D "/consul/certs/consul.crt"; key_=
+file =3D "/consul/certs/consul.key"; ca_file =3D "/consul/certs/ca.crt"; ve=
+rify_incoming =3D true; verify_outgoing =3D true }'
+    volumes:
+      - ./consul/data3:/consul/data
+      - ./certs:/consul/certs
+    networks:
+      - vault-consul
+
+  vault:
+    image: hashicorp/vault:1.15
+    container_name: vault
+    restart: unless-stopped
+    ports:
+      - "8200:8200"
+    cap_add:
+      - IPC_LOCK
+    environment:
+      VAULT_ADDR: https://0.0.0.0:8200  # Use https
+      VAULT_API_ADDR: https://localhost:8200  # Use https
+      VAULT_LOCAL_CONFIG: |
+        storage "consul" {
+          address =3D "https://consul:8500"  # Use https
+          path    =3D "vault/"
+          tls_ca_file   =3D "/vault/certs/ca.crt"
+          tls_cert_file =3D "/vault/certs/vault.crt"
+          tls_key_file  =3D "/vault/certs/vault.key"
+        }
+        listener "tcp" {
+          address     =3D "0.0.0.0:8200"
+          tls_cert_file =3D "/vault/certs/vault.crt"
+          tls_key_file  =3D "/vault/certs/vault.key"
+          client_cert_auth =3D "require"  # Require client certs
+        }
+        ui =3D true
+    volumes:
+      - ./vault/data:/vault/file
+      - ./certs:/vault/certs  # Mount certs
+    depends_on:
+      - consul
+    networks:
+      - vault-consul
+
+networks:
+  vault-consul:  # Define network
+</pre>
+</div>
+</div>
+<p>Key features of the Docker Compose file:</p>
+<ul>
+<li>
+<p>A network <code>vault-consul</code> is defined and used by both Vault an=
+d Consul</p></li>
+<li>
+<p>Consul ports are mapped individually for each Consul server in the clust=
+er (8500, 8502, 8503)</p></li>
+<li>
+<p>Consul TLS settings are included in the command using <code>-hcl</code><=
+/p></li>
+<li>
+<p>Certificates are mounted into both Consul and Vault containers</p></li>
+<li>
+<p>Vault addresses are updated to use https</p></li>
+<li>
+<p>Consul service definitions are added</p></li>
+</ul>
+<h2 id=3D"AI-354-AI+ConfigurationandSecurity-KubernetesIntegration">Kuberne=
+tes Integration</h2>
+<p>When moving to Kubernetes, consider the following changes:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Helm Charts</strong>: Use the official Vault and Consul Helm cha=
+rts</p></li>
+<li>
+<p><strong>Auto-Unseal</strong>: Configure auto-unseal with cloud provider =
+KMS</p></li>
+<li>
+<p><strong>Secret Injection</strong>: Use Vault's Kubernetes auth method fo=
+r injecting secrets</p></li>
+<li>
+<p><strong>Service Mesh</strong>: Evaluate Consul Connect for service mesh =
+capabilities</p></li>
+<li>
+<p><strong>Storage</strong>: Consider using Consul or integrated storage fo=
+r Vault</p></li>
+</ol>
+<p>Example Vault Helm values for Kubernetes:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">server:
+  ha:
+    enabled: true
+    replicas: 3
+ =20
+  extraEnvironmentVars:
+    VAULT_CACERT: /vault/certs/ca.crt
+    VAULT_TLSCERT: /vault/certs/vault.crt
+    VAULT_TLSKEY: /vault/certs/vault.key
+ =20
+  volumes:
+    - name: certs
+      secret:
+        secretName: vault-certs
+ =20
+  volumeMounts:
+    - name: certs
+      mountPath: /vault/certs
+      readOnly: true
+</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_18_388572251.1758122871776--

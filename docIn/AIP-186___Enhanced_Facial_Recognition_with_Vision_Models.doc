@@ -1,0 +1,573 @@
+Date: Wed, 17 Sep 2025 15:26:45 +0000 (UTC)
+Message-ID: <903656722.247.1758122805564@6e9eb9291c45>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_246_976040585.1758122805564"
+
+------=_Part_246_976040585.1758122805564
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AIP-186:  Enhanced Facial Recognition with Vision Models</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AIP-186:  Enhanced Facial Recognition with Vision Models</h1>
+    <div class=3D"Section1">
+        <p>Our current facial recognition system uses DeepFace as a common =
+entry point for various face models (VGG-Face, ArcNet, etc.) and ChromaDB f=
+or storing face embeddings and metadata. While functional, we identified se=
+veral areas for improvement in training robustness and recognition accuracy=
+.</p>
+<ol start=3D"1">
+<li>
+<p>Training process lacks robust validation</p></li>
+<li>
+<p>No quality-based filtering for training faces</p></li>
+<li>
+<p>Limited augmentation strategy</p></li>
+<li>
+<p>Fixed threshold approach for recognition</p></li>
+<li>
+<p>Limited temporal consistency in video processing</p></li>
+<li>
+<p>Basic face quality assessment</p></li>
+</ol>
+<p>We=E2=80=99ve been experimenting with whether we can integrate a Vision =
+Model for validating training faces. See: <a class=3D"external-link" data-c=
+ard-appearance=3D"inline" href=3D"https://github.com/trezero/faceTools" rel=
+=3D"nofollow">https://github.com/trezero/faceTools</a></p>
+<p><strong>Advantages of Vision Model Integration:</strong></p>
+<ul>
+<li>
+<p>Could detect subtle quality issues (partial occlusion, face masks, heavy=
+ makeup)</p></li>
+<li>
+<p>Natural language feedback about image quality</p></li>
+<li>
+<p>Help ensure demographic diversity in training data</p></li>
+<li>
+<p>More nuanced understanding of edge cases</p></li>
+</ul>
+<p><strong>Disadvantages of Vision Model Integration:</strong></p>
+<ul>
+<li>
+<p>Significant latency overhead (100ms-2s per image)</p></li>
+<li>
+<p>Greatly increased system complexity</p></li>
+<li>
+<p>Resource management a concern.</p></li>
+</ul>
+<h2 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-ComputerVision"=
+><strong>Computer Vision </strong></h2>
+<h3 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-ValidationPipel=
+ine"><strong>Validation Pipeline</strong></h3>
+<p>The validation pipeline uses multiple quality checks to ensure only high=
+-quality faces proceed to training. Key validators include:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">class F=
+aceValidator:
+    def __init__(self):
+        self.validators =3D [
+            ResolutionValidator(min_size=3D(64, 64)),
+            BrightnessValidator(min_brightness=3D0.3, max_brightness=3D0.9)=
+,
+            BlurValidator(max_blur=3D100),
+            PoseValidator(max_angle=3D30),
+            OcclusionValidator(max_occlusion=3D0.2)
+        ]
+       =20
+    async def validate(self, face_image):
+        results =3D [await validator.validate(face_image) for validator in =
+self.validators]
+        return ValidationResult(
+            is_valid=3Dall(r.is_valid for r in results),
+            details=3D{r.name: r.details for r in results}
+        )
+</pre>
+</div>
+</div>
+<p>The pipeline validates resolution, brightness, contrast, blur, pose, and=
+ occlusion, rejecting faces below the quality threshold.</p>
+<h3 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-RecognitionPipe=
+line"><strong>Recognition Pipeline</strong></h3>
+<p>Adaptive Thresholding: Adjusts identification thresholds based on face q=
+uality.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">def _ca=
+lculate_adaptive_threshold(face_quality, distance):
+    base_threshold =3D self.identification_threshold
+    quality_factor =3D min(1.0, face_quality / self.optimal_quality_score)
+    return base_threshold * quality_factor
+</pre>
+</div>
+</div>
+<p>Temporal Smoothing: Ensures recognition consistency over time in video s=
+treams.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">def _ap=
+ply_temporal_smoothing(current_results, history):
+    smoothed_results =3D []
+    for result in current_results:
+        historical_match =3D self._find_matching_face_in_history(result, hi=
+story)
+        smoothed_results.append(self._smooth_detection(result, historical_m=
+atch))
+    return smoothed_results
+</pre>
+</div>
+</div>
+<h3 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-FaceQualityAsse=
+ssment"><strong>Face Quality Assessment</strong></h3>
+<p>The assessment combines metrics for resolution, brightness, and symmetry=
+ into a weighted score:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">def ana=
+lyze_face_quality(face_data, image):
+    quality_scores =3D {
+        'resolution': _calculate_face_resolution(face_data),
+        'brightness': _analyze_brightness(image),
+        'pose': _estimate_pose(face_data),
+    }
+    weighted_score =3D sum(
+        score * QUALITY_WEIGHTS[metric]
+        for metric, score in quality_scores.items()
+    )
+    return weighted_score
+</pre>
+</div>
+</div>
+<p></p>
+<h2 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-VisionModelInte=
+gration"><strong>Vision Model Integration</strong></h2>
+<p>Vision models provide natural language feedback and detect subtle qualit=
+y issues like occlusion or heavy makeup. They complement traditional valida=
+tors for borderline cases:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">class V=
+isionModelValidator:
+    def __init__(self, model_name=3D"gpt-4-vision-preview", confidence_thre=
+shold=3D0.85):
+        self.model =3D model_name
+        self.confidence_threshold =3D confidence_threshold
+       =20
+    async def validate(self, image):
+        response =3D await self._analyze_with_model(image)
+        return self._parse_response(response)
+</pre>
+</div>
+</div>
+<h3 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-VisionModelDete=
+ction">Vision Model Detection</h3>
+<p>While local vision models could supplement detection, we should not repl=
+ace DeepFace's detection for a few reasons:</p>
+<ul>
+<li>
+<p>DeepFace already abstracts several optimized detection backends:</p>
+<ul>
+<li>
+<p>SSD (Single Shot Detector)</p></li>
+<li>
+<p>MTCNN (Multi-task Cascaded CNN)</p></li>
+<li>
+<p>RetinaFace</p></li>
+<li>
+<p>MediaPipe Face Detection</p></li>
+<li>
+<p>OpenCV's DNN face detector</p></li>
+</ul></li>
+</ul>
+<p>These specialized detectors are optimized specifically for face detectio=
+n and well-benchmarked on face detection datasets. They are orders of magni=
+tude faster than general vision models and far more resource efficient</p>
+<p>However, we could use the vision models to validate DeepFace's detection=
+s:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">class E=
+nhancedFaceDetector:
+    def __init__(
+        self,
+        deepface_backend: str =3D "retinaface",
+        vision_validator: Optional[LocalVisionValidator] =3D None
+    ):
+        self.detector =3D DeepFace.build_detector(detector_backend=3Ddeepfa=
+ce_backend)
+        self.vision_validator =3D vision_validator
+       =20
+    async def detect_faces(self, image: np.ndarray) -&gt; List[Dict]:
+        # Get initial detections
+        faces =3D self.detector.detect_faces(image)
+       =20
+        if self.vision_validator:
+            # Validate each detection
+            for face in faces:
+                face_img =3D self._extract_face_region(image, face)
+                validation =3D await self.vision_validator.validate(face_im=
+g)
+                face['confidence'] *=3D validation.confidence
+               =20
+        return [f for f in faces if f['confidence'] &gt; self.confidence_th=
+reshold]</pre>
+</div>
+</div>
+<p>This would give us the best of both: specialized face detection with add=
+itional validation from vision models.</p>
+<p></p>
+<h2 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-Configuration">=
+<strong>Configuration</strong></h2>
+<p>The system=E2=80=99s behavior can be fine-tuned through several configur=
+able settings:</p>
+<h4 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-QualitySettings=
+"><strong>Quality Settings</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">quality=
+_config =3D {
+    'min_face_resolution': 64 * 64,
+    'min_brightness': 0.3,
+    'min_contrast': 0.4,
+    'max_pose_angle': 30,
+    'max_occlusion': 0.2
+}
+</pre>
+</div>
+</div>
+<h4 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-TemporalConfigu=
+ration"><strong>Temporal Configuration</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">tempora=
+l_config =3D {
+    'history_size': 5,
+    'smoothing_factor': 0.7,
+    'min_track_length': 3
+}
+</pre>
+</div>
+</div>
+<h4 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-AugmentationSet=
+tings"><strong>Augmentation Settings</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">augment=
+ation_config =3D {
+    'brightness_range': (-0.2, 0.2),
+    'contrast_range': (-0.2, 0.2),
+    'noise_range': (0, 0.05),
+    'rotation_range': (-15, 15)
+}
+</pre>
+</div>
+</div>
+<h4 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-VisionModelConf=
+iguration"><strong>Vision Model Configuration</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">vision_=
+config =3D {
+    "enabled": False,
+    "model": "gpt-4-vision-preview",
+    "confidence_threshold": 0.85,
+    "cache_size": 1000
+}
+</pre>
+</div>
+</div>
+<h3 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-VisualizationEx=
+amples"><strong>Visualization Examples</strong></h3>
+<h4 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-FaceQualityAnal=
+ysis"><strong>Face Quality Analysis</strong></h4>
+<p>Here=E2=80=99s an example output from the face quality analysis tool:</p=
+>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"320eaac7-c7da-47ef-a058-e24=
+8ddc12ce3" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Metric</p></th>
+<th class=3D"confluenceTh">
+<p>Score</p></th>
+<th class=3D"confluenceTh">
+<p>Pass/Fail</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Resolution</p></td>
+<td class=3D"confluenceTd">
+<p>0.85</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Brightness</p></td>
+<td class=3D"confluenceTd">
+<p>0.78</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Pose</p></td>
+<td class=3D"confluenceTd">
+<p>0.65</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Occlusion</p></td>
+<td class=3D"confluenceTd">
+<p>0.30</p></td>
+<td class=3D"confluenceTd">
+<p>Fail</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"AIP-186:EnhancedFacialRecognitionwithVisionModels-RecognitionAdap=
+tation"><strong>Recognition Adaptation</strong></h4>
+<p>Graph showing adaptive thresholds based on face quality:</p>
+<ul>
+<li>
+<p>X-axis: Face Quality</p></li>
+<li>
+<p>Y-axis: Identification Threshold</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_246_976040585.1758122805564--

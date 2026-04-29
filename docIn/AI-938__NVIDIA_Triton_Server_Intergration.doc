@@ -1,0 +1,1162 @@
+Date: Wed, 17 Sep 2025 15:28:59 +0000 (UTC)
+Message-ID: <2007876836.233.1758122939613@333c1b01f638>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_232_1020670583.1758122939613"
+
+------=_Part_232_1020670583.1758122939613
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-938: NVIDIA Triton Server Intergration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-938: NVIDIA Triton Server Intergration</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"AI-938:NVIDIATritonServerIntergration-"><br></h1>
+<style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1758122939593 {padding: 0px;}
+div.rbtoc1758122939593 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758122939593 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1758122939593">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-"></a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Overview">Overview</a=
+>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-SimplifiedIntegration=
+">Simplified Integration</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-PerformanceandResourc=
+eOptimization">Performance and Resource Optimization</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-FlexibilityandMaintai=
+nability">Flexibility and Maintainability</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Observability">Observ=
+ability</a></li>
+</ul></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Gemma-3n">Gemma-3n</a=
+>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Input/OutputTensors">=
+Input/Output Tensors</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Batching">Batching</a=
+></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-CUDASharedMemoryInteg=
+ration">CUDA Shared Memory Integration</a></li>
+</ul></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-MediaProcessingPipeli=
+ne">Media Processing Pipeline</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Transformers">Transfo=
+rmers</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Attention">Attention<=
+/a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-OutputTokens">Output =
+Tokens</a></li>
+</ul></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-OtherImplementationNo=
+tes">Other Implementation Notes</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-GreedyDecodingStrateg=
+y">Greedy Decoding Strategy</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-MemoryEfficiencyOptim=
+izations">Memory Efficiency Optimizations</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-VRAMConsumptionPatter=
+ns">VRAM Consumption Patterns</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-FasterWhisper">Faster=
+Whisper</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Input/OutputTensors.1=
+">Input/Output Tensors</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-MediaProcessingPipeli=
+ne.1">Media Processing Pipeline</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Language">Language</a=
+></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-SegmentandWordProcess=
+ing">Segment and Word Processing</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-NVIDIAParakeet">NVIDI=
+A Parakeet</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-Input/OutputTensors.2=
+">Input/Output Tensors</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-MediaProcessingPipeli=
+ne.2">Media Processing Pipeline</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-WindowedInferenceSolu=
+tion">Windowed Inference Solution</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-SegmentationLogic">Se=
+gmentation Logic</a></li>
+</ul></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-ImplementationNotes">=
+Implementation Notes</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-ModelLoadingIssues">M=
+odel Loading Issues</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-TimestampAPIInconsist=
+encies">Timestamp API Inconsistencies</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-CUDAGraphProblems">CU=
+DA Graph Problems</a></li>
+<li><a href=3D"#AI-938:NVIDIATritonServerIntergration-StabilityImprovements=
+">Stability Improvements</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<h1 id=3D"AI-938:NVIDIATritonServerIntergration-Overview">Overview</h1>
+<p></p>
+<p>NVIDIA's Triton Inference Server is a specialized backend for serving AI=
+ models in production. It provides a standard gRPC/HTTP API that lets us av=
+oid building custom deployment applications for each model. The server is a=
+ comprehensive platform with built-in features like dynamic batching, concu=
+rrent execution, and a flexible backend system that supports everything fro=
+m Python to highly optimized TensorRT engines. Adopting Triton standardizes=
+ our MLOps pipeline, replacing ad-hoc solutions with a scalable and optimiz=
+ed system.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-SimplifiedIntegration"><str=
+ong>Simplified Integration</strong></h3>
+<p>Triton abstracts model complexity from the application layer. Our servic=
+es don't need to know how a model is implemented; they just make a standard=
+ gRPC call to a named endpoint. This decoupling is powerful. For example, i=
+t made A/B testing FasterWhisper against Parakeet trivial. Since they share=
+d an identical input/output signature within Triton, the business logic cou=
+ld switch between them via a simple configuration change, requiring no code=
+ redeployment.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-PerformanceandResourceOptim=
+ization"><strong>Performance and Resource Optimization</strong></h3>
+<p>The primary performance justification comes from the Gemma-3n implementa=
+tion, which saw a <strong>3x speed increase</strong> and a <strong>2.5-3x r=
+eduction in VRAM usage</strong> after moving to Triton. These gains stem fr=
+om features that are complex to build and maintain in a custom service:</p>
+<ul>
+<li>
+<p><strong>Dynamic Batching</strong>: Triton automatically groups incoming =
+requests from different users into a single batch on the fly, which is one =
+of the most effective ways to maximize GPU throughput.</p></li>
+<li>
+<p><strong>Concurrent Model Execution</strong>: The server can intelligentl=
+y schedule and run multiple models=E2=80=94or multiple instances of the sam=
+e model=E2=80=94on a single GPU, overlapping operations to keep the hardwar=
+e saturated.</p></li>
+<li>
+<p><strong>Efficient Memory Management</strong>: Triton can load a single i=
+nstance of model weights and allow many concurrent requests to share it. Th=
+is drastically reduces the VRAM footprint compared to running multiple redu=
+ndant Python processes in separate containers.</p></li>
+</ul>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-FlexibilityandMaintainabili=
+ty"><strong>Flexibility and Maintainability</strong></h3>
+<p>Triton's architecture solves several long-term maintenance challenges. I=
+ts use of isolated backends resolves the "dependency hell" problem; each mo=
+del runs in its own environment, so Gemma-3n's PyTorch version will never c=
+onflict with Parakeet's NeMo dependencies.</p>
+<p>This structure also provides a clear path for iterative optimization. We=
+ can deploy a model quickly using the flexible Python backend and, if it be=
+comes a bottleneck, rewrite its core in a high-performance backend like Ten=
+sorRT. Throughout this process, the client-facing API remains unchanged, co=
+mpletely isolating the optimization work from the business logic.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-Observability"><strong>Obse=
+rvability</strong></h3>
+<p>Building robust monitoring for a custom service is a significant task. T=
+riton provides this out of the box, exposing a Prometheus metrics endpoint =
+with detailed data on GPU utilization, memory, queue times, and inference l=
+atency for every model.</p>
+<h1 id=3D"AI-938:NVIDIATritonServerIntergration-Gemma-3n">Gemma-3n</h1>
+<p>This implementation serves Google's Gemma-3n vision-language model throu=
+gh a highly optimized Triton Python backend that bypasses standard HuggingF=
+ace preprocessing to maintain GPU-resident tensors throughout the entire pi=
+peline. The key innovation is avoiding CPU roundtrips for image data that o=
+ften exists in CUDA shared memory, providing significant performance improv=
+ements for video analysis workloads.</p>
+<p>The implementation uses the HuggingFace processor exclusively for chat t=
+emplating and tokenization while handling all image preprocessing directly =
+on GPU using native PyTorch operations. This approach eliminates the overhe=
+ad of PIL/NumPy conversions and CPU-GPU memory transfers that plague standa=
+rd vision-language model deployments.</p>
+<p>Standard HuggingFace vision model implementations force image data throu=
+gh a CPU preprocessing pipeline that includes PIL Image objects, NumPy arra=
+y conversions, and processor normalization steps. This design assumes image=
+s arrive as files or CPU arrays, which is inefficient when video frames are=
+ already GPU-resident or transmitted through CUDA shared memory.</p>
+<p>The implementation circumvents this entire preprocessing chain by:</p>
+<ul>
+<li>
+<p>Using HuggingFace processor only for text templating and tokenization</p=
+></li>
+<li>
+<p>Implementing custom GPU-native image preprocessing with PyTorch operatio=
+ns</p></li>
+<li>
+<p>Maintaining tensor memory layout optimizations throughout the pipeline</=
+p></li>
+<li>
+<p>Supporting direct DLPack zero-copy transfers from CUDA shared memory</p>=
+</li>
+</ul>
+<p>Video processing applications typically produce frames in NHWC format (N=
+umber of frames, Height, Width, Channels) while GPU operations prefer NCHW =
+format (Number of frames, Channels, Height, Width). The implementation hand=
+les both layouts automatically, performing on-GPU permutations when necessa=
+ry to avoid CPU involvement.<br></p>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-Input/OutputTensors"><stron=
+g>Input/Output Tensors</strong></h2>
+<ul>
+<li>
+<p><strong>Input: </strong><code>PROMPT</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Shape</strong>: <code>[1, 1]</code></p></li>
+<li>
+<p><strong>Description</strong>: The user-provided text prompt for the mode=
+l. The implementation defensively handles shapes of both</p>
+<p><code>[1]</code> and <code>[1, 1]</code>.</p>
+<p></p></li>
+</ul></li>
+<li>
+<p><strong>Input: </strong><code>FRAMES</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_FP16</code>, <code>TYPE_FP32</code>, o=
+r <code>TYPE_UINT8</code></p></li>
+<li>
+<p></p>
+<p><strong>Shape</strong>: <code>[1, num_frames, height, width, 3]</code> (=
+NHWC) or <code>[1, num_frames, 3, height, width]</code> (NCHW)</p>
+<p></p></li>
+<li>
+<p><strong>Description</strong>: A tensor containing one or more video fram=
+es. The implementation dynamically handles various input dimensions (3D, 4D=
+, or 5D) and normalizes them for processing. It also automatically permutes=
+ NHWC layouts to the GPU-preferred NCHW format.</p>
+<p></p></li>
+</ul></li>
+<li>
+<p><strong>Output: </strong><code>SUMMARY</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Shape</strong>: <code>[1]</code></p></li>
+<li>
+<p><strong>Description</strong>: The generated text describing the input fr=
+ames.</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-Batching">Batching</h3>
+<p>Triton's batching system requires all input tensors to include a leading=
+ batch dimension, even for single requests. This affects client implementat=
+ions:</p>
+<ul>
+<li>
+<p>PROMPT tensor shape: <code>[batch_size, 1]</code> instead of <code>[1]</=
+code></p></li>
+<li>
+<p>FRAMES tensor shape: <code>[batch_size, num_frames, height, width, 3]</c=
+ode> or <code>[batch_size, num_frames, 3, height, width]</code></p></li>
+<li>
+<p>Batch size is typically 1 for individual requests</p></li>
+</ul>
+<p>The implementation handles variable batch dimensions by detecting the te=
+nsor shape and extracting the actual content appropriately. PROMPT tensors =
+may arrive as <code>[1]</code> or <code>[1,1]</code> depending on client co=
+nfiguration, requiring defensive dimension handling.</p>
+<p>Frame tensors arrive with varying dimensions depending on client impleme=
+ntation:</p>
+<ul>
+<li>
+<p>5D tensors: <code>[batch, frames, height, width, channels]</code> from b=
+atched clients</p></li>
+<li>
+<p>4D tensors: <code>[frames, height, width, channels]</code> from direct c=
+lients</p></li>
+<li>
+<p>3D tensors: <code>[height, width, channels]</code> from single-image cli=
+ents</p></li>
+</ul>
+<p>The implementation normalizes all inputs to 4D format before processing:=
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">if fram=
+es.dim() =3D=3D 5:
+    frames =3D frames.squeeze(0)  # Remove batch dimension
+elif frames.dim() =3D=3D 3:
+    frames =3D frames.unsqueeze(0)  # Add frame dimension
+</pre>
+</div>
+</div>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-CUDASharedMemoryIntegration=
+">CUDA Shared Memory Integration</h3>
+<p>The most significant performance optimization involves direct CUDA share=
+d memory access through DLPack protocol:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">try:
+    dl =3D frames_input.to_dlpack()   # Zero-copy if from CUDA SHM
+    frames =3D torch.from_dlpack(dl)
+    dlpack_used =3D True
+except Exception:
+    # Fallback: CPU numpy copy then GPU transfer
+    np_frames =3D frames_input.as_numpy()
+    frames =3D torch.from_numpy(np_frames).to(device, non_blocking=3DTrue)
+</pre>
+</div>
+</div>
+<p>When clients use CUDA shared memory for frame data, DLPack enables zero-=
+copy tensor creation directly on GPU. This eliminates:</p>
+<ul>
+<li>
+<p>CPU memory allocation for intermediate arrays</p></li>
+<li>
+<p>GPU-to-CPU memory transfers</p></li>
+<li>
+<p>CPU-to-GPU memory transfers</p></li>
+<li>
+<p>NumPy array creation and destruction overhead</p></li>
+</ul>
+<p>The fallback path handles clients that provide CPU arrays, copying data =
+to GPU with non-blocking transfers for optimal pipeline utilization.</p>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-MediaProcessingPipeline">Me=
+dia Processing Pipeline</h2>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-Transformers"><br>
+Transformers</h3>
+<p>The primary motivation for custom text processing is to prevent unnecess=
+ary memory transfers when image data already exists on GPU. The standard Hu=
+ggingFace vision-language processing pipeline expects PIL Images or NumPy a=
+rrays as inputs, which forces the following inefficient memory flow:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Client Preparation</strong>: Video frames exist in CUDA shared m=
+emory on GPU</p></li>
+<li>
+<p><strong>Standard Pipeline Requirement</strong>: HuggingFace processor ex=
+pects CPU-based PIL/NumPy image data</p></li>
+<li>
+<p><strong>Forced Transfer</strong>: GPU tensors must be moved to CPU, conv=
+erted to PIL/NumPy format</p></li>
+<li>
+<p><strong>Re-upload</strong>: Processor converts back to PyTorch tensors a=
+nd moves to GPU for model inference</p></li>
+<li>
+<p><strong>Performance Loss</strong>: Dual memory transfers plus CPU conver=
+sion overhead</p></li>
+</ol>
+<p>The implementation bypasses this inefficient pipeline by handling image =
+data directly as GPU tensors:</p>
+<ul>
+<li>
+<p><strong>Direct CUDA Access</strong>: Accept image tensors through DLPack=
+ from CUDA shared memory</p></li>
+<li>
+<p><strong>GPU-Native Processing</strong>: Perform all normalization, resiz=
+ing, and format conversion on GPU</p></li>
+<li>
+<p><strong>Text-Only Tokenization</strong>: Use HuggingFace processor exclu=
+sively for chat template and text tokenization</p></li>
+<li>
+<p><strong>Manual Token Assembly</strong>: Combine text tokens with image p=
+laceholder tokens without forcing CPU conversion</p></li>
+</ul>
+<p>This approach ensures image data never leaves GPU memory, eliminating th=
+e redundant GPU=E2=86=92CPU=E2=86=92GPU transfer cycle that would otherwise=
+ dominate processing time for video analysis workloads.</p>
+<p>The implementation leverages HuggingFace's chat template system to forma=
+t multi-modal conversations properly:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">message=
+s =3D [
+    {"role": "system", "content": [{"type": "text", "text": self.system_mes=
+sage}]},
+    {"role": "user", "content": ([{"type": "image"}] * num_imgs) + [{"type"=
+: "text", "text": prompt}]}
+]</pre>
+</div>
+</div>
+<p>This structure places image placeholders before text content, matching G=
+emma-3n's expected input format for vision-language understanding.</p>
+<p>The implementation bypasses HuggingFace's automatic image token expansio=
+n to maintain control over the tokenization process:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Template Generation</strong>: Create chat template without token=
+ization to inspect structure</p></li>
+<li>
+<p><strong>Manual Tokenization</strong>: Tokenize template text to access r=
+aw token IDs</p></li>
+<li>
+<p><strong>Token ID Detection</strong>: Locate image placeholder tokens and=
+ soft token IDs</p></li>
+<li>
+<p><strong>Custom Expansion</strong>: Replace single image tokens with sequ=
+ences of soft tokens</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Repla=
+ce each &lt;image&gt; with image_seq_length copies of &lt;image_soft_token&=
+gt;
+for t, m in zip(ids, mask):
+    if t =3D=3D img_id:
+        new_ids.extend([soft_id] * image_seq_length)
+        new_mask.extend([m] * image_seq_length)
+    else:
+        new_ids.append(t)
+        new_mask.append(m)</pre>
+</div>
+</div>
+<p>This approach ensures proper alignment between image features and token =
+positions while maintaining compatibility with Gemma-3n's vision encoder ou=
+tput dimensions.</p>
+<p>Gemma-3n's vision encoder produces a fixed number of features per image,=
+ typically 256 tokens. This value is extracted from the model configuration=
+:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">image_s=
+eq_length =3D getattr(getattr(self.model.config, "vision_config", {}), "ima=
+ge_seq_length", 256)</pre>
+</div>
+</div>
+<p>The sequence length determines how many soft tokens replace each image p=
+laceholder, ensuring the text sequence aligns with vision encoder outputs d=
+uring cross-attention operations.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-Attention">Attention</h3>
+<p>The implementation enables all available SDPA backends for optimal atten=
+tion computation:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">os.envi=
+ron["PYTORCH_SDP_KERNEL"] =3D "flash,mem_efficient,math"
+torch.backends.cuda.enable_flash_sdp(True)
+torch.backends.cuda.enable_mem_efficient_sdp(True)
+torch.backends.cuda.enable_math_sdp(True)</pre>
+</div>
+</div>
+<p>Note: While this configuration prioritizes FlashAttention for memory eff=
+iciency, currently it is not supported. <br>
+We explicitly use cuDNN (CUDA Deep Neural Network library) is NVIDIA's hard=
+ware-accelerated library that provides optimized implementations of deep le=
+arning primitives. For attention mechanisms, cuDNN offers specialized kerne=
+ls that can dramatically outperform generic matrix operations by leveraging=
+ GPU architecture features like Tensor Cores, optimized memory access patte=
+rns, and fused operations.</p>
+<p>SDPA (Scaled Dot-Product Attention) represents the core attention comput=
+ation in Transformers: <code>Attention(Q,K,V) =3D softmax(QK^T/=E2=88=9Ad)V=
+</code>. When PyTorch's SDPA implementation detects compatible hardware and=
+ software configurations, it can dispatch attention computations to cuDNN's=
+ optimized kernels instead of using standard PyTorch operations.</p>
+<p>The integration works through PyTorch's backend selection system:</p>
+<p>When cuDNN kernels aren't compatible, we fall back to memory-efficient a=
+ttention for compatibility, and maintains math attention as a final fallbac=
+k to prevent "no available kernel" errors.</p>
+<p>For Ampere and Hopper GPU architectures, TF32 precision provides signifi=
+cant performance improvements:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">torch.s=
+et_float32_matmul_precision("high")
+torch.backends.cuda.matmul.allow_tf32 =3D True
+torch.backends.cudnn.allow_tf32 =3D True</pre>
+</div>
+</div>
+<p>TF32 maintains float32 dynamic range while using reduced precision for m=
+atrix multiplication operations, typically providing 1.5-2x speedup on mode=
+rn hardware.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-OutputTokens">Output Tokens=
+</h3>
+<p><br>
+Output length is controlled through the <code>max_new_tokens</code> paramet=
+er, defaulting to 320 tokens but configurable through Triton model paramete=
+rs. This setting has significant performance implications due to the auto-r=
+egressive nature of language model generation.</p>
+<p><strong>Auto-regressive Generation Process:</strong></p>
+<p>Language models generate text one token at a time in sequence, where eac=
+h new token depends on all previously generated tokens. This creates a fund=
+amentally sequential process that cannot be parallelized across the token d=
+imension:</p>
+<ol start=3D"1">
+<li>
+<p><strong>First Token</strong>: Model processes the entire input context (=
+image features + text prompt) to generate token 1</p></li>
+<li>
+<p><strong>Second Token</strong>: Model processes the input context PLUS to=
+ken 1 to generate token 2</p></li>
+<li>
+<p><strong>Third Token</strong>: Model processes the input context PLUS tok=
+ens 1-2 to generate token 3</p></li>
+<li>
+<p><strong>Continue</strong>: This pattern repeats until max_new_tokens is =
+reached or an end token is generated</p></li>
+</ol>
+<p>The <code>max_new_tokens</code> parameter acts as a hard ceiling on gene=
+ration time because:</p>
+<ul>
+<li>
+<p>Generation time scales roughly linearly with the number of tokens produc=
+ed</p></li>
+<li>
+<p>Each new token requires attention computation over the growing sequence =
+length</p></li>
+<li>
+<p>Longer sequences require more memory reads for key-value cache access</p=
+></li>
+<li>
+<p>The model must evaluate the stopping condition after each token</p></li>
+</ul>
+<p>Setting <code>max_new_tokens</code> too high creates several problems:</=
+p>
+<ul>
+<li>
+<p>Even if the model could describe a scene in 50 tokens, setting max_new_t=
+okens=3D1000 means clients must wait for up to 1000 generation steps if the=
+ model doesn't produce an end token</p></li>
+<li>
+<p>Higher token limits require larger key-value cache allocations, reducing=
+ concurrent request capacity</p></li>
+<li>
+<p>Long generation sequences increase the probability of hitting client tim=
+eout limits</p></li>
+<li>
+<p>The model may continue generating redundant or hallucinated content beyo=
+nd the useful description length</p></li>
+</ul>
+<p>The default of 320 tokens (roughly ~1300 characters) represents a balanc=
+e between descriptive capability and performance. Unlike the vision encoder=
+ which processes all image patches in parallel, or the initial forward pass=
+ which processes the entire input context simultaneously, token generation =
+is inherently sequential. This means:</p>
+<ul>
+<li>
+<p><strong>Vision Processing</strong>: All image features computed in singl=
+e forward pass (parallel)</p></li>
+<li>
+<p><strong>Initial Text Processing</strong>: Entire prompt processed simult=
+aneously (parallel)</p></li>
+<li>
+<p><strong>Token Generation</strong>: Each output token requires separate f=
+orward pass (sequential)</p></li>
+</ul>
+<p>This architectural constraint makes token limit selection one of the mos=
+t critical performance tuning parameters for auto-regressive vision-languag=
+e models.</p>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-OtherImplementationNotes">O=
+ther Implementation Notes</h2>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-GreedyDecodingStrategy">Gre=
+edy Decoding Strategy</h3>
+<p>The implementation enforces deterministic output through greedy decoding=
+ configuration:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">gc.do_s=
+ample =3D False      # Disable sampling randomness
+gc.num_beams =3D 1         # Single beam for deterministic output
+gc.top_p =3D 1.0           # Disable nucleus sampling
+gc.temperature =3D 1.0     # Neutral temperature</pre>
+</div>
+</div>
+<p>This configuration ensures reproducible results for identical inputs, wh=
+ich is crucial for testing and production deployments where consistent beha=
+vior is required.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-MemoryEfficiencyOptimizatio=
+ns">Memory Efficiency Optimizations</h3>
+<p>The implementation minimizes memory usage through several strategies:</p=
+>
+<ul>
+<li>
+<p><strong>bfloat16 Precision</strong>: Reduces activation memory by 50% co=
+mpared to float32</p></li>
+<li>
+<p><strong>In-place Operations</strong>: Uses division operations that modi=
+fy tensors in-place where possible</p></li>
+<li>
+<p><strong>Gradient Disabled</strong>: <code>@torch.inference_mode()</code>=
+ eliminates gradient computation overhead</p></li>
+<li>
+<p><strong>Efficient Layouts</strong>: Maintains contiguous memory layouts =
+throughout processing</p></li>
+</ul>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-VRAMConsumptionPatterns">VR=
+AM Consumption Patterns</h3>
+<p>Gemma-3n represents the largest memory consumer in the model suite, typi=
+cally requiring 2-4GB VRAM depending on:</p>
+<ul>
+<li>
+<p>Model precision (bfloat16 vs float32)</p></li>
+<li>
+<p>Maximum sequence length (determined by token expansion)</p></li>
+<li>
+<p>Number of input frames (affects pixel_values tensor size)</p></li>
+<li>
+<p>Batch size (though typically 1 for this deployment)</p></li>
+</ul>
+<p>The vision encoder and language model weights dominate memory usage, whi=
+le activation memory scales with input content size.</p>
+<h1 id=3D"AI-938:NVIDIATritonServerIntergration-FasterWhisper"><br>
+FasterWhisper</h1>
+<p>This implementation serves OpenAI's Whisper model through the FasterWhis=
+per library, which is a reimplementation optimized for speed and efficiency=
+. The model was specifically designed for A/B testing against the Parakeet =
+model, featuring identical input/output signatures to enable direct perform=
+ance comparisons. The implementation leverages automatic long-form audio ch=
+unking via BatchedInferencePipeline and includes conditional gzip compressi=
+on for large transcription results.</p>
+<p>The implementation provides speech-to-text capabilities through FasterWh=
+isper's reimplementation of OpenAI's Whisper model. The focus is on inferen=
+ce speed improvements through optimized computation graphs and memory manag=
+ement, making it well-suited for production deployment where latency and th=
+roughput matter.</p>
+<p>The implementation handles feature-length audio content without memory o=
+verflow, maintains accuracy across diverse audio conditions, and provides d=
+etailed timestamp information for downstream processing workflows.</p>
+<p>The implementation uses Whisper's "large-v3" model, which represents the=
+ most capable version available at the time of development. Model selection=
+ balances accuracy requirements against computational resources, with large=
+-v3 providing the best transcription quality for challenging audio content =
+including movies, podcasts, and low-quality recordings.</p>
+<p>Device selection automatically detects CUDA availability and falls back =
+to CPU processing when GPU resources are unavailable. This flexibility ensu=
+res the service remains functional even when VRAM is constrained by other m=
+odels.</p>
+<p>Compute precision defaults to float16 but can be overridden through the =
+WHISPER_COMPUTE_TYPE environment variable. Float16 provides significant mem=
+ory savings and performance improvements on modern GPUs while maintaining t=
+ranscription accuracy for most content. The precision can be adjusted to fl=
+oat32 for maximum accuracy when computational resources allow, or to int8 f=
+or extreme memory constraints.</p>
+<p>The BatchedInferencePipeline represents a significant architectural adva=
+ntage over manual chunking approaches. This pipeline automatically handles =
+segmentation of long-form audio into manageable chunks, applies overlapping=
+ windows to prevent word loss at boundaries, and manages batch processing t=
+o maximize GPU utilization.</p>
+<p>The pipeline includes built-in Voice Activity Detection (VAD) that autom=
+atically identifies speech segments and skips silence or non-speech audio. =
+This VAD capability reduces processing time by focusing computation on spee=
+ch content while maintaining transcription completeness.</p>
+<p>Unlike custom windowing implementations that require manual overlap mana=
+gement and boundary condition handling, the pipeline encapsulates best prac=
+tices for long-form transcription including optimal chunk sizing and timest=
+amp alignment across segments.</p>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-Input/OutputTensors.1"><str=
+ong>Input/Output Tensors</strong></h2>
+<ul>
+<li>
+<p><strong>Input: </strong><code>AUDIO</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Description</strong>: A tensor containing the raw bytes of an au=
+dio file.</p></li>
+</ul></li>
+<li>
+<p><strong>Input: </strong><code>LANGUAGE</code><strong> (Optional)</strong=
+></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Description</strong>: The language of the audio in two-letter IS=
+O 639-1 format (e.g., "en", "es"). If omitted, the model will automatically=
+ detect the language.</p>
+<p></p></li>
+</ul></li>
+<li>
+<p><strong>Input: </strong><code>TASK</code><strong> (Optional)</strong></p=
+>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p>
+<p><strong>Description</strong>: Specifies the task, either "transcribe" (d=
+efault) or "translate" (to English).</p></li>
+</ul></li>
+<li>
+<p><strong>Output: </strong><code>TRANSCRIPT_JSON</code><strong> / </strong=
+><code>TRANSCRIPT_GZIPPED</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Description</strong>: A JSON string containing the transcription=
+. For payloads over 10KB, the response is gzip compressed and returned in t=
+he</p>
+<p><code>TRANSCRIPT_GZIPPED</code> tensor. The JSON includes segment-level =
+text, timestamps, and word-level details if requested.</p></li>
+</ul></li>
+<li>
+<p><strong>Output: </strong><code>LANGUAGE_OUT</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Description</strong>: The detected language of the audio.</p></l=
+i>
+</ul></li>
+</ul>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-MediaProcessingPipeline.1">=
+<br>
+Media Processing Pipeline</h2>
+<p>Audio ingestion uses PyAV for universal container format support, handli=
+ng mp4, mp3, flac, wav, and other common audio/video formats through a sing=
+le code path. The decoder extracts the first available audio stream from an=
+y container, eliminating the need for format-specific preprocessing or exte=
+rnal conversion tools.</p>
+<p>Resampling to 16kHz mono is performed using av.AudioResampler with forma=
+t=3D"s16" for 16-bit signed integer output, layout=3D"mono" for single chan=
+nel audio, and rate=3D16000 to match Whisper's expected input format. The r=
+esampling process includes automatic sample rate conversion from any source=
+ rate, channel mixing for multi-channel sources, and format conversion from=
+ various bit depths.</p>
+<p>The frame-by-frame decoding approach efficiently handles large media fil=
+es by processing audio in chunks rather than loading entire files into memo=
+ry. This streaming approach prevents memory exhaustion when processing hour=
+s of audio content while supporting optional duration limiting for testing =
+or preview workflows.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-Language">Language</h3>
+<p>The implementation supports both automatic language detection and explic=
+it language specification through the LANGUAGE input parameter. When no lan=
+guage is specified, Whisper's built-in detection examines audio characteris=
+tics and linguistic patterns to identify the source language automatically.=
+ This detection works reliably for major world languages and many regional =
+variants.</p>
+<p>Task configuration supports both transcription and translation modes thr=
+ough the TASK parameter. Transcription mode produces text in the source lan=
+guage, while translation mode converts speech to English text regardless of=
+ the input language. This dual capability enables workflows that require ei=
+ther faithful transcription or English-language processing of multilingual =
+content.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-SegmentandWordProcessing">S=
+egment and Word Processing</h3>
+<p>The pipeline generates segments that represent natural speech boundaries=
+ identified through acoustic and linguistic analysis. Each segment includes=
+ start and end timestamps aligned to speech content, transcribed text with =
+automatic punctuation and capitalization, and word-level detail when reques=
+ted through word_timestamps=3DTrue.</p>
+<p>Word-level processing provides granular timing information essential for=
+ subtitle generation, audio-visual alignment, and advanced analysis workflo=
+ws. Each word object includes the actual text content with whitespace norma=
+lized, start and end timestamps rounded to millisecond precision, and confi=
+dence scores that indicate transcription certainty.</p>
+<p>The confidence scoring mechanism helps identify potentially problematic =
+transcriptions where manual review might be beneficial. Low confidence scor=
+es often correlate with challenging audio conditions, technical terminology=
+, or speech patterns that deviate from training data distributions.</p>
+<h1 id=3D"AI-938:NVIDIATritonServerIntergration-NVIDIAParakeet"><br>
+NVIDIA Parakeet</h1>
+<p>This implementation serves NVIDIA's Parakeet-TDT-0.6B-v2 ASR model, whic=
+h is a NeMo RNNT (Recurrent Neural Network Transducer) with TDT (Token and =
+Duration Time) modeling and a FastConformer encoder.</p>
+<p>Parakeet-TDT uses an RNNT architecture with a FastConformer encoder. Whi=
+le this is not a decoder-only Transformer with full quadratic self-attentio=
+n, long audio sequences still stress memory and runtime due to encoder stat=
+e management, convolutional subsampling operations, predictor and joint net=
+work passes, and timestamp alignment buffer requirements.</p>
+<p>Triton hosts models through Python backend classes that expose initializ=
+e, execute, and finalize methods. Each Python model process holds its own G=
+PU memory allocations. Running multiple Python-backend models with instance=
+_group count greater than 1 multiplies VRAM usage by creating multiple copi=
+es of model weights.</p>
+<p>PyTorch's CUDA caching allocator can cause memory fragmentation where "s=
+tale" chunks result in allocation failures even when total free memory appe=
+ars sufficient. This requires careful allocator configuration and environme=
+nt variable tuning.</p>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-Input/OutputTensors.2"><str=
+ong>Input/Output Tensors</strong></h2>
+<ul>
+<li>
+<p><strong>Input: </strong><code>AUDIO_PATH</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p>
+<p><strong>Description</strong>: The absolute filesystem path to the audio =
+or video file.</p></li>
+</ul></li>
+<li>
+<p><strong>Input: </strong><code>TIMESTAMPS</code><strong> (Optional)</stro=
+ng></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Description</strong>: Specifies the desired timestamp granularit=
+y. Accepts "word" (default), "segment," or "all".</p></li>
+</ul></li>
+<li>
+<p><strong>Output: </strong><code>TRANSCRIPT_JSON</code><strong> / </strong=
+><code>TRANSCRIPT_GZIPPED</code></p>
+<ul>
+<li>
+<p><strong>Type</strong>: <code>TYPE_STRING</code></p></li>
+<li>
+<p><strong>Description</strong>: A JSON string containing the transcription=
+. For payloads over 10KB, the response is gzip compressed and returned in t=
+he</p>
+<p><code>TRANSCRIPT_GZIPPED</code> tensor. The JSON includes segment-level =
+text, timestamps, and word-level details if requested.</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-MediaProcessingPipeline.2">=
+Media Processing Pipeline</h2>
+<p>Audio ingestion uses PyAV to decode any container format including mp4, =
+mp3, flac, and wav files. The pipeline extracts audio streams, resamples to=
+ 16kHz mono using av.AudioResampler with format=3D"s16", layout=3D"mono", a=
+nd rate=3D16000, then normalizes the resulting int16 data to float32 in the=
+ range [-1, 1].</p>
+<p>Processing a 4,000-second audio file (equivalent to a 128MB mp3 at 16kHz=
+ mono) in a single pass creates enormous intermediate tensors. Even though =
+Parakeet doesn't use full quadratic attention, RNNT decoders maintain buffe=
+rs and state for each time step while encoders hold activations for each fr=
+ame. The encoder's subsampling reduces some memory pressure, but hours of a=
+udio still cause memory to balloon beyond available VRAM.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-WindowedInferenceSolution">=
+Windowed Inference Solution</h3>
+<p>The solution implements windowed or "buffered" inference that slices aud=
+io into fixed-size windows of 30 seconds with 0.6 to 1.0 seconds of overlap=
+ between adjacent windows. Each window is processed independently through <=
+code>model.transcribe()</code>, and the resulting word timestamps are shift=
+ed by the window's start offset to create global timestamps.</p>
+<p>Overlap deduplication prevents word repetition at window boundaries by d=
+ropping any word whose start time is less than <code>(last_end - time_strid=
+e)</code>. This approach guarantees bounded GPU memory usage regardless of =
+input duration while avoiding word loss at window transitions.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-SegmentationLogic">Segmenta=
+tion Logic</h3>
+<p>The implementation needed to generate coarse segments for metadata and V=
+LM alignment while providing fine-grained words for MAM processing. Rather =
+than trusting model-specific "segment" objects that vary across NeMo versio=
+ns, segments are built from word timestamps using a simple, configurable po=
+licy.</p>
+<p>Segmentation begins with the first word and creates new segments when ei=
+ther a pause of at least SEGMENT_MIN_GAP_S (default 0.7 seconds) occurs, or=
+ when the current segment duration exceeds SEGMENT_MAX_DURATION_S (default =
+20 seconds).</p>
+<p>To avoid micro-segments, any fragment with fewer than SEGMENT_MIN_WORDS =
+words is merged into the previous segment rather than standing alone.</p>
+<p>Text reconstruction uses a punctuation-aware joining algorithm that prev=
+ents extra spaces around punctuation marks like parentheses and other speci=
+al characters.</p>
+<p>This approach yields stable start/end time and text blocks without depen=
+ding on internal model chunking behavior that may change between versions.<=
+/p>
+<h2 id=3D"AI-938:NVIDIATritonServerIntergration-ImplementationNotes">Implem=
+entation Notes</h2>
+<p>NeMo=E2=80=99s documentation and implementation are often at odds with e=
+ach other.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-ModelLoadingIssues">Model L=
+oading Issues</h3>
+<p>Initial attempts used <code>ASRModel.from_pretrained(model_name=3D"nvidi=
+a/parakeet-tdt-0.6b-v2", map_location=3Ddevice, cache_dir=3D...)</code> but=
+ some NeMo versions reject the cache_dir parameter and raise errors.</p>
+<p>The preferred solution calls <code>from_pretrained(model_name=3D..., map=
+_location=3D...)</code> without cache_dir and lets HuggingFace environment =
+variables like HUGGING_FACE_HUB_CACHE and HF_HOME control caching behavior.=
+ The fallback approach downloads the .nemo checkpoint via huggingface_hub a=
+nd calls <code>ASRModel.restore_from(restore_path=3D...)</code>.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-TimestampAPIInconsistencies=
+">Timestamp API Inconsistencies</h3>
+<p>Official documentation suggests two approaches for timestamp generation:=
+</p>
+<ul>
+<li>
+<p>Direct method: <code>asr_model.transcribe(..., timestamps=3DTrue)</code>=
+</p></li>
+<li>
+<p>Configuration method: Set <code>preserve_alignments=3DTrue</code>, <code=
+>compute_timestamps=3DTrue</code>, and <code>rnnt_timestamp_type=3D"word"</=
+code> in decoding config, then read <code>hyp.timestamp['word']</code> or <=
+code>hyp.timestep['word']</code></p></li>
+</ul>
+<p>In practice, the direct method fails with <code>TypeError: EncDecRNNTMod=
+el.transcribe() got an unexpected keyword argument 'timestamps'</code>. The=
+ configuration approach triggers warnings like "If compute_timesteps is set=
+, then preserve_alignments must also be set."</p>
+<p>API variations across versions include different parameter names where s=
+ome builds expect <code>compute_timestamps</code> while others use <code>co=
+mpute_timesteps</code>. Strategy names can be "greedy_batch" or "greedy". N=
+eMo contains intentional typos in some parameter names like "seperator" ins=
+tead of "separator".</p>
+<p>The production solution builds a defensive decoding configuration that t=
+ries parameter variants in sequence while always maintaining <code>preserve=
+_alignments=3DTrue</code>, <code>rnnt_timestamp_type=3D"word"</code>, and a=
+ppropriate separator settings. The implementation logs which configuration =
+variant succeeds for debugging purposes.</p>
+<p>Timestamp extraction handles multiple possible attribute names on the hy=
+pothesis object including <code>hyp.timestamp</code>, <code>hyp.timestamps<=
+/code>, and <code>hyp.timestep</code>. Within each word entry, the code pre=
+fers absolute time values like <code>start_time</code> and <code>end_time</=
+code> when available, otherwise it maps frame offset values like <code>star=
+t_offset</code> and <code>end_offset</code> to seconds using the RNNT strid=
+e calculation: <code>time_stride_sec =3D 8 * model.cfg.preprocessor.window_=
+stride</code>, which typically equals approximately 0.08 seconds.</p>
+<p>Character-level timestamps are intentionally never computed to reduce co=
+mputational overhead and memory usage.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-CUDAGraphProblems">CUDA Gra=
+ph Problems</h3>
+<p>The implementation frequently encountered "CUDA error: an illegal memory=
+ access was encountered" errors, often occurring on chunk number 2 during t=
+he second processing window.</p>
+<p>Root cause analysis revealed that when cuda-python version 12.3 or highe=
+r is installed, NeMo attempts to enable CUDA Graphs with conditional nodes =
+for the TDT while-loop. Graph capture is extremely sensitive to shape chang=
+es, internal memory allocations, and capture-unsafe kernel operations, caus=
+ing failures during graph replay.</p>
+<p>Mixed precision operations using fp16 can stress fused kernels, particul=
+arly with certain GPU driver and CUDA toolkit combinations.</p>
+<h3 id=3D"AI-938:NVIDIATritonServerIntergration-StabilityImprovements">Stab=
+ility Improvements</h3>
+<p>The solution disables CUDA Graphs by uninstalling cuda-python from the T=
+riton container image. NeMo will display a benign warning about conditional=
+ nodes being unavailable, but this eliminates the graph capture instability=
+.</p>
+<p>Force fp32 precision without autocast during decode operations to avoid =
+fragile mixed-precision kernels that can cause crashes.</p>
+<p>Environment configuration includes allocator and debugging settings:</p>
+<ul>
+<li>
+<p><code>PYTORCH_CUDA_ALLOC_CONF=3Dexpandable_segments:True,max_split_size_=
+mb:256</code></p></li>
+<li>
+<p><code>CUDA_LAUNCH_BLOCKING=3D1</code> when debugging to get precise erro=
+r stack traces</p></li>
+</ul>
+<p>Future optimizations if CUDA Graphs are revisited could include padding =
+the final window to match the length of previous windows so replay shapes r=
+emain consistent, and maintaining <code>instance_group.count=3D1</code> to =
+avoid multi-process capture interactions.</p>
+    </div>
+</body>
+</html>
+------=_Part_232_1020670583.1758122939613--

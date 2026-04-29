@@ -1,0 +1,385 @@
+Date: Wed, 17 Sep 2025 15:30:40 +0000 (UTC)
+Message-ID: <1446510771.25.1758123040877@4bdbc70beb76>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_24_673492308.1758123040877"
+
+------=_Part_24_673492308.1758123040877
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Manual Removal of AI+ Installer</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Manual Removal of AI+ Installer</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"ManualRemovalofAI+Installer-Currently,thereisnoone-clicko=
+rofficialwaytoremovetheAI+installeralongwithitsinstallationdataandtheAI+Adm=
+in.">Currently, there is <strong>no one-click or official way</strong> to r=
+emove the AI+ installer along with its installation data and the AI+ Admin.=
+</h3>
+<p>To <strong>completely wipe AI+ Admin</strong> and all its related servic=
+es, containers, and configurations from your system, follow the steps below=
+ <strong>carefully</strong>.</p>
+<p>This guide assumes, you are having a server where you are only running s=
+ervices installed through <strong>AI+ Admin</strong>. So, we will remove a =
+lot of containers, images, volumes, and networks and do some system pruning=
+.</p>
+<p><strong>Important:</strong> If manual removal is not successful, it=E2=
+=80=99s <strong>best to create a new user</strong> and perform a fresh inst=
+allation. This ensures no residual conflicts, as the installer currently do=
+esn=E2=80=99t support upgrades.</p>
+<hr>
+<h3 id=3D"ManualRemovalofAI+Installer-Step-by-StepRemovalInstructions:">Ste=
+p-by-Step Removal Instructions:</h3>
+<h4 id=3D"ManualRemovalofAI+Installer-1.Stopthepm2process">1. <strong>Stop =
+the pm2 process</strong></h4>
+<p>Remove AI+ folder and common tool folders:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">pm2 sto=
+p all
+pm2 delete all</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-2.Deleteenvironmentandconfigdirectori=
+es">2. <strong>Delete environment and config directories</strong></h4>
+<p>Remove AI+ folder and common tool folders:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">rm -rf =
+~/.aiplus ~/.aws ~/.docker ~/.npm ~/.nvm ~/.pm2</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-3.StopandremoveallDockercontainers">3=
+. <strong>Stop and remove all Docker containers</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+stop $(docker ps -aq)
+docker rm -f $(docker ps -aq)</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-4.RemoveDockerimagesandvolumes">4. <s=
+trong>Remove Docker images and volumes</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+rmi -f $(docker images -q)
+docker volume rm $(docker volume ls -q)</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-5.CleanupDockernetworksandsystemresou=
+rces">5. <strong>Clean up Docker networks and system resources</strong></h4=
+>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">docker =
+network prune -f
+docker system prune -a --volumes -f</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-6.Removecrontabentries(usedtoauthenti=
+catedockertoawsECR)"><strong>6. Remove crontab entries (used to authenticat=
+e docker to aws ECR)</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Warni=
+ng this is irreversible so all crontab entries will be lost.
+# If you don't want that, you can mannually open the crontab entries and ed=
+it.
+# Remove all crontab entries
+crontab -r</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-7.CheckforactiveservicesonknownAI+por=
+ts">7. <strong>Check for active services on known AI+ ports</strong></h4>
+<p>AI+ Admin and it=E2=80=99s services runs on ports like:</p>
+<ul>
+<li>
+<p><code>8080</code> =E2=80=93 Common web apps</p></li>
+<li>
+<p><code>11434</code> =E2=80=93 Ollama</p></li>
+<li>
+<p><code>9003</code> =E2=80=93 MetaGen</p></li>
+</ul>
+<p>Run:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ne=
+tstat -tulpn | grep -E '8080|11434|9003'</pre>
+</div>
+</div>
+<hr>
+<h4 id=3D"ManualRemovalofAI+Installer-8.Killprocessesrunningontheseports">8=
+. <strong>Kill processes running on these ports</strong></h4>
+<p>For each PID returned:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ki=
+ll -9 &lt;PID&gt;</pre>
+</div>
+</div>
+<p>Repeat for <code>11434</code>, <code>9003</code>, etc.</p>
+<hr>
+<h3 id=3D"ManualRemovalofAI+Installer-9.RemoveAuthorizedSSHKeysforFreshInst=
+allation">9. Remove Authorized SSH Keys for Fresh Installation</h3>
+<p>If you're preparing the system for a <strong>completely fresh installati=
+on</strong> under a new or reset user, it's good practice to remove any exi=
+sting SSH public keys that may have been used for earlier access.</p>
+<p>To remove the existing SSH keys:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">rm ~/.s=
+sh/authorized_keys</pre>
+</div>
+</div>
+<blockquote>
+<p><strong>Note:</strong> This will remove all authorized SSH keys for the =
+current user.<br>
+If you want to selectively remove keys, open the file using a text editor a=
+nd delete the specific lines:</p>
+</blockquote>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">nano ~/=
+.ssh/authorized_keys</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_24_673492308.1758123040877--

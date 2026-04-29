@@ -1,0 +1,1070 @@
+Date: Wed, 17 Sep 2025 15:26:37 +0000 (UTC)
+Message-ID: <1256718499.13.1758122797812@285d04765588>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_1336921350.1758122797812"
+
+------=_Part_12_1336921350.1758122797812
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-159: Structured Logging Framework</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-159: Structured Logging Framework</h1>
+    <div class=3D"Section1">
+        <style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1758122797794 {padding: 0px;}
+div.rbtoc1758122797794 ul {list-style: none;margin-left: 0px;}
+div.rbtoc1758122797794 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1758122797794">
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-159:StructuredLoggingFramework-Architecture">Architectur=
+e</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-159:StructuredLoggingFramework-JSONLogging">JSON Logging=
+</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-LoggingPipeline">Logging =
+Pipeline</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-Developmentvs.ProductionC=
+onsiderations">Development vs. Production Considerations</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-CoreComponents">Core Comp=
+onents</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-Configuration">Configurat=
+ion</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-Implementation">Implement=
+ation</a>
+<ul class=3D"toc-indentation">
+<li><a href=3D"#AI-159:StructuredLoggingFramework-DynamicallyAdjustingLogLe=
+vels">Dynamically Adjusting Log Levels</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-LoadingConfigurationfroma=
+File">Loading Configuration from a File</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-LoggingPractices">Logging=
+ Practices</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-FieldManagement">Field Ma=
+nagement</a></li>
+</ul></li>
+</ul></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-DockerIntegration">Docker=
+ Integration</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-ElasticsearchFieldTypes">=
+Elasticsearch Field Types</a></li>
+<li><a href=3D"#AI-159:StructuredLoggingFramework-DataDictionary">Data Dict=
+ionary</a></li>
+</ul>
+</div>
+<p>This logging framework provides structured, flexible, and easily configu=
+rable logging for Python applications. It integrates structlog for structur=
+ed logs and Python's built-in logging module for precise control, with cust=
+om features for runtime configurability across development and production e=
+nvironments.</p>
+<ul>
+<li>
+<p><strong>Dynamic Logger Configuration</strong>: Modify log levels and act=
+ivate/deactivate specific loggers during runtime</p></li>
+<li>
+<p><strong>Structured Logging</strong>: Output logs in JSON format for anal=
+ytics platforms like Elasticsearch or Splunk</p></li>
+<li>
+<p><strong>Accurate Callsite Information</strong>: Ensure logs accurately r=
+eference the calling file, function, and line number</p></li>
+<li>
+<p><strong>Custom Log Levels</strong>: Support additional levels, such as T=
+RACE, for detailed debugging</p></li>
+</ul>
+<h1 id=3D"AI-159:StructuredLoggingFramework-Architecture">Architecture</h1>
+<h2 id=3D"AI-159:StructuredLoggingFramework-JSONLogging">JSON Logging</h2>
+<p>All AI+ logs will be in JSON format. The industry has widely adopted str=
+uctured logging at the application level for several compelling reasons:</p=
+>
+<ul>
+<li>
+<p><strong>Reliability</strong>: Application-generated structured logs guar=
+antee correct format</p></li>
+<li>
+<p><strong>Field consistency</strong>: Developers ensure consistent field n=
+aming</p></li>
+<li>
+<p><strong>Native nested object support</strong>: Complex objects are handl=
+ed appropriately</p></li>
+<li>
+<p><strong>Collection tool independence</strong>: Logs maintain structure r=
+egardless of collection mechanism</p></li>
+</ul>
+<p>Structured logging represents a significant advancement over traditional=
+ text-based logging by eliminating complex parsing and pre-processing befor=
+e ingestion into analytics platforms like Elasticsearch. When applications =
+emit plaintext logs, processing pipelines must implement regex patterns, gr=
+ok filters, or custom parsers to extract information=E2=80=94approaches tha=
+t are brittle, require maintenance when log formats change, and introduce p=
+rocessing overhead in high-volume environments.</p>
+<p>Our structured JSON logging approach delivers logs to Elasticsearch alre=
+ady organized into properly typed fields with consistent naming. This "sche=
+ma on write" at the application level avoids the error-prone "schema on rea=
+d" approach of traditional logging. The benefits include reduced processing=
+ overhead, higher reliability by eliminating potential parsing failures, an=
+d immediate analyzability without waiting for pre-processing to complete.</=
+p>
+<p>Because our application precisely controls its log structure and fields,=
+ we gain consistency across all environments=E2=80=94the same log from a lo=
+cal development machine, a Docker container, or a Kubernetes pod will have =
+identical structure. This consistency is invaluable when building dashboard=
+s, alerts, and automated analysis tools that depend on predictable field na=
+mes and types.</p>
+<h2 id=3D"AI-159:StructuredLoggingFramework-LoggingPipeline">Logging Pipeli=
+ne</h2>
+<p>All logs will be shipped directly from Docker to Fluent Bit using the Fl=
+uentd logging driver. This approach offers significant advantages over trad=
+itional file-based logging by eliminating the need to manage log file rotat=
+ion, compression, archiving, and cleanup processes. The streamlined method =
+reduces disk I/O operations, prevents log file buildup, and ensures logs ar=
+e immediately available in our analytics platform without delay or data los=
+s during rotations.</p>
+<p>The opt-in nature of this configuration gives precise control over which=
+ containers' logs are collected, allowing filtering of noisy services at th=
+e source rather than through post-processing. This architecture also provid=
+es a seamless migration path to Kubernetes, where the same logging patterns=
+ can be implemented through pod specifications and cluster-wide logging con=
+figurations.</p>
+<h2 id=3D"AI-159:StructuredLoggingFramework-Developmentvs.ProductionConside=
+rations">Development vs. Production Considerations</h2>
+<p>Our implementation previously used pretty-printed JSON for improved cons=
+ole readability during development:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">def pre=
+tty_print_json(logger, method_name, event_dict):
+    """
+    Pretty-prints JSON logs to the console for readability.
+    """
+    event_dict["event"] =3D json.dumps(event_dict["event"], indent=3D4) \
+        if isinstance(event_dict["event"], (dict, list)) else event_dict["e=
+vent"]
+    return event_dict
+</pre>
+</div>
+</div>
+<p>While this approach helps with local debugging, it creates problems when=
+ forwarding logs to analytics platforms:</p>
+<ul>
+<li>
+<p>Console logs must be machine-readable=E2=80=94pretty-printed logs with i=
+ndentation are difficult to parse</p></li>
+<li>
+<p>Structured data must remain as objects, not be converted to strings</p><=
+/li>
+<li>
+<p>Field types must maintain consistency across all log messages</p></li>
+</ul>
+<h2 id=3D"AI-159:StructuredLoggingFramework-CoreComponents">Core Components=
+</h2>
+<p><strong>AiPlusBoundLogger</strong></p>
+<ul>
+<li>
+<p>Extends structlog's BoundLogger</p></li>
+<li>
+<p>Dynamically injects metadata including filename, func_name, and lineno i=
+nto logs</p></li>
+</ul>
+<p><strong>Dynamic Configuration</strong></p>
+<ul>
+<li>
+<p>Configures log levels from a dictionary or file</p></li>
+<li>
+<p>Allows runtime adjustments via Python's logging hierarchy</p></li>
+</ul>
+<p><strong>Processors</strong></p>
+<ul>
+<li>
+<p>JSONRenderer for structured log output</p></li>
+<li>
+<p>TimeStamper to add timestamps</p></li>
+<li>
+<p>StackInfoRenderer for detailed exception stack traces</p></li>
+</ul>
+<p><strong>TRACE Log Level</strong></p>
+<ul>
+<li>
+<p>Adds a TRACE level below DEBUG, ideal for verbose debugging</p></li>
+</ul>
+<h2 id=3D"AI-159:StructuredLoggingFramework-Configuration">Configuration</h=
+2>
+<p>Example Configuration File (logging_config.json):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "default_level": "WARNING",
+    "loggers": {
+        "aiplus": "DEBUG",
+        "aiplus.facialRecognition": "INFO",
+        "other.module": "ERROR"
+    }
+}
+</pre>
+</div>
+</div>
+<p>This file defines:</p>
+<ul>
+<li>
+<p>A default global log level (WARNING)</p></li>
+<li>
+<p>Specific log levels for individual loggers</p></li>
+</ul>
+<h2 id=3D"AI-159:StructuredLoggingFramework-Implementation">Implementation<=
+/h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">from lo=
+gger import get_logger
+
+logger =3D get_logger("aiplus.facialRecognition")
+logger.info("Processing started for facial recognition.")
+logger.error("An error occurred while analyzing the image.")
+</pre>
+</div>
+</div>
+<p>Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">{
+    "event": "Processing started for facial recognition.",
+    "filename": "example.py",
+    "func_name": "&lt;module&gt;",
+    "lineno": 7,
+    "timestamp": "2024-11-21 17:50:00"
+}
+{
+    "event": "An error occurred while analyzing the image.",
+    "filename": "example.py",
+    "func_name": "&lt;module&gt;",
+    "lineno": 8,
+    "timestamp": "2024-11-21 17:50:01"
+}
+</pre>
+</div>
+</div>
+<h3 id=3D"AI-159:StructuredLoggingFramework-DynamicallyAdjustingLogLevels">=
+Dynamically Adjusting Log Levels</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">from lo=
+gger import update_logger_level
+
+# Enable TRACE level logging for a specific logger
+update_logger_level("aiplus.facialRecognition", "TRACE")
+
+# Disable a logger by setting its level to WARNING
+update_logger_level("aiplus.facialRecognition", "WARNING")
+</pre>
+</div>
+</div>
+<h3 id=3D"AI-159:StructuredLoggingFramework-LoadingConfigurationfromaFile">=
+Loading Configuration from a File</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">from lo=
+gger import configure_logger, load_config_from_file
+
+# Load logging configuration dynamically
+config =3D load_config_from_file("logging_config.json")
+configure_logger(config)
+</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"AI-159:StructuredLoggingFramework-LoggingPractices">Logging Pract=
+ices</h3>
+<ul>
+<li>
+<p>Use structured logging for easy integration with analytics tools</p></li=
+>
+<li>
+<p>Start with high log levels (ERROR or WARNING) in production, enabling lo=
+wer levels (DEBUG or TRACE) only when troubleshooting</p></li>
+<li>
+<p>Dynamically update log levels at runtime to minimize downtime during deb=
+ugging</p></li>
+</ul>
+<h3 id=3D"AI-159:StructuredLoggingFramework-FieldManagement">Field Manageme=
+nt</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Use constants for field names</strong>: Define field names as co=
+nstants to prevent typos and ensure consistency</p></li>
+<li>
+<p><strong>Document field types explicitly</strong>: Always include expecte=
+d data types to prevent index mapping conflicts</p></li>
+<li>
+<p><strong>Review new fields</strong>: All new log fields should be reviewe=
+d before being added to production</p></li>
+<li>
+<p><strong>Create index templates</strong>: Define Elasticsearch index temp=
+lates to set expected field types before data ingestion</p></li>
+<li>
+<p><strong>Consider field cardinality</strong>: High-cardinality fields can=
+ impact performance</p></li>
+<li>
+<p><strong>Use namespacing for component-specific fields</strong>: Prefix f=
+ields with component identifiers to avoid collisions</p></li>
+</ol>
+<h1 id=3D"AI-159:StructuredLoggingFramework-DockerIntegration">Docker Integ=
+ration</h1>
+<p>The docker container, either through the runtime or Docker Compose, can =
+be configured to send the logs directly to Fluent Bit</p>
+<p>While we use Fluent Bit as our log collector, Docker's logging driver is=
+ named "fluentd" rather than "fluent-bit." This naming can cause confusion,=
+ but it has a logical explanation. The Fluentd protocol was established fir=
+st, and Fluent Bit was designed to be compatible with this protocol. When D=
+ocker introduced logging drivers, they implemented the "fluentd" driver to =
+support the Fluentd forward protocol. This protocol is supported by both Fl=
+uentd and Fluent Bit, making them interoperable.</p>
+<p>Fluent Bit is a lightweight, resource-efficient alternative to Fluentd d=
+esigned specifically for containerized environments and edge computing. Des=
+pite the difference in names, both use the same communication protocol, all=
+owing us to use Docker's "fluentd" driver to send logs directly to our Flue=
+nt Bit service.</p>
+<p>Here's an example of how to configure services in a Docker Compose file =
+to use the Fluentd logging driver with Fluent Bit:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">version=
+: '3'
+
+services:
+  facial-recognition:
+    image: aiplus/facial-recognition:latest
+    logging:
+      driver: fluentd
+      options:
+        fluentd-address: localhost:24224
+        tag: docker.facial-recognition
+        fluentd-async-connect: "true"
+    # Other service configuration...
+   =20
+  transcribe-summarize:
+    image: aiplus/transcribe-summarize:latest
+    logging:
+      driver: fluentd
+      options:
+        fluentd-address: localhost:24224
+        tag: docker.transcribe-summarize
+        labels: "log-level,component"
+    labels:
+      log-level: info
+      component: nlp
+    # Other service configuration...
+   =20
+  fluent-bit:
+    image: fluent/fluent-bit:latest
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+    volumes:
+      - ./fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+      - ./parsers.conf:/fluent-bit/etc/parsers.conf
+    # Other service configuration...
+</pre>
+</div>
+</div>
+<p>With this configuration, container logs are sent directly to Fluent Bit =
+running on port 24224 without intermediate file storage. The <code>tag</cod=
+e> option provides a namespace for the logs, while <code>labels</code> allo=
+ws for additional metadata to be included with each log entry. This approac=
+h creates a clean, efficient logging pipeline that eliminates file manageme=
+nt overhead while providing rich context for log analysis.</p>
+<h1 id=3D"AI-159:StructuredLoggingFramework-ElasticsearchFieldTypes">Elasti=
+csearch Field Types</h1>
+<p>During development we encountered an Elasticsearch error:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">"failed=
+ to parse field [event] of type [text] in document with id 'tz-JbZUBzsUltXZ=
+OvLiM'. Preview of field's value: '{processing_time=3D0.000s, status_code=
+=3D404, event=3DHTTP Response, body=3D{detail=3DJob ID not found}}'"</pre>
+</div>
+</div>
+<p>Originally, our HTTP event logger used a nested structure:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">logger.=
+info({
+    "event": "HTTP Response",
+    "status_code": response.status_code,
+    "body": response_body_json,
+    "processing_time": f"{process_time:.3f}s",
+})
+</pre>
+</div>
+</div>
+<p>We refactored to use a flattened structure with consistent field names:<=
+/p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">logger.=
+info("HTTP Response",
+    HttpEventAttributes.HTTP_STATUS_CODE, response.status_code,
+    HttpEventAttributes.HTTP_RESPONSE_BODY, response_body_json,
+    HttpEventAttributes.PROCESSING_TIME, f"{process_time:.3f}s"
+)
+</pre>
+</div>
+</div>
+<p>The issue was a <strong>field type collision</strong>. Our application s=
+ent an <code>event</code> as a complex object, but Elasticsearch had previo=
+usly mapped this field as a text field. Once Elasticsearch creates a mappin=
+g for a field, it enforces consistent typing.</p>
+<p>Elasticsearch dynamically creates field mappings when it first encounter=
+s a field in a document. This process, called "dynamic mapping," automatica=
+lly determines the data type based on the first value it sees. For example,=
+ if the first document contains <code>"event": "HTTP Request"</code>, Elast=
+icsearch will map the <code>event</code> field as a <code>text</code> type.=
+ If a subsequent document tries to use that same field name with a differen=
+t type (like a nested object), Elasticsearch will reject the document with =
+a mapping error.</p>
+<p>This =E2=80=9Ctype enforcement=E2=80=9D is a fundamental aspect of Elast=
+icsearch's design that ensures data consistency and query predictability. H=
+owever, it can cause significant problems in logging systems where differen=
+t components might use the same field names differently. Once a field mappi=
+ng is established in an index, it cannot be changed without reindexing all =
+the data. This "schema on write" approach makes it <strong>critical</strong=
+> to plan field structures before data ingestion begins and to maintain a c=
+omprehensive data dictionary that all logging components adhere to. For tim=
+e-series logging with daily or weekly indices, these collisions might only =
+appear periodically as new indices are created, making them particularly di=
+fficult to diagnose without understanding Elasticsearch's mapping behavior.=
+</p>
+<p>This highlights the <strong>critical need for a centralized data diction=
+ary</strong> that defines field names, types, and semantics to prevent fiel=
+d collisions as different components independently create log fields.</p>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><strong>I cannot stress enough how critical this piece is! We MUST NOT H=
+AVE COLLISIONS in an ElasticSearch index. Otherwise WE WILL LOSE DATA.</str=
+ong></p>
+</div>
+</div>
+<h1 id=3D"AI-159:StructuredLoggingFramework-DataDictionary">Data Dictionary=
+</h1>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a4=
+8f640d-72cf-4a41-a2e7-4917ed276742" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Field Name</p></th>
+<th class=3D"confluenceTh">
+<p>Type</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Used By</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Common Fields</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>log_level</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Log severity level (TRACE/DEBUG/INFO/WARNING/ERROR)</p></td>
+<td class=3D"confluenceTd">
+<p>All logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>log_channel</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Logger name/module identifier</p></td>
+<td class=3D"confluenceTd">
+<p>All logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>timestamp</code></p></td>
+<td class=3D"confluenceTd">
+<p>DateTime</p></td>
+<td class=3D"confluenceTd">
+<p>When the log was generated (ISO format)</p></td>
+<td class=3D"confluenceTd">
+<p>All logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>filename</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Source file that generated the log</p></td>
+<td class=3D"confluenceTd">
+<p>All logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>func_name</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Function name that generated the log</p></td>
+<td class=3D"confluenceTd">
+<p>All logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>lineno</code></p></td>
+<td class=3D"confluenceTd">
+<p>Integer</p></td>
+<td class=3D"confluenceTd">
+<p>Line number where the log was generated</p></td>
+<td class=3D"confluenceTd">
+<p>All logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>HTTP Event Fields</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>URL</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Request URL path</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpMethod</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP method (GET/POST/PUT/DELETE)</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpParameters</code></p></td>
+<td class=3D"confluenceTd">
+<p>Object</p></td>
+<td class=3D"confluenceTd">
+<p>Query parameters</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpRequestBody</code></p></td>
+<td class=3D"confluenceTd">
+<p>Object</p></td>
+<td class=3D"confluenceTd">
+<p>JSON request body</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpRequestBodyRaw</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Raw request body when not JSON</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpResponseBody</code></p></td>
+<td class=3D"confluenceTd">
+<p>Object</p></td>
+<td class=3D"confluenceTd">
+<p>JSON response body</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpResponseBodyRaw</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Raw response body when not JSON</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpRequestHeaders</code></p></td>
+<td class=3D"confluenceTd">
+<p>Object</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP request headers</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HttpStatusCode</code></p></td>
+<td class=3D"confluenceTd">
+<p>Integer</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP response status code</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP logging</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ProcessingTime</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Request processing duration</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP/Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ResultCode</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Operation result code</p></td>
+<td class=3D"confluenceTd">
+<p>HTTP/Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Facial Recognition Fields</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>PersonName</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Identified person's name</p></td>
+<td class=3D"confluenceTd">
+<p>Facial recognition</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ImagePath</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Path to the analyzed image</p></td>
+<td class=3D"confluenceTd">
+<p>Facial recognition</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ModelName</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>ML model used for recognition</p></td>
+<td class=3D"confluenceTd">
+<p>Facial recognition</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>FrameNumber</code></p></td>
+<td class=3D"confluenceTd">
+<p>Integer</p></td>
+<td class=3D"confluenceTd">
+<p>Frame number in video sequence</p></td>
+<td class=3D"confluenceTd">
+<p>Facial recognition</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>FrameTimestamp</code></p></td>
+<td class=3D"confluenceTd">
+<p>DateTime</p></td>
+<td class=3D"confluenceTd">
+<p>Timestamp of the analyzed frame</p></td>
+<td class=3D"confluenceTd">
+<p>Facial recognition</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><strong>Service Fields</strong></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ComponentName</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Component generating the event</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ConnectionTimeout</code></p></td>
+<td class=3D"confluenceTd">
+<p>Integer</p></td>
+<td class=3D"confluenceTd">
+<p>Connection timeout in ms</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>EndpointReference</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Service endpoint identifier</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>EventType</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Type of event being logged</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>HostName</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Host machine name</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ServiceName</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Name of the service</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>TargetPort</code></p></td>
+<td class=3D"confluenceTd">
+<p>Integer</p></td>
+<td class=3D"confluenceTd">
+<p>Port of the target service</p></td>
+<td class=3D"confluenceTd">
+<p>Service logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>Exception</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Exception message</p></td>
+<td class=3D"confluenceTd">
+<p>Error logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>TraceId</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Distributed tracing ID</p></td>
+<td class=3D"confluenceTd">
+<p>All services</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ErrorType</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Type/class of error</p></td>
+<td class=3D"confluenceTd">
+<p>Error logs</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ErrorMessage</code></p></td>
+<td class=3D"confluenceTd">
+<p>String</p></td>
+<td class=3D"confluenceTd">
+<p>Human-readable error message</p></td>
+<td class=3D"confluenceTd">
+<p>Error logs</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_12_1336921350.1758122797812--

@@ -1,0 +1,602 @@
+Date: Wed, 17 Sep 2025 15:27:05 +0000 (UTC)
+Message-ID: <654724327.15.1758122825091@285d04765588>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_522732292.1758122825091"
+
+------=_Part_14_522732292.1758122825091
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-263: F1-Score Optimization</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-263: F1-Score Optimization</h1>
+    <div class=3D"Section1">
+        <p>The F1-score is a single metric that combines precision and reca=
+ll to provide a balanced measure of a model's accuracy. It is particularly =
+useful when the training set has an uneven class distribution (i.e., one cl=
+ass has significantly more samples than the other), as it considers both fa=
+lse positives and false negatives.</p>
+<ul>
+<li>
+<p><strong>Precision:</strong>&nbsp;Also known as positive predictive value=
+, it measures the proportion of correctly identified positive cases (true p=
+ositives) out of all cases predicted as positive (true positives + false po=
+sitives). It answers the question: "Of all the faces the model claimed were=
+ a match, how many were actually correct?"</p>
+<ul>
+<li>
+<p>Formula:&nbsp;<code>Precision =3D True Positives / (True Positives + Fal=
+se Positives)</code></p></li>
+</ul></li>
+<li>
+<p><strong>Recall:</strong>&nbsp;Also known as sensitivity or true positive=
+ rate, it measures the proportion of correctly identified positive cases (t=
+rue positives) out of all actual positive cases (true positives + false neg=
+atives). It answers the question: "Of all the actual matches in the dataset=
+, how many did the model correctly identify?"</p>
+<ul>
+<li>
+<p>Formula:&nbsp;<code>Recall =3D True Positives / (True Positives + False =
+Negatives)</code></p></li>
+</ul></li>
+<li>
+<p><strong>F1-score:</strong>&nbsp;The harmonic mean of precision and recal=
+l. It gives a higher weight to lower values, so a high F1-score ensures tha=
+t both precision and recall are reasonably high.</p>
+<ul>
+<li>
+<p>Formula:&nbsp;<code>F1-score =3D 2 * (Precision * Recall) / (Precision +=
+ Recall)</code></p></li>
+</ul></li>
+</ul>
+<p><strong>Interpretation:</strong></p>
+<ul>
+<li>
+<p>The F1-score ranges from 0 to 1.</p></li>
+<li>
+<p>An F1-score of 1 indicates perfect precision and recall (the model has n=
+o false positives and no false negatives).</p></li>
+<li>
+<p>An F1-score of 0 indicates that either precision or recall is zero (the =
+model is either making a lot of false positive predictions or missing many =
+actual positives).</p></li>
+</ul>
+<p>So why is the F1-score important?</p>
+<ul>
+<li>
+<p><strong>Balances Precision and Recall:</strong>&nbsp;If we only consider=
+ precision, we might choose a model that makes very few positive prediction=
+s, resulting in high precision but low recall. Conversely, if you only cons=
+ider recall, you might choose a model that predicts everything as positive,=
+ resulting in high recall but low precision. The F1-score helps you find a =
+balance between these two extremes.</p></li>
+<li>
+<p><strong>Useful for Imbalanced Datasets:</strong>&nbsp;In many real-world=
+ scenarios, the classes are not evenly distributed. For example, in face re=
+cognition, there might be far more images of different people than images o=
+f the same person. In such cases, accuracy alone can be misleading, and the=
+ F1-score provides a more informative metric.</p></li>
+</ul>
+<p>In the context of face recognition similarity thresholds, we want to cho=
+ose a threshold that maximizes the F1-score on your validation set. This me=
+ans finding a threshold that gives you a good balance between correctly ide=
+ntifying matches (high recall) and avoiding false matches (high precision).=
+</p>
+<h1 id=3D"AI-263:F1-ScoreOptimization-CoreConcepts">Core Concepts</h1>
+<h2 id=3D"AI-263:F1-ScoreOptimization-TrainingData">Training Data</h2>
+<ul>
+<li>
+<p><strong>Quantity and Quality:</strong> The performance of a face recogni=
+tion model heavily depends on the quantity and quality of the training data=
+. More data generally leads to better performance, but it's equally importa=
+nt to ensure that the data is clean, diverse, and representative of the fac=
+es the system will encounter in real-world use.</p></li>
+<li>
+<p><strong>Diversity:</strong> The training data should include faces with =
+varying poses, lighting conditions, expressions, ages, and demographic char=
+acteristics.</p></li>
+<li>
+<p><strong>Balance:</strong> While perfect balance is not always achievable=
+, it's desirable to have a relatively balanced representation of different =
+demographic groups in the training data to mitigate bias.</p></li>
+</ul>
+<h2 id=3D"AI-263:F1-ScoreOptimization-ValidationData">Validation Data</h2>
+<p>A well-constructed validation set is crucial for evaluating the performa=
+nce of a face recognition system and tuning parameters such as similarity t=
+hresholds.</p>
+<ul>
+<li>
+<p><strong>Representativeness:</strong> The validation set should be repres=
+entative of the real-world scenarios in which the system will be used. This=
+ includes matching the distribution of ethnicities, ages, lighting conditio=
+ns, image quality, and other relevant factors.</p>
+<p><em>Avoid using images that were used in the training set.</em></p></li>
+<li>
+<p><strong>Pairwise Comparisons:</strong> The validation process involves c=
+reating pairs of face embeddings and labeling them as "match" (same person)=
+ or "non-match" (different person).</p></li>
+<li>
+<p><strong>Balanced Ratio:</strong> Aim for a roughly 1:1 (50% match, 50% n=
+on-match) ratio of match to non-match pairs in the validation set to avoid =
+biasing the evaluation towards either positive or negative cases.</p></li>
+</ul>
+<h2 id=3D"AI-263:F1-ScoreOptimization-EvaluationMetrics:Precision,Recall,an=
+dF1-Score">Evaluation Metrics: Precision, Recall, and F1-Score</h2>
+<ul>
+<li>
+<p><strong>Precision:</strong> Measures the proportion of correctly identif=
+ied positive cases (true positives) out of all cases predicted as positive =
+(true positives + false positives). High precision means fewer false matche=
+s.</p>
+<ul>
+<li>
+<p>Formula: Precision =3D True Positives / (True Positives + False Positive=
+s)</p></li>
+</ul></li>
+<li>
+<p><strong>Recall:</strong> Measures the proportion of correctly identified=
+ positive cases (true positives) out of all actual positive cases (true pos=
+itives + false negatives). High recall means fewer missed matches.</p>
+<ul>
+<li>
+<p>Formula: Recall =3D True Positives / (True Positives + False Negatives)<=
+/p></li>
+</ul></li>
+<li>
+<p><strong>F1-Score:</strong> The harmonic mean of precision and recall, pr=
+oviding a balanced measure of accuracy. It is particularly useful when deal=
+ing with imbalanced datasets.</p>
+<ul>
+<li>
+<p>Formula: F1-score =3D 2 * (Precision * Recall) / (Precision + Recall)</p=
+></li>
+</ul></li>
+</ul>
+<h1 id=3D"AI-263:F1-ScoreOptimization-CreatingValidationSets:PracticalConsi=
+derations">Creating Validation Sets: Practical Considerations</h1>
+<h2 id=3D"AI-263:F1-ScoreOptimization-GeneralGuidelines">General Guidelines=
+</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Separate Validation Set:</strong> Always use a separate validati=
+on set that is distinct from the training data.</p></li>
+<li>
+<p><strong>Sufficient Size:</strong> The validation set should be large eno=
+ugh to provide a statistically meaningful assessment of the model's perform=
+ance. The size is also dictated by number of classes you need to test. For =
+example, to reliably test the F1 score of a model's effectiveness with X im=
+ages per class in the test dataset to evaluate, then at least X*(number of =
+classes) samples are needed in the validation dataset.</p></li>
+<li>
+<p><strong>Real-World Scenarios:</strong> The data in the validation set sh=
+ould reflect the real-world conditions the system will encounter. If the sy=
+stem will primarily be used on images from security cameras, the validation=
+ data should include such images. If you are recognizing baseball players, =
+you need to find images of baseball players.</p></li>
+<li>
+<p><strong>Diversity:</strong> The data should include diversity of faces. =
+Ensure you have enough different faces to be representative of the real dep=
+loyment environment.</p></li>
+</ol>
+<h2 id=3D"AI-263:F1-ScoreOptimization-HandlingDemographicDiversity">Handlin=
+g Demographic Diversity</h2>
+<ul>
+<li>
+<p><strong>Representative Sampling:</strong> The demographic composition of=
+ the validation set should reflect the intended use case of the face recogn=
+ition system. If the system will be used on a diverse population, the valid=
+ation set should also be diverse, with a representative sample of different=
+ races/ethnicities, genders, ages, etc.</p></li>
+<li>
+<p><strong>Bias Detection:</strong> A balanced dataset is not sufficient to=
+ measure bias. Create subsets for each race/ethnicity to see the performanc=
+e of the system across all demographics.</p></li>
+<li>
+<p><strong>Inclusion of Similar Faces</strong>: It's vital to include faces=
+ of the same ethnicity to determine whether they can properly differentiate=
+ between two faces, in addition to measuring bias.</p></li>
+</ul>
+<h3 id=3D"AI-263:F1-ScoreOptimization-TheN-PlayerProblemandthe&quot;ShoheiO=
+htani&quot;Example">The <em>N</em>-Player Problem and the "Shohei Ohtani" E=
+xample</h3>
+<p>To use a practical example, all of this comes from working on the LA Dod=
+gers training set. To effectively validate a face recognition model, consid=
+er a scenario where a training set includes multiple players from a sports =
+team. To validate the data for Shohei Ohtani, the validation dataset should=
+:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Include other players with Japanese origin.</strong></p></li>
+<li>
+<p><strong>Include players that are not of Japanese origin</strong></p></li=
+>
+</ol>
+<h2 id=3D"AI-263:F1-ScoreOptimization-GeneratingValidationPairs">Generating=
+ Validation Pairs</h2>
+<ul>
+<li>
+<p><strong>Pairwise Comparisons:</strong> Create pairs of images from the v=
+alidation set.</p></li>
+<li>
+<p><strong>Match and Non-Match Labeling:</strong> Label each pair as "match=
+" (same person) or "non-match" (different person).</p></li>
+<li>
+<p><strong>Equal Proportions:</strong> If possible, ensure there are an equ=
+al amount of positive and negative labels.</p></li>
+</ul>
+<h2 id=3D"AI-263:F1-ScoreOptimization-OptimizingtheF1-Score">Optimizing the=
+ F1-Score</h2>
+<h2 id=3D"AI-263:F1-ScoreOptimization-SimilarityThresholds">Similarity Thre=
+sholds</h2>
+<ul>
+<li>
+<p><strong>Model-Specific Tuning:</strong> Different face recognition model=
+s produce embeddings with different characteristics. Therefore, the optimal=
+ similarity threshold for determining a match will vary from model to model=
+.</p></li>
+<li>
+<p><strong>Threshold Optimization:</strong> Iterate through a range of thre=
+shold values and calculate precision, recall, and F1-score on the validatio=
+n set for each threshold. Choose the threshold that maximizes the F1-score =
+or provides the desired balance between precision and recall.</p></li>
+<li>
+<p><em>Remember to analyze this data for all demographic groups to detect b=
+ias.</em></p></li>
+</ul>
+<h2 id=3D"AI-263:F1-ScoreOptimization-Step-by-StepProcessforF1-ScoreOptimiz=
+ation">Step-by-Step Process for F1-Score Optimization</h2>
+<ol start=3D"1">
+<li>
+<p><strong>Prepare Validation Data:</strong> See sections above.</p></li>
+<li>
+<p><strong>Extract Embeddings:</strong> Use the face recognition model to e=
+xtract face embeddings for all images in the validation set.</p></li>
+<li>
+<p><strong>Calculate Similarity Scores:</strong> Calculate the similarity s=
+core for each pair of face embeddings in the validation set using the appro=
+priate metric (Euclidean distance or cosine similarity).</p></li>
+<li>
+<p><strong>Iterate Through Thresholds:</strong> For each model, iterate thr=
+ough a range of potential threshold values.</p></li>
+<li>
+<p><strong>Calculate TP, FP, TN, FN:</strong> For each threshold value, det=
+ermine the true positives (TP), false positives (FP), true negatives (TN), =
+and false negatives (FN) based on the ground truth labels.</p></li>
+<li>
+<p><strong>Calculate Precision, Recall, and F1-score:</strong> For each thr=
+eshold, calculate precision, recall, and F1-score.</p></li>
+<li>
+<p><strong>Find Optimal Threshold:</strong> Choose the threshold that maxim=
+izes the F1-score or provides the desired balance between precision and rec=
+all.</p></li>
+<li>
+<p><strong>Analyze Results for Different Demographic Subsets</strong>: This=
+ can help you understand if the performance of the model is consistent acro=
+ss all races/ethnicities.</p></li>
+</ol>
+<h2 id=3D"AI-263:F1-ScoreOptimization-CodeImplementation(Conceptual)">Code =
+Implementation (Conceptual)</h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">import nu=
+mpy as np
+from sklearn.metrics import f1_score, precision_score, recall_score
+
+def calculate_f1_score(embeddings, labels, metric=3D"euclidean", thresholds=
+ =3D np.arange(0.0, 1.0, 0.01)):
+
+    # Assuming you have the following:
+    # - 'embeddings': A dictionary where keys are image filenames and value=
+s are the embedding vectors
+    # - 'labels': A dictionary where keys are image filenames and values ar=
+e the person's ID (ground truth)
+    # - 'metric': "euclidean" or "cosine"
+
+    pairs =3D [] # list of pairs of embeddings
+    pair_labels =3D [] # 1 if images are of same class, 0 if not
+
+    # Creating positive pairs:
+    num_positive_pairs_to_create =3D 5000
+    positive_pairs_created =3D 0
+    i=3D0
+    while positive_pairs_created &lt; num_positive_pairs_to_create and i &l=
+t; len(embeddings):
+        j =3D 0
+        while positive_pairs_created &lt; num_positive_pairs_to_create and =
+j &lt; len(embeddings):
+            if labels[i] =3D=3D labels[j]:
+                pairs.append((embeddings[i], embeddings[j]))
+                pair_labels.append(1)
+                positive_pairs_created +=3D1
+            j+=3D1
+        i +=3D 1
+
+    # Creating negative pairs:
+    num_negative_pairs_to_create =3D 5000
+    negative_pairs_created =3D 0
+    i=3D0
+    while negative_pairs_created &lt; num_negative_pairs_to_create and i &l=
+t; len(embeddings):
+        j =3D 0
+        while negative_pairs_created &lt; num_negative_pairs_to_create and =
+j &lt; len(embeddings):
+            if labels[i] !=3D labels[j]:
+                pairs.append((embeddings[i], embeddings[j]))
+                pair_labels.append(0)
+                negative_pairs_created +=3D1
+            j+=3D1
+        i +=3D 1
+
+    # Define a function to calculate the distance/similarity based on the m=
+etric
+    def calculate_similarity(emb1, emb2, metric):
+        if metric =3D=3D "euclidean":
+            return np.linalg.norm(emb1 - emb2)
+        elif metric =3D=3D "cosine":
+            dot_product =3D np.dot(emb1, emb2)
+            norm_emb1 =3D np.linalg.norm(emb1)
+            norm_emb2 =3D np.linalg.norm(emb2)
+            return dot_product / (norm_emb1 * norm_emb2)
+        else:
+            raise ValueError("Unsupported metric")
+
+    # Calculate scores
+    scores =3D [calculate_similarity(pair[0], pair[1], metric) for pair in =
+pairs]
+
+    # Find optimal threshold by maximizing F1-score
+    best_threshold =3D None
+    best_f1_score =3D -1
+
+    for threshold in thresholds:
+        # Apply threshold and get predictions
+        if metric =3D=3D "euclidean":
+            predictions =3D [1 if score &lt;=3D threshold else 0] * len(sco=
+res)
+        elif metric =3D=3D "cosine":
+            predictions =3D [1 if score &gt;=3D threshold else 0] * len(sco=
+res)
+
+        # Calculate F1-score, precision, and recall
+        f1 =3D f1_score(pair_labels, predictions)
+        precision =3D precision_score(pair_labels, predictions)
+        recall =3D recall_score(pair_labels, predictions)
+
+        if f1 &gt; best_f1_score:
+            best_f1_score =3D f1
+            best_threshold =3D threshold
+
+    return best_threshold, best_f1_score
+
+# Example usage:
+# best_threshold, best_f1_score =3D calculate_f1_score(embeddings, labels, =
+metric=3D"euclidean")
+# print(f"Best Threshold: {best_threshold}, Best F1-score: {best_f1_score}"=
+)
+    </pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_14_522732292.1758122825091--

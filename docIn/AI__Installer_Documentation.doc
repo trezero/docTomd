@@ -1,0 +1,483 @@
+Date: Wed, 17 Sep 2025 15:30:30 +0000 (UTC)
+Message-ID: <1755044059.193.1758123030250@c33963b31afc>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_192_2119229891.1758123030249"
+
+------=_Part_192_2119229891.1758123030249
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI+ Installer Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI+ Installer Documentation</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"AI+InstallerDocumentation-Overview"><strong>Overview</str=
+ong></h2>
+<p>The AI+ Installer does the installation of AI+ services, including sytem=
+ pre-checks, AWS configuration, and service integrations via a web-based UI=
+.</p>
+<p>This guide is going to help you in following the steps required to insta=
+ll it on a fresh system.</p>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-1.Prerequisites"><strong>1. Prerequisit=
+es</strong></h2>
+<p>Before starting the installation:</p>
+<ul>
+<li>
+<p>Ensure GPU (Nvidia) drivers are correctly installed.</p></li>
+<li>
+<p>Copy the AI+ installation file to the <strong>home directory</strong> of=
+ the user that will install the AI+ Admin Panel and run the AI+ services.</=
+p>
+<ul>
+<li>
+<p>Syntax:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">scp &lt=
+;path_to_installer_file&gt; &lt;remote_user&gt;@&lt;remote_host&gt;:&lt;tar=
+get_directory&gt;</pre>
+</div>
+</div></li>
+<li>
+<p>For example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">scp aip=
+lus-installer-2025_07_23 aiplus-testing@10.161.0.72:~</pre>
+</div>
+</div></li>
+</ul></li>
+<li>
+<p>Make the installer file as an executable. For example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">chmod +=
+x aiplus-installer-2025_07_23</pre>
+</div>
+</div></li>
+</ul>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-2.RunningtheInstaller"><strong>2. Runni=
+ng the Installer</strong></h2>
+<h3 id=3D"AI+InstallerDocumentation-Step1:LaunchInstaller"><strong>Step 1: =
+Launch Installer</strong></h3>
+<ul>
+<li>
+<p>Run the installer file. For example:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"> ./aipl=
+us-installer-2025_07_23)</pre>
+</div>
+</div></li>
+<li>
+<p>Open your browser and go to <code>http://hostIP:3000</code>.</p></li>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step2:AcceptLicenseAgreement"><strong>S=
+tep 2: Accept License Agreement</strong></h3>
+<ul>
+<li>
+<p>Click <strong>Next</strong>.</p></li>
+<li>
+<p>Read the <strong>End User License Agreement (EULA)</strong>.</p></li>
+<li>
+<p>Scroll to the bottom and click <strong>Agree &amp; Next</strong>.</p></l=
+i>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step3:RequirementsCheck"><strong>Step 3=
+: Requirements Check</strong></h3>
+<ul>
+<li>
+<p>Review hardware and system requirements.</p></li>
+<li>
+<p>Click <strong>Next</strong>.</p></li>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step4:InstallationPrompt"><strong>Step =
+4: Installation Prompt </strong></h3>
+<ul>
+<li>
+<p>Give the password for the user (sudo access is required for installing s=
+ome packages)</p></li>
+<li>
+<p>Click <strong>Install.</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-3.AWSConfiguration"><strong>3. AWS Conf=
+iguration</strong></h2>
+<p>The installer requires AWS credentials to fetch the images of the servic=
+es from ECR:</p>
+<h3 id=3D"AI+InstallerDocumentation-Step1:EnterCredentials"><strong>Step 1:=
+ Enter Credentials</strong></h3>
+<ul>
+<li>
+<p><strong>AWS Access Key ID</strong> =E2=86=92 Click <strong>Send</strong>=
+</p></li>
+<li>
+<p><strong>AWS Secret Access Key</strong> =E2=86=92 Click <strong>Send</str=
+ong></p></li>
+<li>
+<p><strong>Default Region</strong> (optional) =E2=86=92 Click <strong>Send<=
+/strong></p></li>
+<li>
+<p><strong>Default Output Format</strong> (optional) =E2=86=92 Click <stron=
+g>Send</strong></p></li>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step2:ContinueInstallation"><strong>Ste=
+p 2: Continue Installation</strong></h3>
+<ul>
+<li>
+<p>Click <strong>Next</strong> to proceed.</p></li>
+</ul>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-4.CompletingtheInstallation"><strong>4.=
+ Completing the Installation</strong></h2>
+<ul>
+<li>
+<p>Click <strong>Install</strong> to begin the installation.</p></li>
+<li>
+<p>Once finished, click the provided link to open the <strong>Admin UI</str=
+ong>.</p></li>
+<li>
+<p>It should be at the <code>http://hostIP:8080</code> endpoint.</p></li>
+</ul>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-5.EasySetupWizard(AdminUI)"><strong>5. =
+Easy Setup Wizard (Admin UI)</strong></h2>
+<h3 id=3D"AI+InstallerDocumentation-Step1:ServiceSelection"><strong>Step 1:=
+ Service Selection</strong></h3>
+<ul>
+<li>
+<p>Click <strong>Next</strong> on the welcome screen.</p></li>
+<li>
+<p>Select the services you want to install (e.g MetaGen).</p></li>
+<li>
+<p>Click <strong>Next</strong>.</p></li>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step2:IntegrationConfiguration"><strong=
+>Step 2: Integration Configuration</strong></h3>
+<ul>
+<li>
+<p>Choose the integrations you want to configure. (e.g Iris)</p></li>
+<li>
+<p>Click <strong>Next</strong>.</p></li>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step3:MountPathSetup"><strong>Step 3: M=
+ount Path Setup</strong></h3>
+<ul>
+<li>
+<p>For any selected integration, <strong>set the mount path as </strong><co=
+de>/mmfs1/data</code>.</p></li>
+<li>
+<p>Click <strong>Next</strong>.</p></li>
+</ul>
+<h3 id=3D"AI+InstallerDocumentation-Step4:Confirmation"><strong>Step 4: Con=
+firmation</strong></h3>
+<ul>
+<li>
+<p>Review your selections.</p></li>
+<li>
+<p>Click <strong>Install</strong> to begin the final setup.</p></li>
+</ul>
+<blockquote>
+<p>Note: Installation time may vary based on selected services and internet=
+ connection.</p>
+</blockquote>
+<h3 id=3D"AI+InstallerDocumentation-Step5:Completion"><strong>Step 5: Compl=
+etion</strong></h3>
+<ul>
+<li>
+<p>Once installation completes, click <strong>Finish</strong>. You will be =
+then redirected to the <strong>AI+ Admin UI.</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-6.Post-Installation"><strong>6. Post-In=
+stallation</strong></h2>
+<p>You can now access and manage AI+ services via the <strong>Admin UI</str=
+ong>.</p>
+<p>You can do things such as stop, start, restart them as well as view logs=
+, check API docs for any selected service, pull various versions from ECR f=
+or any of the services.</p>
+<hr>
+<h2 id=3D"AI+InstallerDocumentation-7.AdditionalReferences"><strong>7. Addi=
+tional References</strong></h2>
+<h4 id=3D"AI+InstallerDocumentation-Formorereference,downloadthedetailedins=
+tallationguideinPDFformat:">For more reference, download the detailed insta=
+llation guide in PDF format:</h4>
+<p></p>
+<p class=3D"media-group"><img height=3D"250" style=3D"margin: 2px; border: =
+1px solid #ddd; box-sizing: border-box; vertical-align: text-bottom;" src=
+=3D"ae35a9e333fa58e8197cdf5e17784d5965e1c750979495341cf63049dfc87f02" width=
+=3D"250"></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_192_2119229891.1758123030249
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/ae35a9e333fa58e8197cdf5e17784d5965e1c750979495341cf63049dfc87f02
+
+iVBORw0KGgoAAAANSUhEUgAAAPoAAAD6CAMAAAC/MqoPAAADAFBMVEX19fXv7+98fHx1dXV9fX23
+t7eenp5wcHDn5+f09PTz8/Pd3d2SkpLY2Njt7e3Q0NCioqJycnKqqqq7u7uurq6CgoKGhobOzs7D
+w8PR0dGNjY3Hx8fj4+PGxsbS0tKoqKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAABYhwFnAAAFWklEQVR4Xu3cC1fiOBgG4LRQUi4tIhfLKjPZ//+nOKu7Osw4DIhc
+RGGTtGlDqDK4SyvyPkck+ZJCP9qmR5tCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAwBGwzMBhuKtVwYy94sW252bsiLlFxzVjr3Ed+7f7HoGSY0be4pTMyEHYZuAgfntv
+lworM3LEqBl4257d3ymbrf4hnXDqex2E71Z8MSN+UFrYrfZ6YTYI290PIafUvWlh9rQmLxMvLfet
+7kfMHLcuaDcsdKm32SKZ3Y+ZkYtf/KKK9YKvt4SyST2XYa5x9pcqjuoNvSVLRTOQheksKS9yWYPs
+GHtwQfujyRcDrdH+eXf4cnGdVMa5bfU8Uv8gkPopQuqnKLfUszmBvSW31POH1E8RUj9FSP0UIfVT
+hNTzU6lUzFBGckldJLuMriQXnCkp55J9HqnPRi7f2GdhxVsRsh5tdshGHqmTSp1Mz4YBEf+Rv58S
+Us9lq+dy4Wltz8m4UqjaraG35qk7s80r6tlceMol9dpDZUmeiFd4tB+WhFRnlc0rb9mkng3z/xI9
+qk2Xce3LpCKZ3Y/ZVi7NYlUVPdrUW4St7kdsO5eefXbhlsvuxVnR3OZp3Y9XSi6+UyvSRrHmpMzc
+S+l+tPbMZc/u75TLef1jQOoH9rLX1E83m9N6NqnbeyXzktFKmYGDsNf7TA/OKPWUU8shnO6kcAAA
+AAAAAAAAAAD4nzD5Y4Y+IkaIQ1lYTm6wK1nlX6KxH0eUlFBqLPJG01t6A0KakzEvOTYhq6UWYbJD
+X/VU7WH4Vk1GCYZd1cV7iotb7FY/KsQhq6rdafqft1rfDOw0qFntb1NeuLRrtGZfaBHSF1THuF1G
+H+M7JYcdVbKeWqq4bf7TjHQpkTeVs7AaPakya1JKxffFePyZNgkTiNegtOGqHT6qhU1i+a90Tb+K
+5dXCO7niynpBzKgrRRdrZIQlPYjRXqXaTeAseu6U4iJr8feWH8Q5X5sWk6sXtSmdFjn7g7yaOg38
+qwJ/O1py/R6N2mnP8jttlbpWk78cvkwgJsrEC+/kiUTl3fyypJ4ZX/1CdLO/0W5HMw8lFj41aTlJ
+nfb4+gb8cJAFpmWmdvjK6J7M71+fuufejW+6YmDozMfX6uhaXK/Hc3F0ptT4S6/uxnerCdEW3mUq
+9t65RZJrgTJy26Htxk8120hv95ztiZbViaUdurXr8fVqyA8HWUjiSepLZ03mz2VZDvfYzR2Djyrk
+hn/wze/t1pUKVhuUncfXBjdrJJyTJ7e1WniXUtH8fMLI4np886MhPkRTMdBuio48d/SVeCTRSsQF
+Rb2X3RIHxK0s9/nDHKblaMP98+XupVh6CivP9epg9qfqslnTqYXTMBKPiSWLip3GFd/DFGYURSTx
+Iow/+lp7fSpOSvprcF1ZNxN4lStHC5+66lCInlQ5rEbBKj/O1uLYEAv1wlaW1GSTqIs91FHjwsYr
+pmpFI1YyjKmIJEYYo53Q86SdbLyFKjK1EuHaMK1TtMOvluLTHT/vHIZp0/XF/uH6IsG5fzFI2qJa
+2MRfc8IHFruWtIeY9tAFD1a4hYNZ029aLS1Cgyu/OVCTDON2cknevhLP+EOtRE0W9NaoYoXnxLZ+
+ak/VmKwX4osGVsNHRlxr8SscHgRVk03cMhiMBsF93L7DsBvw4YV/9n+vJqPJ6psWaQy/LyY1dT6O
+28kPTz+UGBM/Jm+wGFT5StxX+dqkfRPMp8XMQCKbaSsf0gmnDgAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAADwqf0LLLo7iNt+jMgAAAAASUVORK5CYII=
+------=_Part_192_2119229891.1758123030249--

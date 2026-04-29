@@ -1,0 +1,855 @@
+Date: Wed, 17 Sep 2025 15:35:30 +0000 (UTC)
+Message-ID: <92870015.31.1758123330972@4bdbc70beb76>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_30_1784474359.1758123330972"
+
+------=_Part_30_1784474359.1758123330972
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI+ EFK Stack</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI+ EFK Stack</h1>
+    <div class=3D"Section1">
+        <p>The Elasticsearch, FluentBit, and Kibana (EFK) stack is a powerf=
+ul combination of open-source tools designed for centralized log management=
+ and real-time visualization. It allows you to aggregate, process, store, a=
+nd analyze logs from multiple sources, giving you deep visibility into your=
+ systems.</p>
+<p>Much like how <em>The Simpsons</em> set the standard for animated sitcom=
+s, the EFK stack is the industry gold standard for log processing and analy=
+tics. Here's why:</p>
+<p>- Scalability: Elasticsearch can handle petabytes of data with distribut=
+ed indexing and searching.<br>
+- Real-time log processing: FluentBit processes logs in memory, ensuring lo=
+w latency.<br>
+- Powerful querying &amp; visualization: Kibana offers rich dashboards, ano=
+maly detection, and interactive analysis.<br>
+- Efficient resource usage: FluentBit is lightweight, making it ideal for r=
+esource-constrained environments.<br>
+ - Flexible integrations: Works seamlessly with Docker, Kubernetes, and clo=
+ud platforms.</p>
+<p>The purpose of this page is to provide a comprehensive walkthrough for s=
+etting up the EFK stack for centralized logging. The goal is to collect log=
+s from the AI+ containers, process them using FluentBit, and visualize them=
+ in Kibana.</p>
+<p>NOTE: Obviously, ALL system logs and analytics can be coalesced into thi=
+s framework. As of this writing, we=E2=80=99re only focused on our utilitie=
+s.</p>
+<h1 id=3D"AI+EFKStack-Elasticsearch"><strong>Elasticsearch</strong></h1>
+<p>The Elasticsearch components are not available in Ubuntu=E2=80=99s defau=
+lt package repositories. They can, however, be installed with apt after add=
+ing Elastic=E2=80=99s package source list.</p>
+<p>All of the packages are signed with the Elasticsearch signing key in ord=
+er to protect the system from package spoofing. Packages that have been aut=
+henticated using the key will be considered trusted by the package manager.=
+ In this step, we will import the Elasticsearch public GPG key and add the =
+Elastic package source list in order to install Elasticsearch.</p>
+<p>To begin, use cURL, the command line tool for transferring data with URL=
+s, to import the Elasticsearch public GPG key into APT. Note that we are us=
+ing the arguments -fsSL to silence all progress and possible errors (except=
+ for a server failure) and to allow cURL to make a request on a new locatio=
+n if redirected. Pipe the output of the <code>curl</code> command to the <c=
+ode>gpg --dearmor</code> command, which converts the key into a format that=
+ <code>apt</code> can use to verify downloaded packages.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -f=
+sSL https://artifacts.elastic.co/GPG-KEY-elasticsearch |sudo gpg --dearmor =
+-o /usr/share/keyrings/elastic.gpg
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>Next, add the Elastic source list to the <code>sources.list.d</code> dir=
+ectory, where APT will search for new sources:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">echo "d=
+eb [signed-by=3D/usr/share/keyrings/elastic.gpg] https://artifacts.elastic.=
+co/packages/7.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elas=
+tic-7.x.list
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>The <code>[signed-by=3D/usr/share/keyrings/elastic.gpg]</code> portion o=
+f the file instructs <code>apt</code> to use the key that we downloaded to =
+verify repository and file information for Elasticsearch packages.</p>
+<p>Next, update the package lists so apt will read the new Elastic source:<=
+/p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t update
+</pre>
+</div>
+</div>
+<p>Then install Elasticsearch with this command:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t install elasticsearch
+</pre>
+</div>
+</div>
+<p>Elasticsearch is now installed and ready to be configured.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo na=
+no /etc/elasticsearch/elasticsearch.yml
+</pre>
+</div>
+</div>
+<p>The <code>elasticsearch.yml</code> file provides configuration options f=
+or your cluster, node, paths, memory, network, discovery, and gateway. Most=
+ of these options are preconfigured in the file but we can change them acco=
+rding to our needs. For the purposes of our demonstration of a single-serve=
+r configuration, we will only adjust the settings for the network host.</p>
+<p>Elasticsearch listens for traffic from everywhere on port <code>9200</co=
+de>. We will want to restrict outside access to our Elasticsearch instance =
+to prevent outsiders from reading your data or shutting down your Elasticse=
+arch cluster through its [REST API] (<a class=3D"external-link" data-card-a=
+ppearance=3D"inline" href=3D"https://en.wikipedia.org/wiki/Representational=
+_state_transfer" rel=3D"nofollow">https://en.wikipedia.org/wiki/Representat=
+ional_state_transfer</a> ). To restrict access and therefore increase secur=
+ity, find the line that specifies <code>network.host</code>, uncomment it, =
+and replace its value with <code>localhost</code> like this:</p>
+<p><span class=3D"legacy-color-text-inverse">/etc/elasticsearch/elasticsear=
+ch.yml</span></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">. . .
+# ---------------------------------- Network ------------------------------=
+-----
+#
+# Set the bind address to a specific IP (IPv4 or IPv6):
+#
+network.host: localhost
+. . .
+</pre>
+</div>
+</div>
+<p>We have specified <code>localhost</code> so that Elasticsearch listens o=
+n all interfaces and bound IPs. If we want it to listen only on a specific =
+interface, we can specify its IP in place of <code>localhost</code>. Save a=
+nd close <code>elasticsearch.yml</code>.</p>
+<p>These are the minimum settings you can start with in order to use Elasti=
+csearch. Now we can start Elasticsearch for the first time.</p>
+<p>Start the Elasticsearch service with <code>systemctl</code>. Give Elasti=
+csearch a few moments to start up. Otherwise, we may get errors about not b=
+eing able to connect.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl start elasticsearch
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>Next, run the following command to enable Elasticsearch to start up ever=
+y time the server boots:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl enable elasticsearch
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>We can test whether your Elasticsearch service is running by sending an =
+HTTP request:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ GET "localhost:9200"
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>We will see a response showing some basic information about your local n=
+ode, similar to this:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Output{
+  "name" : "Elasticsearch",
+  "cluster_name" : "elasticsearch",
+  "cluster_uuid" : "n8Qu5CjWSmyIXBzRXK-j4A",
+  "version" : {
+    "number" : "7.17.2",
+    "build_flavor" : "default",
+    "build_type" : "deb",
+    "build_hash" : "de7261de50d90919ae53b0eff9413fd7e5307301",
+    "build_date" : "2022-03-28T15:12:21.446567561Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.11.1",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "You Know, for Search"
+}
+
+</pre>
+</div>
+</div>
+<p><br></p>
+<p>Elasticsearch allows for Index Lifecycle Management (ILM) to automate in=
+dex retention. Initially, we=E2=80=99ll use 60 days as our default. To stor=
+e logs 60 days and automatically delete old indexes, follow these steps:</p=
+>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ PUT "localhost:9200/_ilm/policy/aiplus-policy" -H "Content-Type: applicati=
+on/json" -d '{
+  "policy": {
+    "phases": {
+      "hot": {
+        "actions": {
+          "rollover": {
+            "max_age": "7d",
+            "max_size": "50GB"
+          }
+        }
+      },
+      "delete": {
+        "min_age": "60d",
+        "actions": {
+          "delete": {}
+        }
+      }
+    }
+  }
+}'</pre>
+</div>
+</div>
+<p>This policy:</p>
+<ul>
+<li>
+<p><strong>Rolls over the index every 7 days or 50GB</strong>, whichever co=
+mes first.</p></li>
+<li>
+<p><strong>Deletes indexes older than 60 days</strong>.</p></li>
+</ul>
+<p>Create an index template that uses the ILM policy:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ PUT "localhost:9200/_index_template/aiplus-template" -H "Content-Type: app=
+lication/json" -d '{
+  "index_patterns": ["aiplus-*"],
+  "template": {
+    "settings": {
+      "index.lifecycle.name": "aiplus-policy"
+    }
+  }
+}'</pre>
+</div>
+</div>
+<p>This ensures that new indexes matching <code>aiplus-*</code> follow the =
+retention policy.</p>
+<p>Check that the ILM policy is correctly assigned to an index:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ GET "localhost:9200/aiplus-000001/_ilm/explain?pretty"</pre>
+</div>
+</div>
+<p>If correctly configured, we should see the ILM policy name in the output=
+.</p>
+<p>To delete an old index manually:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ DELETE "localhost:9200/aiplus-2024.01.01"</pre>
+</div>
+</div>
+<p>To check disk usage for indexes, use the following command:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ GET "localhost:9200/_cat/indices?v&amp;h=3Dindex,store.size"</pre>
+</div>
+</div>
+<h1 id=3D"AI+EFKStack-FluentBit"><br><strong>FluentBit</strong></h1>
+<p>Fluent Bit is available as the <code>fluent-bit</code> package and suppo=
+rts long-term releases of Ubuntu.</p>
+<p>To install the most recent version, we can use the following script:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl ht=
+tps://raw.githubusercontent.com/fluent/fluent-bit/master/install.sh | sh
+</pre>
+</div>
+</div>
+<p>This script is a convenience helper and should be reviewed before use. F=
+or a secure deployment, follow the steps below.</p>
+<h3 id=3D"AI+EFKStack-SecureInstallationSteps"><strong>Secure Installation =
+Steps</strong></h3>
+<p>To ensure we receive the correct signed packages, we add the Fluent Bit =
+server GPG key:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl ht=
+tps://packages.fluentbit.io/fluentbit.key | gpg --dearmor &gt; /usr/share/k=
+eyrings/fluentbit-keyring.gpg
+</pre>
+</div>
+</div>
+<p>The updated GPG key (March 2022) has the fingerprint:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">C3C0 A2=
+85 34B9 293E AF51  FABD 9F9D DC08 3888 C1CD
+</pre>
+</div>
+</div>
+<p>We add the following entry to <code>/etc/apt/sources.list</code>, replac=
+ing <code>${CODENAME}</code> with our Ubuntu release name (e.g., <code>foca=
+l</code> for 20.04):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">deb [si=
+gned-by=3D/usr/share/keyrings/fluentbit-keyring.gpg] https://packages.fluen=
+tbit.io/ubuntu/${CODENAME} ${CODENAME} main
+</pre>
+</div>
+</div>
+<p>We refresh the package database:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t-get update
+</pre>
+</div>
+</div>
+<p>To prevent issues with expired certificates, we upgrade the system:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t-get upgrade
+</pre>
+</div>
+</div>
+<p>If we encounter certificate verification errors, we should first ensure =
+the <code>ca-certificates</code> package is installed:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t-get install ca-certificates
+</pre>
+</div>
+</div>
+<p>We install Fluent Bit using:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t-get install fluent-bit
+</pre>
+</div>
+</div>
+<p></p>
+<p>Edit <code>/etc/fluent-bit/fluent-bit.conf</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">[SERVIC=
+E]
+    Flush        1
+    Log_Level    info
+    Parsers_File parsers.conf
+
+[INPUT]
+    Name              forward
+    Listen            0.0.0.0
+    Port              24224
+
+# Apply AIPlus custom parser to JSON logs
+[FILTER]
+    Name              parser
+    Match             docker.*
+    Parser            aiplus-docker-json
+    Key_Name          log
+    Reserve_Data      true
+
+[OUTPUT]
+    Name              es
+    Match             docker.*
+    Host              localhost
+    Port              9200
+    Index             aiplus
+    Logstash_Format   On
+    Logstash_prefix   aiplus
+    Retry_Limit       5
+</pre>
+</div>
+</div>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">[PARSER=
+]
+    Name        aiplus-docker-json
+    Format      json
+    Time_Key    timestamp
+    Time_Format %Y-%m-%d %H:%M:%S
+
+[PARSER]
+    Name        aiplus-docker-plain
+    Format      regex
+    Regex       ^(?&lt;log&gt;.*)$
+</pre>
+</div>
+</div>
+<p><br>
+Then, we start the service:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl start fluent-bit
+</pre>
+</div>
+</div>
+<p>To confirm it is running, we check the service status:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">systemc=
+tl status fluent-bit
+</pre>
+</div>
+</div>
+<p>Expected output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">=E2=97=
+=8F fluent-bit.service - Fluent Bit
+   Loaded: loaded (/lib/systemd/system/fluent-bit.service; disabled; vendor=
+ preset: enabled)
+   Active: active (running) since [timestamp]
+ Main PID: [process_id] (fluent-bit)
+    Tasks: 1
+   Memory: [memory_usage]
+      CPU: [cpu_time]
+   CGroup: /system.slice/fluent-bit.service
+           =E2=94=94=E2=94=80[process_id] /opt/fluent-bit/bin/fluent-bit -c=
+ /etc/fluent-bit/fluent-bit.conf
+</pre>
+</div>
+</div>
+<p>By default, Fluent Bit collects CPU usage metrics and logs them to <code=
+>/var/log/syslog</code>.</p>
+<p></p>
+<p></p>
+<h1 id=3D"AI+EFKStack-Kibana"><strong>Kibana</strong></h1>
+<p>According to the <a class=3D"external-link" href=3D"https://www.elastic.=
+co/guide/en/elastic-stack/current/installing-elastic-stack.html" rel=3D"nof=
+ollow">official documentation</a>, we should install Kibana only after inst=
+alling Elasticsearch. Installing in this order ensures that the components =
+each product depends on are correctly in place.</p>
+<p>Because we=E2=80=99ve already added the Elastic package source in the pr=
+evious step, we can just install the remaining components of the Elastic St=
+ack using <code>apt</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo ap=
+t install kibana
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>Then enable and start the Kibana service:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl enable kibana
+</pre>
+</div>
+</div>
+<p><span class=3D"legacy-color-text-inverse">Copy</span></p>
+<p>Edit <code>/etc/kibana/kibana.yml</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">server.=
+port: 5601
+server.host: "0.0.0.0"
+server.publicBaseUrl: "https://10.161.0.92:5601"
+elasticsearch.hosts: ["http://localhost:9200"]
+server.ssl.enabled: true
+server.ssl.certificate: /etc/kibana/kibana-server.crt
+server.ssl.key: /etc/kibana/kibana-server.key
+</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl enable --now kibana
+</pre>
+</div>
+</div>
+<p>Verify Kibana is running:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl status kibana
+</pre>
+</div>
+</div>
+<p>Open Kibana in a browser:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">https:/=
+/10.161.0.92:5601
+</pre>
+</div>
+</div>
+<p>To access Kibana directly via HTTPS (<code>https://&lt;remote-IP-address=
+&gt;:5601</code>), follow these steps:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">openssl=
+ genrsa -out kibana-server.key 2048
+openssl req -new -key kibana-server.key -out kibana-server.csr
+openssl x509 -req -days 1095 -in kibana-server.csr -signkey kibana-server.k=
+ey -out kibana-server.crt
+</pre>
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>The STRONGLY PREFERRED alternative to self-signed certificates is a corp=
+orate CA. We should request certificates from our customer=E2=80=99s intern=
+al certificate authority if available.</p>
+</div>
+</div>
+<p>Edit <code>/etc/kibana/kibana.yml</code>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">server.=
+ssl.enabled: true
+server.ssl.certificate: "/etc/kibana/kibana-server.crt"
+server.ssl.key: "/etc/kibana/kibana-server.key"
+</pre>
+</div>
+</div>
+<p>Ensure the proper file permissions!</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo mv=
+ kibana-server.key kibana-server.crt /etc/kibana/
+sudo chown kibana:kibana /etc/kibana/kibana-server.key
+sudo chmod 400 /etc/kibana/kibana-server.key
+sudo chmod 444 /etc/kibana/kibana-server.crt
+</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl restart kibana
+</pre>
+</div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo sy=
+stemctl status kibana
+</pre>
+</div>
+</div>
+<h4 id=3D"AI+EFKStack-"><strong> </strong></h4>
+<h1 id=3D"AI+EFKStack-DebuggingandValidation"><strong>Debugging and Validat=
+ion</strong></h1>
+<p>Check FluentBit Logs</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo jo=
+urnalctl -u fluent-bit -n 50 --no-pager
+</pre>
+</div>
+</div>
+<p>Verify Elasticsearch Indexes</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ GET "http://localhost:9200/_cat/indices?v"
+</pre>
+</div>
+</div>
+<p>Query Elasticsearch for Logs</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -X=
+ GET "http://localhost:9200/aiplus-*/_search?pretty=3Dtrue" -H 'Content-Typ=
+e: application/json' -d '{"size": 10, "query": {"match_all": {}}}'
+</pre>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_30_1784474359.1758123330972--

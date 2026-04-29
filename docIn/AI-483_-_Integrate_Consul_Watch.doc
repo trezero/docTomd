@@ -1,0 +1,857 @@
+Date: Wed, 17 Sep 2025 15:28:02 +0000 (UTC)
+Message-ID: <2116491004.249.1758122882048@6e9eb9291c45>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_248_653295281.1758122882048"
+
+------=_Part_248_653295281.1758122882048
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-483 - Integrate Consul Watch</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-483 - Integrate Consul Watch</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"AI-483-IntegrateConsulWatch-ConsulWatchSidecarIntegration=
+Guide">Consul Watch Sidecar Integration Guide</h1>
+<p>This page outlines the technical implementation for integrating a Consul=
+ Watch sidecar into our Docker containers for configuration management. The=
+ integration will provide real-time configuration updates while maintaining=
+ backward compatibility with polling-based approaches for development envir=
+onments.</p>
+<h2 id=3D"AI-483-IntegrateConsulWatch-ImplementationDetails">Implementation=
+ Details</h2>
+<h3 id=3D"AI-483-IntegrateConsulWatch-EnvironmentDetectionLogic">Environmen=
+t Detection Logic</h3>
+<p>We need to implement a reliable mechanism to detect whether our applicat=
+ion is running inside a Docker container with the sidecar available. This d=
+etection will determine which configuration update strategy to use.</p>
+<p>The detection logic will look for specific environment markers and can b=
+e overridden with explicit configuration:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">import =
+os
+import socket
+
+def is_docker():
+    """Check if running inside Docker."""
+    # Check for .dockerenv file
+    docker_env =3D os.path.exists('/.dockerenv')
+   =20
+    # Check cgroup
+    try:
+        with open('/proc/self/cgroup', 'r') as f:
+            return docker_env or 'docker' in f.read()
+    except:
+        return docker_env
+
+def is_consul_watch_sidecar_available():
+    """Check if Consul Watch sidecar is available."""
+    # Check for environment variable override
+    env_override =3D os.getenv("USE_CONSUL_WATCH_SIDECAR")
+    if env_override is not None:
+        return env_override.lower() in ("true", "yes", "1")
+   =20
+    # Check if sidecar service is available on expected port
+    sidecar_host =3D os.getenv("CONSUL_WATCH_SIDECAR_HOST", "localhost")
+    sidecar_port =3D int(os.getenv("CONSUL_WATCH_SIDECAR_PORT", "8501"))
+   =20
+    try:
+        s =3D socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s.settimeout(0.5)
+        s.connect((sidecar_host, sidecar_port))
+        s.close()
+        return True
+    except:
+        return False</pre>
+</div>
+</div>
+<p>This detection should be added to the environment module and used during=
+ application initialization.</p>
+<h3 id=3D"AI-483-IntegrateConsulWatch-BaseConfigClassEnhancements">BaseConf=
+ig Class Enhancements</h3>
+<p>The BaseConfig class needs to be updated to use our detection logic. We'=
+ll modify the <code>__init__</code> method to intelligently choose between =
+watch-based and polling-based approaches:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Updat=
+e in baseConfig.py
+
+from aiplus.core.env import is_consul_watch_sidecar_available
+
+def __init__(
+        self,
+        service_name: str,
+        write_defaults: bool =3D True,
+        auto_refresh: bool =3D False,
+        refresh_interval: int =3D DEFAULT_REFRESH_INTERVAL
+):
+    # Existing initialization code...
+   =20
+    # Determine configuration update strategy
+    use_consul_watch =3D os.getenv("USE_CONSUL_WATCH", "false").lower() in =
+("true", "yes", "1")
+   =20
+    # Use environment detection if not explicitly configured
+    if not use_consul_watch:
+        use_consul_watch =3D is_consul_watch_sidecar_available()
+   =20
+    # Set up appropriate refresh mechanism
+    if use_consul_watch:
+        self._setup_consul_watch()
+        logger.info(
+            "Using Consul Watch for configuration updates",
+            CoreEventAttributes.SERVICE_NAME, self.service_name
+        )
+    elif auto_refresh:
+        self._setup_polling_refresh()
+        logger.info(
+            "Using polling for configuration updates",
+            CoreEventAttributes.SERVICE_NAME, self.service_name,
+            "RefreshInterval", self._refresh_interval
+        )</pre>
+</div>
+</div>
+<p></p>
+<h3 id=3D"AI-483-IntegrateConsulWatch-ConsulWatchSidecarDevelopment">Consul=
+ Watch Sidecar Development</h3>
+<p>The sidecar container will be responsible for watching Consul and forwar=
+ding updates to our application. We'll create a lightweight HTTP server tha=
+t our application can register with:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># consu=
+l_watch_sidecar.py
+import os
+import json
+import asyncio
+import logging
+from aiohttp import web
+import consul.aio
+
+# Configure logging
+logging.basicConfig(level=3Dlogging.INFO)
+logger =3D logging.getLogger("consul-watch-sidecar")
+
+# Environment configuration
+CONSUL_HOST =3D os.getenv("CONSUL_HOST", "localhost")
+CONSUL_PORT =3D int(os.getenv("CONSUL_PORT", "8500"))
+CONSUL_SCHEME =3D os.getenv("CONSUL_SCHEME", "http")
+CONSUL_TOKEN =3D os.getenv("CONSUL_TOKEN", None)
+SIDECAR_PORT =3D int(os.getenv("CONSUL_WATCH_SIDECAR_PORT", "8501"))
+
+# In-memory storage of registered services and callbacks
+registered_watches =3D {}
+
+async def watch_key_prefix(prefix, callback_urls):
+    """Watch a Consul key prefix and notify registered callbacks."""
+    client =3D consul.aio.Consul(
+        host=3DCONSUL_HOST,
+        port=3DCONSUL_PORT,
+        scheme=3DCONSUL_SCHEME,
+        token=3DCONSUL_TOKEN
+    )
+   =20
+    index =3D None
+    while True:
+        try:
+            index, data =3D await client.kv.get(
+                prefix, recurse=3DTrue, index=3Dindex
+            )
+           =20
+            if data:
+                logger.info(f"Configuration change detected for prefix {pre=
+fix}")
+               =20
+                # Notify all registered callbacks
+                for url in callback_urls:
+                    try:
+                        async with aiohttp.ClientSession() as session:
+                            async with session.post(url, json=3Ddata) as re=
+sponse:
+                                if response.status !=3D 200:
+                                    logger.error(f"Error notifying {url}: {=
+response.status}")
+                    except Exception as e:
+                        logger.error(f"Failed to notify {url}: {str(e)}")
+        except Exception as e:
+            logger.error(f"Error watching {prefix}: {str(e)}")
+            await asyncio.sleep(5)  # Backoff on error
+
+# API Routes
+async def register_watch(request):
+    """Register a new watch callback."""
+    data =3D await request.json()
+    prefix =3D data.get('prefix')
+    callback_url =3D data.get('callback_url')
+   =20
+    if not prefix or not callback_url:
+        return web.json_response(
+            {"error": "Both prefix and callback_url are required"},=20
+            status=3D400
+        )
+   =20
+    if prefix not in registered_watches:
+        registered_watches[prefix] =3D set()
+        # Start watching this prefix
+        asyncio.create_task(watch_key_prefix(prefix, registered_watches[pre=
+fix]))
+   =20
+    registered_watches[prefix].add(callback_url)
+    logger.info(f"Registered watch for {prefix} with callback {callback_url=
+}")
+   =20
+    return web.json_response({"status": "registered"})
+
+async def deregister_watch(request):
+    """Deregister a watch callback."""
+    data =3D await request.json()
+    prefix =3D data.get('prefix')
+    callback_url =3D data.get('callback_url')
+   =20
+    if not prefix or not callback_url:
+        return web.json_response(
+            {"error": "Both prefix and callback_url are required"},=20
+            status=3D400
+        )
+   =20
+    if prefix in registered_watches and callback_url in registered_watches[=
+prefix]:
+        registered_watches[prefix].remove(callback_url)
+        logger.info(f"Deregistered watch for {prefix} with callback {callba=
+ck_url}")
+   =20
+    return web.json_response({"status": "deregistered"})
+
+async def health_check(request):
+    """Simple health check endpoint."""
+    return web.json_response({
+        "status": "healthy",
+        "watches_count": sum(len(callbacks) for callbacks in registered_wat=
+ches.values())
+    })
+
+# App initialization
+app =3D web.Application()
+app.add_routes([
+    web.post('/register', register_watch),
+    web.post('/deregister', deregister_watch),
+    web.get('/health', health_check)
+])
+
+if __name__ =3D=3D '__main__':
+    web.run_app(app, port=3DSIDECAR_PORT)</pre>
+</div>
+</div>
+<h3 id=3D"AI-483-IntegrateConsulWatch-WatchManagerImplementation">WatchMana=
+ger Implementation</h3>
+<p>We need to update the watch manager to support communicating with the si=
+decar:python</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># watch=
+Manager.py
+import os
+import aiohttp
+import asyncio
+import threading
+from typing import Callable, Dict, Set, Any
+
+from aiplus.core.log.logger import get_logger
+from aiplus.core.log.eventAttributes import CoreEventAttributes
+
+logger =3D get_logger(__name__)
+
+class WatchManager:
+    """
+    Manages Consul watch registrations and callbacks.
+    Supports both direct Consul watches and sidecar-based watches.
+    """
+   =20
+    def __init__(self):
+        self._callbacks =3D {}
+        self._lock =3D threading.RLock()
+        self._sidecar_host =3D os.getenv("CONSUL_WATCH_SIDECAR_HOST", "loca=
+lhost")
+        self._sidecar_port =3D int(os.getenv("CONSUL_WATCH_SIDECAR_PORT", "=
+8501"))
+        self._use_sidecar =3D os.getenv("USE_CONSUL_WATCH", "false").lower(=
+) in ("true", "yes", "1")
+       =20
+        # Get service information for callback URL
+        self._service_host =3D os.getenv("HOST", "localhost")
+        self._service_port =3D int(os.getenv("PORT", "8000"))
+       =20
+        # Sidecar registration state
+        self._registered_with_sidecar =3D set()
+   =20
+    def register_callback(self, prefix: str, callback: Callable[[Any], None=
+]) -&gt; bool:
+        """
+        Register a callback for a Consul key prefix.
+       =20
+        Args:
+            prefix: Consul key prefix to watch
+            callback: Callback function to invoke on changes
+           =20
+        Returns:
+            True if registration was successful, False otherwise
+        """
+        with self._lock:
+            if prefix not in self._callbacks:
+                self._callbacks[prefix] =3D set()
+           =20
+            self._callbacks[prefix].add(callback)
+           =20
+            # If using sidecar, register with it
+            if self._use_sidecar:
+                success =3D self._register_with_sidecar(prefix)
+                if success:
+                    self._registered_with_sidecar.add(prefix)
+                return success
+               =20
+            return True
+   =20
+    def _register_with_sidecar(self, prefix: str) -&gt; bool:
+        """
+        Register a watch with the sidecar.
+       =20
+        Args:
+            prefix: Consul key prefix to watch
+           =20
+        Returns:
+            True if registration was successful, False otherwise
+        """
+        try:
+            # Construct callback URL the sidecar will use to notify us
+            callback_url =3D f"http://{self._service_host}:{self._service_p=
+ort}/api/config/watch-update"
+           =20
+            # Register with sidecar
+            response =3D requests.post(
+                f"http://{self._sidecar_host}:{self._sidecar_port}/register=
+",
+                json=3D{"prefix": prefix, "callback_url": callback_url},
+                timeout=3D5
+            )
+           =20
+            if response.status_code =3D=3D 200:
+                logger.info(
+                    "Registered with Consul Watch sidecar",
+                    "Prefix", prefix,
+                    "CallbackURL", callback_url
+                )
+                return True
+            else:
+                logger.error(
+                    "Failed to register with Consul Watch sidecar",
+                    "Prefix", prefix,
+                    "StatusCode", response.status_code,
+                    "Response", response.text
+                )
+                return False
+               =20
+        except Exception as e:
+            logger.error(
+                "Error registering with Consul Watch sidecar",
+                "Prefix", prefix,
+                CoreEventAttributes.ERROR_MESSAGE, str(e)
+            )
+            return False
+   =20
+    def handle_watch_update(self, prefix: str, data: Any) -&gt; None:
+        """
+        Handle a watch update from Consul or the sidecar.
+       =20
+        Args:
+            prefix: Consul key prefix that was updated
+            data: Updated data
+        """
+        with self._lock:
+            if prefix in self._callbacks:
+                for callback in self._callbacks[prefix]:
+                    try:
+                        callback(data)
+                    except Exception as e:
+                        logger.error(
+                            "Error in watch callback",
+                            "Prefix", prefix,
+                            CoreEventAttributes.ERROR_MESSAGE, str(e)
+                        )
+
+# Singleton instance
+watch_manager =3D WatchManager()</pre>
+</div>
+</div>
+<h3 id=3D"AI-483-IntegrateConsulWatch-DockerComposeConfiguration">Docker Co=
+mpose Configuration</h3>
+<p>Here's a sample Docker Compose configuration that includes the sidecar:y=
+aml</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">version=
+: '3.8'
+
+services:
+  app:
+    image: aiplus/myservice:latest
+    environment:
+      - CONSUL_HOST=3Dconsul
+      - CONSUL_PORT=3D8500
+      - USE_CONSUL_WATCH=3Dtrue
+      - CONSUL_WATCH_SIDECAR_HOST=3Dconsul-watch-sidecar
+      - CONSUL_WATCH_SIDECAR_PORT=3D8501
+    depends_on:
+      consul-watch-sidecar:
+        condition: service_healthy
+    networks:
+      - aiplus-network
+
+  consul-watch-sidecar:
+    image: aiplus/consul-watch-sidecar:latest
+    environment:
+      - CONSUL_HOST=3Dconsul
+      - CONSUL_PORT=3D8500
+      - CONSUL_TOKEN=3D${CONSUL_TOKEN}
+    depends_on:
+      consul:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    networks:
+      - aiplus-network
+
+  consul:
+    image: consul:latest
+    ports:
+      - "8500:8500"
+    volumes:
+      - consul-data:/consul/data
+    networks:
+      - aiplus-network
+    healthcheck:
+      test: ["CMD", "consul", "members"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+networks:
+  aiplus-network:
+
+volumes:
+  consul-data:</pre>
+</div>
+</div>
+<h3 id=3D"AI-483-IntegrateConsulWatch-KubernetesImplementation(Future)">Kub=
+ernetes Implementation (Future)</h3>
+<p>For Kubernetes, we'll use a sidecar container pattern:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">apiVers=
+ion: apps/v1
+kind: Deployment
+metadata:
+  name: aiplus-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: aiplus-service
+  template:
+    metadata:
+      labels:
+        app: aiplus-service
+    spec:
+      containers:
+      - name: aiplus-service
+        image: aiplus/myservice:latest
+        env:
+        - name: CONSUL_HOST
+          value: "consul.service.consul"
+        - name: CONSUL_PORT
+          value: "8500"
+        - name: USE_CONSUL_WATCH
+          value: "true"
+        - name: CONSUL_WATCH_SIDECAR_HOST
+          value: "localhost"
+        - name: CONSUL_WATCH_SIDECAR_PORT
+          value: "8501"
+        ports:
+        - containerPort: 8000
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8000
+          initialDelaySeconds: 5
+          periodSeconds: 10
+         =20
+      - name: consul-watch-sidecar
+        image: aiplus/consul-watch-sidecar:latest
+        env:
+        - name: CONSUL_HOST
+          value: "consul.service.consul"
+        - name: CONSUL_PORT
+          value: "8500"
+        - name: CONSUL_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: consul-secrets
+              key: token
+        ports:
+        - containerPort: 8501
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8501
+          initialDelaySeconds: 5
+          periodSeconds: 10</pre>
+</div>
+</div>
+<h3 id=3D"AI-483-IntegrateConsulWatch-TestingImplementation">Testing Implem=
+entation</h3>
+<p>Here's a sample test script to verify the integration:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">import =
+unittest
+import os
+import time
+from unittest.mock import patch, MagicMock
+
+from aiplus.core.config.baseConfig import BaseConfig
+from aiplus.core.env import is_consul_watch_sidecar_available
+
+class TestConsulWatchIntegration(unittest.TestCase):
+   =20
+    def setUp(self):
+        # Set up environment for tests
+        os.environ["CONSUL_HOST"] =3D "localhost"
+        os.environ["CONSUL_PORT"] =3D "8500"
+       =20
+        # Clear any previous settings
+        if "USE_CONSUL_WATCH" in os.environ:
+            del os.environ["USE_CONSUL_WATCH"]
+        if "USE_CONSUL_WATCH_SIDECAR" in os.environ:
+            del os.environ["USE_CONSUL_WATCH_SIDECAR"]
+           =20
+    def test_environment_detection(self):
+        # Test Docker environment detection
+        with patch('os.path.exists', return_value=3DTrue):
+            self.assertTrue(is_docker())
+           =20
+        # Test sidecar availability detection
+        with patch('socket.socket') as mock_socket:
+            mock_socket.return_value.connect.return_value =3D None
+            self.assertTrue(is_consul_watch_sidecar_available())
+           =20
+        with patch('socket.socket') as mock_socket:
+            mock_socket.return_value.connect.side_effect =3D ConnectionRefu=
+sedError
+            self.assertFalse(is_consul_watch_sidecar_available())
+   =20
+    @patch('aiplus.core.config.baseConfig.BaseConfig._setup_consul_watch')
+    @patch('aiplus.core.config.baseConfig.BaseConfig._setup_polling_refresh=
+')
+    @patch('aiplus.core.env.is_consul_watch_sidecar_available')
+    def test_config_initialization_with_sidecar(self, mock_sidecar_availabl=
+e,=20
+                                              mock_setup_polling, mock_setu=
+p_watch):
+        # Test that watch is used when sidecar is available
+        mock_sidecar_available.return_value =3D True
+       =20
+        config =3D BaseConfig("test-service", auto_refresh=3DTrue)
+       =20
+        mock_setup_watch.assert_called_once()
+        mock_setup_polling.assert_not_called()
+   =20
+    @patch('aiplus.core.config.baseConfig.BaseConfig._setup_consul_watch')
+    @patch('aiplus.core.config.baseConfig.BaseConfig._setup_polling_refresh=
+')
+    @patch('aiplus.core.env.is_consul_watch_sidecar_available')
+    def test_config_initialization_without_sidecar(self, mock_sidecar_avail=
+able,=20
+                                                 mock_setup_polling, mock_s=
+etup_watch):
+        # Test that polling is used when sidecar is not available
+        mock_sidecar_available.return_value =3D False
+       =20
+        config =3D BaseConfig("test-service", auto_refresh=3DTrue)
+       =20
+        mock_setup_watch.assert_not_called()
+        mock_setup_polling.assert_called_once()
+   =20
+    @patch('aiplus.core.config.baseConfig.BaseConfig._setup_consul_watch')
+    @patch('aiplus.core.config.baseConfig.BaseConfig._setup_polling_refresh=
+')
+    def test_environment_override(self, mock_setup_polling, mock_setup_watc=
+h):
+        # Test that environment variable overrides detection
+        os.environ["USE_CONSUL_WATCH"] =3D "true"
+       =20
+        config =3D BaseConfig("test-service", auto_refresh=3DTrue)
+       =20
+        mock_setup_watch.assert_called_once()
+        mock_setup_polling.assert_not_called()
+
+if __name__ =3D=3D '__main__':
+    unittest.main()</pre>
+</div>
+</div>
+<h2 id=3D"AI-483-IntegrateConsulWatch-DevelopmentPlan">Development Plan</h2=
+>
+<p>To ensure a smooth transition, we'll follow this migration plan:</p>
+<ol start=3D"1">
+<li>
+<p>Deploy the Consul Watch sidecar alongside existing services without enab=
+ling it (USE_CONSUL_WATCH=3Dfalse)</p></li>
+<li>
+<p>Update the AI+ Common library with the new detection logic and enhanceme=
+nts</p></li>
+<li>
+<p>Enable the sidecar for a small subset of non-critical services in develo=
+pment and staging</p></li>
+<li>
+<p>Monitor performance and resource usage metrics to ensure the approach is=
+ working correctly</p></li>
+<li>
+<p>Gradually roll out to all services in production</p></li>
+<li>
+<p>Update documentation and developer guides to reflect the new approach</p=
+></li>
+</ol>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_248_653295281.1758122882048--

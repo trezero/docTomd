@@ -1,0 +1,756 @@
+Date: Wed, 17 Sep 2025 15:28:26 +0000 (UTC)
+Message-ID: <1888627769.229.1758122906138@333c1b01f638>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_228_328523973.1758122906138"
+
+------=_Part_228_328523973.1758122906138
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Security Validation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Security Validation</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"SecurityValidation-1.AllCommunicationsUseTLS">1. All Comm=
+unications Use TLS</h2>
+<ul>
+<li>
+<p>All plain HTTP requests are correctly rejected.</p></li>
+<li>
+<p>TLS handshakes complete successfully.</p></li>
+<li>
+<p>No plaintext ports are exposed.</p></li>
+</ul>
+<h3 id=3D"SecurityValidation-1.1.HTTPPortProperlyRejected">1.1. HTTP Port P=
+roperly Rejected</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl ht=
+tp://lambda1.aiplus.perifery.com:8500/
+</pre>
+</div>
+</div>
+<p><strong>Result</strong>: <code>400 Bad Request - Client sent HTTP to HTT=
+PS server</code></p>
+<ul>
+<li>
+<p>Plain HTTP is not accepted, as expected.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-1.2.HTTPSPortResponds">1.2. HTTPS Port Respond=
+s</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl ht=
+tps://lambda1.aiplus.perifery.com:8500/
+</pre>
+</div>
+</div>
+<p><strong>Result</strong>: TLS handshake completes successfully (a certifi=
+cate warning may appear due to hostname mismatch)</p>
+<ul>
+<li>
+<p>Communication is encrypted with TLS.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-1.3.NoPlaintextPortsOpenforConsul">1.3. No Pla=
+intext Ports Open for Consul</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">netstat=
+ -tulnp | grep consul
+</pre>
+</div>
+</div>
+<p><strong>Result</strong>: Only TLS-capable ports like <code>8301</code>, =
+<code>8302</code>, and <code>8500</code> are open.</p>
+<ul>
+<li>
+<p>No unencrypted (plaintext) ports are listening.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-1.4.UIAccessVerification">1.4. UI Access Verif=
+ication</h3>
+<ul>
+<li>
+<p>Open browser: <code>https://10.161.244.15:8500/ui</code></p></li>
+<li>
+<p>Click "Advanced" =E2=86=92 "Proceed to site" (to bypass certificate warn=
+ing)</p></li>
+<li>
+<p>Expected result: Consul UI loads successfully</p></li>
+</ul>
+<p><strong>Status</strong>: UI is accessible only over HTTPS.</p>
+<ul>
+<li>
+<p>Certificate warning exists due to hostname mismatch, but it <strong>does=
+ not affect encryption or security</strong></p></li>
+</ul>
+<hr>
+<h2 id=3D"SecurityValidation-2.ServiceDiscoveryWorksOverSecureConnections">=
+2. Service Discovery Works Over Secure Connections</h2>
+<ul>
+<li>
+<p>Services can <strong>find each other</strong> through Consul</p></li>
+<li>
+<p>All discovery communications are <strong>encrypted</strong> (no plaintex=
+t)</p></li>
+<li>
+<p>Services get correct connection info (hostnames, ports)</p></li>
+<li>
+<p>Everything works <strong>without any HTTP/unencrypted fallback</strong><=
+/p></li>
+</ul>
+<h3 id=3D"SecurityValidation-2.1.EnforceHTTPS-OnlyRegistration(UsingDomainN=
+ame+CACert)">2.1. Enforce HTTPS-Only Registration (Using Domain Name + CA C=
+ert)</h3>
+<h3 id=3D"SecurityValidation-2.1.1.HTTPSRegistration(ShouldPass)">2.1.1. HT=
+TPS Registration (Should Pass)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl --=
+cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem -X PUT -=
+d '{
+  "ID": "test-https",
+  "Name": "test-https",
+  "Address": "lambda1.aiplus.perifery.com",
+  "Port": 8080
+}' "https://lambda1.aiplus.perifery.com:8500/v1/agent/service/register"
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Uses HTTPS and valid cert.</p></li>
+<li>
+<p>Service registered securely.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-2.1.2.HTTPonHTTPSPort(ShouldFail)">2.1.2. HTTP=
+ on HTTPS Port (Should Fail)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl -k=
+ -X PUT -d '{
+  "ID": "test-http",
+  "Name": "test-http",
+  "Address": "lambda1.aiplus.perifery.com",
+  "Port": 8080
+}' "http://10.161.244.15:8500/v1/agent/service/register"
+</pre>
+</div>
+</div>
+<p>Expected Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl: (=
+1) Received HTTP/0.9 when not allowed
+Client sent an HTTP request to an HTTPS server.
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><code>http://</code> used on a TLS-only port.</p></li>
+<li>
+<p>Protocol mismatch error =E2=80=94 registration blocked.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-2.2.TestingusingtwoFastAPIservices">2.2. Testi=
+ng using two FastAPI services</h3>
+<p>These are two FastAPI services running on ports <code>11003</code> and <=
+code>11004</code>, built for testing service discovery. This approach can a=
+lso be extended to any HTTPS service such as Metagen, Facial Recognition, e=
+tc.</p>
+<h3 id=3D"SecurityValidation-2.2.1ValidateServiceRegistration">2.2.1 Valida=
+te Service Registration</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># List =
+all services (HTTPS only)
+consul catalog services \
+  -http-addr=3D"https://lambda1.aiplus.perifery.com:8500" \
+  -ca-file=3D/etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem
+
+# Check service details
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  "https://lambda1.aiplus.perifery.com:8500/v1/catalog/service/service-a"
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"SecurityValidation-2.2.2TestServiceDiscoveryMechanisms">2.2.2 Tes=
+t Service Discovery Mechanisms</h3>
+<h4 id=3D"SecurityValidation-DNS-BasedDiscovery">DNS-Based Discovery</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">dig @12=
+7.0.0.1 -p 8600 service-a.service.consul +short
+dig @127.0.0.1 -p 8600 service-b.service.consul +short
+</pre>
+</div>
+</div>
+<h4 id=3D"SecurityValidation-API-BasedDiscovery">API-Based Discovery</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># From =
+Service-A (discover Service-B)
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem  =
+ "https://lambda1.aiplus.perifery.com:11004/discover-services?service_name=
+=3Dservice-b"
+
+# From Service-B (discover Service-A)
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  "https://lambda1.aiplus.perifery.com:11003/discover-services?service_name=
+=3Dservice-a"
+
+# From Service-B (discover Consul)
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  "https://lambda1.aiplus.perifery.com:11003/discover-services?service_name=
+=3Dconsul"
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"SecurityValidation-2.2.3VerifyService-to-ServiceCommunication">2.=
+2.3 Verify Service-to-Service Communication</h3>
+<h4 id=3D"SecurityValidation-HTTPSCommunication(ShouldPass)">HTTPS Communic=
+ation (Should Pass)</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Servi=
+ce-A =E2=86=92 Service-B
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  https://lambda1.aiplus.perifery.com:11003/health
+
+# Service-B =E2=86=92 Service-A
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  https://lambda1.aiplus.perifery.com:11004/health
+</pre>
+</div>
+</div>
+<h4 id=3D"SecurityValidation-HTTPCommunication(ShouldFail)">HTTP Communicat=
+ion (Should Fail)</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Servi=
+ce-A =E2=86=92 Service-B (HTTP)
+curl http://lambda1.aiplus.perifery.com:11003/health
+
+# Service-B =E2=86=92 Service-A (HTTP)
+curl http://lambda1.aiplus.perifery.com:11004/health</pre>
+</div>
+</div>
+<p>Expected Output:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl: (=
+52) Empty reply from server</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"SecurityValidation-2.3.CertificateValidation">2.3. Certificate Va=
+lidation</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Verif=
+y Consul's certificate
+openssl s_client -connect lambda1.aiplus.perifery.com:8500 \
+  -CAfile /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem
+
+# Verify Service-A's certificate
+openssl s_client -connect lambda1.aiplus.perifery.com:11004 \
+  -CAfile /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"SecurityValidation-3.ConsulUIisAccessibleOnlyviaHTTPS"><strong>3.=
+ Consul UI is Accessible Only via HTTPS</strong></h2>
+<ul>
+<li>
+<p>The Consul web interface <strong>cannot</strong> be accessed using <code=
+>http://</code></p></li>
+<li>
+<p>All access must use <code>https://</code></p></li>
+<li>
+<p>Any attempt to use HTTP should automatically redirect to HTTPS or be blo=
+cked</p></li>
+</ul>
+<h3 id=3D"SecurityValidation-3.1.HTTPAccessisBlocked">3.1. HTTP Access is B=
+locked</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl ht=
+tp://lambda1.aiplus.perifery.com:8500/ui
+</pre>
+</div>
+</div>
+<p><strong>Expected Output:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">HTTP/1.=
+0 400 Bad Request
+Client sent an HTTP request to an HTTPS server.
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p><strong>Correct</strong>: Confirms that port <code>8500</code> is config=
+ured to expect HTTPS only and rejects HTTP.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-3.2.HTTPSAccessWorks">3.2. HTTPS Access Works<=
+/h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">curl ht=
+tps://lambda1.aiplus.perifery.com:8500/ui
+</pre>
+</div>
+</div>
+<p><strong>Expected Output:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt; HT=
+TP/2 301
+&lt; location: /ui/
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>A <strong>successful TLS handshake</strong> occurs.</p></li>
+<li>
+<p>A <strong>301 redirect</strong> from <code>/ui</code> to <code>/ui/</cod=
+e> is expected from Consul UI.</p></li>
+<li>
+<p>Certificate is valid (issued by <strong>Let=E2=80=99s Encrypt</strong> f=
+or <code>lambda1.aiplus.perifery.com</code>).</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-3.3.PortConfigurationLooksSecure">3.3. Port Co=
+nfiguration Looks Secure</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">netstat=
+ -tulnp | grep consul
+</pre>
+</div>
+</div>
+<p><strong>Expected Output:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">tcp6 ::=
+:8500 :::* LISTEN
+</pre>
+</div>
+</div>
+<ul>
+<li>
+<p>Only <strong>HTTPS port (8500)</strong> is open.</p></li>
+<li>
+<p>No unencrypted port exposed.</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-3.4.BrowserTest">3.4. Browser Test</h3>
+<ul>
+<li>
+<p>Navigating to <code>http://10.161.244.15:8500/ui</code> fails or trigger=
+s a redirect.</p></li>
+<li>
+<p>Navigating to <code>https://10.161.244.15:8500/ui/</code> loads the Cons=
+ul UI.</p></li>
+</ul>
+<hr>
+<h2 id=3D"SecurityValidation-4.Configurationchangespropagatecorrectlyoverse=
+cureconnections">4.<strong>Configuration changes propagate correctly over s=
+ecure connections</strong></h2>
+<h3 id=3D"SecurityValidation-4.1.KVStoreSecurityTests"><strong>4.1. KV Stor=
+e Security Tests</strong></h3>
+<h3 id=3D"SecurityValidation-Write/ReadEncryptedData">Write/Read Encrypted =
+Data</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Write=
+ secure value
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  -X PUT -d 'secure-value' \
+  "https://lambda1.aiplus.perifery.com:8500/v1/kv/secure-test"
+
+# Read back value
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  "https://lambda1.aiplus.perifery.com:8500/v1/kv/secure-test?raw"
+</pre>
+</div>
+</div>
+<p><strong>Expected Results</strong>:</p>
+<ul>
+<li>
+<p>PUT =E2=86=92 Returns <code>true</code></p></li>
+<li>
+<p>GET =E2=86=92 Returns <code>secure-value</code></p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-4.2.ServiceRegistrationSecurity"><strong>4.2. =
+Service Registration Security</strong></h3>
+<h3 id=3D"SecurityValidation-Register/VerifyHTTPSService">Register/Verify H=
+TTPS Service</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Regis=
+ter new service
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  -X PUT -d '{
+    "ID": "test-https",
+    "Name": "test-https",
+    "Address": "lambda1.aiplus.perifery.com",
+    "Port": 8443,
+    "Tags": ["https-only"]
+  }' "https://lambda1.aiplus.perifery.com:8500/v1/agent/service/register"
+
+# Verify registration
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  "https://lambda1.aiplus.perifery.com:8500/v1/catalog/service/test-https" =
+| jq
+</pre>
+</div>
+</div>
+<p><strong>Expected Results</strong>:</p>
+<ul>
+<li>
+<p>Returns JSON with service details including <code>"https-only"</code> ta=
+g</p></li>
+</ul>
+<hr>
+<h3 id=3D"SecurityValidation-4.3.NegativeTests"><strong>4.3. Negative Tests=
+ </strong></h3>
+<h3 id=3D"SecurityValidation-AttemptUnencryptedOperations">Attempt Unencryp=
+ted Operations</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Try H=
+TTP service registration
+curl -X PUT -d '{
+  "ID": "test-http",
+  "Name": "test-http",
+  "Port": 8080
+}' "http://lambda1.aiplus.perifery.com:8500/v1/agent/service/register"
+
+# Try HTTP KV write
+curl -X PUT -d 'insecure' "http://lambda1.aiplus.perifery.com:8500/v1/kv/in=
+secure-test"
+</pre>
+</div>
+</div>
+<p><strong>Expected Results</strong>:</p>
+<p>Both commands return:</p>
+<p><code>Client sent an HTTP request to an HTTPS server</code></p>
+<hr>
+<h3 id=3D"SecurityValidation-4.4.NetworkConfiguration"><strong>4.4. Network=
+ Configuration</strong></h3>
+<h3 id=3D"SecurityValidation-VerifyListeningPorts">Verify Listening Ports</=
+h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ss -tul=
+np | grep -E '8300|8302'
+</pre>
+</div>
+</div>
+<p><strong>Expected Results</strong>:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">tcp  LI=
+STEN 0 4096 10.161.244.15:8300 0.0.0.0:*  users:(("consul",pid=3DXXX,fd=3DX=
+X))
+tcp  LISTEN 0 4096 10.161.244.15:8302 0.0.0.0:*  users:(("consul",pid=3DXXX=
+,fd=3DXX))
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"SecurityValidation-4.5.ConfigurationPersistence"><strong>4.5. Con=
+figuration Persistence</strong></h3>
+<h3 id=3D"SecurityValidation-TestReloadandPersistence">Test Reload and Pers=
+istence</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Trigg=
+er reload
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  -X PUT "https://lambda1.aiplus.perifery.com:8500/v1/agent/reload"
+
+# Verify services persist
+curl --cacert /etc/letsencrypt/live/lambda1.aiplus.perifery.com/chain.pem \
+  "https://lambda1.aiplus.perifery.com:8500/v1/catalog/services" | jq
+</pre>
+</div>
+</div>
+<p><strong>Expected Results</strong>: All previously registered services re=
+main listed.</p>
+<hr>
+<p>For more reference:</p>
+<ul>
+<li>
+<p><a href=3D"https://perifery.atlassian.net/wiki/wiki/spaces/AI/pages/4220=
+289050/AI-356+AI+System+TLS+mTLS+Implementation+Guide" data-linked-resource=
+-id=3D"4220289050" data-linked-resource-version=3D"2" data-linked-resource-=
+type=3D"page">AI-356: AI+ System TLS/mTLS Implementation Guide</a></p></li>
+<li>
+<p><a href=3D"https://perifery.atlassian.net/wiki/wiki/spaces/AI/pages/4199=
+972929/AI-354+-+AI+Configuration+and+Security" data-linked-resource-id=3D"4=
+199972929" data-linked-resource-version=3D"2" data-linked-resource-type=3D"=
+page">AI-354 - AI+ Configuration and Security</a></p></li>
+</ul>
+<p></p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_228_328523973.1758122906138--

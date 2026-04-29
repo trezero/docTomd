@@ -1,0 +1,480 @@
+Date: Wed, 17 Sep 2025 15:32:06 +0000 (UTC)
+Message-ID: <589078410.239.1758123126073@333c1b01f638>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_238_1172003931.1758123126073"
+
+------=_Part_238_1172003931.1758123126073
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Troubleshooting: PixStor Filesystem Not Mounted on AI+ Ubuntu Se=
+rver</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Troubleshooting: PixStor Filesystem Not Mounted on AI+ Ubuntu Serve=
+r</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuSer=
+ver-Overview">Overview</h2>
+<p>This guide explains how to diagnose and fix the issue where the PixStor/=
+GPFS filesystem (<code>mmfs1</code>) appears as an empty directory and does=
+ not show up in <code>df -h</code>.</p>
+<p>Symptoms include:</p>
+<ul>
+<li>
+<p><code>/mmfs1</code> can be listed, but only shows empty subdirectories (=
+no data).</p></li>
+<li>
+<p><code>df -h</code> does not display <code>mmfs1</code> as a mounted file=
+system.</p></li>
+<li>
+<p>Running GPFS commands (<code>mmgetstate</code>, <code>mmmount</code>, <c=
+ode>mmlsmount</code>) results in <code>command not found</code>.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Root=
+Cause">Root Cause</h2>
+<ul>
+<li>
+<p>The GPFS binaries were not in the system <code>PATH</code>.</p></li>
+<li>
+<p>SSH trust between the AI+ server and PixStor cluster nodes was not estab=
+lished, causing GPFS commands to hang or fail.</p></li>
+<li>
+<p>The filesystem was not mounted locally on the AI+ server.</p></li>
+</ul>
+<hr>
+<h2 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Solu=
+tion">Solution</h2>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+1:ConfirmGPFSPackagesareInstalled">Step 1: Confirm GPFS Packages are Instal=
+led</h3>
+<p>Run:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">dpkg -l=
+ | grep gpfs
+</pre>
+</div>
+</div>
+<p>You should see packages like <code>gpfs.base</code>, <code>gpfs.license.=
+std</code>, etc.<br>
+If they are missing, the PixStor client is not installed.</p>
+<hr>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+2:VerifyGPFSBinariesLocation">Step 2: Verify GPFS Binaries Location</h3>
+<p>Check if binaries exist:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ls /usr=
+/lpp/mmfs/bin
+</pre>
+</div>
+</div>
+<p>If present, prepend this directory to your PATH:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">export =
+PATH=3D$PATH:/usr/lpp/mmfs/bin
+</pre>
+</div>
+</div>
+<p>(Optional: make permanent by adding to <code>/etc/profile.d/gpfs.sh</cod=
+e>.)</p>
+<hr>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+3:FixHostnameResolution">Step 3: Fix Hostname Resolution</h3>
+<p>Ensure <code>/etc/hosts</code> maps the AI+ server correctly:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudoedi=
+t /etc/hosts
+</pre>
+</div>
+</div>
+<p>Add or fix:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">192.168=
+.18.244  per-ai
+</pre>
+</div>
+</div>
+<p>Remove any line mapping <code>per-ai</code> to <code>127.0.1.1</code>.</=
+p>
+<hr>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+4:ResetSSHKnownHosts">Step 4: Reset SSH Known Hosts</h3>
+<p>Clear old host key entries and re-seed them:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">for h i=
+n per-ai alt-mn-001.pixstor alt-sn-001.pixstor alt-gw-001.pixstor alt-ng-00=
+1.pixstor alt-nvme-001.pixstor \
+         127.0.1.1 10.100.0.1 10.100.0.2 10.100.0.3 10.100.0.4 10.100.0.5 ;=
+ do
+  ssh-keygen -R "$h" &gt;/dev/null 2&gt;&amp;1 || true
+done
+
+ssh-keyscan -H per-ai alt-mn-001.pixstor alt-sn-001.pixstor alt-gw-001.pixs=
+tor alt-ng-001.pixstor alt-nvme-001.pixstor \
+             10.100.0.1 10.100.0.2 10.100.0.3 10.100.0.4 10.100.0.5 &gt;&gt=
+; ~/.ssh/known_hosts
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+5:VerifySSHAccesstoClusterNodes">Step 5: Verify SSH Access to Cluster Nodes=
+</h3>
+<p>Log in once to each PixStor node as <code>root</code> (password from env=
+ironment documentation, typically <code>edison02</code>):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ssh roo=
+t@alt-mn-001.pixstor
+ssh root@alt-sn-001.pixstor
+ssh root@alt-gw-001.pixstor
+ssh root@alt-ng-001.pixstor
+ssh root@alt-nvme-001.pixstor
+</pre>
+</div>
+</div>
+<p>Accept fingerprints and confirm you can log in. This step ensures GPFS c=
+an communicate without blocking.</p>
+<hr>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+6:StartGPFSLocally">Step 6: Start GPFS Locally</h3>
+<p>On the AI+ node (<code>per-ai</code>):</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo mm=
+startup
+</pre>
+</div>
+</div>
+<p>Check state:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo mm=
+getstate -N per-ai
+</pre>
+</div>
+</div>
+<p>You should see:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Node nu=
+mber  Node name  GPFS state
+-------------------------------------
+7            per-ai     active
+</pre>
+</div>
+</div>
+<hr>
+<h3 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Step=
+7:MounttheFilesystem">Step 7: Mount the Filesystem</h3>
+<p>Mount <code>mmfs1</code> on the AI+ server only:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo mm=
+mount mmfs1 -N per-ai
+</pre>
+</div>
+</div>
+<p>Verify:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo mm=
+lsmount mmfs1
+df -h | grep mmfs
+ls -lah /mmfs1/data/space01
+</pre>
+</div>
+</div>
+<p>Expected output:</p>
+<ul>
+<li>
+<p><code>mmfs1</code> shows in <code>df -h</code></p></li>
+<li>
+<p><code>/mmfs1/data/space01</code> contains media data</p></li>
+</ul>
+<hr>
+<h2 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Fina=
+lVerification">Final Verification</h2>
+<p>If successful:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">df -h |=
+ grep mmfs
+</pre>
+</div>
+</div>
+<p>Shows something like:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">mmfs1  =
+         224T   26T  199T  12% /mmfs1
+</pre>
+</div>
+</div>
+<p>And:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ls /mmf=
+s1/data/space01
+</pre>
+</div>
+</div>
+<p>Shows customer/media content.</p>
+<hr>
+<h2 id=3D"Troubleshooting:PixStorFilesystemNotMountedonAI+UbuntuServer-Note=
+s">Notes</h2>
+<ul>
+<li>
+<p>Always use <code>-N per-ai</code> when mounting or starting locally to a=
+void SSH fan-out to all nodes.</p></li>
+<li>
+<p>If SSH trust is broken again, repeat <strong>Step 4 + Step 5</strong>.</=
+p></li>
+<li>
+<p>For repeated use, configure sudoers to allow limited GPFS commands witho=
+ut full root login.</p></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_238_1172003931.1758123126073--

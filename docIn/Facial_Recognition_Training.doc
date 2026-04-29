@@ -1,0 +1,454 @@
+Date: Wed, 17 Sep 2025 15:25:20 +0000 (UTC)
+Message-ID: <1474689909.13.1758122720232@5e959939652b>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_1724718606.1758122720232"
+
+------=_Part_12_1724718606.1758122720232
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Facial Recognition Training</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Facial Recognition Training</h1>
+    <div class=3D"Section1">
+        <div class=3D"confluence-information-macro confluence-information-m=
+acro-tip">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>This section is to contain any information about what is required for qu=
+ality facial recognition training</p>
+</div>
+</div>
+<p>Image Collection Guidelines for Facial Recognition Training</p>
+<p></p>
+<p>Overview</p>
+<p></p>
+<p>This document outlines the requirements and best practices for collectin=
+g training images for facial recognition systems. Following these guideline=
+s will help ensure optimal model performance and accuracy.</p>
+<p></p>
+<p>Minimum Requirements</p>
+<p></p>
+<p><strong><u>Quantity</u></strong></p>
+<ul>
+<li>
+<p>Minimum Images Per Person: 10 high-quality images</p></li>
+<li>
+<p>Recommended Images Per Person: 15-20 images for better model robustness<=
+/p></li>
+<li>
+<p>Face Coverage: Face should occupy 60-70% of frame</p></li>
+<li>
+<p>Minimum Resolution: 224x224 pixels (higher is better)</p></li>
+<li>
+<p>Image Quality Specifications</p></li>
+<li>
+<p>File Format: JPG or PNG (uncompressed preferred)</p></li>
+<li>
+<p>Image Size: Minimum 1MB per image for adequate detail</p></li>
+</ul>
+<p></p>
+<p><strong><u>Face Positioning</u></strong></p>
+<ul>
+<li>
+<p>Primary angles: Front-facing and 3/4 profile views</p></li>
+<li>
+<p>Consistent eye line (looking at camera)</p></li>
+<li>
+<p>Natural head position (no extreme tilts)</p></li>
+<li>
+<p>Clear view of both eyes when possible</p></li>
+</ul>
+<p></p>
+<p><strong><u>Lighting Conditions</u></strong></p>
+<ul>
+<li>
+<p>Even, diffused lighting</p></li>
+<li>
+<p>No harsh shadows across face</p></li>
+<li>
+<p>Avoid backlit situations</p></li>
+<li>
+<p>Minimum 100 lux (bright enough to read comfortably)</p></li>
+</ul>
+<p></p>
+<p><strong><u>Image Clarity</u></strong></p>
+<ul>
+<li>
+<p>Sharp focus on facial features</p></li>
+<li>
+<p>No motion blur</p></li>
+<li>
+<p>No excessive digital noise</p></li>
+<li>
+<p>Clean lens and sensor</p></li>
+</ul>
+<p></p>
+<p><strong><u>Variety Requirements</u></strong></p>
+<ul>
+<li>
+<p>Lighting Variations</p></li>
+<li>
+<p>Indoor artificial lighting</p></li>
+<li>
+<p>Natural daylight</p></li>
+<li>
+<p>Overcast conditions</p></li>
+<li>
+<p>Side lighting</p></li>
+<li>
+<p>Front lighting</p></li>
+</ul>
+<p></p>
+<p><strong><u>Expression Variations</u></strong></p>
+<ul>
+<li>
+<p>Neutral expression (40% of images)</p></li>
+<li>
+<p>Natural smile (30% of images)</p></li>
+<li>
+<p>Other expressions (30% of images):</p></li>
+<li>
+<p>Serious</p></li>
+<li>
+<p>Laughing</p></li>
+<li>
+<p>Speaking</p></li>
+<li>
+<p>Professional demeanor</p></li>
+</ul>
+<p></p>
+<p><strong><u>Angle Variations</u></strong></p>
+<ul>
+<li>
+<p>Direct front face (40% of images)</p></li>
+<li>
+<p>3/4 left profile (20% of images)</p></li>
+<li>
+<p>3/4 right profile (20% of images)</p></li>
+<li>
+<p>Slight upward angle (10% of images)</p></li>
+<li>
+<p>Slight downward angle (10% of images)</p></li>
+<li>
+<p>Context Variations</p></li>
+</ul>
+<p></p>
+<p><strong><u>Different backgrounds</u></strong></p>
+<ul>
+<li>
+<p>Various clothing/accessories</p></li>
+<li>
+<p>Different times of day</p></li>
+<li>
+<p>Multiple locations</p></li>
+</ul>
+<p></p>
+<p><strong><u>What to Avoid</u></strong></p>
+<ul>
+<li>
+<p>Blurry or out-of-focus images</p></li>
+<li>
+<p>Over or underexposed photos</p></li>
+<li>
+<p>Heavy digital compression artifacts</p></li>
+<li>
+<p>Resolution below 224x224 pixels</p></li>
+<li>
+<p>Excessive noise or grain</p></li>
+<li>
+<p>Composition Issues (nothing covering any part of the face)</p></li>
+<li>
+<p>Face occupying less than 50% of frame</p></li>
+<li>
+<p>Extreme angles (&gt;45 degrees from front)</p></li>
+<li>
+<p>Heavy shadows across face</p></li>
+<li>
+<p>Excessive glare or reflections</p></li>
+<li>
+<p>Multiple faces in close proximity</p></li>
+<li>
+<p>Sunglasses or protective eyewear</p></li>
+<li>
+<p>Face masks or coverings</p></li>
+<li>
+<p>Objects blocking facial features</p></li>
+<li>
+<p>Heavy makeup that alters face shape</p></li>
+<li>
+<p>Extreme facial expressions that distort features</p></li>
+</ul>
+<p></p>
+<p><strong><u>Best Practices for Image Collection</u></strong></p>
+<ul>
+<li>
+<p>Use a camera with minimum 12MP resolution</p></li>
+<li>
+<p>Clean lens before shooting</p></li>
+<li>
+<p>Use tripod or stabilization when possible</p></li>
+<li>
+<p>Avoid heavy post-processing or filters</p></li>
+</ul>
+<p></p>
+<p><strong><u>Before submitting images, verify:</u></strong></p>
+<p>[ ] Minimum quantity met per person</p>
+<p>[ ] Resolution requirements met</p>
+<p>[ ] Proper variety across all categories</p>
+<p>[ ] No technical issues present</p>
+<p>[ ] Files properly named and organized</p>
+<p>[ ] Backups created and stored</p>
+<p>[ ] Model-specific requirements met</p>
+<p></p>
+<p></p>
+<ul>
+<li>
+<p><strong><u>Environment Setup</u></strong></p></li>
+<li>
+<p>Choose well-lit locations</p></li>
+<li>
+<p>Use neutral backgrounds when possible</p></li>
+<li>
+<p>Maintain consistent distance from subject</p></li>
+<li>
+<p>Ensure adequate space for proper framing</p></li>
+</ul>
+<p></p>
+<p></p>
+<p>Collection Process</p>
+<p></p>
+<p>Plan shoots across multiple days</p>
+<p>Vary time of day for natural lighting differences</p>
+<p>Mix indoor and outdoor locations</p>
+<p>Document shooting conditions</p>
+<p>Review images immediately for quality</p>
+<p>Maintain backup copies of all images</p>
+<p>Quality Control Checklist</p>
+<p></p>
+<p>Additional Considerations</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_1724718606.1758122720232--

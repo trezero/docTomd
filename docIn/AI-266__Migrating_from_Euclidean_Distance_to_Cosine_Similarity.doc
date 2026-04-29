@@ -1,0 +1,486 @@
+Date: Wed, 17 Sep 2025 15:27:21 +0000 (UTC)
+Message-ID: <1467245955.17.1758122841091@285d04765588>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16_2122095727.1758122841091"
+
+------=_Part_16_2122095727.1758122841091
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-266: Migrating from Euclidean Distance to Cosine Similarity</=
+title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-266: Migrating from Euclidean Distance to Cosine Similarity</h1>
+    <div class=3D"Section1">
+        <p>We needed to change the facial recognition workflow with a funda=
+mental change: switch from using Euclidean distance to cosine similarity fo=
+r comparing facial embeddings. This change was driven by the need to improv=
+e the accuracy and robustness of the system, particularly in dealing with h=
+igh-dimensional data and normalized embeddings.</p>
+<h1 id=3D"AI-266:MigratingfromEuclideanDistancetoCosineSimilarity-OriginalI=
+mplementation">Original Implementation</h1>
+<p>The initial face recognition system followed a standard approach:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Face Detection:</strong> Faces were detected in images using a f=
+ace detection algorithm (e.g., one provided by DeepFace or OpenCV).</p></li=
+>
+<li>
+<p><strong>Embedding Generation:</strong> A pre-trained face recognition mo=
+del (e.g., FaceNet512, ArcFace) was used to generate a numerical representa=
+tion (embedding) of each detected face. This embedding captured the key fac=
+ial features in a high-dimensional vector.</p></li>
+<li>
+<p><strong>Database Storage:</strong> The facial embeddings were stored in =
+a vector database (ChromaDB), along with associated metadata (e.g., name, I=
+D, image source). The database was configured to use Euclidean distance (L2=
+ distance) as the metric for comparing vectors.</p></li>
+<li>
+<p><strong>Recognition:</strong></p>
+<ul>
+<li>
+<p>Given a query image, the face was detected, and its embedding was genera=
+ted.</p></li>
+<li>
+<p>The system queried the database to find the embedding that was closest t=
+o the query embedding, based on Euclidean distance.</p></li>
+<li>
+<p>If the Euclidean distance between the query embedding and the closest da=
+tabase embedding was below a certain threshold, the system declared a match=
+ and identified the face.</p></li>
+</ul></li>
+</ol>
+<p>Euclidean distance was chosen initially because:</p>
+<ul>
+<li>
+<p>It is a simple and widely used distance metric.</p></li>
+<li>
+<p>It is readily available in most vector databases (including ChromaDB).</=
+p></li>
+</ul>
+<p>Despite the initial rationale, several problems were observed with the E=
+uclidean distance-based approach:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Unintuitive Distance Values:</strong> The raw Euclidean distance=
+ values were difficult to interpret as a measure of similarity. The range o=
+f possible distance values depended on the characteristics of the embedding=
+ space and the magnitude of the vector components, making it challenging to=
+ set an appropriate threshold.</p></li>
+<li>
+<p><strong>Sensitivity to Vector Magnitude:</strong> Euclidean distance is =
+sensitive to the magnitude (length) of the vectors. This meant that two vec=
+tors pointing in roughly the same direction (i.e., representing similar fac=
+es) could have a large Euclidean distance if one vector had a significantly=
+ larger magnitude than the other.</p></li>
+<li>
+<p><strong>Inconsistent Results:</strong> The system produced inconsistent =
+and unreliable recognition results, particularly with faces that were not p=
+erfectly aligned or had variations in lighting or expression.</p></li>
+</ol>
+<p>As an example, the core of our problem was that a higher distance meant =
+different things under different situations:</p>
+<ul>
+<li>
+<p>High distance =3D similar: if a face looks similar when the l2 norm of a=
+ll other is 0, then these small faces will have high distances to them!</p>=
+</li>
+<li>
+<p>Low distance =3D Dissimilar: if a face looks dissimilar with 1e99 pixels=
+, then the vectors will be extremely large!</p></li>
+</ul>
+<p>It also made it hard to set a threshold - should the high faces count or=
+ not? Since a model can only operate on a certain subset, then there has to=
+ be a more robust and consistent signal in order to make these determinatio=
+ns.</p>
+<h1 id=3D"AI-266:MigratingfromEuclideanDistancetoCosineSimilarity-CosineSim=
+ilarity">Cosine Similarity</h1>
+<p>After careful analysis, it was decided to switch to using cosine similar=
+ity for comparing facial embeddings.</p>
+<p>Cosine similarity offered several advantages over Euclidean distance for=
+ this application:</p>
+<p><strong>Directly Measures Angular Similarity:</strong> Cosine similarity=
+ measures the angle between two vectors, which is a more intuitive and robu=
+st measure of similarity than Euclidean distance, especially in high-dimens=
+ional spaces. The angle is a better indicator of whether two vectors are po=
+inting in the same direction, regardless of their magnitudes.</p>
+<p><strong>Inherent Normalization:</strong> Cosine similarity is inherently=
+ normalized for vector magnitude. This means that the similarity score is n=
+ot affected by the length of the vectors, only their direction. This is par=
+ticularly important when working with face embeddings, as the magnitude of =
+the embedding vector typically doesn't have any meaningful interpretation i=
+n terms of facial identity.</p>
+<p><strong>Better Performance in High Dimensions:</strong> In high-dimensio=
+nal spaces, Euclidean distance can become less effective as a measure of si=
+milarity due to the "curse of dimensionality." As the number of dimensions =
+increases, the distances between vectors tend to become more uniform, makin=
+g it harder to distinguish between similar and dissimilar vectors. Cosine s=
+imilarity is less susceptible to this problem.</p>
+<p><strong>Natural Range:</strong> Cosine similarity is naturally bounded b=
+etween -1 and 1, where:</p>
+<ol start=3D"1">
+<li>
+<p>1 indicates perfect similarity (vectors pointing in the same direction).=
+</p></li>
+<li>
+<p>0 indicates orthogonality (vectors are unrelated).</p></li>
+<li>
+<p>-1 indicates perfect dissimilarity (vectors pointing in opposite directi=
+ons).</p></li>
+</ol>
+<p>This natural range makes it easier to set meaningful thresholds and inte=
+rpret the similarity scores.</p>
+<p>The switch to cosine similarity involved the following steps:</p>
+<p><strong>Embedding Normalization:</strong> It was ensured that all facial=
+ embeddings were L2 normalized to unit length <em>before</em> storing them =
+in the database. This is a crucial step because cosine similarity is most e=
+ffective when used with normalized vectors. L2 normalization involves divid=
+ing each element of the vector by its L2 norm (Euclidean norm), resulting i=
+n a vector with a magnitude of 1.</p>
+<p><strong>ChromaDB Configuration:</strong> The ChromaDB collection was rec=
+onfigured to use cosine similarity as the distance metric. This involved se=
+tting the "hnsw:space" metadata parameter to "cosine" during collection cre=
+ation or update.</p>
+<p><strong>Similarity Calculation:</strong> The code for calculating simila=
+rity scores was updated to use cosine similarity instead of Euclidean dista=
+nce. With normalized vectors, cosine similarity can be efficiently computed=
+ using a dot product:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">      c=
+osine_similarity =3D np.dot(embedding1, embedding2)
+    </pre>
+</div>
+</div>
+<p><strong>Threshold Adjustment:</strong> The similarity threshold used for=
+ face recognition was adjusted to reflect the new range of cosine similarit=
+y values (i.e., -1 to 1).</p>
+<p>Okay, let's add a section explaining HNSW and detailing the configuratio=
+n choices made for ourr face recognition system:</p>
+<h1 id=3D"AI-266:MigratingfromEuclideanDistancetoCosineSimilarity-ChromaDB"=
+>ChromaDB</h1>
+<p>It=E2=80=99s important to understand, in detail, exactly WHAT a vector d=
+atabase does under the hood. At its core, ChromaDB uses an algorithm called=
+ Hierarchical Navigable Small World (HNSW) internally to measure distances =
+between vectors. HNSW implements efficient nearest neighbor search. The mai=
+n problem for searching "close vectors" in high dimensionality is that it's=
+ a <em>huge</em> processing workload that can lead to massive slowdowns and=
+ even crashes.</p>
+<p>It builds a multi-layer graph structure, where each layer is a "small wo=
+rld" graph. In a small world graph, most nodes are not direct neighbors of =
+each other, but most nodes can be reached from every other by a small numbe=
+r of hops or steps.</p>
+<p>This is an "approximate" method. The goal is <em>not</em> to find the ab=
+solute nearest neighbors with 100% certainty (which would be too slow). Ins=
+tead, it aims to find neighbors that are "close enough" with high probabili=
+ty, and it does so very quickly. For any dataset over a few hundred data sa=
+mples, HNSW is usually the best candidate for indexing and running high-dim=
+ensional data.</p>
+<p>Some advantages</p>
+<ul>
+<li>
+<p><strong>Speed:</strong> HNSW provides fast nearest-neighbor search, espe=
+cially in high-dimensional spaces.</p></li>
+<li>
+<p><strong>Scalability:</strong> It can efficiently handle large datasets.<=
+/p></li>
+<li>
+<p><strong>Accuracy vs. Speed Trade-off:</strong> HNSW allows us to tune th=
+e trade-off between search accuracy and speed by adjusting its configuratio=
+n parameters.</p></li>
+</ul>
+<h3 id=3D"AI-266:MigratingfromEuclideanDistancetoCosineSimilarity-HNSWConfi=
+gurationParameters">HNSW Configuration Parameters</h3>
+<p>The behavior of HNSW is controlled by several configuration parameters:<=
+/p>
+<ul>
+<li>
+<p><strong>space:</strong> This parameter specifies the distance metric use=
+d to measure the distance between vectors. It determines how the HNSW graph=
+ is built and how similarity searches are performed. In our system, we are =
+using "cosine" to support the properties of a unit vector as detailed in th=
+e last section. The alternative is L2, which requires more steps.</p></li>
+<li>
+<p><strong>M (Maximum Connections per Layer):</strong> This parameter contr=
+ols the maximum number of connections (neighbors) that each node can have i=
+n each layer of the graph.</p>
+<ul>
+<li>
+<p>Higher M values create a denser graph, which can improve search accuracy=
+ but also increase memory usage and indexing time.</p></li>
+<li>
+<p>Lower M values create a sparser graph, which reduces memory usage and in=
+dexing time but can potentially decrease search accuracy.</p></li>
+<li>
+<p>A typical range for M is 16-64. Our implementation uses 16 set as a defa=
+ult.</p></li>
+</ul></li>
+<li>
+<p><strong>ef_construction (Construction Effort):</strong> This parameter c=
+ontrols the thoroughness of the index building process. It determines how m=
+uch time the algorithm spends exploring the graph structure during index cr=
+eation.</p>
+<ul>
+<li>
+<p>Higher ef_construction values result in a more accurate index but also i=
+ncrease indexing time.</p></li>
+<li>
+<p>Lower ef_construction values reduce indexing time but can potentially de=
+crease search accuracy.</p></li>
+<li>
+<p>A higher ef_construction often comes with a higher search, so to better =
+manage accuracy, there must be a reasonable threshold.</p></li>
+</ul></li>
+<li>
+<p><strong>ef_search (Search Effort):</strong> This parameter controls how =
+thoroughly the index is searched during query time. It determines how many =
+potential neighbors the algorithm explores during the search process.</p>
+<ul>
+<li>
+<p>Higher ef_search values result in more accurate search results but also =
+increase query latency (search time).</p></li>
+<li>
+<p>Lower ef_search values reduce query latency but can potentially decrease=
+ search accuracy.</p></li>
+</ul></li>
+</ul>
+<p>For our face recognition system, we have chosen the following HNSW confi=
+guration parameters, which are shown in the code:</p>
+<ul>
+<li>
+<p>"hnsw:space": "cosine": As discussed in detail earlier, we are using cos=
+ine similarity as the distance metric.</p></li>
+<li>
+<p>"hnsw:ef_construction": Because we're assuming we're adding fewer nodes =
+to the training dataset and that accuracy is key, then it must have a large=
+r value.</p></li>
+<li>
+<p>"hnsw:search_ef": This should be a reasonable number, from 50-100, based=
+ on how the data is expected.</p></li>
+</ul>
+<p>These values represent a trade-off between accuracy and performance.</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_16_2122095727.1758122841091--

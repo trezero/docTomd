@@ -1,0 +1,373 @@
+Date: Wed, 17 Sep 2025 15:25:10 +0000 (UTC)
+Message-ID: <1314892183.239.1758122710549@c8958c0510f7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_238_627503408.1758122710549"
+
+------=_Part_238_627503408.1758122710549
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Facial Recognition</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Facial Recognition</h1>
+    <div class=3D"Section1">
+        <p>The AI+ Facial Recognition module is designed as a flexible and =
+efficient solution for processing images and videos to detect and identify =
+faces. The core of the system is the FacialRecognitionClass, which integrat=
+es with deep learning models via the DeepFace library and supports multiple=
+ database backends (PostgreSQL and ChromaDB). The system is configurable th=
+rough a centralized configuration file, allowing easy adjustment of paramet=
+ers such as recognition thresholds, image processing settings, and database=
+ connections.</p>
+<p>The system now employs a multi-threaded approach to handle image and vid=
+eo processing tasks, utilizing a queue system to manage workloads efficient=
+ly. It supports various operations including face detection, face recogniti=
+on, and face learning (adding new faces to the database). For video process=
+ing, the system implements frame difference analysis to selectively process=
+ frames with significant changes, optimizing performance. The recognition p=
+rocess involves extracting face embeddings, comparing them against stored e=
+mbeddings in the database, and calculating similarity scores. Results are t=
+hen parsed and can be visualized by drawing bounding boxes and relevant inf=
+ormation on the processed images.</p>
+<h2 id=3D"FacialRecognition-Design">Design</h2>
+<p>In the context of sports teams, where diversity in facial features and e=
+thnicities is significant, using multiple facial recognition models with di=
+fferent biases can improve overall recognition accuracy. To implement an ef=
+fective multi-model facial recognition system, we must consider several key=
+ factors:</p>
+<ol start=3D"1">
+<li>
+<p>Use multiple models for embedding generation</p></li>
+<li>
+<p>Normalize scores across models</p></li>
+<li>
+<p>Use a single database collection while storing model-specific informatio=
+n</p></li>
+<li>
+<p>Implement a sophisticated voting or ensemble method for final recognitio=
+n</p></li>
+</ol>
+<p>The recognition process begins with a robust, model-agnostic face detect=
+ion step optimized for both accuracy and speed. Once faces are detected, th=
+e system processes each face through multiple recognition models, with each=
+ model generating an embedding and a confidence score.</p>
+<p>The ensemble method for combining results from multiple models is a key =
+differentiator in this system. We will implement a weighted voting system t=
+hat considers not only the raw similarity scores from each model but also e=
+ach model's historical performance and confidence. This approach allows the=
+ system to adapt to the strengths of different models for various facial ch=
+aracteristics and ethnicities, which is particularly valuable in the divers=
+e context of sports teams.</p>
+<p>To ensure fair comparison of scores across different models, the ensembl=
+e method includes a normalization step. This involves scaling scores based =
+on each model's typical distribution of similarity scores. The final decisi=
+on is based on a combination of factors, including normalized scores, the n=
+umber of models in agreement, and overall confidence level.</p>
+<p>Rather than using individual thresholds for each model, we implement a s=
+ingle, well-calibrated threshold for matching at the ensemble level. This t=
+hreshold is dynamically adjustable based on specific use case requirements,=
+ such as prioritizing higher security or higher recall.</p>
+<p>Our initial implementation attempted to use multiple models but had seve=
+ral shortcomings:</p>
+<ol start=3D"1">
+<li>
+<p>Lack of proper score normalization across different models</p></li>
+<li>
+<p>Unnecessary complexity due to the use of multiple database collections</=
+p></li>
+<li>
+<p>An overly simplistic voting system that didn't account for the nuances o=
+f each model's performance</p></li>
+</ol>
+<p>To address these concerns, we have revised the implementation. The new a=
+pproach generates embeddings using multiple models for each face, normalize=
+s scores to ensure fair comparison, and stores all embeddings in a single d=
+atabase collection with model-specific metadata. The key improvement lies i=
+n the enhanced ensemble method for combining results from different models.=
+</p>
+<p>This improved ensemble method goes beyond simple score averaging. It con=
+siders multiple statistical measures for each candidate, including mean and=
+ median scores, as well as the standard deviation of scores across models. =
+This approach helps identify not just the highest-scoring candidate but als=
+o the most consistently recognized one across different models.</p>
+<p>We've introduced a tiebreaker mechanism to handle cases where top candid=
+ates have close scores. This tiebreaker considers the mean score, the numbe=
+r of models that voted for each candidate, and the consistency of scores, p=
+roviding a more robust decision in close cases.</p>
+<p>The confidence calculation in the new implementation is more sophisticat=
+ed, taking into account:</p>
+<ol start=3D"1">
+<li>
+<p>The mean score</p></li>
+<li>
+<p>The proportion of models that contributed to the identification</p></li>
+<li>
+<p>The consistency of scores across models</p></li>
+</ol>
+<p>This multi-factor confidence score provides a more nuanced understanding=
+ of the reliability of each identification.</p>
+<p>The revised implementation also offers more detailed output, including i=
+nformation about which models contributed to each identification. This addi=
+tional data is valuable for ongoing system refinement and for understanding=
+ the strengths and weaknesses of different models in various scenarios.</p>
+<p>While this improved multi-model approach offers significant advantages, =
+it also introduces additional complexity and computational overhead. Proper=
+ calibration of the system is crucial, including setting appropriate thresh=
+olds for clear winners and adjusting the weights in the confidence calculat=
+ion based on specific use case requirements.</p>
+<p>The system is designed to facilitate continuous improvement, allowing fo=
+r easy updates or replacements of individual recognition models, adjustment=
+s to ensemble weights based on performance data, and fine-tuning of thresho=
+lds and other parameters.</p>
+<p></p>
+<h2 id=3D"FacialRecognition-Database">Database</h2>
+<p>The Facial Recognition system is designed with flexibility in mind, allo=
+wing for different database backends to store and retrieve facial embedding=
+s. This is necessary as different use cases may require different database =
+solutions based on factors such as scalability, query performance, and inte=
+gration with existing infrastructure. The system's ability to switch betwee=
+n these database backends allows users to choose the most appropriate solut=
+ion for their specific needs, whether it's the full-featured relational cap=
+abilities of PostgreSQL or the streamlined, AI-focused approach of Chroma. =
+Note that we will be adding DB capabilities in the near future.</p>
+<h3 id=3D"FacialRecognition-PostgreSQL">PostgreSQL</h3>
+<p>PostgreSQL, a powerful open-source relational database, is supported as =
+one option for storing embeddings. When using PostgreSQL, we must deploy ex=
+tensions like pgvector to enable efficient similarity searches on high-dime=
+nsional vector data. This approach leverages PostgreSQL's robust ACID compl=
+iance, advanced indexing capabilities, and ability to handle complex querie=
+s. It's particularly suitable for scenarios where the facial recognition sy=
+stem needs to integrate with other relational data or when strong consisten=
+cy guarantees are required.</p>
+<h3 id=3D"FacialRecognition-Chroma">Chroma</h3>
+<p>Alternatively, the system supports Chroma, a purpose-built vector databa=
+se designed for AI applications. Chroma is optimized for storing and queryi=
+ng embedding vectors, offering high-performance similarity searches out of =
+the box. It provides a simpler setup compared to PostgreSQL with pgvector a=
+nd may offer better performance for pure vector similarity queries. Chroma =
+is an excellent choice when the primary focus is on fast similarity searche=
+s and when the application doesn't require the full feature set of a tradit=
+ional relational database.</p>
+    </div>
+</body>
+</html>
+------=_Part_238_627503408.1758122710549--

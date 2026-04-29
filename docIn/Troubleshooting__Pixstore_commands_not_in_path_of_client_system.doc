@@ -1,0 +1,442 @@
+Date: Wed, 17 Sep 2025 15:32:14 +0000 (UTC)
+Message-ID: <467587016.17.1758123134372@0cb95089ba2d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_16_766404250.1758123134371"
+
+------=_Part_16_766404250.1758123134371
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Troubleshooting: Pixstore commands not in path of client system<=
+/title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Troubleshooting: Pixstore commands not in path of client system</h1=
+>
+    <div class=3D"Section1">
+        <h1 id=3D"Troubleshooting:Pixstorecommandsnotinpathofclientsystem-G=
+PFSCommands:RunasrootOnly(PATHSetup)">GPFS Commands: Run as <strong>root</s=
+trong> Only (PATH Setup)</h1>
+<h2 id=3D"Troubleshooting:Pixstorecommandsnotinpathofclientsystem-Why">Why<=
+/h2>
+<ul>
+<li>
+<p>GPFS tools fan out over SSH and manage cluster state.</p></li>
+<li>
+<p>For safety and consistency, we run them <strong>as root only</strong> (n=
+o permission changes on <code>/usr/lpp/mmfs</code>).</p></li>
+</ul>
+<hr>
+<h2 id=3D"Troubleshooting:Pixstorecommandsnotinpathofclientsystem-OptionA=
+=E2=80=94Usearootshell(sudo-i)andsetPATHforroot">Option A =E2=80=94 Use a r=
+oot shell (<code>sudo -i</code>) and set PATH for root</h2>
+<ol start=3D"1">
+<li>
+<p>Open a root login shell:</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo -i
+</pre>
+</div>
+</div>
+<ol start=3D"2">
+<li>
+<p>Add GPFS bin to <strong>root=E2=80=99s</strong> PATH (persistent):</p></=
+li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">cat &gt=
+;&gt; /root/.bashrc &lt;&lt;'EOF'
+# GPFS (Spectrum Scale) tools in PATH for root
+if [ -d /usr/lpp/mmfs/bin ] &amp;&amp; [[ ":$PATH:" !=3D *":/usr/lpp/mmfs/b=
+in:"* ]]; then
+  export PATH=3D"$PATH:/usr/lpp/mmfs/bin"
+fi
+EOF
+
+cat &gt;&gt; /root/.profile &lt;&lt;'EOF'
+# Ensure PATH for login shells
+if [ -d /usr/lpp/mmfs/bin ] &amp;&amp; [[ ":$PATH:" !=3D *":/usr/lpp/mmfs/b=
+in:"* ]]; then
+  export PATH=3D"$PATH:/usr/lpp/mmfs/bin"
+fi
+EOF
+</pre>
+</div>
+</div>
+<ol start=3D"3">
+<li>
+<p>Reload and verify:</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">source =
+/root/.bashrc
+which mmgetstate
+</pre>
+</div>
+</div>
+<blockquote>
+<p>From now on, in a root shell, just run:</p>
+</blockquote>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">mmgetst=
+ate -a
+mmstartup
+mmmount mmfs1 -N per-ai
+mmlsmount mmfs1
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Troubleshooting:Pixstorecommandsnotinpathofclientsystem-OptionB=
+=E2=80=94Keepusingsudo<cmd>fromyouruser">Option B =E2=80=94 Keep using <cod=
+e>sudo &lt;cmd&gt;</code> from your user</h2>
+<p>By default, <code>sudo</code> uses its own <strong>secure_path</strong> =
+which might not include GPFS. Add it <strong>for sudo only</strong> (does n=
+ot affect non-root users).</p>
+<ol start=3D"1">
+<li>
+<p>Edit sudoers safely:</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo vi=
+sudo
+</pre>
+</div>
+</div>
+<ol start=3D"2">
+<li>
+<p>Append (or merge with existing <code>secure_path</code>) so it includes =
+<code>/usr/lpp/mmfs/bin</code>:</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Default=
+s secure_path=3D"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b=
+in:/usr/lpp/mmfs/bin"
+</pre>
+</div>
+</div>
+<ol start=3D"3">
+<li>
+<p>Verify:</p></li>
+</ol>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo wh=
+ich mmgetstate
+</pre>
+</div>
+</div>
+<blockquote>
+<p>Now you can run:</p>
+</blockquote>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo mm=
+getstate -a
+sudo mmmount mmfs1 -N per-ai
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Troubleshooting:Pixstorecommandsnotinpathofclientsystem-OptionC=
+=E2=80=94Lightweightroot-onlyshims(noPATHedits)">Option C =E2=80=94 Lightwe=
+ight root-only shims (no PATH edits)</h2>
+<p>Create tiny wrappers in <code>/usr/local/sbin</code> (already in root=E2=
+=80=99s PATH). These call the real binaries but still require root to be us=
+eful.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo te=
+e /usr/local/sbin/mmgetstate &gt;/dev/null &lt;&lt;'EOF'
+#!/usr/bin/env bash
+exec /usr/lpp/mmfs/bin/mmgetstate "$@"
+EOF
+sudo chmod 755 /usr/local/sbin/mmgetstate
+
+for c in mmstartup mmmount mmlsmount mmumount mmshutdown; do
+  sudo tee /usr/local/sbin/$c &gt;/dev/null &lt;&lt;EOF
+#!/usr/bin/env bash
+exec /usr/lpp/mmfs/bin/$c "\$@"
+EOF
+  sudo chmod 755 /usr/local/sbin/$c
+done
+</pre>
+</div>
+</div>
+<p>Verify:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo -i
+which mmgetstate
+mmgetstate -a
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"Troubleshooting:Pixstorecommandsnotinpathofclientsystem-Recommend=
+edUsage">Recommended Usage</h2>
+<ul>
+<li>
+<p>Day-to-day:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">sudo -i=
+           # become root
+mmgetstate -a
+mmmount mmfs1 -N per-ai
+</pre>
+</div>
+</div></li>
+<li>
+<p>If you prefer staying as your user:</p>
+<ul>
+<li>
+<p>Use <strong>Option B</strong> once =E2=86=92 <code>sudo mmgetstate -a</c=
+ode> works everywhere.</p></li>
+</ul></li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> We intentionally <strong>did not</strong> relax d=
+irectory permissions on <code>/usr/lpp/mmfs</code> or expose GPFS to non-ro=
+ot users.</p>
+</blockquote>
+    </div>
+</body>
+</html>
+------=_Part_16_766404250.1758123134371--

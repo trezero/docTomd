@@ -1,0 +1,393 @@
+Date: Wed, 17 Sep 2025 15:28:20 +0000 (UTC)
+Message-ID: <1223158989.21.1758122900118@40a87d9c3bdb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_939209003.1758122900117"
+
+------=_Part_20_939209003.1758122900117
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Consul Installation &amp; Configuration</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Consul Installation &amp; Configuration</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"ConsulInstallation&amp;Configuration-Prerequisites"><stro=
+ng>Prerequisites</strong></h2>
+<ul>
+<li>
+<p>Consul installed via vanilla installation.</p></li>
+<li>
+<p>Access to servers running Consul.</p></li>
+<li>
+<p>Let=E2=80=99s Encrypt certificates configured for your domain (e.g., <co=
+de>lambda1.aiplus.perifery.com</code>).</p></li>
+</ul>
+<hr>
+<h2 id=3D"ConsulInstallation&amp;Configuration-Step1:VanillaInstallation"><=
+strong>Step 1: Vanilla Installation</strong></h2>
+<h3 id=3D"ConsulInstallation&amp;Configuration-1.ConsulSetupDirectory">1. <=
+strong>Consul Setup Directory</strong></h3>
+<p>Create a universal path for Consul files:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">CONSUL_=
+BASE=3D"${HOME}/consul"=20
+mkdir -p "${CONSUL_BASE}/setup" "${CONSUL_BASE}/data/{checks,services}" "${=
+CONSUL_BASE}/certs"
+</pre>
+</div>
+</div>
+<h3 id=3D"ConsulInstallation&amp;Configuration-2.DownloadBinaries">2. <stro=
+ng>Download Binaries</strong></h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">cd "${C=
+ONSUL_BASE}/setup"
+wget https://releases.hashicorp.com/consul/1.21.1/consul_1.21.1_linux_amd64=
+.zip
+unzip consul_1.21.1_linux_amd64.zip
+</pre>
+</div>
+</div>
+<h4 id=3D"ConsulInstallation&amp;Configuration-3.MoveConsulto~/bin"><strong=
+>3. Move Consul to </strong><code>~/bin</code><strong> </strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">mkdir -=
+p ~/bin        =20
+mv consul ~/bin/     =20
+</pre>
+</div>
+</div>
+<h4 id=3D"ConsulInstallation&amp;Configuration-4.Add~/bintoYourPATH"><stron=
+g>4. Add </strong><code>~/bin</code><strong> to Your </strong><code>PATH</c=
+ode></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">echo 'e=
+xport PATH=3D"$HOME/bin:$PATH"' &gt;&gt; ~/.bashrc
+source ~/.bashrc     =20
+</pre>
+</div>
+</div>
+<h4 id=3D"ConsulInstallation&amp;Configuration-5.VerifyInstallation"><stron=
+g>5. Verify Installation</strong></h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">consul =
+--version</pre>
+</div>
+</div>
+<p><em>(Should output: </em><code>Consul v1.21.1</code><em>)</em></p>
+<hr>
+<h2 id=3D"ConsulInstallation&amp;Configuration-Step2:TLSConfiguration"><str=
+ong>Step 2: TLS Configuration</strong></h2>
+<h3 id=3D"ConsulInstallation&amp;Configuration-1.SymlinkingLet'sEncryptCert=
+ificatesforConsul">1. Symlinking Let's Encrypt Certificates for Consul</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">ln -sf =
+/etc/letsencrypt/live/yourdomain.com/fullchain.pem "${CONSUL_BASE}/certs/"
+ln -sf /etc/letsencrypt/live/yourdomain.com/privkey.pem "${CONSUL_BASE}/cer=
+ts/"
+ln -sf /etc/letsencrypt/live/yourdomain.com/chain.pem "${CONSUL_BASE}/certs=
+/"
+</pre>
+</div>
+</div>
+<h3 id=3D"ConsulInstallation&amp;Configuration-2.CreateConfigFile(${CONSUL_=
+BASE}/consul-secure.hcl)">2. Create Config File (<code>${CONSUL_BASE}/consu=
+l-secure.hcl</code>)</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">datacen=
+ter =3D "dc1"
+data_dir =3D "${CONSUL_BASE}/data"
+server =3D true
+bootstrap_expect =3D 1
+node_name =3D "lambda1-dev"
+
+# Network
+bind_addr =3D "YOUR_SERVER_IP" =20
+advertise_addr =3D "YOUR_SERVER_IP"
+client_addr =3D "0.0.0.0"=20
+# TLS
+
+tls {
+  defaults {
+    cert_file =3D "${CONSUL_BASE}/certs/fullchain.pem"
+    key_file =3D "${CONSUL_BASE}/certs/privkey.pem"
+    ca_file =3D "${CONSUL_BASE}/certs/chain.pem"
+    verify_incoming =3D true
+    verify_outgoing =3D true
+  }
+  https {
+    verify_incoming =3D false
+  }
+  grpc {
+    use_auto_cert =3D false
+  }
+}
+
+# UI
+ui_config {
+  enabled =3D true
+}
+
+# Ports
+ports {
+  https =3D 8500
+  http =3D -1
+  grpc =3D -1
+  grpc_tls =3D 8503
+}
+</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"ConsulInstallation&amp;Configuration-Step3:StartConsul"><strong>S=
+tep 3: Start Consul</strong></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">~/bin/c=
+onsul agent -dev -config-file=3D"${CONSUL_BASE}/consul-secure.hcl"
+</pre>
+</div>
+</div>
+<p>Once the agent is running, you can access the Consul Web UI securely via=
+ HTTPS:</p>
+<p><strong>UI URL:</strong> <a class=3D"external-link" href=3D"https://10.1=
+61.244.15:8500/ui" rel=3D"nofollow">https://10.161.244.15:8500/ui</a> (for =
+the <code>lambda1</code> server)</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_20_939209003.1758122900117--

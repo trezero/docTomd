@@ -1,0 +1,2308 @@
+Date: Wed, 17 Sep 2025 15:29:14 +0000 (UTC)
+Message-ID: <1079503463.21.1758122954298@285d04765588>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_254683628.1758122954298"
+
+------=_Part_20_254683628.1758122954298
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-997: Milvus Vector Database Index Types</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-997: Milvus Vector Database Index Types</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MilvusVectorDatabas=
+eIndexTypes:AComprehensiveTechnicalGuide">Milvus Vector Database Index Type=
+s: A Comprehensive Technical Guide</h1>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Summary">Summary</h2>
+<p>In this document, I=E2=80=99ll try to provide a comprehensive analysis o=
+f the various Milvus vector database index types, their technical implement=
+ations, performance characteristics, and real-world applications. I will al=
+so be making comparison of Milvus against Chroma (another vector databse). =
+For this benchmarking I=E2=80=99m using<strong> 100k 768-dimensional vector=
+s</strong> using <strong>ultra-dense clustering</strong> methodology.<br><b=
+r>
+I hope this guide serves as a definitive reference for selecting optimal ve=
+ctor indexing strategies in our production environments around our AI drive=
+n applications.</p>
+<p><strong>TLDR:</strong></p>
+<p><strong>Key Findings:</strong></p>
+<ul>
+<li>
+<p><strong>Milvus</strong> has a significantly higher recall than <strong>C=
+hroma. </strong></p></li>
+<li>
+<p><strong>IVF_FLAT</strong> achieves perfect 100% recall but with higher c=
+omputational cost</p></li>
+<li>
+<p><strong>IVF_RABITQ</strong> delivers 92.4% recall with 23% better perfor=
+mance than IVF_FLAT</p></li>
+<li>
+<p><strong>HNSW</strong> provides excellent recall (98.4-100%) with balance=
+d performance</p></li>
+<li>
+<p><strong>IVF_PQ</strong> shows fundamental limitations with only 32.7% re=
+call despite optimization.</p></li>
+</ul>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Introduction">Introduction<=
+/h2>
+<p>Vector databases have become critical infrastructure for modern AI appli=
+cations, powering everything from semantic search to recommendation systems=
+. Milvus, as a leading open-source vector database, offers multiple indexin=
+g strategies optimized for different use cases. In this guide, I=E2=80=99ll=
+ try to provide the technical depth on each index type, backed by rigorous =
+benchmarking data.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Firstly,WhyIndexSelectionMa=
+tters?">Firstly, Why Index Selection Matters?</h3>
+<p>The choice of vector index directly impacts:</p>
+<ul>
+<li>
+<p><strong>Query Latency</strong>: Response times for similarity searches</=
+p></li>
+<li>
+<p><strong>Recall Accuracy</strong>: Percentage of relevant results returne=
+d</p></li>
+<li>
+<p><strong>Memory Usage</strong>: RAM requirements for index storage</p></l=
+i>
+<li>
+<p><strong>Build Time</strong>: Time required to construct the index</p></l=
+i>
+<li>
+<p><strong>Throughput</strong>: Queries per second under load</p></li>
+</ul>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Methodology&amp;Dataset">Me=
+thodology &amp; Dataset</h2>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkConfiguration">Ben=
+chmark Configuration</h3>
+<p>During my benchmark, I used the following configuration:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Dataset=
+ Specifications:
+  - Size: 100,000 vectors
+  - Dimensions: 768 (matching common embedding models)
+  - Query Count: 10,000 queries (2,000 for detailed analysis)
+  - Similarity Metric: Cosine similarity
+  - Test Environment: Milvus v2.6 GPU standalone deployment</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-DatasetGenerationStrategy">=
+Dataset Generation Strategy</h3>
+<p><strong>Ultra-Dense Clustering Approach:</strong></p>
+<ul>
+<li>
+<p><strong>50 clusters</strong> with 2,000 vectors each</p></li>
+<li>
+<p><strong>Minimal noise injection</strong> (=CF=83 =3D 0.01) for tight clu=
+ster cohesion</p></li>
+<li>
+<p><strong>High-similarity queries</strong> (95% generated from cluster cen=
+ters with =CF=83 =3D 0.005)</p></li>
+<li>
+<p><strong>Ground truth computation</strong> using brute-force cosine simil=
+arity</p></li>
+</ul>
+<p>This methodology simulates real-world scenarios where:</p>
+<ul>
+<li>
+<p>Documents cluster around semantic topics</p></li>
+<li>
+<p>Users search for content similar to existing items</p></li>
+<li>
+<p>High recall is critical to the system or the end user.</p></li>
+</ul>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-GroundTruthValidation">Grou=
+nd Truth Validation</h3>
+<p>Ground truth was computed using exact brute-force search with cosine sim=
+ilarity, ensuring 100% accuracy for recall calculations across all k values=
+ (1, 5, 10, 50, 100).</p>
+<p>Before that, let=E2=80=99s understand what is recall all about.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-WhatisRecall?">What is Reca=
+ll?</h3>
+<p><strong>Recall@k</strong> (also written as <strong>Recall@K</strong> or =
+<strong>R@K</strong>) is a common evaluation metric, especially in informat=
+ion retrieval tasks, recommendation systems and ML/AI driven tasks for sear=
+ching and ranking.</p>
+<p>It measures <strong>how many of the relevant (ground truth) items</stron=
+g> are present in the <strong>top-K results</strong> returned by your syste=
+m.</p>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Example">Example</h4>
+<p>Suppose there are <strong>5 relevant documents</strong> for a query.<br>
+Your search engine returns a ranked list, and in the <strong>top 10</strong=
+> results, <strong>4</strong> of those relevant documents appear.</p>
+<p><strong>Recall@10=3D4/5 =3D 0.8 (80%)</strong></p>
+<p>Now, let=E2=80=99s dive deep into the actual indexes.</p>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-IndexTypesDeepDive">Index T=
+ypes Deep Dive</h2>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-1.IVF_FLAT(InvertedFilewith=
+FlatStorage)">1. IVF_FLAT (Inverted File with Flat Storage)</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-TechnicalArchitecture">Tech=
+nical Architecture</h4>
+<p>IVF_FLAT uses an inverted file structure where:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Clustering Phase</strong>: Vectors are partitioned into <code>nl=
+ist</code> clusters using k-means</p></li>
+<li>
+<p><strong>Storage Phase</strong>: Each cluster stores vectors in their ori=
+ginal precision</p></li>
+<li>
+<p><strong>Search Phase</strong>: Query searches <code>nprobe</code> neares=
+t clusters exhaustively</p></li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyParameters">Key Paramete=
+rs</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7a=
+2feebf-9696-488d-9c60-092513938e7c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Parameter</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Impact</p></th>
+<th class=3D"confluenceTh">
+<p>Recommended Range</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>nlist</code></p></td>
+<td class=3D"confluenceTd">
+<p>Number of clusters</p></td>
+<td class=3D"confluenceTd">
+<p>Higher =3D better partitioning, longer build time</p></td>
+<td class=3D"confluenceTd">
+<p>1024-4096</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>nprobe</code></p></td>
+<td class=3D"confluenceTd">
+<p>Clusters to search</p></td>
+<td class=3D"confluenceTd">
+<p>Higher =3D better recall, slower queries</p></td>
+<td class=3D"confluenceTd">
+<p>10-50% of nlist</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MathematicalFoundation">Mat=
+hematical Foundation</h4>
+<p>For a query vector <strong>q</strong>, IVF_FLAT:</p>
+<ol start=3D"1">
+<li>
+<p>Computes distances to all cluster centroids: <code>d(q, c_i)</code></p><=
+/li>
+<li>
+<p>Selects top <code>nprobe</code> clusters based on centroid distances</p>=
+</li>
+<li>
+<p>Performs exhaustive search within selected clusters</p></li>
+<li>
+<p>Returns globally ranked results</p></li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceCharacteristics"=
+>Performance Characteristics</h4>
+<p><strong>Strengths:</strong></p>
+<ul>
+<li>
+<p><strong>Perfect Recall</strong>: No approximation in distance computatio=
+n</p></li>
+<li>
+<p><strong>Predictable Performance</strong>: Linear scaling with nprobe</p>=
+</li>
+<li>
+<p><strong>No Compression Loss</strong>: Maintains full vector precision</p=
+></li>
+</ul>
+<p><strong>Weaknesses:</strong></p>
+<ul>
+<li>
+<p><strong>High Memory Usage</strong>: Stores full-precision vectors</p></l=
+i>
+<li>
+<p><strong>Slower Queries</strong>: Exhaustive search within clusters</p></=
+li>
+<li>
+<p><strong>Build Time</strong>: K-means clustering can be expensive</p></li=
+>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkResults">Benchmark=
+ Results</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: nlist=3D2048, nprobe=3D512
+- Recall@1: 100.0%
+- Recall@10: 100.0%
+- Average Latency: 6.58ms
+- Throughput: 152 QPS
+- Memory: ~300MB for 100K vectors</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-2.IVF_PQ(InvertedFilewithPr=
+oductQuantization)">2. IVF_PQ (Inverted File with Product Quantization)</h3=
+>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-TechnicalArchitecture.1">Te=
+chnical Architecture</h4>
+<p>IVF_PQ combines inverted file structure with product quantization compre=
+ssion:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Vector Partitioning</strong>: Split each vector into <code>m</co=
+de> subvectors</p></li>
+<li>
+<p><strong>Codebook Learning</strong>: Train <code>m</code> codebooks with =
+<code>2^nbits</code> centroids each</p></li>
+<li>
+<p><strong>Encoding</strong>: Replace subvectors with codebook indices</p><=
+/li>
+<li>
+<p><strong>Search</strong>: Use asymmetric distance computation (ADC)</p></=
+li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyParameters.1">Key Parame=
+ters</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a3=
+4a1345-a70d-4c6e-a442-a7f1b500e533" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Parameter</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Impact</p></th>
+<th class=3D"confluenceTh">
+<p>Recommended Range</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>nlist</code></p></td>
+<td class=3D"confluenceTd">
+<p>Number of IVF clusters</p></td>
+<td class=3D"confluenceTd">
+<p>Partitioning quality</p></td>
+<td class=3D"confluenceTd">
+<p>1024-4096</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>m</code></p></td>
+<td class=3D"confluenceTd">
+<p>Number of subvectors</p></td>
+<td class=3D"confluenceTd">
+<p>Compression vs accuracy</p></td>
+<td class=3D"confluenceTd">
+<p>64-128</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>nbits</code></p></td>
+<td class=3D"confluenceTd">
+<p>Bits per subvector code</p></td>
+<td class=3D"confluenceTd">
+<p>Codebook size</p></td>
+<td class=3D"confluenceTd">
+<p>8-16</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>nprobe</code></p></td>
+<td class=3D"confluenceTd">
+<p>Clusters to search</p></td>
+<td class=3D"confluenceTd">
+<p>Recall vs speed</p></td>
+<td class=3D"confluenceTd">
+<p>10-50% of nlist</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MathematicalFoundation.1">M=
+athematical Foundation</h4>
+<p><strong>Product Quantization Process:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Split vector <strong>x</strong> into subvectors: <code>x =3D [x=E2=82=81=
+, x=E2=82=82, ..., x=E2=82=98]</code></p></li>
+<li>
+<p>Quantize each subvector: <code>q(x=E1=B5=A2) =3D arg min ||x=E1=B5=A2 - =
+c=E1=B5=A2=E2=B1=BC||</code></p></li>
+<li>
+<p>Store indices: <code>code(x) =3D [j=E2=82=81, j=E2=82=82, ..., j=E2=82=
+=98]</code></p></li>
+</ol>
+<p><strong>Distance Computation:</strong></p>
+<ul>
+<li>
+<p><strong>Symmetric</strong>: <code>d(q(x), q(y))</code> - both vectors qu=
+antized</p></li>
+<li>
+<p><strong>Asymmetric</strong>: <code>d(x, q(y))</code> - query vector unqu=
+antized (more accurate)</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceCharacteristics.=
+1">Performance Characteristics</h4>
+<p><strong>Strengths:</strong></p>
+<ul>
+<li>
+<p><strong>High Compression</strong>: 16-64x size reduction typical</p></li=
+>
+<li>
+<p><strong>Fast Search</strong>: Lookup-table based distance computation</p=
+></li>
+<li>
+<p><strong>Memory Efficient</strong>: Suitable for large-scale deployments<=
+/p></li>
+</ul>
+<p><strong>Weaknesses:</strong></p>
+<ul>
+<li>
+<p><strong>Significant Accuracy Loss</strong>: Quantization introduces appr=
+oximation errors</p></li>
+<li>
+<p><strong>Parameter Sensitivity</strong>: Requires careful tuning of m and=
+ nbits</p></li>
+<li>
+<p><strong>Training Overhead</strong>: Codebook learning phase</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkResults.1">Benchma=
+rk Results</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: nlist=3D2048, m=3D128, nbits=3D16, nprobe=3D512
+- Recall@1: 32.7% (=E2=9D=8C Poor performance)
+- Recall@10: 46.1%
+- Average Latency: 5.24ms
+- Throughput: 191 QPS
+- Memory: ~12MB for 100K vectors (25x compression)
+
+Note: Despite aggressive optimization (m=3D128, nbits=3D16),=20
+recall remained fundamentally limited by quantization artifacts.</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-3.IVF_RABITQ(InvertedFilewi=
+thResidualandBinaryQuantization)">3. IVF_RABITQ (Inverted File with Residua=
+l and Binary Quantization)</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-TechnicalArchitecture.2">Te=
+chnical Architecture</h4>
+<p>IVF_RABITQ represents Milvus's latest advanced quantization approach:</p=
+>
+<ol start=3D"1">
+<li>
+<p><strong>Residual Computation</strong>: Compute residuals after coarse qu=
+antization</p></li>
+<li>
+<p><strong>Binary Quantization</strong>: Apply learned binary codes to resi=
+duals</p></li>
+<li>
+<p><strong>Refinement Stage</strong>: Re-rank candidates using higher preci=
+sion</p></li>
+<li>
+<p><strong>Adaptive Precision</strong>: Switch between quantized and refine=
+d results</p></li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyParameters.2">Key Parame=
+ters</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"e6=
+56ef03-e7ff-4b76-b6ed-f86955db82a1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Parameter</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Impact</p></th>
+<th class=3D"confluenceTh">
+<p>Recommended Range</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>nlist</code></p></td>
+<td class=3D"confluenceTd">
+<p>IVF clusters</p></td>
+<td class=3D"confluenceTd">
+<p>Partitioning quality</p></td>
+<td class=3D"confluenceTd">
+<p>1024-4096</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>refine</code></p></td>
+<td class=3D"confluenceTd">
+<p>Enable refinement</p></td>
+<td class=3D"confluenceTd">
+<p>Accuracy vs speed</p></td>
+<td class=3D"confluenceTd">
+<p>true/false</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>refine_type</code></p></td>
+<td class=3D"confluenceTd">
+<p>Refinement precision</p></td>
+<td class=3D"confluenceTd">
+<p>SQ8, FP16, FP32</p></td>
+<td class=3D"confluenceTd">
+<p>FP16 recommended</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>refine_k</code></p></td>
+<td class=3D"confluenceTd">
+<p>Refinement multiplier</p></td>
+<td class=3D"confluenceTd">
+<p>Candidate pool size</p></td>
+<td class=3D"confluenceTd">
+<p>2.0-4.0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>rbq_query_bits</code></p></td>
+<td class=3D"confluenceTd">
+<p>Query quantization</p></td>
+<td class=3D"confluenceTd">
+<p>Speed vs accuracy</p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MathematicalFoundation.2">M=
+athematical Foundation</h4>
+<p><strong>Residual-Based Quantization:</strong></p>
+<ol start=3D"1">
+<li>
+<p>Coarse quantization: <code>r =3D x - q_coarse(x)</code></p></li>
+<li>
+<p>Binary quantization of residual: <code>b =3D sign(r - =CE=BC)</code></p>=
+</li>
+<li>
+<p>Distance approximation: <code>d(x,y) =E2=89=88 d_coarse + d_binary(r_x, =
+r_y)</code></p></li>
+</ol>
+<p><strong>Refinement Process:</strong></p>
+<ul>
+<li>
+<p>Select top <code>k =C3=97 refine_k</code> candidates using quantized dis=
+tances</p></li>
+<li>
+<p>Re-compute exact distances for refinement pool</p></li>
+<li>
+<p>Return top-k from refined results</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceCharacteristics.=
+2">Performance Characteristics</h4>
+<p><strong>Strengths:</strong></p>
+<ul>
+<li>
+<p><strong>Excellent Recall</strong>: 92-93% with proper tuning</p></li>
+<li>
+<p><strong>Balanced Performance</strong>: Good speed-accuracy tradeoff</p><=
+/li>
+<li>
+<p><strong>Adaptive Precision</strong>: Refinement improves accuracy when n=
+eeded</p></li>
+<li>
+<p><strong>Memory Efficient</strong>: Significant compression with quality =
+retention</p></li>
+</ul>
+<p><strong>Weaknesses:</strong></p>
+<ul>
+<li>
+<p><strong>Complex Tuning</strong>: Multiple interdependent parameters</p><=
+/li>
+<li>
+<p><strong>Refinement Overhead</strong>: Additional computation for high ac=
+curacy</p></li>
+<li>
+<p><strong>Implementation Complexity</strong>: More sophisticated than the =
+basic indexes</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkResults.2">Benchma=
+rk Results</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: nlist=3D2048, refine=3Dtrue, refine_type=3DSQ8, refine_k=3D4.0
+- Recall@1: 92.4% (=E2=9C=85 Excellent)
+- Recall@10: 91.7%
+- Average Latency: 8.25ms
+- Throughput: 121 QPS
+- Memory: ~45MB for 100K vectors (7x compression)
+
+Configuration: nlist=3D2048, refine=3Dtrue, refine_type=3DFP16, refine_k=3D=
+2.0
+- Recall@1: 91.3% (=E2=9C=85 Excellent)
+- Recall@10: 79.3%
+- Average Latency: 5.21ms
+- Throughput: 192 QPS</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-4.HNSW(HierarchicalNavigabl=
+eSmallWorld)">4. HNSW (Hierarchical Navigable Small World)</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-TechnicalArchitecture.3">Te=
+chnical Architecture</h4>
+<p>HNSW builds a multi-layer graph structure:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Layer Construction</strong>: Vectors assigned to layers with exp=
+onential probability</p></li>
+<li>
+<p><strong>Graph Building</strong>: Connect each node to <code>M</code> nea=
+rest neighbors per layer</p></li>
+<li>
+<p><strong>Hierarchical Search</strong>: Start from top layer, navigate dow=
+n to layer 0</p></li>
+<li>
+<p><strong>Greedy Navigation</strong>: Follow edges toward query vector</p>=
+</li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyParameters.3">Key Parame=
+ters</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b5=
+a5c5a9-d24e-48a3-9296-9358b5dfeb8c" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Parameter</p></th>
+<th class=3D"confluenceTh">
+<p>Description</p></th>
+<th class=3D"confluenceTh">
+<p>Impact</p></th>
+<th class=3D"confluenceTh">
+<p>Recommended Range</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>M</code></p></td>
+<td class=3D"confluenceTd">
+<p>Max connections per layer</p></td>
+<td class=3D"confluenceTd">
+<p>Graph connectivity</p></td>
+<td class=3D"confluenceTd">
+<p>32-96</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>efConstruction</code></p></td>
+<td class=3D"confluenceTd">
+<p>Build-time search width</p></td>
+<td class=3D"confluenceTd">
+<p>Index quality vs build time</p></td>
+<td class=3D"confluenceTd">
+<p>400-1200</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p><code>ef</code></p></td>
+<td class=3D"confluenceTd">
+<p>Search-time candidate pool</p></td>
+<td class=3D"confluenceTd">
+<p>Recall vs speed</p></td>
+<td class=3D"confluenceTd">
+<p>100-2000</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MathematicalFoundation.3">M=
+athematical Foundation</h4>
+<p><strong>Layer Assignment:</strong></p>
+<ul>
+<li>
+<p>Layer probability: <code>P(layer =3D l) =3D (1/ln(2))^l</code></p></li>
+<li>
+<p>Maximum layer: <code>=E2=8C=8A-ln(uniform(0,1)) =C3=97 mL=E2=8C=8B</code=
+> where <code>mL =3D 1/ln(2)</code></p></li>
+</ul>
+<p><strong>Search Algorithm:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>Layer l_max to 1</strong>: Find closest node using greedy search=
+</p></li>
+<li>
+<p><strong>Layer 0</strong>: Expand search with <code>ef</code> candidates<=
+/p></li>
+<li>
+<p><strong>Result Selection</strong>: Return top-k from candidate pool</p><=
+/li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceCharacteristics.=
+3">Performance Characteristics</h4>
+<p><strong>Strengths:</strong></p>
+<ul>
+<li>
+<p><strong>Excellent Recall</strong>: 97-100% achievable with proper tuning=
+</p></li>
+<li>
+<p><strong>Logarithmic Complexity</strong>: O(log N) search time</p></li>
+<li>
+<p><strong>No Training Required</strong>: Incremental construction</p></li>
+<li>
+<p><strong>Robust Performance</strong>: Consistent across different data di=
+stributions</p></li>
+</ul>
+<p><strong>Weaknesses:</strong></p>
+<ul>
+<li>
+<p><strong>High Memory Usage</strong>: Graph structure overhead</p></li>
+<li>
+<p><strong>Build Time</strong>: Expensive construction for large datasets</=
+p></li>
+<li>
+<p><strong>Parameter Sensitivity</strong>: Requires tuning for optimal perf=
+ormance</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkResults.3">Benchma=
+rk Results</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: M=3D64, efConstruction=3D800, ef=3D800
+- Recall@1: 98.4% (=E2=9C=85 Excellent)
+- Recall@10: 98.5%
+- Average Latency: 6.72ms
+- Throughput: 149 QPS
+
+Configuration: M=3D96, efConstruction=3D1200, ef=3D2400
+- Recall@1: 100.0% (=E2=9C=85 Perfect)
+- Recall@10: 100.0%
+- Average Latency: 10.42ms
+- Throughput: 96 QPS</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-5.AdvancedHNSWVariants(HNSW=
+_SQ,HNSW_PQ,HNSW_PRQ)">5. Advanced HNSW Variants (HNSW_SQ, HNSW_PQ, HNSW_PR=
+Q)</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-HNSW_SQ(ScalarQuantization)=
+">HNSW_SQ (Scalar Quantization)</h4>
+<p>Combines HNSW graph with scalar quantization compression:</p>
+<p><strong>Technical Details:</strong></p>
+<ul>
+<li>
+<p><strong>SQ8</strong>: 8-bit scalar quantization of vector components</p>=
+</li>
+<li>
+<p><strong>Refinement</strong>: Optional FP16/FP32 refinement stage</p></li=
+>
+<li>
+<p><strong>Memory Reduction</strong>: ~4x compression vs full precision</p>=
+</li>
+</ul>
+<p><strong>Benchmark Results:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: M=3D64, SQ8, ef=3D1200, refine_k=3D2.0
+- Recall@1: 99.1% (=E2=9C=85 Excellent)
+- Recall@10: 99.1%
+- Average Latency: 6.20ms
+- Throughput: 161 QPS</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-HNSW_PQ(ProductQuantization=
+)">HNSW_PQ (Product Quantization)</h4>
+<p>Applies product quantization within HNSW structure:</p>
+<p><strong>Performance Characteristics:</strong></p>
+<ul>
+<li>
+<p>Higher compression than SQ but lower recall in my testing.</p></li>
+<li>
+<p>Suitable for memory-constrained environments</p></li>
+<li>
+<p>Requires careful parameter tuning</p></li>
+</ul>
+<p><strong>Benchmark Results:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: M=3D64, m=3D96, nbits=3D8, ef=3D1200, refine_k=3D2.0
+- Recall@1: 86.2% (=F0=9F=9F=A1 Good)
+- Recall@10: 76.7%
+- Average Latency: 8.69ms
+- Throughput: 115 QPS</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-HNSW_PRQ(ProductResidualQua=
+ntization)">HNSW_PRQ (Product Residual Quantization)</h4>
+<p>Advanced quantization combining product and residual approaches:</p>
+<p><strong>Benchmark Results:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration: M=3D64, m=3D96, nrq=3D2, ef=3D1200, refine_k=3D2.0
+- Recall@1: 86.7% (=F0=9F=9F=A1 Good)
+- Recall@10: 86.4%
+- Average Latency: 15.92ms
+- Throughput: 63 QPS</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MilvusvsChromaComparison">M=
+ilvus vs Chroma Comparison</h2>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkMethodology">Bench=
+mark Methodology</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-DatasetGeneration">Dataset =
+Generation</h4>
+<p>The benchmark used a carefully designed dataset to ensure fair and meani=
+ngful comparison:</p>
+<p><strong>Dataset Specifications:</strong></p>
+<ul>
+<li>
+<p><strong>Size</strong>: 100,000 vectors</p></li>
+<li>
+<p><strong>Dimensions</strong>: 768 (matching common embedding models like =
+sentence-transformers)</p></li>
+<li>
+<p><strong>Distribution</strong>: Ultra-dense clustering approach</p></li>
+<li>
+<p><strong>Clusters</strong>: 50 clusters with 2,000 vectors each</p></li>
+<li>
+<p><strong>Noise Level</strong>: =CF=83 =3D 0.01 for tight cluster cohesion=
+</p></li>
+</ul>
+<p><strong>Dataset Generation Process:</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Generat=
+e cluster centers
+for cluster_id in range(50):
+    cluster_center =3D np.random.randn(768).astype(np.float32)
+    cluster_center =3D cluster_center / np.linalg.norm(cluster_center)  # N=
+ormalize
+   =20
+    # Generate vectors around each center
+    for i in range(2000):
+        noise =3D np.random.randn(768).astype(np.float32) * 0.01=20
+        vector =3D cluster_center + noise
+        vector =3D vector / np.linalg.norm(vector)  # Normalize
+       =20
+        # Store with unique ID
+        vector_id =3D f"vec_{cluster_id:04d}_{i:06d}"
+        raw_vectors.append(vector.tolist())
+        raw_ids.append(vector_id)</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-QueryGeneration">Query Gene=
+ration</h4>
+<p><strong>Query Strategy:</strong></p>
+<ul>
+<li>
+<p><strong>Total Queries</strong>: 10,000 generated, 2,000 used for detaile=
+d analysis</p></li>
+<li>
+<p><strong>High-Similarity Queries</strong>: 95% generated from existing cl=
+uster centers</p></li>
+<li>
+<p><strong>Query Noise</strong>: =CF=83 =3D 0.005 for maximum similarity to=
+ dataset</p></li>
+<li>
+<p><strong>Random Queries</strong>: 5% completely random for diversity</p><=
+/li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Query g=
+eneration process
+for i in range(query_count):
+    if np.random.random() &lt; 0.95:  # 95% high-similarity
+        cluster_idx =3D i % len(cluster_centers)
+        base_vector =3D cluster_centers[cluster_idx]
+        noise =3D np.random.randn(768).astype(np.float32) * 0.005
+        query =3D base_vector + noise
+    else:  # 5% random
+        query =3D np.random.randn(768).astype(np.float32)
+   =20
+    query =3D query / np.linalg.norm(query) # Normalize
+    query_vectors.append(query.tolist())</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-GroundTruthComputation">Gro=
+und Truth Computation</h4>
+<p><strong>Brute-Force Baseline:</strong><br>
+Ground truth was computed using exact cosine similarity calculation:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Ground =
+truth computation
+db_vectors =3D np.array(raw_vectors, dtype=3Dnp.float32)  # 100K x 768
+ground_truth =3D {}
+
+for k in [1, 5, 10, 50, 100]:
+    ground_truth[k] =3D []
+   =20
+    for query_vec in query_sample:  # 2K queries
+        # Compute actual cosine similarities
+        similarities =3D np.dot(db_vectors, np.array(query_vec, dtype=3Dnp.=
+float32))
+       =20
+        # Get top-k vectors
+        top_k_indices =3D np.argsort(similarities)[::-1][:k]
+        top_k_ids =3D [raw_ids[idx] for idx in top_k_indices]
+       =20
+        ground_truth[k].append(top_k_ids)</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-RecallCalculationMethodolog=
+y">Recall Calculation Methodology</h4>
+<p><strong>ID-Based Comparison:</strong><br>
+Recall calculation will be purely based on vector ID matching, independent =
+of distance/similarity values, since Milvus uses Cosine similarity (higher=
+=3Dbetter), while Chroma uses Cosine distance(lower=3Dbetter).</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Recall =
+calculation for both Milvus and Chroma
+for k in k_values:
+    recall_sum =3D 0.0
+    for i, search_result in enumerate(search_results):
+        if i &lt; len(ground_truth[k]):
+            search_top_k =3D set(search_result[:k])  # IDs from search
+            gt_top_k =3D set(ground_truth[k][i])     # IDs from ground trut=
+h
+           =20
+            # Calculate recall
+            intersection =3D len(search_top_k.intersection(gt_top_k))
+            recall =3D intersection / len(gt_top_k)
+            recall_sum +=3D recall
+   =20
+    recalls[f"recall@{k}"] =3D recall_sum / len(search_results)</pre>
+</div>
+</div>
+<p><strong>Key Points:</strong></p>
+<ul>
+<li>
+<p>Both systems return vector IDs from their search results</p></li>
+<li>
+<p>Ground truth contains the correct IDs for each query</p></li>
+<li>
+<p>Recall =3D (# correct IDs returned) / (# total correct IDs)</p></li>
+<li>
+<p>Distance/similarity values are not used in recall calculation</p></li>
+</ul>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-SystemConfiguration">System=
+ Configuration</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MilvusSetup">Milvus Setup</=
+h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Collect=
+ion creation
+schema =3D MilvusClient.create_schema(auto_id=3DFalse, enable_dynamic_field=
+=3DTrue)
+schema.add_field(field_name=3D"id", datatype=3DDataType.VARCHAR, max_length=
+=3D50, is_primary=3DTrue)
+schema.add_field(field_name=3D"embedding", datatype=3DDataType.FLOAT_VECTOR=
+, dim=3D768)
+schema.add_field(field_name=3D"metadata", datatype=3DDataType.JSON)
+
+# Index creation with cosine metric
+index_params_obj.add_index(
+    field_name=3D"embedding",
+    index_type=3Dindex_type,  # IVF_FLAT, IVF_RABITQ, HNSW, etc.
+    metric_type=3D"COSINE",
+    params=3Dindex_params # Index specific params
+)</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-ChromaSetup">Chroma Setup</=
+h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Collect=
+ion creation with HNSW
+configuration =3D {
+    "hnsw": {
+        "space": "cosine",
+        "ef_construction": hnsw_params.get("ef_construction"),
+        "max_neighbors": hnsw_params.get("max_neighbors"),
+        "ef_search": hnsw_params.get("ef_search")
+    }
+}
+
+collection =3D client.create_collection(
+    name=3Dcollection_name,
+    configuration=3Dconfiguration
+)</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceResultsAnalysis"=
+>Performance Results Analysis</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-ChromaHNSWResults">Chroma H=
+NSW Results</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"5c=
+b74a63-42e1-492b-9517-cc3702276c78" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Recall@1</p></th>
+<th class=3D"confluenceTh">
+<p>Recall@10</p></th>
+<th class=3D"confluenceTh">
+<p>Avg Latency</p></th>
+<th class=3D"confluenceTh">
+<p>Throughput</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D64, ef=3D800</p></td>
+<td class=3D"confluenceTd">
+<p>61.2%</p></td>
+<td class=3D"confluenceTd">
+<p>60.9%</p></td>
+<td class=3D"confluenceTd">
+<p>4.28ms</p></td>
+<td class=3D"confluenceTd">
+<p>234 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D64, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>60.3%</p></td>
+<td class=3D"confluenceTd">
+<p>59.9%</p></td>
+<td class=3D"confluenceTd">
+<p>4.63ms</p></td>
+<td class=3D"confluenceTd">
+<p>216 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D96, ef=3D2000</p></td>
+<td class=3D"confluenceTd">
+<p>80.2%</p></td>
+<td class=3D"confluenceTd">
+<p>79.0%</p></td>
+<td class=3D"confluenceTd">
+<p>6.62ms</p></td>
+<td class=3D"confluenceTd">
+<p>151 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D96, ef=3D2400</p></td>
+<td class=3D"confluenceTd">
+<p>82.8%</p></td>
+<td class=3D"confluenceTd">
+<p>82.9%</p></td>
+<td class=3D"confluenceTd">
+<p>7.27ms</p></td>
+<td class=3D"confluenceTd">
+<p>138 QPS</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MilvusHNSWResults">Milvus H=
+NSW Results</h4>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"74=
+730cd9-594a-4c14-86ad-8e22082b4f60" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Recall@1</p></th>
+<th class=3D"confluenceTh">
+<p>Recall@10</p></th>
+<th class=3D"confluenceTh">
+<p>Avg Latency</p></th>
+<th class=3D"confluenceTh">
+<p>Throughput</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D64, ef=3D800</p></td>
+<td class=3D"confluenceTd">
+<p>98.5%</p></td>
+<td class=3D"confluenceTd">
+<p>98.5%</p></td>
+<td class=3D"confluenceTd">
+<p>7.62ms</p></td>
+<td class=3D"confluenceTd">
+<p>149 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D64, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>99.6%</p></td>
+<td class=3D"confluenceTd">
+<p>99.5%</p></td>
+<td class=3D"confluenceTd">
+<p>4.93ms</p></td>
+<td class=3D"confluenceTd">
+<p>163 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D96, ef=3D2000</p></td>
+<td class=3D"confluenceTd">
+<p>99.3%</p></td>
+<td class=3D"confluenceTd">
+<p>99.2%</p></td>
+<td class=3D"confluenceTd">
+<p>5.64ms</p></td>
+<td class=3D"confluenceTd">
+<p>107 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>M=3D96, ef=3D2400</p></td>
+<td class=3D"confluenceTd">
+<p>99.7%</p></td>
+<td class=3D"confluenceTd">
+<p>99.6%</p></td>
+<td class=3D"confluenceTd">
+<p>6.48ms</p></td>
+<td class=3D"confluenceTd">
+<p>96 QPS</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyFindings">Key Findings</=
+h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceGapAnalysis">Per=
+formance Gap Analysis</h4>
+<p><strong>Recall Performance:</strong></p>
+<ul>
+<li>
+<p><strong>Milvus HNSW</strong>: Consistently achieves 98.5-99.7% recall ac=
+ross configurations</p></li>
+<li>
+<p><strong>Chroma HNSW</strong>: Achieves 60.3-82.8% recall with identical =
+parameters</p></li>
+<li>
+<p><strong>Gap</strong>: Milvus shows 17-39 percentage point advantage in r=
+ecall</p></li>
+</ul>
+<p><strong>Latency Performance:</strong></p>
+<ul>
+<li>
+<p><strong>Milvus</strong>: 4.93-7.62ms average latency</p></li>
+<li>
+<p><strong>Chroma</strong>: 4.28-7.27ms average latency</p></li>
+<li>
+<p><strong>Gap</strong>: Similar latency performance, slight Chroma advanta=
+ge</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-TechnicalDifferences">Techn=
+ical Differences</h4>
+<p><strong>Implementation Variations:</strong></p>
+<ol start=3D"1">
+<li>
+<p><strong>HNSW Library</strong>: Milvus uses optimized internal implementa=
+tion vs Chroma's hnswlib</p></li>
+<li>
+<p><strong>Parameter Interpretation</strong>: Same parameter values may beh=
+ave differently</p></li>
+<li>
+<p><strong>Index Building</strong>: Different optimization strategies durin=
+g construction</p></li>
+<li>
+<p><strong>Search Algorithm</strong>: Subtle differences in graph traversal=
+ and candidate selection</p></li>
+</ol>
+<p><strong>Milvus Advantages:</strong></p>
+<ul>
+<li>
+<p><strong>Index Variety</strong>: IVF_FLAT, IVF_PQ, IVF_RABITQ, multiple H=
+NSW variants</p></li>
+<li>
+<p><strong>Advanced Quantization</strong>: RABITQ achieves 92.5% recall wit=
+h significant compression</p></li>
+<li>
+<p><strong>Optimization Maturity</strong>: Highly tuned implementations acr=
+oss all index types</p></li>
+<li>
+<p><strong>Enterprise Features</strong>: Distributed architecture, RBAC, ba=
+ckup/restore</p></li>
+</ul>
+<p><strong>Chroma Advantages:</strong></p>
+<ul>
+<li>
+<p><strong>Simplicity</strong>: Easier setup and integration for basic use =
+cases</p></li>
+<li>
+<p><strong>Python Native</strong>: Seamless ML workflow integration</p></li=
+>
+<li>
+<p><strong>Lightweight</strong>: Lower resource overhead for small datasets=
+</p></li>
+<li>
+<p><strong>Document Model</strong>: Natural fit for document-based applicat=
+ions</p></li>
+</ul>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-BenchmarkResultsAnalysis">B=
+enchmark Results Analysis</h2>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-RecallPerformanceRanking">R=
+ecall Performance Ranking</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"ff=
+ece483-d83a-4788-a7a2-7595c0343ae1" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index Type</p></th>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Recall@1</p></th>
+<th class=3D"confluenceTh">
+<p>Recall@10</p></th>
+<th class=3D"confluenceTh">
+<p>Performance Tier</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_FLAT</p></td>
+<td class=3D"confluenceTd">
+<p>nlist=3D2048, nprobe=3D512</p></td>
+<td class=3D"confluenceTd">
+<p>100.0%</p></td>
+<td class=3D"confluenceTd">
+<p>100.0%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Perfect</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>M=3D96, ef=3D2400</p></td>
+<td class=3D"confluenceTd">
+<p>100.0%</p></td>
+<td class=3D"confluenceTd">
+<p>100.0%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Perfect</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_SQ</p></td>
+<td class=3D"confluenceTd">
+<p>M=3D64, SQ8, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>99.1%</p></td>
+<td class=3D"confluenceTd">
+<p>99.1%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Excellent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>M=3D64, ef=3D800</p></td>
+<td class=3D"confluenceTd">
+<p>98.4%</p></td>
+<td class=3D"confluenceTd">
+<p>98.5%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Excellent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ</p></td>
+<td class=3D"confluenceTd">
+<p>SQ8, refine_k=3D4.0</p></td>
+<td class=3D"confluenceTd">
+<p>92.4%</p></td>
+<td class=3D"confluenceTd">
+<p>91.7%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Excellent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ</p></td>
+<td class=3D"confluenceTd">
+<p>FP16, refine_k=3D2.0</p></td>
+<td class=3D"confluenceTd">
+<p>91.3%</p></td>
+<td class=3D"confluenceTd">
+<p>79.3%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Excellent</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>m=3D96, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>86.2%</p></td>
+<td class=3D"confluenceTd">
+<p>76.7%</p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=9F=A1 Good</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_PRQ</p></td>
+<td class=3D"confluenceTd">
+<p>m=3D96, nrq=3D2, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>86.7%</p></td>
+<td class=3D"confluenceTd">
+<p>86.4%</p></td>
+<td class=3D"confluenceTd">
+<p>=F0=9F=9F=A1 Good</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>m=3D128, nbits=3D16</p></td>
+<td class=3D"confluenceTd">
+<p>32.7%</p></td>
+<td class=3D"confluenceTd">
+<p>46.1%</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C Poor</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-LatencyPerformanceRanking">=
+Latency Performance Ranking</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"8d=
+01ceaa-7333-49c9-9a26-28a33b619b59" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index Type</p></th>
+<th class=3D"confluenceTh">
+<p>Configuration</p></th>
+<th class=3D"confluenceTh">
+<p>Avg Latency</p></th>
+<th class=3D"confluenceTh">
+<p>P95 Latency</p></th>
+<th class=3D"confluenceTh">
+<p>Throughput</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ</p></td>
+<td class=3D"confluenceTd">
+<p>FP16, refine_k=3D2.0</p></td>
+<td class=3D"confluenceTd">
+<p>5.21ms</p></td>
+<td class=3D"confluenceTd">
+<p>8.18ms</p></td>
+<td class=3D"confluenceTd">
+<p>192 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>m=3D128, nbits=3D16</p></td>
+<td class=3D"confluenceTd">
+<p>5.24ms</p></td>
+<td class=3D"confluenceTd">
+<p>5.88ms</p></td>
+<td class=3D"confluenceTd">
+<p>191 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_SQ</p></td>
+<td class=3D"confluenceTd">
+<p>M=3D64, SQ8, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>6.20ms</p></td>
+<td class=3D"confluenceTd">
+<p>11.79ms</p></td>
+<td class=3D"confluenceTd">
+<p>161 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_FLAT</p></td>
+<td class=3D"confluenceTd">
+<p>nlist=3D2048, nprobe=3D512</p></td>
+<td class=3D"confluenceTd">
+<p>6.58ms</p></td>
+<td class=3D"confluenceTd">
+<p>7.62ms</p></td>
+<td class=3D"confluenceTd">
+<p>152 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>M=3D64, ef=3D800</p></td>
+<td class=3D"confluenceTd">
+<p>6.72ms</p></td>
+<td class=3D"confluenceTd">
+<p>12.08ms</p></td>
+<td class=3D"confluenceTd">
+<p>149 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ</p></td>
+<td class=3D"confluenceTd">
+<p>SQ8, refine_k=3D4.0</p></td>
+<td class=3D"confluenceTd">
+<p>8.25ms</p></td>
+<td class=3D"confluenceTd">
+<p>15.83ms</p></td>
+<td class=3D"confluenceTd">
+<p>121 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>m=3D96, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>8.69ms</p></td>
+<td class=3D"confluenceTd">
+<p>16.02ms</p></td>
+<td class=3D"confluenceTd">
+<p>115 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>M=3D96, ef=3D2400</p></td>
+<td class=3D"confluenceTd">
+<p>10.42ms</p></td>
+<td class=3D"confluenceTd">
+<p>18.09ms</p></td>
+<td class=3D"confluenceTd">
+<p>96 QPS</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_PRQ</p></td>
+<td class=3D"confluenceTd">
+<p>m=3D96, nrq=3D2, ef=3D1200</p></td>
+<td class=3D"confluenceTd">
+<p>15.92ms</p></td>
+<td class=3D"confluenceTd">
+<p>23.23ms</p></td>
+<td class=3D"confluenceTd">
+<p>63 QPS</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-MemoryUsageAnalysis">Memory=
+ Usage Analysis</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"b3=
+9211f5-a140-48ba-89a9-e788a70fa1e9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Index Type</p></th>
+<th class=3D"confluenceTh">
+<p>Estimated Memory</p></th>
+<th class=3D"confluenceTh">
+<p>Compression Ratio</p></th>
+<th class=3D"confluenceTh">
+<p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_FLAT</p></td>
+<td class=3D"confluenceTd">
+<p>~300MB</p></td>
+<td class=3D"confluenceTd">
+<p>1x (baseline)</p></td>
+<td class=3D"confluenceTd">
+<p>Full precision storage</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>~400MB</p></td>
+<td class=3D"confluenceTd">
+<p>0.75x</p></td>
+<td class=3D"confluenceTd">
+<p>Graph structure overhead</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_SQ</p></td>
+<td class=3D"confluenceTd">
+<p>~100MB</p></td>
+<td class=3D"confluenceTd">
+<p>4x</p></td>
+<td class=3D"confluenceTd">
+<p>SQ8 quantization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ</p></td>
+<td class=3D"confluenceTd">
+<p>~45MB</p></td>
+<td class=3D"confluenceTd">
+<p>7x</p></td>
+<td class=3D"confluenceTd">
+<p>Advanced quantization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>HNSW_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>~35MB</p></td>
+<td class=3D"confluenceTd">
+<p>9x</p></td>
+<td class=3D"confluenceTd">
+<p>Product quantization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>IVF_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>~12MB</p></td>
+<td class=3D"confluenceTd">
+<p>25x</p></td>
+<td class=3D"confluenceTd">
+<p>Aggressive compression</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-PerformanceComparison">Perf=
+ormance Comparison</h2>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-SpeedvsAccuracyTradeoff">Sp=
+eed vs Accuracy Tradeoff</h3>
+<p>The benchmark reveals clear performance tiers:</p>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Tier1:HighAccuracy(>95%Reca=
+ll)">Tier 1: High Accuracy (&gt;95% Recall)</h4>
+<ul>
+<li>
+<p><strong>IVF_FLAT</strong>: Perfect accuracy, moderate speed</p></li>
+<li>
+<p><strong>HNSW (High-end)</strong>: Near-Perfect accuracy, good speed</p><=
+/li>
+<li>
+<p><strong>HNSW_SQ</strong>: Excellent accuracy, best speed in tier with co=
+mpression and FP16 refinement</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Tier2:BalancedPerformance(9=
+0-95%Recall)">Tier 2: Balanced Performance (90-95% Recall)</h4>
+<ul>
+<li>
+<p><strong>IVF_RABITQ</strong>: Excellent balance of accuracy and speed</p>=
+</li>
+<li>
+<p><strong>HNSW (Standard)</strong>: Very good accuracy, consistent perform=
+ance</p></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Tier3:Speed-Optimized(80-90=
+%Recall)">Tier 3: Speed-Optimized (80-90% Recall)</h4>
+<ul>
+<li>
+<p><strong>HNSW_PQ/PRQ</strong>: Good accuracy with compression benefits</p=
+></li>
+</ul>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Tier4:HighCompression(<50%R=
+ecall)">Tier 4: High Compression (&lt;50% Recall)</h4>
+<ul>
+<li>
+<p><strong>IVF_PQ</strong>: Extreme compression but poor accuracy</p></li>
+</ul>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyPerformanceInsights">Key=
+ Performance Insights</h3>
+<ol start=3D"1">
+<li>
+<p><strong>IVF_RABITQ Emergence</strong>: Delivers 92.4% recall with compet=
+itive performance, representing the best balance for production use.</p></l=
+i>
+<li>
+<p><strong>HNSW Consistency</strong>: Provides predictable high performance=
+ across configurations, making it reliable for critical applications.</p></=
+li>
+<li>
+<p><strong>IVF_PQ Limitations</strong>: Despite optimization efforts, funda=
+mental quantization losses limit its applicability to scenarios where high =
+recall is not critical.</p></li>
+<li>
+<p><strong>Memory-Performance Tradeoff</strong>: Clear correlation between =
+compression ratio and accuracy loss, with RABITQ offering the best compromi=
+se.</p></li>
+<li>
+<p><strong>Milvus vs Chroma</strong>: Milvus demonstrates significant recal=
+l advantage (98.5-99.7% vs 60.3-82.8%) and superior index variety, while Ch=
+roma offers simplicity for basic use cases.</p></li>
+<li>
+<p><strong>Quantization Advantage</strong>: Milvus's advanced quantization =
+(RABITQ, SQ) provides significant memory savings while maintaining high rec=
+all, unavailable in Chroma.</p></li>
+<li>
+<p><strong>Implementation Quality</strong>: The substantial recall gap sugg=
+ests Milvus's HNSW implementation is more mature and optimized than Chroma'=
+s hnswlib-based approach.</p></li>
+</ol>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Real-WorldUseCases">Real-Wo=
+rld Use Cases</h2>
+<p>Here are some sample real world use cases demonstrating the type of inde=
+x to be used based on the requirement. <br><em>Note: These are just some th=
+eoretical values based on the real world need and the performance benchmark=
+s.</em></p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-E-commerceProductSearch"><b=
+r>
+E-commerce Product Search</h3>
+<p><strong>Scenario</strong>: Fashion retailer with 10M product images<br><=
+strong>Requirements</strong>: &lt;100ms response time, &gt;95% recall for v=
+isual similarity</p>
+<p><strong>Recommended Solution</strong>: HNSW_SQ</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration:
+  index_type: HNSW_SQ
+  M: 64
+  efConstruction: 800
+  sq_type: SQ8
+  refine: true
+  refine_type: FP16
+  ef: 1200
+  refine_k: 2.0
+
+Expected Performance:
+  - Recall@10: 99.1%
+  - Latency: ~6ms
+  - Memory: 4x compression
+  - Throughput: 161 QPS</pre>
+</div>
+</div>
+<p><strong>Rationale</strong>: Excellent recall with memory efficiency, sui=
+table for large product catalogs.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-DocumentSemanticSearch">Doc=
+ument Semantic Search</h3>
+<p><strong>Scenario</strong>: Enterprise knowledge base with 1M documents<b=
+r><strong>Requirements</strong>: Perfect recall for critical information re=
+trieval</p>
+<p><strong>Recommended Solution</strong>: IVF_FLAT</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration:
+  index_type: IVF_FLAT
+  nlist: 2048
+  nprobe: 512
+
+Expected Performance:
+  - Recall@10: 100%
+  - Latency: ~7ms
+  - Memory: Full precision
+  - Throughput: 152 QPS</pre>
+</div>
+</div>
+<p><strong>Rationale</strong>: Perfect recall ensures no critical documents=
+ are missed.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Real-timeRecommendationSyst=
+em">Real-time Recommendation System</h3>
+<p><strong>Scenario</strong>: Social media platform with 100M user profiles=
+<br><strong>Requirements</strong>: &lt;5ms response time, acceptable accura=
+cy loss</p>
+<p><strong>Recommended Solution</strong>: IVF_RABITQ with FP16</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration:
+  index_type: IVF_RABITQ
+  nlist: 4096
+  refine: true
+  refine_type: FP16
+  nprobe: 256
+  refine_k: 2.0
+
+Expected Performance:
+  - Recall@10: 79.3%
+  - Latency: ~5ms
+  - Memory: 7x compression
+  - Throughput: 192 QPS</pre>
+</div>
+</div>
+<p><strong>Rationale</strong>: Optimized for speed while maintaining reason=
+able accuracy for recommendations.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-ContentModeration">Content =
+Moderation</h3>
+<p><strong>Scenario</strong>: Video platform scanning for inappropriate con=
+tent<br><strong>Requirements</strong>: High throughput, memory efficiency, =
+good accuracy</p>
+<p><strong>Recommended Solution</strong>: HNSW_PQ</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration:
+  index_type: HNSW_PQ
+  M: 64
+  efConstruction: 800
+  m: 96
+  nbits: 8
+  refine: true
+  refine_type: FP16
+  ef: 1200
+  refine_k: 2.0
+
+Expected Performance:
+  - Recall@10: 76.7%
+  - Latency: ~9ms
+  - Memory: 9x compression
+  - Throughput: 115 QPS</pre>
+</div>
+</div>
+<p><strong>Rationale</strong>: Good compression for large-scale deployment =
+with acceptable accuracy for content filtering.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-FinancialFraudDetection">Fi=
+nancial Fraud Detection</h3>
+<p><strong>Scenario</strong>: Transaction pattern analysis for fraud detect=
+ion<br><strong>Requirements</strong>: Perfect recall (cannot miss fraud), r=
+eal-time processing</p>
+<p><strong>Recommended Solution</strong>: HNSW (High Quality)</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Configu=
+ration:
+  index_type: HNSW
+  M: 96
+  efConstruction: 1200
+  ef: 2400
+
+Expected Performance:
+  - Recall@10: 100%
+  - Latency: ~10ms
+  - Memory: Standard
+  - Throughput: 96 QPS</pre>
+</div>
+</div>
+<p><strong>Rationale</strong>: Perfect recall is critical for fraud detecti=
+on; slightly higher latency is acceptable.</p>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-DecisionFramework">Decision=
+ Framework</h2>
+<p>Here, I have created a simple decision framework and selection criteria =
+matrix for choosing the database and index based on your use-case and requi=
+rement.</p>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-SelectionCriteriaMatrix">Se=
+lection Criteria Matrix</h3>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"a9=
+5b5899-39ca-4fa9-9f04-411fa57191e5" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 126.0px;">
+<col style=3D"width: 126.0px;">
+<col style=3D"width: 126.0px;">
+<col style=3D"width: 126.0px;">
+<col style=3D"width: 151.0px;">
+<col style=3D"width: 99.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p>Priority</p></th>
+<th class=3D"confluenceTh">
+<p>Recall Requirement</p></th>
+<th class=3D"confluenceTh">
+<p>Latency Requirement</p></th>
+<th class=3D"confluenceTh">
+<p>Memory Constraint</p></th>
+<th class=3D"confluenceTh">
+<p>Milvus Recommendation</p></th>
+<th class=3D"confluenceTh">
+<p>Chroma Suitability</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Accuracy First</p></td>
+<td class=3D"confluenceTd">
+<blockquote>
+<p>95%</p>
+</blockquote></td>
+<td class=3D"confluenceTd">
+<p>&lt;20ms</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>IVF_FLAT or HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C Max 82.8% recall</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Balanced</p></td>
+<td class=3D"confluenceTd">
+<blockquote>
+<p>90%</p>
+</blockquote></td>
+<td class=3D"confluenceTd">
+<p>&lt;10ms</p></td>
+<td class=3D"confluenceTd">
+<p>Medium</p></td>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ or HNSW_SQ</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C Max 82.8% recall</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Speed First</p></td>
+<td class=3D"confluenceTd">
+<blockquote>
+<p>80%</p>
+</blockquote></td>
+<td class=3D"confluenceTd">
+<p>&lt;5ms</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>IVF_RABITQ (FP16)</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 82.8% recall, 4.3ms</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Memory First</p></td>
+<td class=3D"confluenceTd">
+<blockquote>
+<p>70%</p>
+</blockquote></td>
+<td class=3D"confluenceTd">
+<p>&lt;15ms</p></td>
+<td class=3D"confluenceTd">
+<p>Very High</p></td>
+<td class=3D"confluenceTd">
+<p>HNSW_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C No quantization</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Extreme Scale</p></td>
+<td class=3D"confluenceTd">
+<blockquote>
+<p>30%</p>
+</blockquote></td>
+<td class=3D"confluenceTd">
+<p>&lt;5ms</p></td>
+<td class=3D"confluenceTd">
+<p>Extreme</p></td>
+<td class=3D"confluenceTd">
+<p>IVF_PQ</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9D=8C Not suitable</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Prototyping</p></td>
+<td class=3D"confluenceTd">
+<blockquote>
+<p>60%</p>
+</blockquote></td>
+<td class=3D"confluenceTd">
+<p>&lt;10ms</p></td>
+<td class=3D"confluenceTd">
+<p>Low</p></td>
+<td class=3D"confluenceTd">
+<p>HNSW</p></td>
+<td class=3D"confluenceTd">
+<p>=E2=9C=85 Simple setup</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-DecisionTree">Decision Tree=
+</h3>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">Start: =
+What is your primary constraint?
+
+=E2=94=9C=E2=94=80=E2=94=80 Recall Requirement
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 &gt;95% recall needed =E2=86=92 Mil=
+vus only (IVF_FLAT or HNSW)
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 &gt;90% recall needed =E2=86=92 Mil=
+vus only (IVF_RABITQ or HNSW_SQ)
+=E2=94=82   =E2=94=94=E2=94=80=E2=94=80 &gt;80% recall acceptable =E2=86=92=
+ Milvus preferred, Chroma possible
+=E2=94=82
+=E2=94=9C=E2=94=80=E2=94=80 Use Case Complexity
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 Simple prototyping =E2=86=92 Chroma=
+ HNSW (if 82% recall sufficient)
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 Production deployment =E2=86=92 Mil=
+vus (better recall + features)
+=E2=94=82   =E2=94=94=E2=94=80=E2=94=80 Enterprise scale =E2=86=92 Milvus o=
+nly (distributed architecture)
+=E2=94=82
+=E2=94=9C=E2=94=80=E2=94=80 Technical Requirements
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 Multiple index types needed =E2=86=
+=92 Milvus only
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 Advanced quantization needed =E2=86=
+=92 Milvus only
+=E2=94=82   =E2=94=9C=E2=94=80=E2=94=80 Memory constraints =E2=86=92 Milvus=
+ HNSW_PQ or IVF_RABITQ
+=E2=94=82   =E2=94=94=E2=94=80=E2=94=80 Extreme speed (&lt;5ms) =E2=86=92 M=
+ilvus IVF_RABITQ (FP16)
+=E2=94=82
+=E2=94=94=E2=94=80=E2=94=80 Development Preference
+    =E2=94=9C=E2=94=80=E2=94=80 Maximum performance =E2=86=92 Milvus
+    =E2=94=9C=E2=94=80=E2=94=80 Simplicity over performance =E2=86=92 Chrom=
+a (if recall sufficient)
+    =E2=94=94=E2=94=80=E2=94=80 Python-native workflow =E2=86=92 Chroma for=
+ prototyping, Milvus for production</pre>
+</div>
+</div>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-ParameterTuningGuidelines">=
+Parameter Tuning Guidelines</h3>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-IVF-basedIndexes">IVF-based=
+ Indexes</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Conse=
+rvative (High Recall)
+nlist: dataset_size / 50  # Denser clusters
+nprobe: nlist * 0.25      # 25% cluster coverage
+
+# Aggressive (High Speed)
+nlist: dataset_size / 100 # Larger clusters
+nprobe: nlist * 0.10      # 10% cluster coverage</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-HNSW-basedIndexes">HNSW-bas=
+ed Indexes</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># High =
+Quality
+M: 64-96
+efConstruction: 800-1200
+ef: 1200-2400
+
+# Balanced
+M: 32-64
+efConstruction: 400-800
+ef: 400-1200
+
+# Speed Optimized
+M: 16-32
+efConstruction: 200-400
+ef: 100-400</pre>
+</div>
+</div>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-RABITQRefinement">RABITQ Re=
+finement</h4>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># High =
+Accuracy
+refine_k: 3.0-4.0
+refine_type: FP16
+
+# Balanced
+refine_k: 2.0-3.0
+refine_type: SQ8
+
+# Speed Optimized
+refine_k: 1.0-2.0
+refine_type: SQ8</pre>
+</div>
+</div>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-TechnicalImplementationGuid=
+elines">Technical Implementation Guidelines</h2>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-InfrastructureRequirements"=
+>Infrastructure Requirements</h4>
+<p><em>Note: I will write a more detailed and comprehensive guide with rega=
+rds to the infra requirements and memory planning later on, but here are my=
+ initial thoughts.</em></p>
+<ol start=3D"1">
+<li>
+<p><strong>Memory Planning</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Calcu=
+late memory requirements
+IVF_FLAT: vectors * dimensions * 4 bytes * 1.2 (overhead)
+HNSW: vectors * dimensions * 4 bytes * 1.5 (graph overhead)
+IVF_RABITQ: vectors * dimensions * 4 bytes * 0.15 (compression)</pre>
+</div>
+</div></li>
+<li>
+<p><strong>CPU Considerations</strong></p>
+<ul>
+<li>
+<p>IVF indexes: CPU-intensive during nprobe search</p></li>
+<li>
+<p>HNSW indexes: Memory bandwidth sensitive</p></li>
+<li>
+<p>Quantized indexes: Lower CPU usage but more complex</p></li>
+</ul></li>
+<li>
+<p><strong>Storage Requirements</strong></p>
+<ul>
+<li>
+<p>Index persistence: Plan for 2x memory for safe rebuilds</p></li>
+<li>
+<p>Backup strategy: Consider index rebuild time vs storage cost</p></li>
+</ul></li>
+</ol>
+<h4 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-ConfigurationOptimization:"=
+>Configuration Optimization:</h4>
+<ol start=3D"1">
+<li>
+<p><strong>Index Building</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Optimiz=
+ed index creation
+index_params =3D {
+    "index_type": "IVF_RABITQ",
+    "params": {
+        "nlist": min(4096, dataset_size // 50),
+        "refine": True,
+        "refine_type": "SQ8"
+    }
+}
+
+# Build with adequate resources
+collection.create_index(
+    field_name=3D"embedding",
+    index_params=3Dindex_params,
+    timeout=3D3600  # Allow sufficient time
+)</pre>
+</div>
+</div></li>
+<li>
+<p><strong>Search Optimization</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence"># Adaptiv=
+e search parameters
+search_params =3D {
+    "nprobe": max(16, nlist // 8),
+    "refine_k": 3.0,
+    "rbq_query_bits": 8
+}
+
+# Batch queries for efficiency
+results =3D collection.search(
+    data=3Dquery_batch,
+    anns_field=3D"embedding",
+    param=3Dsearch_params,
+    limit=3Dtopk,
+    batch_size=3D100
+)</pre>
+</div>
+</div></li>
+</ol>
+<hr>
+<h2 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-Conclusions&amp;Recommendat=
+ions">Conclusions &amp; Recommendations</h2>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-KeyFindingsSummary">Key Fin=
+dings Summary</h3>
+<ol start=3D"1">
+<li>
+<p><strong>IVF_RABITQ Emerges as a balance of accuracy and speed</strong>: =
+With 92.4% recall and competitive performance, IVF_RABITQ represents the op=
+timal balance for most production scenarios.</p></li>
+<li>
+<p><strong>HNSW Provides Reliability</strong>: Consistent high performance =
+across configurations makes HNSW ideal for critical applications requiring =
+predictable behavior.</p></li>
+<li>
+<p><strong>IVF_PQ Has Limited Applicability</strong>: Despite extensive opt=
+imization, fundamental quantization limitations restrict IVF_PQ to scenario=
+s where extreme compression outweighs accuracy requirements.</p></li>
+<li>
+<p><strong>Parameter Tuning is Critical</strong>: Proper configuration can =
+improve recall by 20-30% while maintaining performance targets.</p></li>
+</ol>
+<h3 id=3D"AI-997:MilvusVectorDatabaseIndexTypes-FutureConsiderations">Futur=
+e Considerations</h3>
+<ol start=3D"1">
+<li>
+<p><strong>Hardware Evolution</strong>: GPU acceleration may change perform=
+ance characteristics</p></li>
+<li>
+<p><strong>Algorithm Advances</strong>: New quantization techniques may imp=
+rove compression-accuracy tradeoffs</p></li>
+<li>
+<p><strong>Workload Evolution</strong>: Monitor data distribution changes t=
+hat may require index re-selection</p></li>
+</ol>
+    </div>
+</body>
+</html>
+------=_Part_20_254683628.1758122954298--

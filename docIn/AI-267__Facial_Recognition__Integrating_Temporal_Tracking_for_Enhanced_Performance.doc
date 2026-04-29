@@ -1,0 +1,490 @@
+Date: Wed, 17 Sep 2025 15:27:27 +0000 (UTC)
+Message-ID: <1909959056.21.1758122847019@4bdbc70beb76>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_20_221175775.1758122847019"
+
+------=_Part_20_221175775.1758122847019
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-267: Facial Recognition: Integrating Temporal Tracking for En=
+hanced Performance</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-267: Facial Recognition: Integrating Temporal Tracking for Enhan=
+ced Performance</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"AI-267:FacialRecognition:IntegratingTemporalTrackingforEn=
+hancedPerformance-CurrentImplementation">Current Implementation</h1>
+<p>The initial approach we implemented relies on a basic "sample every fram=
+e" strategy for face tracking:</p>
+<ol start=3D"1">
+<li>
+<p>Go back 1 second before the sample location.</p></li>
+<li>
+<p>Sample every frame to check for the face.</p></li>
+<li>
+<p>Store the first frame where the face is found as the Inpoint.</p></li>
+<li>
+<p>Continue sampling every frame.</p></li>
+<li>
+<p>Save the previous frame as the outpoint frame when the face disappears.<=
+/p></li>
+<li>
+<p>Use inPoint and outPoint to generate accurate inpoint and outpoint and d=
+uration information.</p></li>
+</ol>
+<p>This approach essentially re-runs face detection and embedding extractio=
+n on <em>every single frame</em> (or at least within a 1-second window) of =
+the video.</p>
+<p>This approach has several critical flaws, making it unsuitable for the d=
+emands of our project, <em>especially</em> given the limitations of our cur=
+rent workstation:</p>
+<ul>
+<li>
+<p><strong>Computational Overload:</strong> The core problem is sheer compu=
+tational cost. Face detection and embedding extraction are computationally =
+intensive tasks, even with a powerful GPU like the L40S. Re-running these o=
+perations on every frame of high-resolution video creates a massive process=
+ing bottleneck. The GPU simply cannot keep up with the workload, which coul=
+d lead to extremely slow processing times and potentially causing system cr=
+ashes or instability.</p></li>
+<li>
+<p><strong>Redundancy and Inefficiency:</strong> Consecutive video frames o=
+ften contain very similar information. Re-analyzing each frame from scratch=
+ wastes valuable GPU cycles on redundant computations. We're essentially re=
+-discovering the same information over and over.</p></li>
+<li>
+<p><strong>Lack of Temporal Coherence:</strong> The algorithm ignores the f=
+act that faces in a video typically move smoothly from frame to frame. It d=
+oesn't leverage the temporal relationships between frames, which could sign=
+ificantly reduce the computational burden.</p></li>
+<li>
+<p><strong>Poor Handling of Occlusions:</strong> Sports content, particular=
+ly baseball, is rife with occlusions. A player's face might be hidden by a =
+glove, a helmet, or another player. The "sample every frame" approach fails=
+ as soon as an occlusion occurs, leading to premature track termination and=
+ inaccurate results.</p></li>
+<li>
+<p><strong>Sensitivity to Appearance Changes:</strong> The appearance of a =
+face can change due to lighting, pose, and expression. The initial embeddin=
+g might become less accurate over time, causing the algorithm to lose track=
+.</p></li>
+<li>
+<p><strong>Arbitrary Sampling Window:</strong> The 1-second sampling window=
+ is an arbitrary and inflexible parameter. It's not adaptive to the actual =
+video content or the movement of the faces.</p></li>
+</ul>
+<h1 id=3D"AI-267:FacialRecognition:IntegratingTemporalTrackingforEnhancedPe=
+rformance-Design">Design</h1>
+<p>I propose we move to a more intelligent and efficient system built aroun=
+d object tracking, multi-model face recognition, and careful resource manag=
+ement.</p>
+<ul>
+<li>
+<p><strong>Accurate:</strong> Lower false positives, higher confidence in i=
+dentity assignments.</p></li>
+<li>
+<p><strong>Efficient:</strong> Maximized GPU throughput, reduced processing=
+ time.</p></li>
+<li>
+<p><strong>Scalable:</strong> Handles multiple faces and long video sequenc=
+es.</p></li>
+<li>
+<p><strong>Robust:</strong> Tolerant of occlusions, lighting variations, an=
+d pose changes.</p></li>
+<li>
+<p><strong>Maintainable:</strong> Modular design for easier debugging and m=
+odification.</p></li>
+</ul>
+<p>Here's a breakdown of the key components:</p>
+<p>NOTE: This algorithm is portable, extending to the Object Detection fram=
+ework!</p>
+<h2 id=3D"AI-267:FacialRecognition:IntegratingTemporalTrackingforEnhancedPe=
+rformance-Multi-ObjectTracking:"><strong>Multi-Object Tracking:</strong></h=
+2>
+<p>We're integrating the DeepSORT (Deep Simple Online and Realtime Tracking=
+) algorithm. DeepSORT isn't just a tracker; it's a complete tracking-by-det=
+ection system. It handles:</p>
+<ul>
+<li>
+<p><strong>Object Detection:</strong> DeepSORT <em>incorporates</em> an obj=
+ect detector. While we can experiment with different detectors, we'll likel=
+y start with a RetinaFace model running within DeepSORT.</p></li>
+<li>
+<p><strong>State Estimation:</strong> DeepSORT uses a Kalman filter to pred=
+ict the future location of each tracked object based on its past trajectory=
+. This is crucial for handling brief occlusions and noisy detections.</p></=
+li>
+<li>
+<p><strong>Data Association:</strong> DeepSORT uses the Hungarian algorithm=
+ to associate new detections with existing tracks based on both location an=
+d appearance.</p></li>
+<li>
+<p><strong>Appearance Modeling:</strong> The "deep" part of DeepSORT comes =
+from its use of a deep learning-based appearance descriptor (often a CNN) t=
+o capture the visual characteristics of each tracked object. This allows De=
+epSORT to re-identify objects even after significant changes in pose or lig=
+hting.</p></li>
+</ul>
+<p>DeepSORT provides the robust foundation we need to track multiple player=
+s throughout the game, even with frequent occlusions and complex camera mov=
+ements. It offloads the majority of the frame-by-frame analysis from our fa=
+ce recognition models, freeing up the L40S for more strategic tasks.</p>
+<h2 id=3D"AI-267:FacialRecognition:IntegratingTemporalTrackingforEnhancedPe=
+rformance-PeriodicVerification:"><strong>Periodic Verification:</strong></h=
+2>
+<p>DeepSORT provides <em>track IDs</em> and bounding boxes. However, these =
+are just for tracking <em>objects</em>. We need to identify <em>who</em> th=
+ose objects are. The following is a rough outline of the algorithm:</p>
+<ul>
+<li>
+<p>Every <em>N</em> frames (we'll experiment with values like 10, 15, or 20=
+, balancing accuracy and performance), we'll extract the face region from t=
+he bounding box provided by DeepSORT.</p></li>
+<li>
+<p>We'll extract embeddings using the configured face recognition models (e=
+.g. FaceNet512 and ArcFace).</p></li>
+<li>
+<p>We'll compare these embeddings to our database of known players.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">      for=
+ track in deepsort.tracker.tracks:
+    if not track.is_confirmed() or track.time_since_update &gt; 1:
+        continue  # Skip unconfirmed or recently lost tracks
+
+    track_id =3D track.track_id
+    bbox =3D track.to_tlwh()  # Get bounding box (x, y, width, height)
+
+    if frame_count % REID_FREQUENCY =3D=3D 0:
+        face_region =3D extract_face_from_frame(frame, bbox)
+        if face_region is not None: #Handle for if a face cannot be extract=
+ed.
+            facenet_embedding =3D extract_embedding(face_region, model=3D"F=
+aceNet512")
+            arcface_embedding =3D extract_embedding(face_region, model=3D"A=
+rcFace")
+
+            # Compare embeddings to our database
+            best_match, confidence =3D find_best_match(facenet_embedding, a=
+rcface_embedding, database)
+
+            if confidence &gt; IDENTITY_THRESHOLD: # We can set this for ea=
+ch type of model for better accuracy.
+                track.identity =3D best_match
+                cache_identity(track_id, best_match) #We can set a timer fo=
+r each individual for better accuracy.
+    </pre>
+</div>
+</div>
+<p></p></li>
+</ul>
+<h2 id=3D"AI-267:FacialRecognition:IntegratingTemporalTrackingforEnhancedPe=
+rformance-ConfidenceScoring"><strong>Confidence Scoring</strong></h2>
+<p>Cosine similarity scores are just that =E2=80=93 <em>similarity</em> sco=
+res. They don't tell us anything about the <em>reliability</em> of the mode=
+l or the certainty of the match. We need a confidence metric. So we will pe=
+rform the following steps:</p>
+<ul>
+<li>
+<p>Establish baseline cosine similarity scores for each model (FaceNet512, =
+ArcFace) on our dataset. This will help us understand the typical range of =
+scores for correct matches.</p></li>
+<li>
+<p>Combine the cosine similarity scores from the different models using a w=
+eighted average. Models with higher baseline reliability will receive highe=
+r weights.</p></li>
+<li>
+<p>Implement penalties for scores that are significantly below the baseline=
+ or for cases where the face is partially occluded.</p></li>
+<li>
+<p>Consider the context of the track. If a player has been consistently ide=
+ntified as "Shohei Ohtani" for the past 3 minutes, we should be more confid=
+ent in subsequent matches.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">    def f=
+ind_best_match(facenet_embedding, arcface_embedding, database):
+    best_match =3D None
+    best_confidence =3D 0.0
+    for identity, embeddings in database.items():
+        facenet_similarity =3D cosine_similarity(facenet_embedding, embeddi=
+ngs["facenet"]) #Assume the database structure is the same as the extractio=
+n
+        arcface_similarity =3D cosine_similarity(arcface_embedding, embeddi=
+ngs["arcface"])
+
+        # Weighted average of the similarities
+        confidence =3D (FACENET_WEIGHT * facenet_similarity + ARCFACE_WEIGH=
+T * arcface_similarity)
+
+        if confidence &gt; best_confidence:
+            best_confidence =3D confidence
+            best_match =3D identity
+
+    return best_match, best_confidence
+    </pre>
+</div>
+</div></li>
+</ul>
+<h2 id=3D"AI-267:FacialRecognition:IntegratingTemporalTrackingforEnhancedPe=
+rformance-IdentityManagement"><strong>Identity Management</strong></h2>
+<p>Once we've confidently identified a player, we'll cache this association=
+ in a lookup table (keyed by the DeepSORT track ID). For subsequent frames,=
+ we'll <em>prioritize</em> the identity matching against the cached identit=
+y. If the cached identity matches with high confidence, we can skip the ful=
+l database search. We will only perform this when REID_FREQUENCY is met.</p=
+>
+<p>The vast majority of tracks will represent the same player for extended =
+periods. Caching the identity significantly reduces the computational load =
+on the GPU</p>
+<p>Because this is DeepSORT, we can assume that if the identity cache exist=
+s, the identity stays relatively the same after we have run and generated a=
+ cache key.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: py; gutter: false; theme: Confluence" data-theme=3D"Confluence">def cache=
+_identity(track_id, identity):
+    identity_cache[track_id] =3D {
+        "identity": identity,
+        "timestamp": current_time()
+    }
+
+def check_cache(track_id):
+    #If the track_id exists in identity_cache and timer is running for the =
+correct timestamp then run this code.
+    if track_id in identity_cache:
+        identity_information=3D identity_cache[track_id]
+        #Run processes here.
+        del identity_cache[track_id]
+        return identity_information
+    </pre>
+</div>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_20_221175775.1758122847019--

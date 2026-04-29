@@ -1,0 +1,383 @@
+Date: Wed, 17 Sep 2025 15:28:47 +0000 (UTC)
+Message-ID: <1126809625.231.1758122927479@333c1b01f638>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_230_1755877729.1758122927479"
+
+------=_Part_230_1755877729.1758122927479
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>AI-338:  VLM Service</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>AI-338:  VLM Service</h1>
+    <div class=3D"Section1">
+        <p></p>
+<h1 id=3D"AI-338:VLMService-VideoAnalysisPipeline">Video Analysis Pipeline<=
+/h1>
+<p>Here's a look at the architecture for our video processing pipeline. Aft=
+er a good bit of experimentation, the implementation ends up being more eff=
+icient, and specifically tailored to the way modern Vision Language Models =
+(VLMs) work. The core philosophy is to treat the VLM's inference step as th=
+e most expensive part of the entire process (because it is, by an order of =
+magnitude) and optimize everything around making that step as efficient as =
+possible.</p>
+<p>The overall workflow can be broken down into two main stages: a pre-flig=
+ht<strong> </strong>stage where we gather and organize all our data, and an=
+ inference stage where we interact with the model.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">[Video =
+File] -&gt; [Stage 1: Pre-Flight] -&gt; [Stage 2: Execution] -&gt; [Final R=
+esults]
+</pre>
+</div>
+</div>
+<p>This design might seem a little counterintuitive at first. One might thi=
+nk that a streaming pipeline, where we process frames as soon as they're av=
+ailable, would be faster. However, testing and analysis showed that the cos=
+t of a single VLM inference call (around two minutes in testing) is so high=
+ that it's far better to spend a little extra time upfront (about 40 second=
+s) to prepare perfectly optimized batches. Consider the following real-worl=
+d metrics of performance on an NVIDIA L40S card:</p>
+<ul>
+<li>
+<p><strong>VLM Inference Time:</strong> 120 seconds</p></li>
+<li>
+<p><strong>Total Frame Extraction Time:</strong> 40 seconds</p></li>
+</ul>
+<p>An extra, non-optimally packed inference call would cost 120 seconds. Th=
+e <em>total</em> time saved by overlapping the entire 40-second extraction =
+process is, at most, 40 seconds. Therefore, any workflow that risks even on=
+e extra inference call is a net loss.</p>
+<p>Thus the current implementation, which prioritizes creating the absolute=
+ minimum number of batches, is the correct one because the number of VLM in=
+ference calls is the single most important metric to minimize.<br></p>
+<h2 id=3D"AI-338:VLMService-Pre-Flight">Pre-Flight</h2>
+<p>This first stage is all about gathering the necessary ingredients and or=
+ganizing them for the main event. It ensures we don't send the VLM too much=
+, too little, or poorly organized data.</p>
+<p></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">       =
+                +---------------------------+      +-----------------------=
+---+
+[Video File] --------&gt; | 1. Scene Detection        | ---&gt; | 2. Dynami=
+c Frame Sampling|
+                       | (PySceneDetect w/ scaling)|      | (Calculate fram=
+e counts) |
+                       +---------------------------+      +----------------=
+----------+
+                                                                     |
+                                                                     V
+                       +---------------------------+      +----------------=
+----------+
+| 4. Batch Planning         | &lt;--- | 3. Bulk Frame Extraction   |
+| (The "Pre-Flight Check")  |      | (Optimized OpenCV pass)  |
+                       +---------------------------+      +----------------=
+----------+
+                               |
+                               V
+                     [Optimized Batch Plan]
+</pre>
+</div>
+</div>
+<ol start=3D"1">
+<li>
+<p><strong>Scene Detection:</strong> We start by running the video through =
+PySceneDetect. This gives us natural, context-aware boundaries for analysis=
+. To make this step faster without sacrificing much accuracy, we employ a d=
+ynamic downscaling algorithm. It automatically calculates a downscale facto=
+r to bring any source video (4K, 1080p, etc.) to a consistent, smaller reso=
+lution like 360p for analysis. This is much faster and more robust than har=
+dcoding rules for specific resolutions.</p></li>
+<li>
+<p><strong>Dynamic Frame Sampling:</strong> Once we have our scenes, we dec=
+ide how many frames we actually need from each one. We've eschewed a simple=
+, fixed frames-per-second approach. Instead, we use a dynamic algorithm tha=
+t calculates the target number of frames based on the scene's duration, bou=
+nded by a configurable minimum and maximum. A short 6-second scene might ge=
+t 12 frames, while a long 30-second scene gets 60. This prevents us from se=
+nding the VLM excess data for a secne; we=E2=80=99re building an appropriat=
+e amount of context for the length of each scene</p></li>
+<li>
+<p><strong>Bulk Frame Extraction:</strong> With a master list of every sing=
+le timestamp we need from the entire video, we make one pass using our hard=
+ware-accelerated OpenCV extractor. Its smart-seeking logic minimizes expens=
+ive seek operations by only seeking across large time gaps and reading sequ=
+entially over small ones. This is vastly more efficient than seeking for ea=
+ch and every frame individually.</p></li>
+<li>
+<p><strong>The "Pre-Flight Check" (Batch Planning):</strong> This is the br=
+ains of the operation. We take the full list of prepared scenes and run the=
+m through a greedy packing algorithm. The only rule is to pack as many scen=
+es as possible into a single batch without letting the <em>total frame coun=
+t</em> of that batch exceed a hard computational limit (which would cause C=
+UDA OOM errors). This algorithm naturally allows for mixing a large scene w=
+ith a few small scenes, ensuring no space is wasted. This step produces a f=
+inal, immutable "batch plan."<br><br>
+NOTE: Any scene that is too large on its own is skipped and flagged. Later,=
+ we might want to build heuristics to fit the number of frames into a proce=
+ssable batch.</p></li>
+</ol>
+<h2 id=3D"AI-338:VLMService-Inference">Inference</h2>
+<p>With the plan in hand, the execution stage is clean and predictable. We =
+are no longer making decisions on the fly; we are simply executing the opti=
+mized plan.</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">       =
+                                               +------------------+
+[Optimized Batch Plan] ---&gt; [ For each batch... ] ---&gt; | VLM Inferenc=
+e    |
+ (List of Batches)                                    | (Batch a, b, c)  |
+                                                      +------------------+
+                                                              |
+                                                              V
+                                                      +------------------+
+                                                      | Reassembly       |
+                                                      | (Using indices)  |
+                                                      +------------------+
+                                                              |
+                                                              V
+                                                        [Final Results]
+                                                         (in order)
+</pre>
+</div>
+</div>
+<p>The key here is that we've attached the original <code>scene_index</code=
+> to our data from the very beginning. This index travels with the scene da=
+ta through every step, allowing us to correctly reassemble the final result=
+s in their original order, even though the scenes were processed in reorgan=
+ized, optimized batches.</p>
+<p>For the inference step itself, we can leverage model-level optimizations=
+. Techniques like <strong>Flash Attention 2</strong> and <strong>quantizati=
+on</strong> are employed directly on the model to attack the two-minute inf=
+erence time, as this provides a greater performance dividend than any furth=
+er pipeline tweaks.</p>
+    </div>
+</body>
+</html>
+------=_Part_230_1755877729.1758122927479--
